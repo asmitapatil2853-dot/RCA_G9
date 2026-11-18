@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: intelligent-log-rca-deployment
+  labels:
+    app: log-rca-system
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: log-rca-system
+  template:
+    metadata:
+      labels:
+        app: log-rca-system
+    spec:
+      containers:
+        - name: log-rca-engine
+          image: intelligent-log-rca:latest
+          ports:
+            - containerPort: 8501
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "250m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: log-rca-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: log-rca-system
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8501
