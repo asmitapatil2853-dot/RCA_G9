@@ -1,0 +1,1166 @@
+{"timestamp": "2026-11-18 00:00:00", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1000", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1000"}
+{"timestamp": "2026-11-18 00:00:00", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1000", "message": "JWT token validated for user_session_222"}
+{"timestamp": "2026-11-18 00:00:00", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1000", "message": "Order payload verified for order_id=5419"}
+{"timestamp": "2026-11-18 00:00:00", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1000", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:00:00", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1000", "message": "Pod cpu_util=36% mem_util=48%"}
+{"timestamp": "2026-11-18 00:00:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1001", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1001"}
+{"timestamp": "2026-11-18 00:00:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1001", "message": "JWT token validated for user_session_418"}
+{"timestamp": "2026-11-18 00:00:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1001", "message": "Order payload verified for order_id=6119"}
+{"timestamp": "2026-11-18 00:00:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1001", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:00:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1001", "message": "Pod cpu_util=52% mem_util=58%"}
+{"timestamp": "2026-11-18 00:00:06", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1002", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1002"}
+{"timestamp": "2026-11-18 00:00:06", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1002", "message": "JWT token validated for user_session_940"}
+{"timestamp": "2026-11-18 00:00:06", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1002", "message": "Order payload verified for order_id=7638"}
+{"timestamp": "2026-11-18 00:00:06", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1002", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:00:06", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1002", "message": "Pod cpu_util=29% mem_util=56%"}
+{"timestamp": "2026-11-18 00:00:09", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1003", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:00:09", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1003", "message": "Transaction aborted: Database write timeout for order_id=8766"}
+{"timestamp": "2026-11-18 00:00:09", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1003", "message": "HTTP 504 Gateway Timeout returned for request REQ-1003"}
+{"timestamp": "2026-11-18 00:00:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1004", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1004"}
+{"timestamp": "2026-11-18 00:00:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1004", "message": "JWT token validated for user_session_848"}
+{"timestamp": "2026-11-18 00:00:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1004", "message": "Order payload verified for order_id=8452"}
+{"timestamp": "2026-11-18 00:00:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1004", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:00:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1004", "message": "Pod cpu_util=45% mem_util=57%"}
+{"timestamp": "2026-11-18 00:00:15", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1005", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:00:15", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1005", "message": "Transaction aborted: Database write timeout for order_id=6649"}
+{"timestamp": "2026-11-18 00:00:15", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1005", "message": "HTTP 504 Gateway Timeout returned for request REQ-1005"}
+{"timestamp": "2026-11-18 00:00:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1006", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1006"}
+{"timestamp": "2026-11-18 00:00:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1006", "message": "JWT token validated for user_session_611"}
+{"timestamp": "2026-11-18 00:00:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1006", "message": "Order payload verified for order_id=5273"}
+{"timestamp": "2026-11-18 00:00:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1006", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:00:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1006", "message": "Pod cpu_util=45% mem_util=50%"}
+{"timestamp": "2026-11-18 00:00:21", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1007", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1007"}
+{"timestamp": "2026-11-18 00:00:21", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1007", "message": "JWT token validated for user_session_223"}
+{"timestamp": "2026-11-18 00:00:21", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1007", "message": "Order payload verified for order_id=8256"}
+{"timestamp": "2026-11-18 00:00:21", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1007", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:00:21", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1007", "message": "Pod cpu_util=53% mem_util=42%"}
+{"timestamp": "2026-11-18 00:00:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1008", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1008"}
+{"timestamp": "2026-11-18 00:00:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1008", "message": "JWT token validated for user_session_627"}
+{"timestamp": "2026-11-18 00:00:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1008", "message": "Order payload verified for order_id=6012"}
+{"timestamp": "2026-11-18 00:00:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1008", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:00:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1008", "message": "Pod cpu_util=47% mem_util=63%"}
+{"timestamp": "2026-11-18 00:00:27", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1009", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:00:27", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1009", "message": "Transaction aborted: Database write timeout for order_id=6284"}
+{"timestamp": "2026-11-18 00:00:27", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1009", "message": "HTTP 504 Gateway Timeout returned for request REQ-1009"}
+{"timestamp": "2026-11-18 00:00:30", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1010", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1010"}
+{"timestamp": "2026-11-18 00:00:30", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1010", "message": "JWT token validated for user_session_186"}
+{"timestamp": "2026-11-18 00:00:30", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1010", "message": "Order payload verified for order_id=9596"}
+{"timestamp": "2026-11-18 00:00:30", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1010", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:00:30", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1010", "message": "Pod cpu_util=49% mem_util=61%"}
+{"timestamp": "2026-11-18 00:00:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1011", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1011"}
+{"timestamp": "2026-11-18 00:00:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1011", "message": "JWT token validated for user_session_756"}
+{"timestamp": "2026-11-18 00:00:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1011", "message": "Order payload verified for order_id=8826"}
+{"timestamp": "2026-11-18 00:00:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1011", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:00:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1011", "message": "Pod cpu_util=33% mem_util=59%"}
+{"timestamp": "2026-11-18 00:00:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1012", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1012"}
+{"timestamp": "2026-11-18 00:00:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1012", "message": "JWT token validated for user_session_339"}
+{"timestamp": "2026-11-18 00:00:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1012", "message": "Order payload verified for order_id=8812"}
+{"timestamp": "2026-11-18 00:00:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1012", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:00:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1012", "message": "Pod cpu_util=39% mem_util=60%"}
+{"timestamp": "2026-11-18 00:00:39", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1013", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1013"}
+{"timestamp": "2026-11-18 00:00:39", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1013", "message": "JWT token validated for user_session_653"}
+{"timestamp": "2026-11-18 00:00:39", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1013", "message": "Order payload verified for order_id=5492"}
+{"timestamp": "2026-11-18 00:00:39", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1013", "message": "COMMIT transaction completed in 9ms"}
+{"timestamp": "2026-11-18 00:00:39", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1013", "message": "Pod cpu_util=45% mem_util=62%"}
+{"timestamp": "2026-11-18 00:00:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1014", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1014"}
+{"timestamp": "2026-11-18 00:00:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1014", "message": "JWT token validated for user_session_995"}
+{"timestamp": "2026-11-18 00:00:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1014", "message": "Order payload verified for order_id=8187"}
+{"timestamp": "2026-11-18 00:00:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1014", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:00:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1014", "message": "Pod cpu_util=48% mem_util=57%"}
+{"timestamp": "2026-11-18 00:00:45", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1015", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:00:45", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1015", "message": "Connection refused by upstream auth-pod worker for REQ-1015"}
+{"timestamp": "2026-11-18 00:00:45", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1015", "message": "HTTP 502 Bad Gateway returned for request REQ-1015"}
+{"timestamp": "2026-11-18 00:00:48", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1016", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1016"}
+{"timestamp": "2026-11-18 00:00:48", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1016", "message": "JWT token validated for user_session_658"}
+{"timestamp": "2026-11-18 00:00:48", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1016", "message": "Order payload verified for order_id=7674"}
+{"timestamp": "2026-11-18 00:00:48", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1016", "message": "COMMIT transaction completed in 20ms"}
+{"timestamp": "2026-11-18 00:00:48", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1016", "message": "Pod cpu_util=52% mem_util=40%"}
+{"timestamp": "2026-11-18 00:00:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1017", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1017"}
+{"timestamp": "2026-11-18 00:00:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1017", "message": "JWT token validated for user_session_954"}
+{"timestamp": "2026-11-18 00:00:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1017", "message": "Order payload verified for order_id=8157"}
+{"timestamp": "2026-11-18 00:00:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1017", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:00:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1017", "message": "Pod cpu_util=25% mem_util=49%"}
+{"timestamp": "2026-11-18 00:00:54", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1018", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:00:54", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1018", "message": "Connection refused by upstream auth-pod worker for REQ-1018"}
+{"timestamp": "2026-11-18 00:00:54", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1018", "message": "HTTP 502 Bad Gateway returned for request REQ-1018"}
+{"timestamp": "2026-11-18 00:00:57", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1019", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1019"}
+{"timestamp": "2026-11-18 00:00:57", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1019", "message": "JWT token validated for user_session_536"}
+{"timestamp": "2026-11-18 00:00:57", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1019", "message": "Order payload verified for order_id=6493"}
+{"timestamp": "2026-11-18 00:00:57", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1019", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:00:57", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1019", "message": "Pod cpu_util=39% mem_util=54%"}
+{"timestamp": "2026-11-18 00:01:00", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1020", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1020"}
+{"timestamp": "2026-11-18 00:01:00", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1020", "message": "JWT token validated for user_session_438"}
+{"timestamp": "2026-11-18 00:01:00", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1020", "message": "Order payload verified for order_id=5527"}
+{"timestamp": "2026-11-18 00:01:00", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1020", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:01:00", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1020", "message": "Pod cpu_util=36% mem_util=48%"}
+{"timestamp": "2026-11-18 00:01:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1021", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1021"}
+{"timestamp": "2026-11-18 00:01:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1021", "message": "JWT token validated for user_session_733"}
+{"timestamp": "2026-11-18 00:01:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1021", "message": "Order payload verified for order_id=9843"}
+{"timestamp": "2026-11-18 00:01:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1021", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:01:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1021", "message": "Pod cpu_util=25% mem_util=46%"}
+{"timestamp": "2026-11-18 00:01:06", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1022", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:01:06", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1022", "message": "Transaction aborted: Database write timeout for order_id=7098"}
+{"timestamp": "2026-11-18 00:01:06", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1022", "message": "HTTP 504 Gateway Timeout returned for request REQ-1022"}
+{"timestamp": "2026-11-18 00:01:09", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1023", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1023"}
+{"timestamp": "2026-11-18 00:01:09", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1023", "message": "JWT token validated for user_session_253"}
+{"timestamp": "2026-11-18 00:01:09", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1023", "message": "Order payload verified for order_id=5592"}
+{"timestamp": "2026-11-18 00:01:09", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1023", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:01:09", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1023", "message": "Pod cpu_util=33% mem_util=61%"}
+{"timestamp": "2026-11-18 00:01:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1024", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1024"}
+{"timestamp": "2026-11-18 00:01:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1024", "message": "JWT token validated for user_session_353"}
+{"timestamp": "2026-11-18 00:01:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1024", "message": "Order payload verified for order_id=8835"}
+{"timestamp": "2026-11-18 00:01:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1024", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:01:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1024", "message": "Pod cpu_util=38% mem_util=45%"}
+{"timestamp": "2026-11-18 00:01:15", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1025", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:01:15", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1025", "message": "Connection refused by upstream auth-pod worker for REQ-1025"}
+{"timestamp": "2026-11-18 00:01:15", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1025", "message": "HTTP 502 Bad Gateway returned for request REQ-1025"}
+{"timestamp": "2026-11-18 00:01:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1026", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1026"}
+{"timestamp": "2026-11-18 00:01:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1026", "message": "JWT token validated for user_session_108"}
+{"timestamp": "2026-11-18 00:01:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1026", "message": "Order payload verified for order_id=9526"}
+{"timestamp": "2026-11-18 00:01:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1026", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:01:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1026", "message": "Pod cpu_util=25% mem_util=48%"}
+{"timestamp": "2026-11-18 00:01:21", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1027", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1027"}
+{"timestamp": "2026-11-18 00:01:21", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1027", "message": "JWT token validated for user_session_801"}
+{"timestamp": "2026-11-18 00:01:21", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1027", "message": "Order payload verified for order_id=6962"}
+{"timestamp": "2026-11-18 00:01:21", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1027", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:01:21", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1027", "message": "Pod cpu_util=26% mem_util=41%"}
+{"timestamp": "2026-11-18 00:01:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1028", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1028"}
+{"timestamp": "2026-11-18 00:01:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1028", "message": "JWT token validated for user_session_646"}
+{"timestamp": "2026-11-18 00:01:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1028", "message": "Order payload verified for order_id=6914"}
+{"timestamp": "2026-11-18 00:01:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1028", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:01:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1028", "message": "Pod cpu_util=52% mem_util=44%"}
+{"timestamp": "2026-11-18 00:01:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1029", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1029"}
+{"timestamp": "2026-11-18 00:01:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1029", "message": "JWT token validated for user_session_125"}
+{"timestamp": "2026-11-18 00:01:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1029", "message": "Order payload verified for order_id=5663"}
+{"timestamp": "2026-11-18 00:01:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1029", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:01:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1029", "message": "Pod cpu_util=55% mem_util=54%"}
+{"timestamp": "2026-11-18 00:01:30", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1030", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:01:30", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1030", "message": "Transaction aborted: Database write timeout for order_id=6425"}
+{"timestamp": "2026-11-18 00:01:30", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1030", "message": "HTTP 504 Gateway Timeout returned for request REQ-1030"}
+{"timestamp": "2026-11-18 00:01:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1031", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1031"}
+{"timestamp": "2026-11-18 00:01:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1031", "message": "JWT token validated for user_session_953"}
+{"timestamp": "2026-11-18 00:01:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1031", "message": "Order payload verified for order_id=8567"}
+{"timestamp": "2026-11-18 00:01:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1031", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:01:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1031", "message": "Pod cpu_util=37% mem_util=43%"}
+{"timestamp": "2026-11-18 00:01:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1032", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1032"}
+{"timestamp": "2026-11-18 00:01:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1032", "message": "JWT token validated for user_session_990"}
+{"timestamp": "2026-11-18 00:01:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1032", "message": "Order payload verified for order_id=6197"}
+{"timestamp": "2026-11-18 00:01:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1032", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:01:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1032", "message": "Pod cpu_util=28% mem_util=55%"}
+{"timestamp": "2026-11-18 00:01:39", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1033", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:01:39", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1033", "message": "Connection refused by upstream auth-pod worker for REQ-1033"}
+{"timestamp": "2026-11-18 00:01:39", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1033", "message": "HTTP 502 Bad Gateway returned for request REQ-1033"}
+{"timestamp": "2026-11-18 00:01:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1034", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1034"}
+{"timestamp": "2026-11-18 00:01:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1034", "message": "JWT token validated for user_session_668"}
+{"timestamp": "2026-11-18 00:01:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1034", "message": "Order payload verified for order_id=5858"}
+{"timestamp": "2026-11-18 00:01:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1034", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:01:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1034", "message": "Pod cpu_util=40% mem_util=54%"}
+{"timestamp": "2026-11-18 00:01:45", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1035", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1035"}
+{"timestamp": "2026-11-18 00:01:45", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1035", "message": "JWT token validated for user_session_492"}
+{"timestamp": "2026-11-18 00:01:45", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1035", "message": "Order payload verified for order_id=9194"}
+{"timestamp": "2026-11-18 00:01:45", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1035", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:01:45", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1035", "message": "Pod cpu_util=52% mem_util=48%"}
+{"timestamp": "2026-11-18 00:01:48", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1036", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1036"}
+{"timestamp": "2026-11-18 00:01:48", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1036", "message": "JWT token validated for user_session_990"}
+{"timestamp": "2026-11-18 00:01:48", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1036", "message": "Order payload verified for order_id=6699"}
+{"timestamp": "2026-11-18 00:01:48", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1036", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:01:48", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1036", "message": "Pod cpu_util=44% mem_util=42%"}
+{"timestamp": "2026-11-18 00:01:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1037", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1037"}
+{"timestamp": "2026-11-18 00:01:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1037", "message": "JWT token validated for user_session_835"}
+{"timestamp": "2026-11-18 00:01:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1037", "message": "Order payload verified for order_id=8700"}
+{"timestamp": "2026-11-18 00:01:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1037", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:01:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1037", "message": "Pod cpu_util=29% mem_util=47%"}
+{"timestamp": "2026-11-18 00:01:54", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1038", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1038"}
+{"timestamp": "2026-11-18 00:01:54", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1038", "message": "JWT token validated for user_session_994"}
+{"timestamp": "2026-11-18 00:01:54", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1038", "message": "Order payload verified for order_id=6009"}
+{"timestamp": "2026-11-18 00:01:54", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1038", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:01:54", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1038", "message": "Pod cpu_util=28% mem_util=48%"}
+{"timestamp": "2026-11-18 00:01:57", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1039", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1039"}
+{"timestamp": "2026-11-18 00:01:57", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1039", "message": "JWT token validated for user_session_210"}
+{"timestamp": "2026-11-18 00:01:57", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1039", "message": "Order payload verified for order_id=8676"}
+{"timestamp": "2026-11-18 00:01:57", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1039", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:01:57", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1039", "message": "Pod cpu_util=40% mem_util=50%"}
+{"timestamp": "2026-11-18 00:02:00", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1040", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1040"}
+{"timestamp": "2026-11-18 00:02:00", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1040", "message": "JWT token validated for user_session_497"}
+{"timestamp": "2026-11-18 00:02:00", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1040", "message": "Order payload verified for order_id=6358"}
+{"timestamp": "2026-11-18 00:02:00", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1040", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:02:00", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1040", "message": "Pod cpu_util=28% mem_util=40%"}
+{"timestamp": "2026-11-18 00:02:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1041", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1041"}
+{"timestamp": "2026-11-18 00:02:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1041", "message": "JWT token validated for user_session_812"}
+{"timestamp": "2026-11-18 00:02:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1041", "message": "Order payload verified for order_id=5353"}
+{"timestamp": "2026-11-18 00:02:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1041", "message": "COMMIT transaction completed in 9ms"}
+{"timestamp": "2026-11-18 00:02:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1041", "message": "Pod cpu_util=36% mem_util=53%"}
+{"timestamp": "2026-11-18 00:02:06", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1042", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1042"}
+{"timestamp": "2026-11-18 00:02:06", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1042", "message": "JWT token validated for user_session_705"}
+{"timestamp": "2026-11-18 00:02:06", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1042", "message": "Order payload verified for order_id=9259"}
+{"timestamp": "2026-11-18 00:02:06", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1042", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:02:06", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1042", "message": "Pod cpu_util=40% mem_util=47%"}
+{"timestamp": "2026-11-18 00:02:09", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1043", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:02:09", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1043", "message": "Transaction aborted: Database write timeout for order_id=6567"}
+{"timestamp": "2026-11-18 00:02:09", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1043", "message": "HTTP 504 Gateway Timeout returned for request REQ-1043"}
+{"timestamp": "2026-11-18 00:02:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1044", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1044"}
+{"timestamp": "2026-11-18 00:02:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1044", "message": "JWT token validated for user_session_469"}
+{"timestamp": "2026-11-18 00:02:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1044", "message": "Order payload verified for order_id=7910"}
+{"timestamp": "2026-11-18 00:02:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1044", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:02:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1044", "message": "Pod cpu_util=38% mem_util=57%"}
+{"timestamp": "2026-11-18 00:02:15", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1045", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1045"}
+{"timestamp": "2026-11-18 00:02:15", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1045", "message": "JWT token validated for user_session_209"}
+{"timestamp": "2026-11-18 00:02:15", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1045", "message": "Order payload verified for order_id=9025"}
+{"timestamp": "2026-11-18 00:02:15", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1045", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:02:15", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1045", "message": "Pod cpu_util=34% mem_util=42%"}
+{"timestamp": "2026-11-18 00:02:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1046", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1046"}
+{"timestamp": "2026-11-18 00:02:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1046", "message": "JWT token validated for user_session_694"}
+{"timestamp": "2026-11-18 00:02:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1046", "message": "Order payload verified for order_id=6334"}
+{"timestamp": "2026-11-18 00:02:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1046", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:02:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1046", "message": "Pod cpu_util=42% mem_util=55%"}
+{"timestamp": "2026-11-18 00:02:21", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1047", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1047"}
+{"timestamp": "2026-11-18 00:02:21", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1047", "message": "JWT token validated for user_session_819"}
+{"timestamp": "2026-11-18 00:02:21", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1047", "message": "Order payload verified for order_id=6147"}
+{"timestamp": "2026-11-18 00:02:21", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1047", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:02:21", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1047", "message": "Pod cpu_util=38% mem_util=47%"}
+{"timestamp": "2026-11-18 00:02:24", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1048", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:02:24", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1048", "message": "Transaction aborted: Database write timeout for order_id=5654"}
+{"timestamp": "2026-11-18 00:02:24", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1048", "message": "HTTP 504 Gateway Timeout returned for request REQ-1048"}
+{"timestamp": "2026-11-18 00:02:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1049", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1049"}
+{"timestamp": "2026-11-18 00:02:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1049", "message": "JWT token validated for user_session_203"}
+{"timestamp": "2026-11-18 00:02:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1049", "message": "Order payload verified for order_id=6110"}
+{"timestamp": "2026-11-18 00:02:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1049", "message": "COMMIT transaction completed in 20ms"}
+{"timestamp": "2026-11-18 00:02:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1049", "message": "Pod cpu_util=33% mem_util=50%"}
+{"timestamp": "2026-11-18 00:02:30", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1050", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1050"}
+{"timestamp": "2026-11-18 00:02:30", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1050", "message": "JWT token validated for user_session_870"}
+{"timestamp": "2026-11-18 00:02:30", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1050", "message": "Order payload verified for order_id=8647"}
+{"timestamp": "2026-11-18 00:02:30", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1050", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:02:30", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1050", "message": "Pod cpu_util=28% mem_util=45%"}
+{"timestamp": "2026-11-18 00:02:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1051", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1051"}
+{"timestamp": "2026-11-18 00:02:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1051", "message": "JWT token validated for user_session_433"}
+{"timestamp": "2026-11-18 00:02:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1051", "message": "Order payload verified for order_id=7696"}
+{"timestamp": "2026-11-18 00:02:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1051", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:02:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1051", "message": "Pod cpu_util=55% mem_util=61%"}
+{"timestamp": "2026-11-18 00:02:36", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1052", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:02:36", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1052", "message": "Transaction aborted: Database write timeout for order_id=8581"}
+{"timestamp": "2026-11-18 00:02:36", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1052", "message": "HTTP 504 Gateway Timeout returned for request REQ-1052"}
+{"timestamp": "2026-11-18 00:02:39", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1053", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1053"}
+{"timestamp": "2026-11-18 00:02:39", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1053", "message": "JWT token validated for user_session_935"}
+{"timestamp": "2026-11-18 00:02:39", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1053", "message": "Order payload verified for order_id=5520"}
+{"timestamp": "2026-11-18 00:02:39", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1053", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:02:39", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1053", "message": "Pod cpu_util=47% mem_util=48%"}
+{"timestamp": "2026-11-18 00:02:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1054", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1054"}
+{"timestamp": "2026-11-18 00:02:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1054", "message": "JWT token validated for user_session_980"}
+{"timestamp": "2026-11-18 00:02:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1054", "message": "Order payload verified for order_id=8418"}
+{"timestamp": "2026-11-18 00:02:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1054", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:02:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1054", "message": "Pod cpu_util=42% mem_util=55%"}
+{"timestamp": "2026-11-18 00:02:45", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1055", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1055"}
+{"timestamp": "2026-11-18 00:02:45", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1055", "message": "JWT token validated for user_session_962"}
+{"timestamp": "2026-11-18 00:02:45", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1055", "message": "Order payload verified for order_id=5451"}
+{"timestamp": "2026-11-18 00:02:45", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1055", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:02:45", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1055", "message": "Pod cpu_util=48% mem_util=59%"}
+{"timestamp": "2026-11-18 00:02:48", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1056", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1056"}
+{"timestamp": "2026-11-18 00:02:48", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1056", "message": "JWT token validated for user_session_481"}
+{"timestamp": "2026-11-18 00:02:48", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1056", "message": "Order payload verified for order_id=5343"}
+{"timestamp": "2026-11-18 00:02:48", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1056", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:02:48", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1056", "message": "Pod cpu_util=26% mem_util=58%"}
+{"timestamp": "2026-11-18 00:02:51", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1057", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:02:51", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1057", "message": "Transaction aborted: Database write timeout for order_id=6997"}
+{"timestamp": "2026-11-18 00:02:51", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1057", "message": "HTTP 504 Gateway Timeout returned for request REQ-1057"}
+{"timestamp": "2026-11-18 00:02:54", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1058", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1058"}
+{"timestamp": "2026-11-18 00:02:54", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1058", "message": "JWT token validated for user_session_787"}
+{"timestamp": "2026-11-18 00:02:54", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1058", "message": "Order payload verified for order_id=7431"}
+{"timestamp": "2026-11-18 00:02:54", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1058", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:02:54", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1058", "message": "Pod cpu_util=55% mem_util=42%"}
+{"timestamp": "2026-11-18 00:02:57", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1059", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:02:57", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1059", "message": "Transaction aborted: Database write timeout for order_id=6060"}
+{"timestamp": "2026-11-18 00:02:57", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1059", "message": "HTTP 504 Gateway Timeout returned for request REQ-1059"}
+{"timestamp": "2026-11-18 00:03:00", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1060", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1060"}
+{"timestamp": "2026-11-18 00:03:00", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1060", "message": "JWT token validated for user_session_311"}
+{"timestamp": "2026-11-18 00:03:00", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1060", "message": "Order payload verified for order_id=9401"}
+{"timestamp": "2026-11-18 00:03:00", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1060", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:03:00", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1060", "message": "Pod cpu_util=36% mem_util=40%"}
+{"timestamp": "2026-11-18 00:03:03", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1061", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:03:03", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1061", "message": "Connection refused by upstream auth-pod worker for REQ-1061"}
+{"timestamp": "2026-11-18 00:03:03", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1061", "message": "HTTP 502 Bad Gateway returned for request REQ-1061"}
+{"timestamp": "2026-11-18 00:03:06", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1062", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1062"}
+{"timestamp": "2026-11-18 00:03:06", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1062", "message": "JWT token validated for user_session_814"}
+{"timestamp": "2026-11-18 00:03:06", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1062", "message": "Order payload verified for order_id=7626"}
+{"timestamp": "2026-11-18 00:03:06", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1062", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:03:06", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1062", "message": "Pod cpu_util=26% mem_util=60%"}
+{"timestamp": "2026-11-18 00:03:09", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1063", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1063"}
+{"timestamp": "2026-11-18 00:03:09", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1063", "message": "JWT token validated for user_session_994"}
+{"timestamp": "2026-11-18 00:03:09", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1063", "message": "Order payload verified for order_id=9365"}
+{"timestamp": "2026-11-18 00:03:09", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1063", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:03:09", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1063", "message": "Pod cpu_util=31% mem_util=57%"}
+{"timestamp": "2026-11-18 00:03:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1064", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1064"}
+{"timestamp": "2026-11-18 00:03:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1064", "message": "JWT token validated for user_session_805"}
+{"timestamp": "2026-11-18 00:03:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1064", "message": "Order payload verified for order_id=9739"}
+{"timestamp": "2026-11-18 00:03:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1064", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:03:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1064", "message": "Pod cpu_util=40% mem_util=45%"}
+{"timestamp": "2026-11-18 00:03:15", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1065", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1065"}
+{"timestamp": "2026-11-18 00:03:15", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1065", "message": "JWT token validated for user_session_276"}
+{"timestamp": "2026-11-18 00:03:15", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1065", "message": "Order payload verified for order_id=7990"}
+{"timestamp": "2026-11-18 00:03:15", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1065", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:03:15", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1065", "message": "Pod cpu_util=45% mem_util=43%"}
+{"timestamp": "2026-11-18 00:03:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1066", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1066"}
+{"timestamp": "2026-11-18 00:03:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1066", "message": "JWT token validated for user_session_415"}
+{"timestamp": "2026-11-18 00:03:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1066", "message": "Order payload verified for order_id=9103"}
+{"timestamp": "2026-11-18 00:03:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1066", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:03:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1066", "message": "Pod cpu_util=38% mem_util=56%"}
+{"timestamp": "2026-11-18 00:03:21", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1067", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1067"}
+{"timestamp": "2026-11-18 00:03:21", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1067", "message": "JWT token validated for user_session_593"}
+{"timestamp": "2026-11-18 00:03:21", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1067", "message": "Order payload verified for order_id=5290"}
+{"timestamp": "2026-11-18 00:03:21", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1067", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:03:21", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1067", "message": "Pod cpu_util=49% mem_util=62%"}
+{"timestamp": "2026-11-18 00:03:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1068", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1068"}
+{"timestamp": "2026-11-18 00:03:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1068", "message": "JWT token validated for user_session_707"}
+{"timestamp": "2026-11-18 00:03:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1068", "message": "Order payload verified for order_id=9758"}
+{"timestamp": "2026-11-18 00:03:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1068", "message": "COMMIT transaction completed in 9ms"}
+{"timestamp": "2026-11-18 00:03:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1068", "message": "Pod cpu_util=40% mem_util=48%"}
+{"timestamp": "2026-11-18 00:03:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1069", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1069"}
+{"timestamp": "2026-11-18 00:03:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1069", "message": "JWT token validated for user_session_988"}
+{"timestamp": "2026-11-18 00:03:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1069", "message": "Order payload verified for order_id=7701"}
+{"timestamp": "2026-11-18 00:03:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1069", "message": "COMMIT transaction completed in 20ms"}
+{"timestamp": "2026-11-18 00:03:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1069", "message": "Pod cpu_util=54% mem_util=43%"}
+{"timestamp": "2026-11-18 00:03:30", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1070", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1070"}
+{"timestamp": "2026-11-18 00:03:30", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1070", "message": "JWT token validated for user_session_385"}
+{"timestamp": "2026-11-18 00:03:30", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1070", "message": "Order payload verified for order_id=6593"}
+{"timestamp": "2026-11-18 00:03:30", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1070", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:03:30", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1070", "message": "Pod cpu_util=40% mem_util=56%"}
+{"timestamp": "2026-11-18 00:03:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1071", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1071"}
+{"timestamp": "2026-11-18 00:03:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1071", "message": "JWT token validated for user_session_425"}
+{"timestamp": "2026-11-18 00:03:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1071", "message": "Order payload verified for order_id=5339"}
+{"timestamp": "2026-11-18 00:03:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1071", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:03:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1071", "message": "Pod cpu_util=54% mem_util=44%"}
+{"timestamp": "2026-11-18 00:03:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1072", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1072"}
+{"timestamp": "2026-11-18 00:03:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1072", "message": "JWT token validated for user_session_407"}
+{"timestamp": "2026-11-18 00:03:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1072", "message": "Order payload verified for order_id=5746"}
+{"timestamp": "2026-11-18 00:03:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1072", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:03:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1072", "message": "Pod cpu_util=30% mem_util=63%"}
+{"timestamp": "2026-11-18 00:03:39", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1073", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:03:39", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1073", "message": "Transaction aborted: Database write timeout for order_id=5695"}
+{"timestamp": "2026-11-18 00:03:39", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1073", "message": "HTTP 504 Gateway Timeout returned for request REQ-1073"}
+{"timestamp": "2026-11-18 00:03:42", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1074", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:03:42", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1074", "message": "Transaction aborted: Database write timeout for order_id=8301"}
+{"timestamp": "2026-11-18 00:03:42", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1074", "message": "HTTP 504 Gateway Timeout returned for request REQ-1074"}
+{"timestamp": "2026-11-18 00:03:45", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1075", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:03:45", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1075", "message": "Transaction aborted: Database write timeout for order_id=8719"}
+{"timestamp": "2026-11-18 00:03:45", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1075", "message": "HTTP 504 Gateway Timeout returned for request REQ-1075"}
+{"timestamp": "2026-11-18 00:03:48", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1076", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1076"}
+{"timestamp": "2026-11-18 00:03:48", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1076", "message": "JWT token validated for user_session_155"}
+{"timestamp": "2026-11-18 00:03:48", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1076", "message": "Order payload verified for order_id=9548"}
+{"timestamp": "2026-11-18 00:03:48", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1076", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:03:48", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1076", "message": "Pod cpu_util=26% mem_util=47%"}
+{"timestamp": "2026-11-18 00:03:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1077", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1077"}
+{"timestamp": "2026-11-18 00:03:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1077", "message": "JWT token validated for user_session_103"}
+{"timestamp": "2026-11-18 00:03:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1077", "message": "Order payload verified for order_id=5957"}
+{"timestamp": "2026-11-18 00:03:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1077", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:03:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1077", "message": "Pod cpu_util=34% mem_util=48%"}
+{"timestamp": "2026-11-18 00:03:54", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1078", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1078"}
+{"timestamp": "2026-11-18 00:03:54", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1078", "message": "JWT token validated for user_session_547"}
+{"timestamp": "2026-11-18 00:03:54", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1078", "message": "Order payload verified for order_id=8206"}
+{"timestamp": "2026-11-18 00:03:54", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1078", "message": "COMMIT transaction completed in 9ms"}
+{"timestamp": "2026-11-18 00:03:54", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1078", "message": "Pod cpu_util=55% mem_util=45%"}
+{"timestamp": "2026-11-18 00:03:57", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1079", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1079"}
+{"timestamp": "2026-11-18 00:03:57", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1079", "message": "JWT token validated for user_session_961"}
+{"timestamp": "2026-11-18 00:03:57", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1079", "message": "Order payload verified for order_id=9834"}
+{"timestamp": "2026-11-18 00:03:57", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1079", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:03:57", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1079", "message": "Pod cpu_util=50% mem_util=44%"}
+{"timestamp": "2026-11-18 00:04:00", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1080", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:04:00", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1080", "message": "Transaction aborted: Database write timeout for order_id=5644"}
+{"timestamp": "2026-11-18 00:04:00", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1080", "message": "HTTP 504 Gateway Timeout returned for request REQ-1080"}
+{"timestamp": "2026-11-18 00:04:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1081", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1081"}
+{"timestamp": "2026-11-18 00:04:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1081", "message": "JWT token validated for user_session_233"}
+{"timestamp": "2026-11-18 00:04:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1081", "message": "Order payload verified for order_id=6581"}
+{"timestamp": "2026-11-18 00:04:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1081", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:04:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1081", "message": "Pod cpu_util=33% mem_util=47%"}
+{"timestamp": "2026-11-18 00:04:06", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1082", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1082"}
+{"timestamp": "2026-11-18 00:04:06", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1082", "message": "JWT token validated for user_session_165"}
+{"timestamp": "2026-11-18 00:04:06", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1082", "message": "Order payload verified for order_id=7446"}
+{"timestamp": "2026-11-18 00:04:06", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1082", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:04:06", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1082", "message": "Pod cpu_util=47% mem_util=41%"}
+{"timestamp": "2026-11-18 00:04:09", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1083", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1083"}
+{"timestamp": "2026-11-18 00:04:09", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1083", "message": "JWT token validated for user_session_256"}
+{"timestamp": "2026-11-18 00:04:09", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1083", "message": "Order payload verified for order_id=5339"}
+{"timestamp": "2026-11-18 00:04:09", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1083", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:04:09", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1083", "message": "Pod cpu_util=27% mem_util=52%"}
+{"timestamp": "2026-11-18 00:04:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1084", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1084"}
+{"timestamp": "2026-11-18 00:04:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1084", "message": "JWT token validated for user_session_660"}
+{"timestamp": "2026-11-18 00:04:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1084", "message": "Order payload verified for order_id=6942"}
+{"timestamp": "2026-11-18 00:04:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1084", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:04:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1084", "message": "Pod cpu_util=46% mem_util=61%"}
+{"timestamp": "2026-11-18 00:04:15", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1085", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:04:15", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1085", "message": "Transaction aborted: Database write timeout for order_id=9909"}
+{"timestamp": "2026-11-18 00:04:15", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1085", "message": "HTTP 504 Gateway Timeout returned for request REQ-1085"}
+{"timestamp": "2026-11-18 00:04:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1086", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1086"}
+{"timestamp": "2026-11-18 00:04:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1086", "message": "JWT token validated for user_session_472"}
+{"timestamp": "2026-11-18 00:04:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1086", "message": "Order payload verified for order_id=9298"}
+{"timestamp": "2026-11-18 00:04:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1086", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:04:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1086", "message": "Pod cpu_util=25% mem_util=51%"}
+{"timestamp": "2026-11-18 00:04:21", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1087", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1087"}
+{"timestamp": "2026-11-18 00:04:21", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1087", "message": "JWT token validated for user_session_245"}
+{"timestamp": "2026-11-18 00:04:21", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1087", "message": "Order payload verified for order_id=7262"}
+{"timestamp": "2026-11-18 00:04:21", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1087", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:04:21", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1087", "message": "Pod cpu_util=40% mem_util=59%"}
+{"timestamp": "2026-11-18 00:04:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1088", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1088"}
+{"timestamp": "2026-11-18 00:04:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1088", "message": "JWT token validated for user_session_574"}
+{"timestamp": "2026-11-18 00:04:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1088", "message": "Order payload verified for order_id=5775"}
+{"timestamp": "2026-11-18 00:04:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1088", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:04:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1088", "message": "Pod cpu_util=53% mem_util=63%"}
+{"timestamp": "2026-11-18 00:04:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1089", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1089"}
+{"timestamp": "2026-11-18 00:04:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1089", "message": "JWT token validated for user_session_602"}
+{"timestamp": "2026-11-18 00:04:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1089", "message": "Order payload verified for order_id=6513"}
+{"timestamp": "2026-11-18 00:04:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1089", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:04:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1089", "message": "Pod cpu_util=55% mem_util=40%"}
+{"timestamp": "2026-11-18 00:04:30", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1090", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1090"}
+{"timestamp": "2026-11-18 00:04:30", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1090", "message": "JWT token validated for user_session_472"}
+{"timestamp": "2026-11-18 00:04:30", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1090", "message": "Order payload verified for order_id=7315"}
+{"timestamp": "2026-11-18 00:04:30", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1090", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:04:30", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1090", "message": "Pod cpu_util=31% mem_util=65%"}
+{"timestamp": "2026-11-18 00:04:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1091", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1091"}
+{"timestamp": "2026-11-18 00:04:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1091", "message": "JWT token validated for user_session_324"}
+{"timestamp": "2026-11-18 00:04:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1091", "message": "Order payload verified for order_id=8431"}
+{"timestamp": "2026-11-18 00:04:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1091", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:04:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1091", "message": "Pod cpu_util=35% mem_util=45%"}
+{"timestamp": "2026-11-18 00:04:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1092", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1092"}
+{"timestamp": "2026-11-18 00:04:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1092", "message": "JWT token validated for user_session_792"}
+{"timestamp": "2026-11-18 00:04:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1092", "message": "Order payload verified for order_id=9681"}
+{"timestamp": "2026-11-18 00:04:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1092", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:04:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1092", "message": "Pod cpu_util=32% mem_util=43%"}
+{"timestamp": "2026-11-18 00:04:39", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1093", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1093"}
+{"timestamp": "2026-11-18 00:04:39", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1093", "message": "JWT token validated for user_session_368"}
+{"timestamp": "2026-11-18 00:04:39", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1093", "message": "Order payload verified for order_id=6693"}
+{"timestamp": "2026-11-18 00:04:39", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1093", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:04:39", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1093", "message": "Pod cpu_util=42% mem_util=55%"}
+{"timestamp": "2026-11-18 00:04:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1094", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1094"}
+{"timestamp": "2026-11-18 00:04:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1094", "message": "JWT token validated for user_session_155"}
+{"timestamp": "2026-11-18 00:04:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1094", "message": "Order payload verified for order_id=6104"}
+{"timestamp": "2026-11-18 00:04:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1094", "message": "COMMIT transaction completed in 9ms"}
+{"timestamp": "2026-11-18 00:04:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1094", "message": "Pod cpu_util=37% mem_util=63%"}
+{"timestamp": "2026-11-18 00:04:45", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1095", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1095"}
+{"timestamp": "2026-11-18 00:04:45", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1095", "message": "JWT token validated for user_session_564"}
+{"timestamp": "2026-11-18 00:04:45", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1095", "message": "Order payload verified for order_id=9390"}
+{"timestamp": "2026-11-18 00:04:45", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1095", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:04:45", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1095", "message": "Pod cpu_util=31% mem_util=46%"}
+{"timestamp": "2026-11-18 00:04:48", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1096", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:04:48", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1096", "message": "Connection refused by upstream auth-pod worker for REQ-1096"}
+{"timestamp": "2026-11-18 00:04:48", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1096", "message": "HTTP 502 Bad Gateway returned for request REQ-1096"}
+{"timestamp": "2026-11-18 00:04:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1097", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1097"}
+{"timestamp": "2026-11-18 00:04:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1097", "message": "JWT token validated for user_session_971"}
+{"timestamp": "2026-11-18 00:04:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1097", "message": "Order payload verified for order_id=5165"}
+{"timestamp": "2026-11-18 00:04:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1097", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:04:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1097", "message": "Pod cpu_util=38% mem_util=58%"}
+{"timestamp": "2026-11-18 00:04:54", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1098", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1098"}
+{"timestamp": "2026-11-18 00:04:54", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1098", "message": "JWT token validated for user_session_618"}
+{"timestamp": "2026-11-18 00:04:54", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1098", "message": "Order payload verified for order_id=5742"}
+{"timestamp": "2026-11-18 00:04:54", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1098", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:04:54", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1098", "message": "Pod cpu_util=45% mem_util=64%"}
+{"timestamp": "2026-11-18 00:04:57", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1099", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1099"}
+{"timestamp": "2026-11-18 00:04:57", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1099", "message": "JWT token validated for user_session_882"}
+{"timestamp": "2026-11-18 00:04:57", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1099", "message": "Order payload verified for order_id=7836"}
+{"timestamp": "2026-11-18 00:04:57", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1099", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:04:57", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1099", "message": "Pod cpu_util=36% mem_util=46%"}
+{"timestamp": "2026-11-18 00:05:00", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1100", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1100"}
+{"timestamp": "2026-11-18 00:05:00", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1100", "message": "JWT token validated for user_session_643"}
+{"timestamp": "2026-11-18 00:05:00", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1100", "message": "Order payload verified for order_id=5349"}
+{"timestamp": "2026-11-18 00:05:00", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1100", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:05:00", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1100", "message": "Pod cpu_util=55% mem_util=41%"}
+{"timestamp": "2026-11-18 00:05:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1101", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1101"}
+{"timestamp": "2026-11-18 00:05:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1101", "message": "JWT token validated for user_session_108"}
+{"timestamp": "2026-11-18 00:05:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1101", "message": "Order payload verified for order_id=9694"}
+{"timestamp": "2026-11-18 00:05:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1101", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:05:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1101", "message": "Pod cpu_util=31% mem_util=50%"}
+{"timestamp": "2026-11-18 00:05:06", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1102", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:05:06", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1102", "message": "Connection refused by upstream auth-pod worker for REQ-1102"}
+{"timestamp": "2026-11-18 00:05:06", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1102", "message": "HTTP 502 Bad Gateway returned for request REQ-1102"}
+{"timestamp": "2026-11-18 00:05:09", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1103", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:05:09", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1103", "message": "Transaction aborted: Database write timeout for order_id=9605"}
+{"timestamp": "2026-11-18 00:05:09", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1103", "message": "HTTP 504 Gateway Timeout returned for request REQ-1103"}
+{"timestamp": "2026-11-18 00:05:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1104", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1104"}
+{"timestamp": "2026-11-18 00:05:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1104", "message": "JWT token validated for user_session_219"}
+{"timestamp": "2026-11-18 00:05:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1104", "message": "Order payload verified for order_id=6043"}
+{"timestamp": "2026-11-18 00:05:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1104", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:05:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1104", "message": "Pod cpu_util=39% mem_util=42%"}
+{"timestamp": "2026-11-18 00:05:15", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1105", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1105"}
+{"timestamp": "2026-11-18 00:05:15", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1105", "message": "JWT token validated for user_session_880"}
+{"timestamp": "2026-11-18 00:05:15", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1105", "message": "Order payload verified for order_id=7262"}
+{"timestamp": "2026-11-18 00:05:15", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1105", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:05:15", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1105", "message": "Pod cpu_util=42% mem_util=60%"}
+{"timestamp": "2026-11-18 00:05:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1106", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1106"}
+{"timestamp": "2026-11-18 00:05:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1106", "message": "JWT token validated for user_session_558"}
+{"timestamp": "2026-11-18 00:05:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1106", "message": "Order payload verified for order_id=7519"}
+{"timestamp": "2026-11-18 00:05:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1106", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:05:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1106", "message": "Pod cpu_util=35% mem_util=40%"}
+{"timestamp": "2026-11-18 00:05:21", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1107", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1107"}
+{"timestamp": "2026-11-18 00:05:21", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1107", "message": "JWT token validated for user_session_196"}
+{"timestamp": "2026-11-18 00:05:21", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1107", "message": "Order payload verified for order_id=6052"}
+{"timestamp": "2026-11-18 00:05:21", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1107", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:05:21", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1107", "message": "Pod cpu_util=30% mem_util=56%"}
+{"timestamp": "2026-11-18 00:05:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1108", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1108"}
+{"timestamp": "2026-11-18 00:05:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1108", "message": "JWT token validated for user_session_821"}
+{"timestamp": "2026-11-18 00:05:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1108", "message": "Order payload verified for order_id=5385"}
+{"timestamp": "2026-11-18 00:05:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1108", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:05:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1108", "message": "Pod cpu_util=29% mem_util=59%"}
+{"timestamp": "2026-11-18 00:05:27", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1109", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:05:27", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1109", "message": "Transaction aborted: Database write timeout for order_id=7223"}
+{"timestamp": "2026-11-18 00:05:27", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1109", "message": "HTTP 504 Gateway Timeout returned for request REQ-1109"}
+{"timestamp": "2026-11-18 00:05:30", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1110", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1110"}
+{"timestamp": "2026-11-18 00:05:30", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1110", "message": "JWT token validated for user_session_354"}
+{"timestamp": "2026-11-18 00:05:30", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1110", "message": "Order payload verified for order_id=6493"}
+{"timestamp": "2026-11-18 00:05:30", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1110", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:05:30", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1110", "message": "Pod cpu_util=49% mem_util=56%"}
+{"timestamp": "2026-11-18 00:05:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1111", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1111"}
+{"timestamp": "2026-11-18 00:05:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1111", "message": "JWT token validated for user_session_196"}
+{"timestamp": "2026-11-18 00:05:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1111", "message": "Order payload verified for order_id=8880"}
+{"timestamp": "2026-11-18 00:05:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1111", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:05:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1111", "message": "Pod cpu_util=39% mem_util=53%"}
+{"timestamp": "2026-11-18 00:05:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1112", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1112"}
+{"timestamp": "2026-11-18 00:05:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1112", "message": "JWT token validated for user_session_706"}
+{"timestamp": "2026-11-18 00:05:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1112", "message": "Order payload verified for order_id=7735"}
+{"timestamp": "2026-11-18 00:05:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1112", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:05:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1112", "message": "Pod cpu_util=33% mem_util=52%"}
+{"timestamp": "2026-11-18 00:05:39", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1113", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1113"}
+{"timestamp": "2026-11-18 00:05:39", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1113", "message": "JWT token validated for user_session_231"}
+{"timestamp": "2026-11-18 00:05:39", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1113", "message": "Order payload verified for order_id=7237"}
+{"timestamp": "2026-11-18 00:05:39", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1113", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:05:39", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1113", "message": "Pod cpu_util=46% mem_util=54%"}
+{"timestamp": "2026-11-18 00:05:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1114", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1114"}
+{"timestamp": "2026-11-18 00:05:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1114", "message": "JWT token validated for user_session_134"}
+{"timestamp": "2026-11-18 00:05:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1114", "message": "Order payload verified for order_id=8199"}
+{"timestamp": "2026-11-18 00:05:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1114", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:05:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1114", "message": "Pod cpu_util=50% mem_util=60%"}
+{"timestamp": "2026-11-18 00:05:45", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1115", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1115"}
+{"timestamp": "2026-11-18 00:05:45", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1115", "message": "JWT token validated for user_session_890"}
+{"timestamp": "2026-11-18 00:05:45", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1115", "message": "Order payload verified for order_id=8211"}
+{"timestamp": "2026-11-18 00:05:45", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1115", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:05:45", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1115", "message": "Pod cpu_util=48% mem_util=47%"}
+{"timestamp": "2026-11-18 00:05:48", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1116", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1116"}
+{"timestamp": "2026-11-18 00:05:48", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1116", "message": "JWT token validated for user_session_100"}
+{"timestamp": "2026-11-18 00:05:48", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1116", "message": "Order payload verified for order_id=5023"}
+{"timestamp": "2026-11-18 00:05:48", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1116", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:05:48", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1116", "message": "Pod cpu_util=51% mem_util=61%"}
+{"timestamp": "2026-11-18 00:05:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1117", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1117"}
+{"timestamp": "2026-11-18 00:05:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1117", "message": "JWT token validated for user_session_793"}
+{"timestamp": "2026-11-18 00:05:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1117", "message": "Order payload verified for order_id=7710"}
+{"timestamp": "2026-11-18 00:05:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1117", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:05:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1117", "message": "Pod cpu_util=39% mem_util=40%"}
+{"timestamp": "2026-11-18 00:05:54", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1118", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1118"}
+{"timestamp": "2026-11-18 00:05:54", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1118", "message": "JWT token validated for user_session_311"}
+{"timestamp": "2026-11-18 00:05:54", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1118", "message": "Order payload verified for order_id=9381"}
+{"timestamp": "2026-11-18 00:05:54", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1118", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:05:54", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1118", "message": "Pod cpu_util=37% mem_util=59%"}
+{"timestamp": "2026-11-18 00:05:57", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1119", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1119"}
+{"timestamp": "2026-11-18 00:05:57", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1119", "message": "JWT token validated for user_session_631"}
+{"timestamp": "2026-11-18 00:05:57", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1119", "message": "Order payload verified for order_id=7378"}
+{"timestamp": "2026-11-18 00:05:57", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1119", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:05:57", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1119", "message": "Pod cpu_util=35% mem_util=43%"}
+{"timestamp": "2026-11-18 00:06:00", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1120", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1120"}
+{"timestamp": "2026-11-18 00:06:00", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1120", "message": "JWT token validated for user_session_203"}
+{"timestamp": "2026-11-18 00:06:00", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1120", "message": "Order payload verified for order_id=6724"}
+{"timestamp": "2026-11-18 00:06:00", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1120", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:06:00", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1120", "message": "Pod cpu_util=40% mem_util=53%"}
+{"timestamp": "2026-11-18 00:06:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1121", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1121"}
+{"timestamp": "2026-11-18 00:06:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1121", "message": "JWT token validated for user_session_221"}
+{"timestamp": "2026-11-18 00:06:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1121", "message": "Order payload verified for order_id=5697"}
+{"timestamp": "2026-11-18 00:06:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1121", "message": "COMMIT transaction completed in 9ms"}
+{"timestamp": "2026-11-18 00:06:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1121", "message": "Pod cpu_util=31% mem_util=61%"}
+{"timestamp": "2026-11-18 00:06:06", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1122", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1122"}
+{"timestamp": "2026-11-18 00:06:06", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1122", "message": "JWT token validated for user_session_127"}
+{"timestamp": "2026-11-18 00:06:06", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1122", "message": "Order payload verified for order_id=7761"}
+{"timestamp": "2026-11-18 00:06:06", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1122", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:06:06", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1122", "message": "Pod cpu_util=49% mem_util=53%"}
+{"timestamp": "2026-11-18 00:06:09", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1123", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1123"}
+{"timestamp": "2026-11-18 00:06:09", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1123", "message": "JWT token validated for user_session_646"}
+{"timestamp": "2026-11-18 00:06:09", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1123", "message": "Order payload verified for order_id=9920"}
+{"timestamp": "2026-11-18 00:06:09", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1123", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:06:09", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1123", "message": "Pod cpu_util=43% mem_util=59%"}
+{"timestamp": "2026-11-18 00:06:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1124", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1124"}
+{"timestamp": "2026-11-18 00:06:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1124", "message": "JWT token validated for user_session_659"}
+{"timestamp": "2026-11-18 00:06:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1124", "message": "Order payload verified for order_id=8623"}
+{"timestamp": "2026-11-18 00:06:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1124", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:06:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1124", "message": "Pod cpu_util=34% mem_util=63%"}
+{"timestamp": "2026-11-18 00:06:15", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1125", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1125"}
+{"timestamp": "2026-11-18 00:06:15", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1125", "message": "JWT token validated for user_session_841"}
+{"timestamp": "2026-11-18 00:06:15", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1125", "message": "Order payload verified for order_id=7386"}
+{"timestamp": "2026-11-18 00:06:15", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1125", "message": "COMMIT transaction completed in 20ms"}
+{"timestamp": "2026-11-18 00:06:15", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1125", "message": "Pod cpu_util=38% mem_util=49%"}
+{"timestamp": "2026-11-18 00:06:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1126", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1126"}
+{"timestamp": "2026-11-18 00:06:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1126", "message": "JWT token validated for user_session_942"}
+{"timestamp": "2026-11-18 00:06:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1126", "message": "Order payload verified for order_id=9210"}
+{"timestamp": "2026-11-18 00:06:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1126", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:06:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1126", "message": "Pod cpu_util=52% mem_util=53%"}
+{"timestamp": "2026-11-18 00:06:21", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1127", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1127"}
+{"timestamp": "2026-11-18 00:06:21", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1127", "message": "JWT token validated for user_session_653"}
+{"timestamp": "2026-11-18 00:06:21", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1127", "message": "Order payload verified for order_id=8161"}
+{"timestamp": "2026-11-18 00:06:21", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1127", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:06:21", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1127", "message": "Pod cpu_util=28% mem_util=64%"}
+{"timestamp": "2026-11-18 00:06:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1128", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1128"}
+{"timestamp": "2026-11-18 00:06:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1128", "message": "JWT token validated for user_session_776"}
+{"timestamp": "2026-11-18 00:06:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1128", "message": "Order payload verified for order_id=7910"}
+{"timestamp": "2026-11-18 00:06:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1128", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:06:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1128", "message": "Pod cpu_util=32% mem_util=43%"}
+{"timestamp": "2026-11-18 00:06:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1129", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1129"}
+{"timestamp": "2026-11-18 00:06:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1129", "message": "JWT token validated for user_session_906"}
+{"timestamp": "2026-11-18 00:06:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1129", "message": "Order payload verified for order_id=9525"}
+{"timestamp": "2026-11-18 00:06:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1129", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:06:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1129", "message": "Pod cpu_util=39% mem_util=43%"}
+{"timestamp": "2026-11-18 00:06:30", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1130", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1130"}
+{"timestamp": "2026-11-18 00:06:30", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1130", "message": "JWT token validated for user_session_434"}
+{"timestamp": "2026-11-18 00:06:30", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1130", "message": "Order payload verified for order_id=9995"}
+{"timestamp": "2026-11-18 00:06:30", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1130", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:06:30", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1130", "message": "Pod cpu_util=48% mem_util=42%"}
+{"timestamp": "2026-11-18 00:06:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1131", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1131"}
+{"timestamp": "2026-11-18 00:06:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1131", "message": "JWT token validated for user_session_518"}
+{"timestamp": "2026-11-18 00:06:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1131", "message": "Order payload verified for order_id=5084"}
+{"timestamp": "2026-11-18 00:06:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1131", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:06:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1131", "message": "Pod cpu_util=40% mem_util=49%"}
+{"timestamp": "2026-11-18 00:06:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1132", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1132"}
+{"timestamp": "2026-11-18 00:06:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1132", "message": "JWT token validated for user_session_985"}
+{"timestamp": "2026-11-18 00:06:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1132", "message": "Order payload verified for order_id=7108"}
+{"timestamp": "2026-11-18 00:06:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1132", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:06:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1132", "message": "Pod cpu_util=46% mem_util=54%"}
+{"timestamp": "2026-11-18 00:06:39", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1133", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:06:39", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1133", "message": "Transaction aborted: Database write timeout for order_id=5463"}
+{"timestamp": "2026-11-18 00:06:39", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1133", "message": "HTTP 504 Gateway Timeout returned for request REQ-1133"}
+{"timestamp": "2026-11-18 00:06:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1134", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1134"}
+{"timestamp": "2026-11-18 00:06:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1134", "message": "JWT token validated for user_session_443"}
+{"timestamp": "2026-11-18 00:06:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1134", "message": "Order payload verified for order_id=6689"}
+{"timestamp": "2026-11-18 00:06:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1134", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:06:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1134", "message": "Pod cpu_util=51% mem_util=57%"}
+{"timestamp": "2026-11-18 00:06:45", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1135", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1135"}
+{"timestamp": "2026-11-18 00:06:45", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1135", "message": "JWT token validated for user_session_800"}
+{"timestamp": "2026-11-18 00:06:45", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1135", "message": "Order payload verified for order_id=7097"}
+{"timestamp": "2026-11-18 00:06:45", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1135", "message": "COMMIT transaction completed in 9ms"}
+{"timestamp": "2026-11-18 00:06:45", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1135", "message": "Pod cpu_util=54% mem_util=59%"}
+{"timestamp": "2026-11-18 00:06:48", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1136", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1136"}
+{"timestamp": "2026-11-18 00:06:48", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1136", "message": "JWT token validated for user_session_576"}
+{"timestamp": "2026-11-18 00:06:48", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1136", "message": "Order payload verified for order_id=6386"}
+{"timestamp": "2026-11-18 00:06:48", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1136", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:06:48", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1136", "message": "Pod cpu_util=39% mem_util=52%"}
+{"timestamp": "2026-11-18 00:06:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1137", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1137"}
+{"timestamp": "2026-11-18 00:06:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1137", "message": "JWT token validated for user_session_391"}
+{"timestamp": "2026-11-18 00:06:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1137", "message": "Order payload verified for order_id=5860"}
+{"timestamp": "2026-11-18 00:06:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1137", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:06:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1137", "message": "Pod cpu_util=55% mem_util=40%"}
+{"timestamp": "2026-11-18 00:06:54", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1138", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1138"}
+{"timestamp": "2026-11-18 00:06:54", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1138", "message": "JWT token validated for user_session_256"}
+{"timestamp": "2026-11-18 00:06:54", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1138", "message": "Order payload verified for order_id=5233"}
+{"timestamp": "2026-11-18 00:06:54", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1138", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:06:54", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1138", "message": "Pod cpu_util=35% mem_util=41%"}
+{"timestamp": "2026-11-18 00:06:57", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1139", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:06:57", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1139", "message": "Connection refused by upstream auth-pod worker for REQ-1139"}
+{"timestamp": "2026-11-18 00:06:57", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1139", "message": "HTTP 502 Bad Gateway returned for request REQ-1139"}
+{"timestamp": "2026-11-18 00:07:00", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1140", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:07:00", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1140", "message": "Transaction aborted: Database write timeout for order_id=7874"}
+{"timestamp": "2026-11-18 00:07:00", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1140", "message": "HTTP 504 Gateway Timeout returned for request REQ-1140"}
+{"timestamp": "2026-11-18 00:07:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1141", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1141"}
+{"timestamp": "2026-11-18 00:07:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1141", "message": "JWT token validated for user_session_248"}
+{"timestamp": "2026-11-18 00:07:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1141", "message": "Order payload verified for order_id=9333"}
+{"timestamp": "2026-11-18 00:07:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1141", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:07:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1141", "message": "Pod cpu_util=38% mem_util=49%"}
+{"timestamp": "2026-11-18 00:07:06", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1142", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1142"}
+{"timestamp": "2026-11-18 00:07:06", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1142", "message": "JWT token validated for user_session_994"}
+{"timestamp": "2026-11-18 00:07:06", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1142", "message": "Order payload verified for order_id=6590"}
+{"timestamp": "2026-11-18 00:07:06", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1142", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:07:06", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1142", "message": "Pod cpu_util=38% mem_util=40%"}
+{"timestamp": "2026-11-18 00:07:09", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1143", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1143"}
+{"timestamp": "2026-11-18 00:07:09", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1143", "message": "JWT token validated for user_session_174"}
+{"timestamp": "2026-11-18 00:07:09", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1143", "message": "Order payload verified for order_id=5092"}
+{"timestamp": "2026-11-18 00:07:09", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1143", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:07:09", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1143", "message": "Pod cpu_util=48% mem_util=65%"}
+{"timestamp": "2026-11-18 00:07:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1144", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1144"}
+{"timestamp": "2026-11-18 00:07:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1144", "message": "JWT token validated for user_session_576"}
+{"timestamp": "2026-11-18 00:07:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1144", "message": "Order payload verified for order_id=9563"}
+{"timestamp": "2026-11-18 00:07:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1144", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:07:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1144", "message": "Pod cpu_util=25% mem_util=50%"}
+{"timestamp": "2026-11-18 00:07:15", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1145", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:07:15", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1145", "message": "Transaction aborted: Database write timeout for order_id=5597"}
+{"timestamp": "2026-11-18 00:07:15", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1145", "message": "HTTP 504 Gateway Timeout returned for request REQ-1145"}
+{"timestamp": "2026-11-18 00:07:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1146", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1146"}
+{"timestamp": "2026-11-18 00:07:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1146", "message": "JWT token validated for user_session_588"}
+{"timestamp": "2026-11-18 00:07:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1146", "message": "Order payload verified for order_id=6988"}
+{"timestamp": "2026-11-18 00:07:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1146", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:07:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1146", "message": "Pod cpu_util=52% mem_util=52%"}
+{"timestamp": "2026-11-18 00:07:21", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1147", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:07:21", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1147", "message": "Transaction aborted: Database write timeout for order_id=9695"}
+{"timestamp": "2026-11-18 00:07:21", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1147", "message": "HTTP 504 Gateway Timeout returned for request REQ-1147"}
+{"timestamp": "2026-11-18 00:07:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1148", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1148"}
+{"timestamp": "2026-11-18 00:07:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1148", "message": "JWT token validated for user_session_993"}
+{"timestamp": "2026-11-18 00:07:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1148", "message": "Order payload verified for order_id=5901"}
+{"timestamp": "2026-11-18 00:07:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1148", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:07:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1148", "message": "Pod cpu_util=27% mem_util=53%"}
+{"timestamp": "2026-11-18 00:07:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1149", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1149"}
+{"timestamp": "2026-11-18 00:07:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1149", "message": "JWT token validated for user_session_729"}
+{"timestamp": "2026-11-18 00:07:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1149", "message": "Order payload verified for order_id=5037"}
+{"timestamp": "2026-11-18 00:07:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1149", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:07:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1149", "message": "Pod cpu_util=28% mem_util=45%"}
+{"timestamp": "2026-11-18 00:07:30", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1150", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1150"}
+{"timestamp": "2026-11-18 00:07:30", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1150", "message": "JWT token validated for user_session_403"}
+{"timestamp": "2026-11-18 00:07:30", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1150", "message": "Order payload verified for order_id=8646"}
+{"timestamp": "2026-11-18 00:07:30", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1150", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:07:30", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1150", "message": "Pod cpu_util=42% mem_util=54%"}
+{"timestamp": "2026-11-18 00:07:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1151", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1151"}
+{"timestamp": "2026-11-18 00:07:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1151", "message": "JWT token validated for user_session_230"}
+{"timestamp": "2026-11-18 00:07:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1151", "message": "Order payload verified for order_id=5738"}
+{"timestamp": "2026-11-18 00:07:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1151", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:07:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1151", "message": "Pod cpu_util=35% mem_util=42%"}
+{"timestamp": "2026-11-18 00:07:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1152", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1152"}
+{"timestamp": "2026-11-18 00:07:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1152", "message": "JWT token validated for user_session_290"}
+{"timestamp": "2026-11-18 00:07:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1152", "message": "Order payload verified for order_id=7694"}
+{"timestamp": "2026-11-18 00:07:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1152", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:07:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1152", "message": "Pod cpu_util=48% mem_util=47%"}
+{"timestamp": "2026-11-18 00:07:39", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1153", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1153"}
+{"timestamp": "2026-11-18 00:07:39", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1153", "message": "JWT token validated for user_session_730"}
+{"timestamp": "2026-11-18 00:07:39", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1153", "message": "Order payload verified for order_id=6831"}
+{"timestamp": "2026-11-18 00:07:39", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1153", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:07:39", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1153", "message": "Pod cpu_util=42% mem_util=55%"}
+{"timestamp": "2026-11-18 00:07:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1154", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1154"}
+{"timestamp": "2026-11-18 00:07:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1154", "message": "JWT token validated for user_session_516"}
+{"timestamp": "2026-11-18 00:07:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1154", "message": "Order payload verified for order_id=9179"}
+{"timestamp": "2026-11-18 00:07:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1154", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:07:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1154", "message": "Pod cpu_util=30% mem_util=52%"}
+{"timestamp": "2026-11-18 00:07:45", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1155", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1155"}
+{"timestamp": "2026-11-18 00:07:45", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1155", "message": "JWT token validated for user_session_282"}
+{"timestamp": "2026-11-18 00:07:45", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1155", "message": "Order payload verified for order_id=8647"}
+{"timestamp": "2026-11-18 00:07:45", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1155", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:07:45", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1155", "message": "Pod cpu_util=40% mem_util=53%"}
+{"timestamp": "2026-11-18 00:07:48", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1156", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1156"}
+{"timestamp": "2026-11-18 00:07:48", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1156", "message": "JWT token validated for user_session_292"}
+{"timestamp": "2026-11-18 00:07:48", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1156", "message": "Order payload verified for order_id=7472"}
+{"timestamp": "2026-11-18 00:07:48", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1156", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:07:48", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1156", "message": "Pod cpu_util=30% mem_util=58%"}
+{"timestamp": "2026-11-18 00:07:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1157", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1157"}
+{"timestamp": "2026-11-18 00:07:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1157", "message": "JWT token validated for user_session_157"}
+{"timestamp": "2026-11-18 00:07:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1157", "message": "Order payload verified for order_id=9340"}
+{"timestamp": "2026-11-18 00:07:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1157", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:07:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1157", "message": "Pod cpu_util=44% mem_util=42%"}
+{"timestamp": "2026-11-18 00:07:54", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1158", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1158"}
+{"timestamp": "2026-11-18 00:07:54", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1158", "message": "JWT token validated for user_session_581"}
+{"timestamp": "2026-11-18 00:07:54", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1158", "message": "Order payload verified for order_id=6043"}
+{"timestamp": "2026-11-18 00:07:54", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1158", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:07:54", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1158", "message": "Pod cpu_util=47% mem_util=61%"}
+{"timestamp": "2026-11-18 00:07:57", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1159", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1159"}
+{"timestamp": "2026-11-18 00:07:57", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1159", "message": "JWT token validated for user_session_800"}
+{"timestamp": "2026-11-18 00:07:57", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1159", "message": "Order payload verified for order_id=9619"}
+{"timestamp": "2026-11-18 00:07:57", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1159", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:07:57", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1159", "message": "Pod cpu_util=51% mem_util=48%"}
+{"timestamp": "2026-11-18 00:08:00", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1160", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1160"}
+{"timestamp": "2026-11-18 00:08:00", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1160", "message": "JWT token validated for user_session_459"}
+{"timestamp": "2026-11-18 00:08:00", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1160", "message": "Order payload verified for order_id=8343"}
+{"timestamp": "2026-11-18 00:08:00", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1160", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:08:00", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1160", "message": "Pod cpu_util=46% mem_util=63%"}
+{"timestamp": "2026-11-18 00:08:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1161", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1161"}
+{"timestamp": "2026-11-18 00:08:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1161", "message": "JWT token validated for user_session_350"}
+{"timestamp": "2026-11-18 00:08:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1161", "message": "Order payload verified for order_id=9059"}
+{"timestamp": "2026-11-18 00:08:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1161", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:08:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1161", "message": "Pod cpu_util=38% mem_util=46%"}
+{"timestamp": "2026-11-18 00:08:06", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1162", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:08:06", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1162", "message": "Connection refused by upstream auth-pod worker for REQ-1162"}
+{"timestamp": "2026-11-18 00:08:06", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1162", "message": "HTTP 502 Bad Gateway returned for request REQ-1162"}
+{"timestamp": "2026-11-18 00:08:09", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1163", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1163"}
+{"timestamp": "2026-11-18 00:08:09", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1163", "message": "JWT token validated for user_session_683"}
+{"timestamp": "2026-11-18 00:08:09", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1163", "message": "Order payload verified for order_id=6628"}
+{"timestamp": "2026-11-18 00:08:09", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1163", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:08:09", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1163", "message": "Pod cpu_util=25% mem_util=41%"}
+{"timestamp": "2026-11-18 00:08:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1164", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1164"}
+{"timestamp": "2026-11-18 00:08:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1164", "message": "JWT token validated for user_session_398"}
+{"timestamp": "2026-11-18 00:08:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1164", "message": "Order payload verified for order_id=5952"}
+{"timestamp": "2026-11-18 00:08:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1164", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:08:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1164", "message": "Pod cpu_util=35% mem_util=44%"}
+{"timestamp": "2026-11-18 00:08:15", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1165", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1165"}
+{"timestamp": "2026-11-18 00:08:15", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1165", "message": "JWT token validated for user_session_489"}
+{"timestamp": "2026-11-18 00:08:15", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1165", "message": "Order payload verified for order_id=8237"}
+{"timestamp": "2026-11-18 00:08:15", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1165", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:08:15", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1165", "message": "Pod cpu_util=35% mem_util=53%"}
+{"timestamp": "2026-11-18 00:08:18", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1166", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:08:18", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1166", "message": "Connection refused by upstream auth-pod worker for REQ-1166"}
+{"timestamp": "2026-11-18 00:08:18", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1166", "message": "HTTP 502 Bad Gateway returned for request REQ-1166"}
+{"timestamp": "2026-11-18 00:08:21", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1167", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:08:21", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1167", "message": "Transaction aborted: Database write timeout for order_id=9301"}
+{"timestamp": "2026-11-18 00:08:21", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1167", "message": "HTTP 504 Gateway Timeout returned for request REQ-1167"}
+{"timestamp": "2026-11-18 00:08:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1168", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1168"}
+{"timestamp": "2026-11-18 00:08:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1168", "message": "JWT token validated for user_session_775"}
+{"timestamp": "2026-11-18 00:08:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1168", "message": "Order payload verified for order_id=6116"}
+{"timestamp": "2026-11-18 00:08:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1168", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:08:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1168", "message": "Pod cpu_util=29% mem_util=49%"}
+{"timestamp": "2026-11-18 00:08:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1169", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1169"}
+{"timestamp": "2026-11-18 00:08:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1169", "message": "JWT token validated for user_session_950"}
+{"timestamp": "2026-11-18 00:08:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1169", "message": "Order payload verified for order_id=9678"}
+{"timestamp": "2026-11-18 00:08:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1169", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:08:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1169", "message": "Pod cpu_util=32% mem_util=60%"}
+{"timestamp": "2026-11-18 00:08:30", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1170", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1170"}
+{"timestamp": "2026-11-18 00:08:30", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1170", "message": "JWT token validated for user_session_106"}
+{"timestamp": "2026-11-18 00:08:30", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1170", "message": "Order payload verified for order_id=7818"}
+{"timestamp": "2026-11-18 00:08:30", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1170", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:08:30", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1170", "message": "Pod cpu_util=49% mem_util=60%"}
+{"timestamp": "2026-11-18 00:08:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1171", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1171"}
+{"timestamp": "2026-11-18 00:08:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1171", "message": "JWT token validated for user_session_963"}
+{"timestamp": "2026-11-18 00:08:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1171", "message": "Order payload verified for order_id=7984"}
+{"timestamp": "2026-11-18 00:08:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1171", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:08:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1171", "message": "Pod cpu_util=46% mem_util=40%"}
+{"timestamp": "2026-11-18 00:08:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1172", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1172"}
+{"timestamp": "2026-11-18 00:08:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1172", "message": "JWT token validated for user_session_696"}
+{"timestamp": "2026-11-18 00:08:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1172", "message": "Order payload verified for order_id=6553"}
+{"timestamp": "2026-11-18 00:08:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1172", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:08:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1172", "message": "Pod cpu_util=41% mem_util=62%"}
+{"timestamp": "2026-11-18 00:08:39", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1173", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1173"}
+{"timestamp": "2026-11-18 00:08:39", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1173", "message": "JWT token validated for user_session_238"}
+{"timestamp": "2026-11-18 00:08:39", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1173", "message": "Order payload verified for order_id=6654"}
+{"timestamp": "2026-11-18 00:08:39", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1173", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:08:39", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1173", "message": "Pod cpu_util=43% mem_util=57%"}
+{"timestamp": "2026-11-18 00:08:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1174", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1174"}
+{"timestamp": "2026-11-18 00:08:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1174", "message": "JWT token validated for user_session_995"}
+{"timestamp": "2026-11-18 00:08:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1174", "message": "Order payload verified for order_id=5531"}
+{"timestamp": "2026-11-18 00:08:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1174", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:08:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1174", "message": "Pod cpu_util=53% mem_util=44%"}
+{"timestamp": "2026-11-18 00:08:45", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1175", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1175"}
+{"timestamp": "2026-11-18 00:08:45", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1175", "message": "JWT token validated for user_session_835"}
+{"timestamp": "2026-11-18 00:08:45", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1175", "message": "Order payload verified for order_id=5508"}
+{"timestamp": "2026-11-18 00:08:45", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1175", "message": "COMMIT transaction completed in 20ms"}
+{"timestamp": "2026-11-18 00:08:45", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1175", "message": "Pod cpu_util=28% mem_util=47%"}
+{"timestamp": "2026-11-18 00:08:48", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1176", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1176"}
+{"timestamp": "2026-11-18 00:08:48", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1176", "message": "JWT token validated for user_session_403"}
+{"timestamp": "2026-11-18 00:08:48", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1176", "message": "Order payload verified for order_id=7263"}
+{"timestamp": "2026-11-18 00:08:48", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1176", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:08:48", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1176", "message": "Pod cpu_util=26% mem_util=55%"}
+{"timestamp": "2026-11-18 00:08:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1177", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1177"}
+{"timestamp": "2026-11-18 00:08:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1177", "message": "JWT token validated for user_session_724"}
+{"timestamp": "2026-11-18 00:08:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1177", "message": "Order payload verified for order_id=5319"}
+{"timestamp": "2026-11-18 00:08:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1177", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:08:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1177", "message": "Pod cpu_util=40% mem_util=46%"}
+{"timestamp": "2026-11-18 00:08:54", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1178", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:08:54", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1178", "message": "Connection refused by upstream auth-pod worker for REQ-1178"}
+{"timestamp": "2026-11-18 00:08:54", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1178", "message": "HTTP 502 Bad Gateway returned for request REQ-1178"}
+{"timestamp": "2026-11-18 00:08:57", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1179", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1179"}
+{"timestamp": "2026-11-18 00:08:57", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1179", "message": "JWT token validated for user_session_106"}
+{"timestamp": "2026-11-18 00:08:57", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1179", "message": "Order payload verified for order_id=5832"}
+{"timestamp": "2026-11-18 00:08:57", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1179", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:08:57", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1179", "message": "Pod cpu_util=40% mem_util=42%"}
+{"timestamp": "2026-11-18 00:09:00", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1180", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1180"}
+{"timestamp": "2026-11-18 00:09:00", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1180", "message": "JWT token validated for user_session_232"}
+{"timestamp": "2026-11-18 00:09:00", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1180", "message": "Order payload verified for order_id=9296"}
+{"timestamp": "2026-11-18 00:09:00", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1180", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:09:00", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1180", "message": "Pod cpu_util=42% mem_util=60%"}
+{"timestamp": "2026-11-18 00:09:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1181", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1181"}
+{"timestamp": "2026-11-18 00:09:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1181", "message": "JWT token validated for user_session_964"}
+{"timestamp": "2026-11-18 00:09:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1181", "message": "Order payload verified for order_id=5148"}
+{"timestamp": "2026-11-18 00:09:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1181", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:09:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1181", "message": "Pod cpu_util=45% mem_util=64%"}
+{"timestamp": "2026-11-18 00:09:06", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1182", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1182"}
+{"timestamp": "2026-11-18 00:09:06", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1182", "message": "JWT token validated for user_session_724"}
+{"timestamp": "2026-11-18 00:09:06", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1182", "message": "Order payload verified for order_id=5443"}
+{"timestamp": "2026-11-18 00:09:06", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1182", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:09:06", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1182", "message": "Pod cpu_util=36% mem_util=65%"}
+{"timestamp": "2026-11-18 00:09:09", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1183", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1183"}
+{"timestamp": "2026-11-18 00:09:09", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1183", "message": "JWT token validated for user_session_626"}
+{"timestamp": "2026-11-18 00:09:09", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1183", "message": "Order payload verified for order_id=5686"}
+{"timestamp": "2026-11-18 00:09:09", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1183", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:09:09", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1183", "message": "Pod cpu_util=30% mem_util=47%"}
+{"timestamp": "2026-11-18 00:09:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1184", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1184"}
+{"timestamp": "2026-11-18 00:09:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1184", "message": "JWT token validated for user_session_491"}
+{"timestamp": "2026-11-18 00:09:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1184", "message": "Order payload verified for order_id=5058"}
+{"timestamp": "2026-11-18 00:09:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1184", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:09:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1184", "message": "Pod cpu_util=45% mem_util=60%"}
+{"timestamp": "2026-11-18 00:09:15", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1185", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1185"}
+{"timestamp": "2026-11-18 00:09:15", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1185", "message": "JWT token validated for user_session_576"}
+{"timestamp": "2026-11-18 00:09:15", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1185", "message": "Order payload verified for order_id=9901"}
+{"timestamp": "2026-11-18 00:09:15", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1185", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:09:15", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1185", "message": "Pod cpu_util=27% mem_util=56%"}
+{"timestamp": "2026-11-18 00:09:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1186", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1186"}
+{"timestamp": "2026-11-18 00:09:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1186", "message": "JWT token validated for user_session_355"}
+{"timestamp": "2026-11-18 00:09:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1186", "message": "Order payload verified for order_id=9568"}
+{"timestamp": "2026-11-18 00:09:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1186", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:09:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1186", "message": "Pod cpu_util=34% mem_util=43%"}
+{"timestamp": "2026-11-18 00:09:21", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1187", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1187"}
+{"timestamp": "2026-11-18 00:09:21", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1187", "message": "JWT token validated for user_session_351"}
+{"timestamp": "2026-11-18 00:09:21", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1187", "message": "Order payload verified for order_id=8334"}
+{"timestamp": "2026-11-18 00:09:21", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1187", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:09:21", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1187", "message": "Pod cpu_util=32% mem_util=65%"}
+{"timestamp": "2026-11-18 00:09:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1188", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1188"}
+{"timestamp": "2026-11-18 00:09:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1188", "message": "JWT token validated for user_session_268"}
+{"timestamp": "2026-11-18 00:09:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1188", "message": "Order payload verified for order_id=5777"}
+{"timestamp": "2026-11-18 00:09:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1188", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:09:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1188", "message": "Pod cpu_util=49% mem_util=43%"}
+{"timestamp": "2026-11-18 00:09:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1189", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1189"}
+{"timestamp": "2026-11-18 00:09:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1189", "message": "JWT token validated for user_session_840"}
+{"timestamp": "2026-11-18 00:09:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1189", "message": "Order payload verified for order_id=9856"}
+{"timestamp": "2026-11-18 00:09:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1189", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:09:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1189", "message": "Pod cpu_util=35% mem_util=41%"}
+{"timestamp": "2026-11-18 00:09:30", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1190", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1190"}
+{"timestamp": "2026-11-18 00:09:30", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1190", "message": "JWT token validated for user_session_381"}
+{"timestamp": "2026-11-18 00:09:30", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1190", "message": "Order payload verified for order_id=7049"}
+{"timestamp": "2026-11-18 00:09:30", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1190", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:09:30", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1190", "message": "Pod cpu_util=39% mem_util=64%"}
+{"timestamp": "2026-11-18 00:09:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1191", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1191"}
+{"timestamp": "2026-11-18 00:09:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1191", "message": "JWT token validated for user_session_159"}
+{"timestamp": "2026-11-18 00:09:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1191", "message": "Order payload verified for order_id=5316"}
+{"timestamp": "2026-11-18 00:09:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1191", "message": "COMMIT transaction completed in 9ms"}
+{"timestamp": "2026-11-18 00:09:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1191", "message": "Pod cpu_util=48% mem_util=54%"}
+{"timestamp": "2026-11-18 00:09:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1192", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1192"}
+{"timestamp": "2026-11-18 00:09:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1192", "message": "JWT token validated for user_session_597"}
+{"timestamp": "2026-11-18 00:09:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1192", "message": "Order payload verified for order_id=9662"}
+{"timestamp": "2026-11-18 00:09:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1192", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:09:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1192", "message": "Pod cpu_util=49% mem_util=54%"}
+{"timestamp": "2026-11-18 00:09:39", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1193", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1193"}
+{"timestamp": "2026-11-18 00:09:39", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1193", "message": "JWT token validated for user_session_350"}
+{"timestamp": "2026-11-18 00:09:39", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1193", "message": "Order payload verified for order_id=8717"}
+{"timestamp": "2026-11-18 00:09:39", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1193", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:09:39", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1193", "message": "Pod cpu_util=52% mem_util=53%"}
+{"timestamp": "2026-11-18 00:09:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1194", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1194"}
+{"timestamp": "2026-11-18 00:09:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1194", "message": "JWT token validated for user_session_691"}
+{"timestamp": "2026-11-18 00:09:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1194", "message": "Order payload verified for order_id=9253"}
+{"timestamp": "2026-11-18 00:09:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1194", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:09:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1194", "message": "Pod cpu_util=52% mem_util=55%"}
+{"timestamp": "2026-11-18 00:09:45", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1195", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:09:45", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1195", "message": "Transaction aborted: Database write timeout for order_id=6327"}
+{"timestamp": "2026-11-18 00:09:45", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1195", "message": "HTTP 504 Gateway Timeout returned for request REQ-1195"}
+{"timestamp": "2026-11-18 00:09:48", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1196", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:09:48", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1196", "message": "Connection refused by upstream auth-pod worker for REQ-1196"}
+{"timestamp": "2026-11-18 00:09:48", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1196", "message": "HTTP 502 Bad Gateway returned for request REQ-1196"}
+{"timestamp": "2026-11-18 00:09:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1197", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1197"}
+{"timestamp": "2026-11-18 00:09:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1197", "message": "JWT token validated for user_session_119"}
+{"timestamp": "2026-11-18 00:09:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1197", "message": "Order payload verified for order_id=6599"}
+{"timestamp": "2026-11-18 00:09:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1197", "message": "COMMIT transaction completed in 17ms"}
+{"timestamp": "2026-11-18 00:09:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1197", "message": "Pod cpu_util=35% mem_util=53%"}
+{"timestamp": "2026-11-18 00:09:54", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1198", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1198"}
+{"timestamp": "2026-11-18 00:09:54", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1198", "message": "JWT token validated for user_session_785"}
+{"timestamp": "2026-11-18 00:09:54", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1198", "message": "Order payload verified for order_id=7385"}
+{"timestamp": "2026-11-18 00:09:54", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1198", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:09:54", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1198", "message": "Pod cpu_util=49% mem_util=60%"}
+{"timestamp": "2026-11-18 00:09:57", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1199", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1199"}
+{"timestamp": "2026-11-18 00:09:57", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1199", "message": "JWT token validated for user_session_197"}
+{"timestamp": "2026-11-18 00:09:57", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1199", "message": "Order payload verified for order_id=5101"}
+{"timestamp": "2026-11-18 00:09:57", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1199", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:09:57", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1199", "message": "Pod cpu_util=31% mem_util=51%"}
+{"timestamp": "2026-11-18 00:10:00", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1200", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:10:00", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1200", "message": "Transaction aborted: Database write timeout for order_id=8989"}
+{"timestamp": "2026-11-18 00:10:00", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1200", "message": "HTTP 504 Gateway Timeout returned for request REQ-1200"}
+{"timestamp": "2026-11-18 00:10:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1201", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1201"}
+{"timestamp": "2026-11-18 00:10:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1201", "message": "JWT token validated for user_session_742"}
+{"timestamp": "2026-11-18 00:10:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1201", "message": "Order payload verified for order_id=8676"}
+{"timestamp": "2026-11-18 00:10:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1201", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:10:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1201", "message": "Pod cpu_util=47% mem_util=62%"}
+{"timestamp": "2026-11-18 00:10:06", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1202", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1202"}
+{"timestamp": "2026-11-18 00:10:06", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1202", "message": "JWT token validated for user_session_771"}
+{"timestamp": "2026-11-18 00:10:06", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1202", "message": "Order payload verified for order_id=8917"}
+{"timestamp": "2026-11-18 00:10:06", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1202", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:10:06", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1202", "message": "Pod cpu_util=38% mem_util=43%"}
+{"timestamp": "2026-11-18 00:10:09", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1203", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:10:09", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1203", "message": "Transaction aborted: Database write timeout for order_id=9437"}
+{"timestamp": "2026-11-18 00:10:09", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1203", "message": "HTTP 504 Gateway Timeout returned for request REQ-1203"}
+{"timestamp": "2026-11-18 00:10:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1204", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1204"}
+{"timestamp": "2026-11-18 00:10:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1204", "message": "JWT token validated for user_session_517"}
+{"timestamp": "2026-11-18 00:10:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1204", "message": "Order payload verified for order_id=6789"}
+{"timestamp": "2026-11-18 00:10:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1204", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:10:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1204", "message": "Pod cpu_util=52% mem_util=62%"}
+{"timestamp": "2026-11-18 00:10:15", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1205", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1205"}
+{"timestamp": "2026-11-18 00:10:15", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1205", "message": "JWT token validated for user_session_562"}
+{"timestamp": "2026-11-18 00:10:15", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1205", "message": "Order payload verified for order_id=9950"}
+{"timestamp": "2026-11-18 00:10:15", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1205", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:10:15", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1205", "message": "Pod cpu_util=33% mem_util=43%"}
+{"timestamp": "2026-11-18 00:10:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1206", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1206"}
+{"timestamp": "2026-11-18 00:10:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1206", "message": "JWT token validated for user_session_924"}
+{"timestamp": "2026-11-18 00:10:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1206", "message": "Order payload verified for order_id=7420"}
+{"timestamp": "2026-11-18 00:10:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1206", "message": "COMMIT transaction completed in 9ms"}
+{"timestamp": "2026-11-18 00:10:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1206", "message": "Pod cpu_util=42% mem_util=44%"}
+{"timestamp": "2026-11-18 00:10:21", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1207", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:10:21", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1207", "message": "Connection refused by upstream auth-pod worker for REQ-1207"}
+{"timestamp": "2026-11-18 00:10:21", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1207", "message": "HTTP 502 Bad Gateway returned for request REQ-1207"}
+{"timestamp": "2026-11-18 00:10:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1208", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1208"}
+{"timestamp": "2026-11-18 00:10:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1208", "message": "JWT token validated for user_session_276"}
+{"timestamp": "2026-11-18 00:10:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1208", "message": "Order payload verified for order_id=5489"}
+{"timestamp": "2026-11-18 00:10:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1208", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:10:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1208", "message": "Pod cpu_util=52% mem_util=59%"}
+{"timestamp": "2026-11-18 00:10:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1209", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1209"}
+{"timestamp": "2026-11-18 00:10:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1209", "message": "JWT token validated for user_session_645"}
+{"timestamp": "2026-11-18 00:10:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1209", "message": "Order payload verified for order_id=9075"}
+{"timestamp": "2026-11-18 00:10:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1209", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:10:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1209", "message": "Pod cpu_util=49% mem_util=54%"}
+{"timestamp": "2026-11-18 00:10:30", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1210", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:10:30", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1210", "message": "Transaction aborted: Database write timeout for order_id=5506"}
+{"timestamp": "2026-11-18 00:10:30", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1210", "message": "HTTP 504 Gateway Timeout returned for request REQ-1210"}
+{"timestamp": "2026-11-18 00:10:33", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1211", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1211"}
+{"timestamp": "2026-11-18 00:10:33", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1211", "message": "JWT token validated for user_session_808"}
+{"timestamp": "2026-11-18 00:10:33", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1211", "message": "Order payload verified for order_id=8264"}
+{"timestamp": "2026-11-18 00:10:33", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1211", "message": "COMMIT transaction completed in 20ms"}
+{"timestamp": "2026-11-18 00:10:33", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1211", "message": "Pod cpu_util=45% mem_util=43%"}
+{"timestamp": "2026-11-18 00:10:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1212", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1212"}
+{"timestamp": "2026-11-18 00:10:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1212", "message": "JWT token validated for user_session_224"}
+{"timestamp": "2026-11-18 00:10:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1212", "message": "Order payload verified for order_id=8188"}
+{"timestamp": "2026-11-18 00:10:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1212", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:10:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1212", "message": "Pod cpu_util=54% mem_util=46%"}
+{"timestamp": "2026-11-18 00:10:39", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1213", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1213"}
+{"timestamp": "2026-11-18 00:10:39", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1213", "message": "JWT token validated for user_session_437"}
+{"timestamp": "2026-11-18 00:10:39", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1213", "message": "Order payload verified for order_id=6364"}
+{"timestamp": "2026-11-18 00:10:39", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1213", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:10:39", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1213", "message": "Pod cpu_util=45% mem_util=41%"}
+{"timestamp": "2026-11-18 00:10:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1214", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1214"}
+{"timestamp": "2026-11-18 00:10:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1214", "message": "JWT token validated for user_session_623"}
+{"timestamp": "2026-11-18 00:10:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1214", "message": "Order payload verified for order_id=7725"}
+{"timestamp": "2026-11-18 00:10:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1214", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:10:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1214", "message": "Pod cpu_util=26% mem_util=52%"}
+{"timestamp": "2026-11-18 00:10:45", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1215", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1215"}
+{"timestamp": "2026-11-18 00:10:45", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1215", "message": "JWT token validated for user_session_646"}
+{"timestamp": "2026-11-18 00:10:45", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1215", "message": "Order payload verified for order_id=7927"}
+{"timestamp": "2026-11-18 00:10:45", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1215", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:10:45", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1215", "message": "Pod cpu_util=35% mem_util=47%"}
+{"timestamp": "2026-11-18 00:10:48", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1216", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1216"}
+{"timestamp": "2026-11-18 00:10:48", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1216", "message": "JWT token validated for user_session_469"}
+{"timestamp": "2026-11-18 00:10:48", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1216", "message": "Order payload verified for order_id=8801"}
+{"timestamp": "2026-11-18 00:10:48", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1216", "message": "COMMIT transaction completed in 22ms"}
+{"timestamp": "2026-11-18 00:10:48", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1216", "message": "Pod cpu_util=54% mem_util=45%"}
+{"timestamp": "2026-11-18 00:10:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1217", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1217"}
+{"timestamp": "2026-11-18 00:10:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1217", "message": "JWT token validated for user_session_822"}
+{"timestamp": "2026-11-18 00:10:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1217", "message": "Order payload verified for order_id=6928"}
+{"timestamp": "2026-11-18 00:10:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1217", "message": "COMMIT transaction completed in 11ms"}
+{"timestamp": "2026-11-18 00:10:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1217", "message": "Pod cpu_util=37% mem_util=50%"}
+{"timestamp": "2026-11-18 00:10:54", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1218", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1218"}
+{"timestamp": "2026-11-18 00:10:54", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1218", "message": "JWT token validated for user_session_564"}
+{"timestamp": "2026-11-18 00:10:54", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1218", "message": "Order payload verified for order_id=8871"}
+{"timestamp": "2026-11-18 00:10:54", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1218", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:10:54", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1218", "message": "Pod cpu_util=54% mem_util=48%"}
+{"timestamp": "2026-11-18 00:10:57", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1219", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1219"}
+{"timestamp": "2026-11-18 00:10:57", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1219", "message": "JWT token validated for user_session_288"}
+{"timestamp": "2026-11-18 00:10:57", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1219", "message": "Order payload verified for order_id=8504"}
+{"timestamp": "2026-11-18 00:10:57", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1219", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:10:57", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1219", "message": "Pod cpu_util=53% mem_util=55%"}
+{"timestamp": "2026-11-18 00:11:00", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1220", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1220"}
+{"timestamp": "2026-11-18 00:11:00", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1220", "message": "JWT token validated for user_session_402"}
+{"timestamp": "2026-11-18 00:11:00", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1220", "message": "Order payload verified for order_id=8612"}
+{"timestamp": "2026-11-18 00:11:00", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1220", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:11:00", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1220", "message": "Pod cpu_util=38% mem_util=58%"}
+{"timestamp": "2026-11-18 00:11:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1221", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1221"}
+{"timestamp": "2026-11-18 00:11:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1221", "message": "JWT token validated for user_session_640"}
+{"timestamp": "2026-11-18 00:11:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1221", "message": "Order payload verified for order_id=5435"}
+{"timestamp": "2026-11-18 00:11:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1221", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:11:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1221", "message": "Pod cpu_util=35% mem_util=58%"}
+{"timestamp": "2026-11-18 00:11:06", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1222", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1222"}
+{"timestamp": "2026-11-18 00:11:06", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1222", "message": "JWT token validated for user_session_153"}
+{"timestamp": "2026-11-18 00:11:06", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1222", "message": "Order payload verified for order_id=8004"}
+{"timestamp": "2026-11-18 00:11:06", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1222", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:11:06", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1222", "message": "Pod cpu_util=39% mem_util=43%"}
+{"timestamp": "2026-11-18 00:11:09", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1223", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1223"}
+{"timestamp": "2026-11-18 00:11:09", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1223", "message": "JWT token validated for user_session_330"}
+{"timestamp": "2026-11-18 00:11:09", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1223", "message": "Order payload verified for order_id=5091"}
+{"timestamp": "2026-11-18 00:11:09", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1223", "message": "COMMIT transaction completed in 18ms"}
+{"timestamp": "2026-11-18 00:11:09", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1223", "message": "Pod cpu_util=36% mem_util=63%"}
+{"timestamp": "2026-11-18 00:11:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1224", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1224"}
+{"timestamp": "2026-11-18 00:11:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1224", "message": "JWT token validated for user_session_267"}
+{"timestamp": "2026-11-18 00:11:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1224", "message": "Order payload verified for order_id=7727"}
+{"timestamp": "2026-11-18 00:11:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1224", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:11:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1224", "message": "Pod cpu_util=35% mem_util=52%"}
+{"timestamp": "2026-11-18 00:11:15", "level": "ERROR", "service": "Database-Service", "request_id": "REQ-1225", "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary"}
+{"timestamp": "2026-11-18 00:11:15", "level": "ERROR", "service": "Order-Service", "request_id": "REQ-1225", "message": "Transaction aborted: Database write timeout for order_id=6512"}
+{"timestamp": "2026-11-18 00:11:15", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1225", "message": "HTTP 504 Gateway Timeout returned for request REQ-1225"}
+{"timestamp": "2026-11-18 00:11:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1226", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1226"}
+{"timestamp": "2026-11-18 00:11:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1226", "message": "JWT token validated for user_session_849"}
+{"timestamp": "2026-11-18 00:11:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1226", "message": "Order payload verified for order_id=9819"}
+{"timestamp": "2026-11-18 00:11:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1226", "message": "COMMIT transaction completed in 9ms"}
+{"timestamp": "2026-11-18 00:11:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1226", "message": "Pod cpu_util=50% mem_util=51%"}
+{"timestamp": "2026-11-18 00:11:21", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1227", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1227"}
+{"timestamp": "2026-11-18 00:11:21", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1227", "message": "JWT token validated for user_session_629"}
+{"timestamp": "2026-11-18 00:11:21", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1227", "message": "Order payload verified for order_id=7759"}
+{"timestamp": "2026-11-18 00:11:21", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1227", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:11:21", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1227", "message": "Pod cpu_util=39% mem_util=48%"}
+{"timestamp": "2026-11-18 00:11:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1228", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1228"}
+{"timestamp": "2026-11-18 00:11:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1228", "message": "JWT token validated for user_session_603"}
+{"timestamp": "2026-11-18 00:11:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1228", "message": "Order payload verified for order_id=7217"}
+{"timestamp": "2026-11-18 00:11:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1228", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:11:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1228", "message": "Pod cpu_util=48% mem_util=48%"}
+{"timestamp": "2026-11-18 00:11:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1229", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1229"}
+{"timestamp": "2026-11-18 00:11:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1229", "message": "JWT token validated for user_session_139"}
+{"timestamp": "2026-11-18 00:11:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1229", "message": "Order payload verified for order_id=7583"}
+{"timestamp": "2026-11-18 00:11:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1229", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:11:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1229", "message": "Pod cpu_util=36% mem_util=59%"}
+{"timestamp": "2026-11-18 00:11:30", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1230", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1230"}
+{"timestamp": "2026-11-18 00:11:30", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1230", "message": "JWT token validated for user_session_235"}
+{"timestamp": "2026-11-18 00:11:30", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1230", "message": "Order payload verified for order_id=6220"}
+{"timestamp": "2026-11-18 00:11:30", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1230", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:11:30", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1230", "message": "Pod cpu_util=54% mem_util=53%"}
+{"timestamp": "2026-11-18 00:11:33", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1231", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:11:33", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1231", "message": "Connection refused by upstream auth-pod worker for REQ-1231"}
+{"timestamp": "2026-11-18 00:11:33", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1231", "message": "HTTP 502 Bad Gateway returned for request REQ-1231"}
+{"timestamp": "2026-11-18 00:11:36", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1232", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1232"}
+{"timestamp": "2026-11-18 00:11:36", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1232", "message": "JWT token validated for user_session_863"}
+{"timestamp": "2026-11-18 00:11:36", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1232", "message": "Order payload verified for order_id=9064"}
+{"timestamp": "2026-11-18 00:11:36", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1232", "message": "COMMIT transaction completed in 12ms"}
+{"timestamp": "2026-11-18 00:11:36", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1232", "message": "Pod cpu_util=43% mem_util=40%"}
+{"timestamp": "2026-11-18 00:11:39", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1233", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1233"}
+{"timestamp": "2026-11-18 00:11:39", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1233", "message": "JWT token validated for user_session_748"}
+{"timestamp": "2026-11-18 00:11:39", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1233", "message": "Order payload verified for order_id=5583"}
+{"timestamp": "2026-11-18 00:11:39", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1233", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:11:39", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1233", "message": "Pod cpu_util=48% mem_util=65%"}
+{"timestamp": "2026-11-18 00:11:42", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1234", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1234"}
+{"timestamp": "2026-11-18 00:11:42", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1234", "message": "JWT token validated for user_session_802"}
+{"timestamp": "2026-11-18 00:11:42", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1234", "message": "Order payload verified for order_id=7683"}
+{"timestamp": "2026-11-18 00:11:42", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1234", "message": "COMMIT transaction completed in 20ms"}
+{"timestamp": "2026-11-18 00:11:42", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1234", "message": "Pod cpu_util=44% mem_util=43%"}
+{"timestamp": "2026-11-18 00:11:45", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1235", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1235"}
+{"timestamp": "2026-11-18 00:11:45", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1235", "message": "JWT token validated for user_session_249"}
+{"timestamp": "2026-11-18 00:11:45", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1235", "message": "Order payload verified for order_id=5126"}
+{"timestamp": "2026-11-18 00:11:45", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1235", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:11:45", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1235", "message": "Pod cpu_util=42% mem_util=40%"}
+{"timestamp": "2026-11-18 00:11:48", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1236", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1236"}
+{"timestamp": "2026-11-18 00:11:48", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1236", "message": "JWT token validated for user_session_212"}
+{"timestamp": "2026-11-18 00:11:48", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1236", "message": "Order payload verified for order_id=5621"}
+{"timestamp": "2026-11-18 00:11:48", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1236", "message": "COMMIT transaction completed in 8ms"}
+{"timestamp": "2026-11-18 00:11:48", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1236", "message": "Pod cpu_util=25% mem_util=40%"}
+{"timestamp": "2026-11-18 00:11:51", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1237", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1237"}
+{"timestamp": "2026-11-18 00:11:51", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1237", "message": "JWT token validated for user_session_363"}
+{"timestamp": "2026-11-18 00:11:51", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1237", "message": "Order payload verified for order_id=6061"}
+{"timestamp": "2026-11-18 00:11:51", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1237", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:11:51", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1237", "message": "Pod cpu_util=53% mem_util=59%"}
+{"timestamp": "2026-11-18 00:11:54", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1238", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1238"}
+{"timestamp": "2026-11-18 00:11:54", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1238", "message": "JWT token validated for user_session_987"}
+{"timestamp": "2026-11-18 00:11:54", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1238", "message": "Order payload verified for order_id=9129"}
+{"timestamp": "2026-11-18 00:11:54", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1238", "message": "COMMIT transaction completed in 20ms"}
+{"timestamp": "2026-11-18 00:11:54", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1238", "message": "Pod cpu_util=50% mem_util=45%"}
+{"timestamp": "2026-11-18 00:11:57", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1239", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1239"}
+{"timestamp": "2026-11-18 00:11:57", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1239", "message": "JWT token validated for user_session_772"}
+{"timestamp": "2026-11-18 00:11:57", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1239", "message": "Order payload verified for order_id=8464"}
+{"timestamp": "2026-11-18 00:11:57", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1239", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:11:57", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1239", "message": "Pod cpu_util=26% mem_util=63%"}
+{"timestamp": "2026-11-18 00:12:00", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1240", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1240"}
+{"timestamp": "2026-11-18 00:12:00", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1240", "message": "JWT token validated for user_session_689"}
+{"timestamp": "2026-11-18 00:12:00", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1240", "message": "Order payload verified for order_id=8456"}
+{"timestamp": "2026-11-18 00:12:00", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1240", "message": "COMMIT transaction completed in 14ms"}
+{"timestamp": "2026-11-18 00:12:00", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1240", "message": "Pod cpu_util=48% mem_util=43%"}
+{"timestamp": "2026-11-18 00:12:03", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1241", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1241"}
+{"timestamp": "2026-11-18 00:12:03", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1241", "message": "JWT token validated for user_session_126"}
+{"timestamp": "2026-11-18 00:12:03", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1241", "message": "Order payload verified for order_id=8857"}
+{"timestamp": "2026-11-18 00:12:03", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1241", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:12:03", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1241", "message": "Pod cpu_util=42% mem_util=61%"}
+{"timestamp": "2026-11-18 00:12:06", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1242", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1242"}
+{"timestamp": "2026-11-18 00:12:06", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1242", "message": "JWT token validated for user_session_642"}
+{"timestamp": "2026-11-18 00:12:06", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1242", "message": "Order payload verified for order_id=5587"}
+{"timestamp": "2026-11-18 00:12:06", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1242", "message": "COMMIT transaction completed in 13ms"}
+{"timestamp": "2026-11-18 00:12:06", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1242", "message": "Pod cpu_util=47% mem_util=56%"}
+{"timestamp": "2026-11-18 00:12:09", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1243", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1243"}
+{"timestamp": "2026-11-18 00:12:09", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1243", "message": "JWT token validated for user_session_333"}
+{"timestamp": "2026-11-18 00:12:09", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1243", "message": "Order payload verified for order_id=6948"}
+{"timestamp": "2026-11-18 00:12:09", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1243", "message": "COMMIT transaction completed in 21ms"}
+{"timestamp": "2026-11-18 00:12:09", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1243", "message": "Pod cpu_util=54% mem_util=46%"}
+{"timestamp": "2026-11-18 00:12:12", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1244", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1244"}
+{"timestamp": "2026-11-18 00:12:12", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1244", "message": "JWT token validated for user_session_625"}
+{"timestamp": "2026-11-18 00:12:12", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1244", "message": "Order payload verified for order_id=7973"}
+{"timestamp": "2026-11-18 00:12:12", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1244", "message": "COMMIT transaction completed in 10ms"}
+{"timestamp": "2026-11-18 00:12:12", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1244", "message": "Pod cpu_util=41% mem_util=62%"}
+{"timestamp": "2026-11-18 00:12:15", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1245", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1245"}
+{"timestamp": "2026-11-18 00:12:15", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1245", "message": "JWT token validated for user_session_596"}
+{"timestamp": "2026-11-18 00:12:15", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1245", "message": "Order payload verified for order_id=6107"}
+{"timestamp": "2026-11-18 00:12:15", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1245", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:12:15", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1245", "message": "Pod cpu_util=37% mem_util=49%"}
+{"timestamp": "2026-11-18 00:12:18", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1246", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1246"}
+{"timestamp": "2026-11-18 00:12:18", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1246", "message": "JWT token validated for user_session_313"}
+{"timestamp": "2026-11-18 00:12:18", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1246", "message": "Order payload verified for order_id=8608"}
+{"timestamp": "2026-11-18 00:12:18", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1246", "message": "COMMIT transaction completed in 15ms"}
+{"timestamp": "2026-11-18 00:12:18", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1246", "message": "Pod cpu_util=40% mem_util=63%"}
+{"timestamp": "2026-11-18 00:12:21", "level": "ERROR", "service": "K8s-Infra-Node", "request_id": "REQ-1247", "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node"}
+{"timestamp": "2026-11-18 00:12:21", "level": "ERROR", "service": "Auth-Service", "request_id": "REQ-1247", "message": "Connection refused by upstream auth-pod worker for REQ-1247"}
+{"timestamp": "2026-11-18 00:12:21", "level": "ERROR", "service": "API-Gateway", "request_id": "REQ-1247", "message": "HTTP 502 Bad Gateway returned for request REQ-1247"}
+{"timestamp": "2026-11-18 00:12:24", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1248", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1248"}
+{"timestamp": "2026-11-18 00:12:24", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1248", "message": "JWT token validated for user_session_377"}
+{"timestamp": "2026-11-18 00:12:24", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1248", "message": "Order payload verified for order_id=7013"}
+{"timestamp": "2026-11-18 00:12:24", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1248", "message": "COMMIT transaction completed in 19ms"}
+{"timestamp": "2026-11-18 00:12:24", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1248", "message": "Pod cpu_util=43% mem_util=55%"}
+{"timestamp": "2026-11-18 00:12:27", "level": "INFO", "service": "API-Gateway", "request_id": "REQ-1249", "message": "Incoming POST /api/v1/orders routed successfully for REQ-1249"}
+{"timestamp": "2026-11-18 00:12:27", "level": "INFO", "service": "Auth-Service", "request_id": "REQ-1249", "message": "JWT token validated for user_session_996"}
+{"timestamp": "2026-11-18 00:12:27", "level": "INFO", "service": "Order-Service", "request_id": "REQ-1249", "message": "Order payload verified for order_id=9229"}
+{"timestamp": "2026-11-18 00:12:27", "level": "INFO", "service": "Database-Service", "request_id": "REQ-1249", "message": "COMMIT transaction completed in 16ms"}
+{"timestamp": "2026-11-18 00:12:27", "level": "INFO", "service": "K8s-Infra-Node", "request_id": "REQ-1249", "message": "Pod cpu_util=50% mem_util=47%"}

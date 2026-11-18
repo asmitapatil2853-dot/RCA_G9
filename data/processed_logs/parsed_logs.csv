@@ -1,0 +1,1431 @@
+timestamp,service,level,request_id,message,event_template,cluster_id
+2026-11-18 12:10:06.980,API-Gateway,INFO,REQ-1000,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP 201 POST /api/v1/orders routed in 42ms,1
+2026-11-18 12:10:07.000,Auth-Service,INFO,REQ-1000,JWT token verified for user_id=547,JWT token verified for user_id=547,2
+2026-11-18 12:10:07.020,Order-Service,INFO,REQ-1000,Inventory lock acquired for order_id=7367,Inventory lock acquired for order_id=7367,3
+2026-11-18 12:10:07.040,Database-Service,INFO,REQ-1000,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:07.060,K8s-Infra-Node,INFO,REQ-1000,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on worker-node-04,5
+2026-11-18 12:10:09.980,API-Gateway,WARNING,REQ-1001,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:10:10.000,Auth-Service,INFO,REQ-1001,OAuth2 session refreshed for user_id=191,OAuth2 session refreshed for user_id=191,7
+2026-11-18 12:10:10.020,Order-Service,INFO,REQ-1001,Inventory lock acquired for order_id=6456,Inventory lock acquired for <*>,3
+2026-11-18 12:10:10.040,Database-Service,INFO,REQ-1001,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:10.060,K8s-Infra-Node,INFO,REQ-1001,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:10:12.980,API-Gateway,INFO,REQ-1002,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:13.000,Auth-Service,INFO,REQ-1002,OAuth2 session refreshed for user_id=302,OAuth2 session refreshed for <*>,7
+2026-11-18 12:10:13.020,Order-Service,INFO,REQ-1002,Inventory lock acquired for order_id=8582,Inventory lock acquired for <*>,3
+2026-11-18 12:10:13.040,Database-Service,INFO,REQ-1002,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:10:13.060,K8s-Infra-Node,INFO,REQ-1002,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:10:15.980,API-Gateway,WARNING,REQ-1003,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:10:16.000,Auth-Service,INFO,REQ-1003,JWT token verified for user_id=824,JWT token verified for <*>,2
+2026-11-18 12:10:16.020,Order-Service,INFO,REQ-1003,Order processed order_id=7041 for user_id=824,Order processed order_id=7041 for user_id=824,11
+2026-11-18 12:10:16.040,Database-Service,INFO,REQ-1003,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:16.060,K8s-Infra-Node,INFO,REQ-1003,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:10:18.980,API-Gateway,INFO,REQ-1004,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:19.000,Auth-Service,INFO,REQ-1004,OAuth2 session refreshed for user_id=365,OAuth2 session refreshed for <*>,7
+2026-11-18 12:10:19.020,Order-Service,INFO,REQ-1004,Order processed order_id=5826 for user_id=365,Order processed <*> for <*>,11
+2026-11-18 12:10:19.040,Database-Service,WARNING,REQ-1004,Replication lag warning: 350ms,Replication lag warning: 350ms,12
+2026-11-18 12:10:19.060,K8s-Infra-Node,WARNING,REQ-1004,High CPU utilization (88%) on worker-node-02,High CPU utilization (88%) on worker-node-02,13
+2026-11-18 12:10:21.980,API-Gateway,INFO,REQ-1005,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:22.000,Auth-Service,INFO,REQ-1005,JWT token verified for user_id=243,JWT token verified for <*>,2
+2026-11-18 12:10:22.020,Order-Service,INFO,REQ-1005,Inventory lock acquired for order_id=8338,Inventory lock acquired for <*>,3
+2026-11-18 12:10:22.040,Database-Service,INFO,REQ-1005,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:10:22.060,K8s-Infra-Node,INFO,REQ-1005,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:10:24.980,API-Gateway,INFO,REQ-1006,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:25.000,Auth-Service,INFO,REQ-1006,OAuth2 session refreshed for user_id=865,OAuth2 session refreshed for <*>,7
+2026-11-18 12:10:25.020,Order-Service,WARNING,REQ-1006,Worker queue depth increasing (450 pending) for order_id=7255,Worker queue depth increasing (450 pending) for order_id=7255,14
+2026-11-18 12:10:25.040,Database-Service,INFO,REQ-1006,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:10:25.060,K8s-Infra-Node,INFO,REQ-1006,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:10:27.980,API-Gateway,INFO,REQ-1007,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:28.000,Auth-Service,WARNING,REQ-1007,Token verification latency spike (310ms) for user_id=294,Token verification latency spike (310ms) for user_id=294,15
+2026-11-18 12:10:28.020,Order-Service,INFO,REQ-1007,Inventory lock acquired for order_id=9791,Inventory lock acquired for <*>,3
+2026-11-18 12:10:28.040,Database-Service,INFO,REQ-1007,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:28.060,K8s-Infra-Node,INFO,REQ-1007,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:10:30.980,API-Gateway,INFO,REQ-1008,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:31.000,Auth-Service,INFO,REQ-1008,OAuth2 session refreshed for user_id=605,OAuth2 session refreshed for <*>,7
+2026-11-18 12:10:31.020,Order-Service,WARNING,REQ-1008,Worker queue depth increasing (450 pending) for order_id=7272,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:10:31.040,Database-Service,INFO,REQ-1008,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:10:31.060,K8s-Infra-Node,WARNING,REQ-1008,Disk I/O wait time elevated on node-02,Disk I/O wait time elevated on node-02,16
+2026-11-18 12:10:33.980,API-Gateway,INFO,REQ-1009,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:34.000,Auth-Service,INFO,REQ-1009,JWT token verified for user_id=910,JWT token verified for <*>,2
+2026-11-18 12:10:34.020,Order-Service,INFO,REQ-1009,Inventory lock acquired for order_id=8189,Inventory lock acquired for <*>,3
+2026-11-18 12:10:34.040,Database-Service,INFO,REQ-1009,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:34.060,K8s-Infra-Node,INFO,REQ-1009,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:10:36.980,API-Gateway,WARNING,REQ-1010,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:10:37.000,Auth-Service,INFO,REQ-1010,OAuth2 session refreshed for user_id=365,OAuth2 session refreshed for <*>,7
+2026-11-18 12:10:37.020,Order-Service,INFO,REQ-1010,Order processed order_id=8633 for user_id=365,Order processed <*> for <*>,11
+2026-11-18 12:10:37.040,Database-Service,INFO,REQ-1010,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:37.060,K8s-Infra-Node,INFO,REQ-1010,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:10:39.980,API-Gateway,WARNING,REQ-1011,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:10:40.000,Auth-Service,INFO,REQ-1011,OAuth2 session refreshed for user_id=246,OAuth2 session refreshed for <*>,7
+2026-11-18 12:10:40.020,Order-Service,INFO,REQ-1011,Order processed order_id=8616 for user_id=246,Order processed <*> for <*>,11
+2026-11-18 12:10:40.040,Database-Service,INFO,REQ-1011,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:40.060,K8s-Infra-Node,WARNING,REQ-1011,High CPU utilization (88%) on worker-node-02,High CPU utilization (88%) on worker-node-02,13
+2026-11-18 12:10:42.980,API-Gateway,INFO,REQ-1012,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:43.000,Auth-Service,INFO,REQ-1012,JWT token verified for user_id=391,JWT token verified for <*>,2
+2026-11-18 12:10:43.020,Order-Service,INFO,REQ-1012,Inventory lock acquired for order_id=8131,Inventory lock acquired for <*>,3
+2026-11-18 12:10:43.040,Database-Service,INFO,REQ-1012,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:43.060,K8s-Infra-Node,INFO,REQ-1012,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:10:45.980,API-Gateway,WARNING,REQ-1013,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:10:46.000,Auth-Service,INFO,REQ-1013,OAuth2 session refreshed for user_id=242,OAuth2 session refreshed for <*>,7
+2026-11-18 12:10:46.020,Order-Service,INFO,REQ-1013,Order processed order_id=8603 for user_id=242,Order processed <*> for <*>,11
+2026-11-18 12:10:46.040,Database-Service,INFO,REQ-1013,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:46.060,K8s-Infra-Node,WARNING,REQ-1013,High CPU utilization (88%) on worker-node-04,High CPU utilization (88%) on <*>,13
+2026-11-18 12:10:48.980,API-Gateway,INFO,REQ-1014,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:49.000,Auth-Service,INFO,REQ-1014,OAuth2 session refreshed for user_id=297,OAuth2 session refreshed for <*>,7
+2026-11-18 12:10:49.020,Order-Service,INFO,REQ-1014,Order processed order_id=6077 for user_id=297,Order processed <*> for <*>,11
+2026-11-18 12:10:49.040,Database-Service,INFO,REQ-1014,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:10:49.060,K8s-Infra-Node,INFO,REQ-1014,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:10:51.980,API-Gateway,INFO,REQ-1015,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:52.000,Auth-Service,INFO,REQ-1015,OAuth2 session refreshed for user_id=781,OAuth2 session refreshed for <*>,7
+2026-11-18 12:10:52.020,Order-Service,INFO,REQ-1015,Inventory lock acquired for order_id=9374,Inventory lock acquired for <*>,3
+2026-11-18 12:10:52.040,Database-Service,WARNING,REQ-1015,Replication lag warning: 350ms,Replication lag warning: 350ms,12
+2026-11-18 12:10:52.060,K8s-Infra-Node,WARNING,REQ-1015,High CPU utilization (88%) on worker-node-03,High CPU utilization (88%) on <*>,13
+2026-11-18 12:10:54.980,API-Gateway,INFO,REQ-1016,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:55.000,Auth-Service,INFO,REQ-1016,OAuth2 session refreshed for user_id=359,OAuth2 session refreshed for <*>,7
+2026-11-18 12:10:55.020,Order-Service,INFO,REQ-1016,Order processed order_id=6545 for user_id=359,Order processed <*> for <*>,11
+2026-11-18 12:10:55.040,Database-Service,INFO,REQ-1016,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:55.060,K8s-Infra-Node,INFO,REQ-1016,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:10:57.980,API-Gateway,INFO,REQ-1017,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:10:58.000,Auth-Service,INFO,REQ-1017,JWT token verified for user_id=487,JWT token verified for <*>,2
+2026-11-18 12:10:58.020,Order-Service,WARNING,REQ-1017,Retry triggered for order_id=8697,Retry triggered for order_id=8697,17
+2026-11-18 12:10:58.040,Database-Service,INFO,REQ-1017,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:10:58.060,K8s-Infra-Node,INFO,REQ-1017,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:00.980,API-Gateway,INFO,REQ-1018,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:01.000,Auth-Service,INFO,REQ-1018,OAuth2 session refreshed for user_id=348,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:01.020,Order-Service,INFO,REQ-1018,Order processed order_id=7668 for user_id=348,Order processed <*> for <*>,11
+2026-11-18 12:11:01.040,Database-Service,INFO,REQ-1018,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:01.060,K8s-Infra-Node,INFO,REQ-1018,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:03.980,API-Gateway,WARNING,REQ-1019,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:11:04.000,Auth-Service,INFO,REQ-1019,JWT token verified for user_id=205,JWT token verified for <*>,2
+2026-11-18 12:11:04.020,Order-Service,INFO,REQ-1019,Order processed order_id=9195 for user_id=205,Order processed <*> for <*>,11
+2026-11-18 12:11:04.040,Database-Service,INFO,REQ-1019,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:04.060,K8s-Infra-Node,INFO,REQ-1019,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:06.980,API-Gateway,INFO,REQ-1020,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:07.000,Auth-Service,INFO,REQ-1020,OAuth2 session refreshed for user_id=999,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:07.020,Order-Service,INFO,REQ-1020,Order processed order_id=9678 for user_id=999,Order processed <*> for <*>,11
+2026-11-18 12:11:07.040,Database-Service,INFO,REQ-1020,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:11:07.060,K8s-Infra-Node,INFO,REQ-1020,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:09.980,API-Gateway,INFO,REQ-1021,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:10.000,Auth-Service,INFO,REQ-1021,OAuth2 session refreshed for user_id=946,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:10.020,Order-Service,INFO,REQ-1021,Order processed order_id=6921 for user_id=946,Order processed <*> for <*>,11
+2026-11-18 12:11:10.040,Database-Service,INFO,REQ-1021,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:11:10.060,K8s-Infra-Node,WARNING,REQ-1021,High CPU utilization (88%) on worker-node-01,High CPU utilization (88%) on <*>,13
+2026-11-18 12:11:12.980,API-Gateway,INFO,REQ-1022,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:13.000,Auth-Service,INFO,REQ-1022,OAuth2 session refreshed for user_id=815,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:13.020,Order-Service,INFO,REQ-1022,Inventory lock acquired for order_id=9837,Inventory lock acquired for <*>,3
+2026-11-18 12:11:13.040,Database-Service,INFO,REQ-1022,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:11:13.060,K8s-Infra-Node,INFO,REQ-1022,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:15.980,API-Gateway,INFO,REQ-1023,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:16.000,Auth-Service,INFO,REQ-1023,OAuth2 session refreshed for user_id=708,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:16.020,Order-Service,WARNING,REQ-1023,Worker queue depth increasing (450 pending) for order_id=5009,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:11:16.040,Database-Service,INFO,REQ-1023,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:11:16.060,K8s-Infra-Node,INFO,REQ-1023,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:18.980,API-Gateway,INFO,REQ-1024,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:19.000,Auth-Service,INFO,REQ-1024,JWT token verified for user_id=359,JWT token verified for <*>,2
+2026-11-18 12:11:19.020,Order-Service,INFO,REQ-1024,Order processed order_id=9520 for user_id=359,Order processed <*> for <*>,11
+2026-11-18 12:11:19.040,Database-Service,INFO,REQ-1024,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:11:19.060,K8s-Infra-Node,INFO,REQ-1024,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:21.980,API-Gateway,WARNING,REQ-1025,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:11:22.000,Auth-Service,WARNING,REQ-1025,Redis cache miss for user_id=957,Redis cache miss for user_id=957,18
+2026-11-18 12:11:22.020,Order-Service,INFO,REQ-1025,Order processed order_id=8899 for user_id=957,Order processed <*> for <*>,11
+2026-11-18 12:11:22.040,Database-Service,INFO,REQ-1025,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:22.060,K8s-Infra-Node,INFO,REQ-1025,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:11:24.980,API-Gateway,INFO,REQ-1026,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:25.000,Auth-Service,INFO,REQ-1026,OAuth2 session refreshed for user_id=487,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:25.020,Order-Service,INFO,REQ-1026,Order processed order_id=6673 for user_id=487,Order processed <*> for <*>,11
+2026-11-18 12:11:25.040,Database-Service,INFO,REQ-1026,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:25.060,K8s-Infra-Node,INFO,REQ-1026,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:11:27.980,API-Gateway,INFO,REQ-1027,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:28.000,Auth-Service,INFO,REQ-1027,OAuth2 session refreshed for user_id=295,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:28.020,Order-Service,INFO,REQ-1027,Inventory lock acquired for order_id=9739,Inventory lock acquired for <*>,3
+2026-11-18 12:11:28.040,Database-Service,INFO,REQ-1027,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:28.060,K8s-Infra-Node,INFO,REQ-1027,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:30.980,API-Gateway,INFO,REQ-1028,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:31.000,Auth-Service,INFO,REQ-1028,OAuth2 session refreshed for user_id=681,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:31.020,Order-Service,INFO,REQ-1028,Inventory lock acquired for order_id=5406,Inventory lock acquired for <*>,3
+2026-11-18 12:11:31.040,Database-Service,INFO,REQ-1028,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:31.060,K8s-Infra-Node,INFO,REQ-1028,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:33.980,API-Gateway,INFO,REQ-1029,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:34.000,Auth-Service,INFO,REQ-1029,OAuth2 session refreshed for user_id=708,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:34.020,Order-Service,INFO,REQ-1029,Order processed order_id=6366 for user_id=708,Order processed <*> for <*>,11
+2026-11-18 12:11:34.040,Database-Service,INFO,REQ-1029,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:34.060,K8s-Infra-Node,INFO,REQ-1029,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:36.980,API-Gateway,INFO,REQ-1030,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:37.000,Auth-Service,INFO,REQ-1030,JWT token verified for user_id=966,JWT token verified for <*>,2
+2026-11-18 12:11:37.020,Order-Service,INFO,REQ-1030,Order processed order_id=9068 for user_id=966,Order processed <*> for <*>,11
+2026-11-18 12:11:37.040,Database-Service,INFO,REQ-1030,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:37.060,K8s-Infra-Node,INFO,REQ-1030,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:11:39.980,API-Gateway,WARNING,REQ-1031,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:11:40.000,Auth-Service,INFO,REQ-1031,JWT token verified for user_id=759,JWT token verified for <*>,2
+2026-11-18 12:11:40.020,Order-Service,INFO,REQ-1031,Inventory lock acquired for order_id=8408,Inventory lock acquired for <*>,3
+2026-11-18 12:11:40.040,Database-Service,INFO,REQ-1031,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:11:40.060,K8s-Infra-Node,INFO,REQ-1031,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:42.980,API-Gateway,INFO,REQ-1032,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:43.000,Auth-Service,INFO,REQ-1032,JWT token verified for user_id=453,JWT token verified for <*>,2
+2026-11-18 12:11:43.020,Order-Service,WARNING,REQ-1032,Worker queue depth increasing (450 pending) for order_id=6686,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:11:43.040,Database-Service,INFO,REQ-1032,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:43.060,K8s-Infra-Node,INFO,REQ-1032,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:11:45.980,API-Gateway,INFO,REQ-1033,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:46.000,Auth-Service,INFO,REQ-1033,OAuth2 session refreshed for user_id=837,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:46.020,Order-Service,INFO,REQ-1033,Inventory lock acquired for order_id=5609,Inventory lock acquired for <*>,3
+2026-11-18 12:11:46.040,Database-Service,INFO,REQ-1033,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:46.060,K8s-Infra-Node,INFO,REQ-1033,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:48.980,API-Gateway,INFO,REQ-1034,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:49.000,Auth-Service,INFO,REQ-1034,JWT token verified for user_id=480,JWT token verified for <*>,2
+2026-11-18 12:11:49.020,Order-Service,INFO,REQ-1034,Order processed order_id=8509 for user_id=480,Order processed <*> for <*>,11
+2026-11-18 12:11:49.040,Database-Service,INFO,REQ-1034,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:49.060,K8s-Infra-Node,INFO,REQ-1034,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:51.980,API-Gateway,INFO,REQ-1035,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:52.000,Auth-Service,INFO,REQ-1035,OAuth2 session refreshed for user_id=923,OAuth2 session refreshed for <*>,7
+2026-11-18 12:11:52.020,Order-Service,INFO,REQ-1035,Order processed order_id=9440 for user_id=923,Order processed <*> for <*>,11
+2026-11-18 12:11:52.040,Database-Service,INFO,REQ-1035,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:11:52.060,K8s-Infra-Node,INFO,REQ-1035,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:11:54.980,API-Gateway,INFO,REQ-1036,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:55.000,Auth-Service,INFO,REQ-1036,JWT token verified for user_id=584,JWT token verified for <*>,2
+2026-11-18 12:11:55.020,Order-Service,WARNING,REQ-1036,Worker queue depth increasing (450 pending) for order_id=7206,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:11:55.040,Database-Service,INFO,REQ-1036,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:11:55.060,K8s-Infra-Node,INFO,REQ-1036,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:11:57.980,API-Gateway,INFO,REQ-1037,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:11:58.000,Auth-Service,INFO,REQ-1037,JWT token verified for user_id=113,JWT token verified for <*>,2
+2026-11-18 12:11:58.020,Order-Service,INFO,REQ-1037,Inventory lock acquired for order_id=5882,Inventory lock acquired for <*>,3
+2026-11-18 12:11:58.040,Database-Service,INFO,REQ-1037,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:11:58.060,K8s-Infra-Node,INFO,REQ-1037,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:12:00.980,API-Gateway,INFO,REQ-1038,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:01.000,Auth-Service,WARNING,REQ-1038,Token verification latency spike (310ms) for user_id=252,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:12:01.020,Order-Service,INFO,REQ-1038,Inventory lock acquired for order_id=7259,Inventory lock acquired for <*>,3
+2026-11-18 12:12:01.040,Database-Service,INFO,REQ-1038,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:01.060,K8s-Infra-Node,INFO,REQ-1038,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:12:03.980,API-Gateway,INFO,REQ-1039,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:04.000,Auth-Service,INFO,REQ-1039,JWT token verified for user_id=563,JWT token verified for <*>,2
+2026-11-18 12:12:04.020,Order-Service,INFO,REQ-1039,Order processed order_id=9937 for user_id=563,Order processed <*> for <*>,11
+2026-11-18 12:12:04.040,Database-Service,INFO,REQ-1039,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:04.060,K8s-Infra-Node,INFO,REQ-1039,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:12:06.980,API-Gateway,INFO,REQ-1040,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:07.000,Auth-Service,INFO,REQ-1040,OAuth2 session refreshed for user_id=348,OAuth2 session refreshed for <*>,7
+2026-11-18 12:12:07.020,Order-Service,INFO,REQ-1040,Order processed order_id=7903 for user_id=348,Order processed <*> for <*>,11
+2026-11-18 12:12:07.040,Database-Service,INFO,REQ-1040,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:12:07.060,K8s-Infra-Node,INFO,REQ-1040,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:12:09.980,API-Gateway,INFO,REQ-1041,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:10.000,Auth-Service,WARNING,REQ-1041,Redis cache miss for user_id=443,Redis cache miss for <*>,18
+2026-11-18 12:12:10.020,Order-Service,INFO,REQ-1041,Order processed order_id=7694 for user_id=443,Order processed <*> for <*>,11
+2026-11-18 12:12:10.040,Database-Service,INFO,REQ-1041,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:12:10.060,K8s-Infra-Node,INFO,REQ-1041,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:12:12.980,API-Gateway,INFO,REQ-1042,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:13.000,Auth-Service,INFO,REQ-1042,OAuth2 session refreshed for user_id=497,OAuth2 session refreshed for <*>,7
+2026-11-18 12:12:13.020,Order-Service,INFO,REQ-1042,Order processed order_id=5945 for user_id=497,Order processed <*> for <*>,11
+2026-11-18 12:12:13.040,Database-Service,INFO,REQ-1042,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:12:13.060,K8s-Infra-Node,INFO,REQ-1042,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:12:15.980,API-Gateway,INFO,REQ-1043,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:16.000,Auth-Service,INFO,REQ-1043,JWT token verified for user_id=152,JWT token verified for <*>,2
+2026-11-18 12:12:16.020,Order-Service,INFO,REQ-1043,Order processed order_id=5692 for user_id=152,Order processed <*> for <*>,11
+2026-11-18 12:12:16.040,Database-Service,INFO,REQ-1043,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:16.060,K8s-Infra-Node,INFO,REQ-1043,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:12:18.980,API-Gateway,INFO,REQ-1044,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:19.000,Auth-Service,INFO,REQ-1044,OAuth2 session refreshed for user_id=286,OAuth2 session refreshed for <*>,7
+2026-11-18 12:12:19.020,Order-Service,WARNING,REQ-1044,Worker queue depth increasing (450 pending) for order_id=8719,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:12:19.040,Database-Service,INFO,REQ-1044,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:12:19.060,K8s-Infra-Node,INFO,REQ-1044,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:12:21.980,API-Gateway,INFO,REQ-1045,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:22.000,Auth-Service,INFO,REQ-1045,OAuth2 session refreshed for user_id=959,OAuth2 session refreshed for <*>,7
+2026-11-18 12:12:22.020,Order-Service,INFO,REQ-1045,Order processed order_id=8122 for user_id=959,Order processed <*> for <*>,11
+2026-11-18 12:12:22.040,Database-Service,WARNING,REQ-1045,Replication lag warning: 350ms,Replication lag warning: 350ms,12
+2026-11-18 12:12:22.060,K8s-Infra-Node,INFO,REQ-1045,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:12:24.980,API-Gateway,INFO,REQ-1046,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:25.000,Auth-Service,INFO,REQ-1046,JWT token verified for user_id=734,JWT token verified for <*>,2
+2026-11-18 12:12:25.020,Order-Service,INFO,REQ-1046,Inventory lock acquired for order_id=9644,Inventory lock acquired for <*>,3
+2026-11-18 12:12:25.040,Database-Service,INFO,REQ-1046,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:25.060,K8s-Infra-Node,INFO,REQ-1046,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:12:27.980,API-Gateway,INFO,REQ-1047,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:28.000,Auth-Service,INFO,REQ-1047,OAuth2 session refreshed for user_id=814,OAuth2 session refreshed for <*>,7
+2026-11-18 12:12:28.020,Order-Service,INFO,REQ-1047,Order processed order_id=5337 for user_id=814,Order processed <*> for <*>,11
+2026-11-18 12:12:28.040,Database-Service,INFO,REQ-1047,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:28.060,K8s-Infra-Node,INFO,REQ-1047,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:12:30.980,API-Gateway,INFO,REQ-1048,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:31.000,Auth-Service,INFO,REQ-1048,JWT token verified for user_id=952,JWT token verified for <*>,2
+2026-11-18 12:12:31.020,Order-Service,INFO,REQ-1048,Order processed order_id=8415 for user_id=952,Order processed <*> for <*>,11
+2026-11-18 12:12:31.040,Database-Service,INFO,REQ-1048,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:31.060,K8s-Infra-Node,INFO,REQ-1048,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:12:33.980,API-Gateway,INFO,REQ-1049,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:34.000,Auth-Service,INFO,REQ-1049,OAuth2 session refreshed for user_id=230,OAuth2 session refreshed for <*>,7
+2026-11-18 12:12:34.020,Order-Service,INFO,REQ-1049,Inventory lock acquired for order_id=9345,Inventory lock acquired for <*>,3
+2026-11-18 12:12:34.040,Database-Service,INFO,REQ-1049,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:12:34.060,K8s-Infra-Node,WARNING,REQ-1049,High CPU utilization (88%) on worker-node-04,High CPU utilization (88%) on <*>,13
+2026-11-18 12:12:36.980,API-Gateway,INFO,REQ-1050,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:37.000,Auth-Service,INFO,REQ-1050,OAuth2 session refreshed for user_id=498,OAuth2 session refreshed for <*>,7
+2026-11-18 12:12:37.020,Order-Service,INFO,REQ-1050,Order processed order_id=7300 for user_id=498,Order processed <*> for <*>,11
+2026-11-18 12:12:37.040,Database-Service,INFO,REQ-1050,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:12:37.060,K8s-Infra-Node,INFO,REQ-1050,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:12:39.980,API-Gateway,INFO,REQ-1051,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:40.000,Auth-Service,INFO,REQ-1051,JWT token verified for user_id=802,JWT token verified for <*>,2
+2026-11-18 12:12:40.020,Order-Service,INFO,REQ-1051,Inventory lock acquired for order_id=8872,Inventory lock acquired for <*>,3
+2026-11-18 12:12:40.040,Database-Service,INFO,REQ-1051,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:12:40.060,K8s-Infra-Node,INFO,REQ-1051,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:12:42.980,API-Gateway,INFO,REQ-1052,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:43.000,Auth-Service,INFO,REQ-1052,JWT token verified for user_id=604,JWT token verified for <*>,2
+2026-11-18 12:12:43.020,Order-Service,INFO,REQ-1052,Order processed order_id=8823 for user_id=604,Order processed <*> for <*>,11
+2026-11-18 12:12:43.040,Database-Service,INFO,REQ-1052,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:43.060,K8s-Infra-Node,INFO,REQ-1052,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:12:45.980,API-Gateway,INFO,REQ-1053,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:46.000,Auth-Service,INFO,REQ-1053,OAuth2 session refreshed for user_id=286,OAuth2 session refreshed for <*>,7
+2026-11-18 12:12:46.020,Order-Service,WARNING,REQ-1053,Worker queue depth increasing (450 pending) for order_id=5614,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:12:46.040,Database-Service,INFO,REQ-1053,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:46.060,K8s-Infra-Node,INFO,REQ-1053,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:12:48.980,API-Gateway,INFO,REQ-1054,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:49.000,Auth-Service,INFO,REQ-1054,JWT token verified for user_id=943,JWT token verified for <*>,2
+2026-11-18 12:12:49.020,Order-Service,INFO,REQ-1054,Order processed order_id=7230 for user_id=943,Order processed <*> for <*>,11
+2026-11-18 12:12:49.040,Database-Service,INFO,REQ-1054,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:49.060,K8s-Infra-Node,INFO,REQ-1054,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:12:51.980,API-Gateway,INFO,REQ-1055,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:52.000,Auth-Service,INFO,REQ-1055,OAuth2 session refreshed for user_id=257,OAuth2 session refreshed for <*>,7
+2026-11-18 12:12:52.020,Order-Service,INFO,REQ-1055,Order processed order_id=7302 for user_id=257,Order processed <*> for <*>,11
+2026-11-18 12:12:52.040,Database-Service,INFO,REQ-1055,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:52.060,K8s-Infra-Node,INFO,REQ-1055,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:12:54.980,API-Gateway,INFO,REQ-1056,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:12:55.000,Auth-Service,WARNING,REQ-1056,Redis cache miss for user_id=699,Redis cache miss for <*>,18
+2026-11-18 12:12:55.020,Order-Service,INFO,REQ-1056,Order processed order_id=7721 for user_id=699,Order processed <*> for <*>,11
+2026-11-18 12:12:55.040,Database-Service,INFO,REQ-1056,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:12:55.060,K8s-Infra-Node,INFO,REQ-1056,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:12:57.980,API-Gateway,WARNING,REQ-1057,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:12:58.000,Auth-Service,INFO,REQ-1057,JWT token verified for user_id=113,JWT token verified for <*>,2
+2026-11-18 12:12:58.020,Order-Service,INFO,REQ-1057,Order processed order_id=7145 for user_id=113,Order processed <*> for <*>,11
+2026-11-18 12:12:58.040,Database-Service,INFO,REQ-1057,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:12:58.060,K8s-Infra-Node,INFO,REQ-1057,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:13:00.980,API-Gateway,INFO,REQ-1058,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:13:01.000,Auth-Service,INFO,REQ-1058,JWT token verified for user_id=910,JWT token verified for <*>,2
+2026-11-18 12:13:01.020,Order-Service,INFO,REQ-1058,Inventory lock acquired for order_id=5169,Inventory lock acquired for <*>,3
+2026-11-18 12:13:01.040,Database-Service,INFO,REQ-1058,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:13:01.060,K8s-Infra-Node,INFO,REQ-1058,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:13:03.980,API-Gateway,INFO,REQ-1059,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:13:04.000,Auth-Service,INFO,REQ-1059,JWT token verified for user_id=977,JWT token verified for <*>,2
+2026-11-18 12:13:04.020,Order-Service,INFO,REQ-1059,Order processed order_id=5996 for user_id=977,Order processed <*> for <*>,11
+2026-11-18 12:13:04.040,Database-Service,WARNING,REQ-1059,Slow query detected (1420ms) on table orders_ledger,Slow query detected (1420ms) on table orders_ledger,19
+2026-11-18 12:13:04.060,K8s-Infra-Node,INFO,REQ-1059,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:13:06.980,Database-Service,ERROR,REQ-1060,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:07.025,Order-Service,ERROR,REQ-1060,Transaction aborted: Database write timeout for order_id=8986,Transaction aborted: Database write timeout for order_id=8986,21
+2026-11-18 12:13:07.090,API-Gateway,ERROR,REQ-1060,HTTP 504 Gateway Timeout returned for request REQ-1060,HTTP 504 Gateway Timeout returned for request REQ-1060,22
+2026-11-18 12:13:09.980,Database-Service,ERROR,REQ-1061,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:10.025,Order-Service,ERROR,REQ-1061,Transaction aborted: Database write timeout for order_id=9654,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:10.090,API-Gateway,ERROR,REQ-1061,HTTP 504 Gateway Timeout returned for request REQ-1061,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:12.980,Database-Service,ERROR,REQ-1062,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:13.025,Order-Service,ERROR,REQ-1062,Transaction aborted: Database write timeout for order_id=6114,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:13.090,API-Gateway,ERROR,REQ-1062,HTTP 504 Gateway Timeout returned for request REQ-1062,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:15.980,Database-Service,ERROR,REQ-1063,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:16.025,Order-Service,ERROR,REQ-1063,Transaction aborted: Database write timeout for order_id=8182,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:16.090,API-Gateway,ERROR,REQ-1063,HTTP 504 Gateway Timeout returned for request REQ-1063,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:18.980,Database-Service,ERROR,REQ-1064,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:19.025,Order-Service,ERROR,REQ-1064,Transaction aborted: Database write timeout for order_id=5064,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:19.090,API-Gateway,ERROR,REQ-1064,HTTP 504 Gateway Timeout returned for request REQ-1064,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:21.980,Database-Service,ERROR,REQ-1065,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:22.025,Order-Service,ERROR,REQ-1065,Transaction aborted: Database write timeout for order_id=7300,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:22.090,API-Gateway,ERROR,REQ-1065,HTTP 504 Gateway Timeout returned for request REQ-1065,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:24.980,Database-Service,ERROR,REQ-1066,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:25.025,Order-Service,ERROR,REQ-1066,Transaction aborted: Database write timeout for order_id=7097,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:25.090,API-Gateway,ERROR,REQ-1066,HTTP 504 Gateway Timeout returned for request REQ-1066,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:27.980,Database-Service,ERROR,REQ-1067,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:28.025,Order-Service,ERROR,REQ-1067,Transaction aborted: Database write timeout for order_id=7696,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:28.090,API-Gateway,ERROR,REQ-1067,HTTP 504 Gateway Timeout returned for request REQ-1067,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:30.980,Database-Service,ERROR,REQ-1068,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:31.025,Order-Service,ERROR,REQ-1068,Transaction aborted: Database write timeout for order_id=5038,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:31.090,API-Gateway,ERROR,REQ-1068,HTTP 504 Gateway Timeout returned for request REQ-1068,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:33.980,Database-Service,ERROR,REQ-1069,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:34.025,Order-Service,ERROR,REQ-1069,Transaction aborted: Database write timeout for order_id=6548,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:34.090,API-Gateway,ERROR,REQ-1069,HTTP 504 Gateway Timeout returned for request REQ-1069,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:36.980,Database-Service,ERROR,REQ-1070,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:37.025,Order-Service,ERROR,REQ-1070,Transaction aborted: Database write timeout for order_id=6853,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:37.090,API-Gateway,ERROR,REQ-1070,HTTP 504 Gateway Timeout returned for request REQ-1070,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:39.980,Database-Service,ERROR,REQ-1071,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:40.025,Order-Service,ERROR,REQ-1071,Transaction aborted: Database write timeout for order_id=6168,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:40.090,API-Gateway,ERROR,REQ-1071,HTTP 504 Gateway Timeout returned for request REQ-1071,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:42.980,Database-Service,ERROR,REQ-1072,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:13:43.025,Order-Service,ERROR,REQ-1072,Transaction aborted: Database write timeout for order_id=9593,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:13:43.090,API-Gateway,ERROR,REQ-1072,HTTP 504 Gateway Timeout returned for request REQ-1072,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:13:45.980,API-Gateway,INFO,REQ-1073,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:13:46.000,Auth-Service,INFO,REQ-1073,JWT token verified for user_id=478,JWT token verified for <*>,2
+2026-11-18 12:13:46.020,Order-Service,INFO,REQ-1073,Order processed order_id=6526 for user_id=478,Order processed <*> for <*>,11
+2026-11-18 12:13:46.040,Database-Service,INFO,REQ-1073,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:13:46.060,K8s-Infra-Node,INFO,REQ-1073,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:13:48.980,API-Gateway,INFO,REQ-1074,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:13:49.000,Auth-Service,INFO,REQ-1074,OAuth2 session refreshed for user_id=568,OAuth2 session refreshed for <*>,7
+2026-11-18 12:13:49.020,Order-Service,INFO,REQ-1074,Inventory lock acquired for order_id=7243,Inventory lock acquired for <*>,3
+2026-11-18 12:13:49.040,Database-Service,INFO,REQ-1074,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:13:49.060,K8s-Infra-Node,INFO,REQ-1074,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:13:51.980,API-Gateway,INFO,REQ-1075,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:13:52.000,Auth-Service,INFO,REQ-1075,OAuth2 session refreshed for user_id=543,OAuth2 session refreshed for <*>,7
+2026-11-18 12:13:52.020,Order-Service,INFO,REQ-1075,Order processed order_id=8021 for user_id=543,Order processed <*> for <*>,11
+2026-11-18 12:13:52.040,Database-Service,INFO,REQ-1075,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:13:52.060,K8s-Infra-Node,WARNING,REQ-1075,High CPU utilization (88%) on worker-node-01,High CPU utilization (88%) on <*>,13
+2026-11-18 12:13:54.980,API-Gateway,INFO,REQ-1076,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:13:55.000,Auth-Service,WARNING,REQ-1076,Redis cache miss for user_id=143,Redis cache miss for <*>,18
+2026-11-18 12:13:55.020,Order-Service,INFO,REQ-1076,Order processed order_id=8219 for user_id=143,Order processed <*> for <*>,11
+2026-11-18 12:13:55.040,Database-Service,INFO,REQ-1076,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:13:55.060,K8s-Infra-Node,INFO,REQ-1076,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:13:57.980,API-Gateway,INFO,REQ-1077,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:13:58.000,Auth-Service,WARNING,REQ-1077,Redis cache miss for user_id=723,Redis cache miss for <*>,18
+2026-11-18 12:13:58.020,Order-Service,INFO,REQ-1077,Order processed order_id=9068 for user_id=723,Order processed <*> for <*>,11
+2026-11-18 12:13:58.040,Database-Service,INFO,REQ-1077,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:13:58.060,K8s-Infra-Node,INFO,REQ-1077,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:00.980,API-Gateway,INFO,REQ-1078,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:01.000,Auth-Service,INFO,REQ-1078,OAuth2 session refreshed for user_id=593,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:01.020,Order-Service,INFO,REQ-1078,Inventory lock acquired for order_id=7899,Inventory lock acquired for <*>,3
+2026-11-18 12:14:01.040,Database-Service,INFO,REQ-1078,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:14:01.060,K8s-Infra-Node,INFO,REQ-1078,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:14:03.980,API-Gateway,INFO,REQ-1079,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:04.000,Auth-Service,INFO,REQ-1079,OAuth2 session refreshed for user_id=640,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:04.020,Order-Service,WARNING,REQ-1079,Retry triggered for order_id=7379,Retry triggered for <*>,17
+2026-11-18 12:14:04.040,Database-Service,INFO,REQ-1079,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:14:04.060,K8s-Infra-Node,INFO,REQ-1079,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:06.980,API-Gateway,INFO,REQ-1080,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:07.000,Auth-Service,WARNING,REQ-1080,Redis cache miss for user_id=643,Redis cache miss for <*>,18
+2026-11-18 12:14:07.020,Order-Service,INFO,REQ-1080,Order processed order_id=9200 for user_id=643,Order processed <*> for <*>,11
+2026-11-18 12:14:07.040,Database-Service,INFO,REQ-1080,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:14:07.060,K8s-Infra-Node,INFO,REQ-1080,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:09.980,API-Gateway,INFO,REQ-1081,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:10.000,Auth-Service,WARNING,REQ-1081,Redis cache miss for user_id=844,Redis cache miss for <*>,18
+2026-11-18 12:14:10.020,Order-Service,INFO,REQ-1081,Order processed order_id=7317 for user_id=844,Order processed <*> for <*>,11
+2026-11-18 12:14:10.040,Database-Service,INFO,REQ-1081,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:14:10.060,K8s-Infra-Node,INFO,REQ-1081,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:12.980,API-Gateway,INFO,REQ-1082,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:13.000,Auth-Service,INFO,REQ-1082,OAuth2 session refreshed for user_id=268,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:13.020,Order-Service,INFO,REQ-1082,Inventory lock acquired for order_id=9154,Inventory lock acquired for <*>,3
+2026-11-18 12:14:13.040,Database-Service,WARNING,REQ-1082,Slow query detected (1420ms) on table orders_ledger,Slow query detected (1420ms) on table orders_ledger,19
+2026-11-18 12:14:13.060,K8s-Infra-Node,INFO,REQ-1082,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:15.980,API-Gateway,INFO,REQ-1083,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:16.000,Auth-Service,INFO,REQ-1083,OAuth2 session refreshed for user_id=612,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:16.020,Order-Service,WARNING,REQ-1083,Worker queue depth increasing (450 pending) for order_id=6431,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:14:16.040,Database-Service,WARNING,REQ-1083,Replication lag warning: 350ms,Replication lag warning: 350ms,12
+2026-11-18 12:14:16.060,K8s-Infra-Node,INFO,REQ-1083,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:18.980,API-Gateway,INFO,REQ-1084,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:19.000,Auth-Service,INFO,REQ-1084,OAuth2 session refreshed for user_id=238,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:19.020,Order-Service,INFO,REQ-1084,Order processed order_id=5800 for user_id=238,Order processed <*> for <*>,11
+2026-11-18 12:14:19.040,Database-Service,INFO,REQ-1084,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:14:19.060,K8s-Infra-Node,INFO,REQ-1084,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:14:21.980,API-Gateway,INFO,REQ-1085,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:22.000,Auth-Service,INFO,REQ-1085,JWT token verified for user_id=489,JWT token verified for <*>,2
+2026-11-18 12:14:22.020,Order-Service,INFO,REQ-1085,Inventory lock acquired for order_id=6024,Inventory lock acquired for <*>,3
+2026-11-18 12:14:22.040,Database-Service,INFO,REQ-1085,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:14:22.060,K8s-Infra-Node,INFO,REQ-1085,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:14:24.980,API-Gateway,INFO,REQ-1086,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:25.000,Auth-Service,INFO,REQ-1086,OAuth2 session refreshed for user_id=128,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:25.020,Order-Service,INFO,REQ-1086,Order processed order_id=8039 for user_id=128,Order processed <*> for <*>,11
+2026-11-18 12:14:25.040,Database-Service,INFO,REQ-1086,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:14:25.060,K8s-Infra-Node,INFO,REQ-1086,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:14:27.980,API-Gateway,INFO,REQ-1087,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:28.000,Auth-Service,INFO,REQ-1087,JWT token verified for user_id=440,JWT token verified for <*>,2
+2026-11-18 12:14:28.020,Order-Service,INFO,REQ-1087,Order processed order_id=9696 for user_id=440,Order processed <*> for <*>,11
+2026-11-18 12:14:28.040,Database-Service,INFO,REQ-1087,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:14:28.060,K8s-Infra-Node,INFO,REQ-1087,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:30.980,API-Gateway,INFO,REQ-1088,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:31.000,Auth-Service,INFO,REQ-1088,OAuth2 session refreshed for user_id=438,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:31.020,Order-Service,INFO,REQ-1088,Order processed order_id=8467 for user_id=438,Order processed <*> for <*>,11
+2026-11-18 12:14:31.040,Database-Service,INFO,REQ-1088,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:14:31.060,K8s-Infra-Node,INFO,REQ-1088,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:33.980,API-Gateway,INFO,REQ-1089,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:34.000,Auth-Service,INFO,REQ-1089,JWT token verified for user_id=594,JWT token verified for <*>,2
+2026-11-18 12:14:34.020,Order-Service,INFO,REQ-1089,Order processed order_id=6582 for user_id=594,Order processed <*> for <*>,11
+2026-11-18 12:14:34.040,Database-Service,INFO,REQ-1089,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:14:34.060,K8s-Infra-Node,INFO,REQ-1089,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:36.980,API-Gateway,INFO,REQ-1090,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:37.000,Auth-Service,INFO,REQ-1090,OAuth2 session refreshed for user_id=788,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:37.020,Order-Service,WARNING,REQ-1090,Worker queue depth increasing (450 pending) for order_id=8448,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:14:37.040,Database-Service,INFO,REQ-1090,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:14:37.060,K8s-Infra-Node,INFO,REQ-1090,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:39.980,API-Gateway,INFO,REQ-1091,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:40.000,Auth-Service,INFO,REQ-1091,OAuth2 session refreshed for user_id=627,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:40.020,Order-Service,INFO,REQ-1091,Inventory lock acquired for order_id=6015,Inventory lock acquired for <*>,3
+2026-11-18 12:14:40.040,Database-Service,INFO,REQ-1091,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:14:40.060,K8s-Infra-Node,INFO,REQ-1091,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:14:42.980,API-Gateway,INFO,REQ-1092,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:43.000,Auth-Service,INFO,REQ-1092,OAuth2 session refreshed for user_id=377,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:43.020,Order-Service,INFO,REQ-1092,Order processed order_id=8062 for user_id=377,Order processed <*> for <*>,11
+2026-11-18 12:14:43.040,Database-Service,INFO,REQ-1092,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:14:43.060,K8s-Infra-Node,INFO,REQ-1092,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:45.980,API-Gateway,WARNING,REQ-1093,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:14:46.000,Auth-Service,INFO,REQ-1093,OAuth2 session refreshed for user_id=496,OAuth2 session refreshed for <*>,7
+2026-11-18 12:14:46.020,Order-Service,INFO,REQ-1093,Inventory lock acquired for order_id=6801,Inventory lock acquired for <*>,3
+2026-11-18 12:14:46.040,Database-Service,WARNING,REQ-1093,Slow query detected (1420ms) on table orders_ledger,Slow query detected (1420ms) on table orders_ledger,19
+2026-11-18 12:14:46.060,K8s-Infra-Node,WARNING,REQ-1093,Disk I/O wait time elevated on node-01,Disk I/O wait time elevated on <*>,16
+2026-11-18 12:14:48.980,API-Gateway,INFO,REQ-1094,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:49.000,Auth-Service,WARNING,REQ-1094,Token verification latency spike (310ms) for user_id=294,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:14:49.020,Order-Service,WARNING,REQ-1094,Retry triggered for order_id=6075,Retry triggered for <*>,17
+2026-11-18 12:14:49.040,Database-Service,INFO,REQ-1094,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:14:49.060,K8s-Infra-Node,INFO,REQ-1094,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:14:51.980,API-Gateway,INFO,REQ-1095,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:52.000,Auth-Service,INFO,REQ-1095,JWT token verified for user_id=416,JWT token verified for <*>,2
+2026-11-18 12:14:52.020,Order-Service,INFO,REQ-1095,Order processed order_id=9734 for user_id=416,Order processed <*> for <*>,11
+2026-11-18 12:14:52.040,Database-Service,INFO,REQ-1095,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:14:52.060,K8s-Infra-Node,INFO,REQ-1095,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:14:54.980,API-Gateway,INFO,REQ-1096,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:55.000,Auth-Service,INFO,REQ-1096,JWT token verified for user_id=860,JWT token verified for <*>,2
+2026-11-18 12:14:55.020,Order-Service,WARNING,REQ-1096,Retry triggered for order_id=9638,Retry triggered for <*>,17
+2026-11-18 12:14:55.040,Database-Service,INFO,REQ-1096,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:14:55.060,K8s-Infra-Node,INFO,REQ-1096,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:14:57.980,API-Gateway,INFO,REQ-1097,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:14:58.000,Auth-Service,WARNING,REQ-1097,Redis cache miss for user_id=776,Redis cache miss for <*>,18
+2026-11-18 12:14:58.020,Order-Service,INFO,REQ-1097,Inventory lock acquired for order_id=5975,Inventory lock acquired for <*>,3
+2026-11-18 12:14:58.040,Database-Service,INFO,REQ-1097,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:14:58.060,K8s-Infra-Node,INFO,REQ-1097,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:15:00.980,API-Gateway,INFO,REQ-1098,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:01.000,Auth-Service,INFO,REQ-1098,JWT token verified for user_id=876,JWT token verified for <*>,2
+2026-11-18 12:15:01.020,Order-Service,INFO,REQ-1098,Inventory lock acquired for order_id=5840,Inventory lock acquired for <*>,3
+2026-11-18 12:15:01.040,Database-Service,INFO,REQ-1098,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:15:01.060,K8s-Infra-Node,WARNING,REQ-1098,High CPU utilization (88%) on worker-node-02,High CPU utilization (88%) on <*>,13
+2026-11-18 12:15:03.980,API-Gateway,INFO,REQ-1099,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:04.000,Auth-Service,INFO,REQ-1099,OAuth2 session refreshed for user_id=584,OAuth2 session refreshed for <*>,7
+2026-11-18 12:15:04.020,Order-Service,INFO,REQ-1099,Inventory lock acquired for order_id=6495,Inventory lock acquired for <*>,3
+2026-11-18 12:15:04.040,Database-Service,INFO,REQ-1099,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:15:04.060,K8s-Infra-Node,INFO,REQ-1099,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:15:06.980,API-Gateway,INFO,REQ-1100,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:07.000,Auth-Service,INFO,REQ-1100,OAuth2 session refreshed for user_id=472,OAuth2 session refreshed for <*>,7
+2026-11-18 12:15:07.020,Order-Service,INFO,REQ-1100,Order processed order_id=8385 for user_id=472,Order processed <*> for <*>,11
+2026-11-18 12:15:07.040,Database-Service,INFO,REQ-1100,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:15:07.060,K8s-Infra-Node,INFO,REQ-1100,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:15:09.980,API-Gateway,INFO,REQ-1101,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:10.000,Auth-Service,INFO,REQ-1101,JWT token verified for user_id=143,JWT token verified for <*>,2
+2026-11-18 12:15:10.020,Order-Service,INFO,REQ-1101,Inventory lock acquired for order_id=5617,Inventory lock acquired for <*>,3
+2026-11-18 12:15:10.040,Database-Service,INFO,REQ-1101,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:15:10.060,K8s-Infra-Node,INFO,REQ-1101,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:15:12.980,API-Gateway,INFO,REQ-1102,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:13.000,Auth-Service,INFO,REQ-1102,OAuth2 session refreshed for user_id=301,OAuth2 session refreshed for <*>,7
+2026-11-18 12:15:13.020,Order-Service,INFO,REQ-1102,Order processed order_id=7894 for user_id=301,Order processed <*> for <*>,11
+2026-11-18 12:15:13.040,Database-Service,INFO,REQ-1102,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:15:13.060,K8s-Infra-Node,INFO,REQ-1102,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:15:15.980,API-Gateway,INFO,REQ-1103,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:16.000,Auth-Service,INFO,REQ-1103,JWT token verified for user_id=364,JWT token verified for <*>,2
+2026-11-18 12:15:16.020,Order-Service,INFO,REQ-1103,Order processed order_id=7348 for user_id=364,Order processed <*> for <*>,11
+2026-11-18 12:15:16.040,Database-Service,INFO,REQ-1103,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:16.060,K8s-Infra-Node,INFO,REQ-1103,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:15:18.980,API-Gateway,INFO,REQ-1104,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:19.000,Auth-Service,INFO,REQ-1104,JWT token verified for user_id=810,JWT token verified for <*>,2
+2026-11-18 12:15:19.020,Order-Service,INFO,REQ-1104,Order processed order_id=5050 for user_id=810,Order processed <*> for <*>,11
+2026-11-18 12:15:19.040,Database-Service,INFO,REQ-1104,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:19.060,K8s-Infra-Node,INFO,REQ-1104,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:15:21.980,API-Gateway,INFO,REQ-1105,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:22.000,Auth-Service,INFO,REQ-1105,OAuth2 session refreshed for user_id=367,OAuth2 session refreshed for <*>,7
+2026-11-18 12:15:22.020,Order-Service,INFO,REQ-1105,Order processed order_id=7443 for user_id=367,Order processed <*> for <*>,11
+2026-11-18 12:15:22.040,Database-Service,INFO,REQ-1105,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:22.060,K8s-Infra-Node,INFO,REQ-1105,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:15:24.980,API-Gateway,INFO,REQ-1106,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:25.000,Auth-Service,WARNING,REQ-1106,Token verification latency spike (310ms) for user_id=849,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:15:25.020,Order-Service,INFO,REQ-1106,Order processed order_id=5706 for user_id=849,Order processed <*> for <*>,11
+2026-11-18 12:15:25.040,Database-Service,INFO,REQ-1106,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:15:25.060,K8s-Infra-Node,INFO,REQ-1106,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:15:27.980,API-Gateway,WARNING,REQ-1107,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:15:28.000,Auth-Service,INFO,REQ-1107,JWT token verified for user_id=372,JWT token verified for <*>,2
+2026-11-18 12:15:28.020,Order-Service,INFO,REQ-1107,Inventory lock acquired for order_id=6833,Inventory lock acquired for <*>,3
+2026-11-18 12:15:28.040,Database-Service,INFO,REQ-1107,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:28.060,K8s-Infra-Node,INFO,REQ-1107,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:15:30.980,API-Gateway,INFO,REQ-1108,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:31.000,Auth-Service,INFO,REQ-1108,JWT token verified for user_id=349,JWT token verified for <*>,2
+2026-11-18 12:15:31.020,Order-Service,INFO,REQ-1108,Order processed order_id=7987 for user_id=349,Order processed <*> for <*>,11
+2026-11-18 12:15:31.040,Database-Service,INFO,REQ-1108,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:31.060,K8s-Infra-Node,INFO,REQ-1108,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:15:33.980,API-Gateway,INFO,REQ-1109,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:34.000,Auth-Service,INFO,REQ-1109,JWT token verified for user_id=653,JWT token verified for <*>,2
+2026-11-18 12:15:34.020,Order-Service,INFO,REQ-1109,Inventory lock acquired for order_id=7886,Inventory lock acquired for <*>,3
+2026-11-18 12:15:34.040,Database-Service,INFO,REQ-1109,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:15:34.060,K8s-Infra-Node,INFO,REQ-1109,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:15:36.980,API-Gateway,INFO,REQ-1110,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:37.000,Auth-Service,INFO,REQ-1110,OAuth2 session refreshed for user_id=194,OAuth2 session refreshed for <*>,7
+2026-11-18 12:15:37.020,Order-Service,INFO,REQ-1110,Order processed order_id=8960 for user_id=194,Order processed <*> for <*>,11
+2026-11-18 12:15:37.040,Database-Service,INFO,REQ-1110,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:15:37.060,K8s-Infra-Node,INFO,REQ-1110,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:15:39.980,API-Gateway,INFO,REQ-1111,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:40.000,Auth-Service,INFO,REQ-1111,OAuth2 session refreshed for user_id=574,OAuth2 session refreshed for <*>,7
+2026-11-18 12:15:40.020,Order-Service,INFO,REQ-1111,Inventory lock acquired for order_id=6157,Inventory lock acquired for <*>,3
+2026-11-18 12:15:40.040,Database-Service,INFO,REQ-1111,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:40.060,K8s-Infra-Node,WARNING,REQ-1111,High CPU utilization (88%) on worker-node-02,High CPU utilization (88%) on <*>,13
+2026-11-18 12:15:42.980,API-Gateway,INFO,REQ-1112,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:43.000,Auth-Service,INFO,REQ-1112,OAuth2 session refreshed for user_id=498,OAuth2 session refreshed for <*>,7
+2026-11-18 12:15:43.020,Order-Service,INFO,REQ-1112,Inventory lock acquired for order_id=7576,Inventory lock acquired for <*>,3
+2026-11-18 12:15:43.040,Database-Service,INFO,REQ-1112,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:15:43.060,K8s-Infra-Node,INFO,REQ-1112,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:15:45.980,API-Gateway,INFO,REQ-1113,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:46.000,Auth-Service,INFO,REQ-1113,OAuth2 session refreshed for user_id=392,OAuth2 session refreshed for <*>,7
+2026-11-18 12:15:46.020,Order-Service,INFO,REQ-1113,Inventory lock acquired for order_id=6362,Inventory lock acquired for <*>,3
+2026-11-18 12:15:46.040,Database-Service,INFO,REQ-1113,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:46.060,K8s-Infra-Node,INFO,REQ-1113,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:15:48.980,API-Gateway,INFO,REQ-1114,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:49.000,Auth-Service,INFO,REQ-1114,JWT token verified for user_id=109,JWT token verified for <*>,2
+2026-11-18 12:15:49.020,Order-Service,INFO,REQ-1114,Order processed order_id=6657 for user_id=109,Order processed <*> for <*>,11
+2026-11-18 12:15:49.040,Database-Service,INFO,REQ-1114,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:49.060,K8s-Infra-Node,INFO,REQ-1114,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:15:51.980,API-Gateway,INFO,REQ-1115,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:52.000,Auth-Service,INFO,REQ-1115,JWT token verified for user_id=310,JWT token verified for <*>,2
+2026-11-18 12:15:52.020,Order-Service,INFO,REQ-1115,Order processed order_id=9375 for user_id=310,Order processed <*> for <*>,11
+2026-11-18 12:15:52.040,Database-Service,INFO,REQ-1115,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:52.060,K8s-Infra-Node,INFO,REQ-1115,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:15:54.980,API-Gateway,INFO,REQ-1116,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:55.000,Auth-Service,INFO,REQ-1116,JWT token verified for user_id=489,JWT token verified for <*>,2
+2026-11-18 12:15:55.020,Order-Service,INFO,REQ-1116,Order processed order_id=5663 for user_id=489,Order processed <*> for <*>,11
+2026-11-18 12:15:55.040,Database-Service,INFO,REQ-1116,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:55.060,K8s-Infra-Node,INFO,REQ-1116,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:15:57.980,API-Gateway,INFO,REQ-1117,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:15:58.000,Auth-Service,INFO,REQ-1117,OAuth2 session refreshed for user_id=583,OAuth2 session refreshed for <*>,7
+2026-11-18 12:15:58.020,Order-Service,INFO,REQ-1117,Inventory lock acquired for order_id=8377,Inventory lock acquired for <*>,3
+2026-11-18 12:15:58.040,Database-Service,INFO,REQ-1117,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:15:58.060,K8s-Infra-Node,INFO,REQ-1117,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:16:00.980,API-Gateway,INFO,REQ-1118,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:01.000,Auth-Service,INFO,REQ-1118,JWT token verified for user_id=327,JWT token verified for <*>,2
+2026-11-18 12:16:01.020,Order-Service,INFO,REQ-1118,Inventory lock acquired for order_id=8128,Inventory lock acquired for <*>,3
+2026-11-18 12:16:01.040,Database-Service,INFO,REQ-1118,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:16:01.060,K8s-Infra-Node,INFO,REQ-1118,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:16:03.980,API-Gateway,INFO,REQ-1119,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:04.000,Auth-Service,INFO,REQ-1119,OAuth2 session refreshed for user_id=469,OAuth2 session refreshed for <*>,7
+2026-11-18 12:16:04.020,Order-Service,INFO,REQ-1119,Inventory lock acquired for order_id=9363,Inventory lock acquired for <*>,3
+2026-11-18 12:16:04.040,Database-Service,INFO,REQ-1119,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:16:04.060,K8s-Infra-Node,INFO,REQ-1119,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:16:06.980,API-Gateway,INFO,REQ-1120,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:07.000,Auth-Service,WARNING,REQ-1120,Token verification latency spike (310ms) for user_id=521,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:16:07.020,Order-Service,INFO,REQ-1120,Order processed order_id=9799 for user_id=521,Order processed <*> for <*>,11
+2026-11-18 12:16:07.040,Database-Service,INFO,REQ-1120,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:16:07.060,K8s-Infra-Node,INFO,REQ-1120,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:16:09.980,API-Gateway,INFO,REQ-1121,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:10.000,Auth-Service,INFO,REQ-1121,OAuth2 session refreshed for user_id=520,OAuth2 session refreshed for <*>,7
+2026-11-18 12:16:10.020,Order-Service,INFO,REQ-1121,Inventory lock acquired for order_id=9637,Inventory lock acquired for <*>,3
+2026-11-18 12:16:10.040,Database-Service,INFO,REQ-1121,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:16:10.060,K8s-Infra-Node,WARNING,REQ-1121,Disk I/O wait time elevated on node-02,Disk I/O wait time elevated on <*>,16
+2026-11-18 12:16:12.980,API-Gateway,INFO,REQ-1122,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:13.000,Auth-Service,INFO,REQ-1122,JWT token verified for user_id=187,JWT token verified for <*>,2
+2026-11-18 12:16:13.020,Order-Service,WARNING,REQ-1122,Retry triggered for order_id=9037,Retry triggered for <*>,17
+2026-11-18 12:16:13.040,Database-Service,INFO,REQ-1122,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:16:13.060,K8s-Infra-Node,INFO,REQ-1122,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:16:15.980,API-Gateway,INFO,REQ-1123,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:16.000,Auth-Service,WARNING,REQ-1123,Redis cache miss for user_id=532,Redis cache miss for <*>,18
+2026-11-18 12:16:16.020,Order-Service,INFO,REQ-1123,Inventory lock acquired for order_id=7115,Inventory lock acquired for <*>,3
+2026-11-18 12:16:16.040,Database-Service,INFO,REQ-1123,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:16:16.060,K8s-Infra-Node,WARNING,REQ-1123,High CPU utilization (88%) on worker-node-04,High CPU utilization (88%) on <*>,13
+2026-11-18 12:16:18.980,API-Gateway,INFO,REQ-1124,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:19.000,Auth-Service,WARNING,REQ-1124,Token verification latency spike (310ms) for user_id=219,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:16:19.020,Order-Service,INFO,REQ-1124,Order processed order_id=8217 for user_id=219,Order processed <*> for <*>,11
+2026-11-18 12:16:19.040,Database-Service,INFO,REQ-1124,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:16:19.060,K8s-Infra-Node,WARNING,REQ-1124,Disk I/O wait time elevated on node-04,Disk I/O wait time elevated on <*>,16
+2026-11-18 12:16:21.980,API-Gateway,INFO,REQ-1125,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:22.000,Auth-Service,INFO,REQ-1125,JWT token verified for user_id=535,JWT token verified for <*>,2
+2026-11-18 12:16:22.020,Order-Service,INFO,REQ-1125,Inventory lock acquired for order_id=8094,Inventory lock acquired for <*>,3
+2026-11-18 12:16:22.040,Database-Service,INFO,REQ-1125,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:16:22.060,K8s-Infra-Node,WARNING,REQ-1125,High CPU utilization (88%) on worker-node-04,High CPU utilization (88%) on <*>,13
+2026-11-18 12:16:24.980,API-Gateway,INFO,REQ-1126,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:25.000,Auth-Service,INFO,REQ-1126,JWT token verified for user_id=263,JWT token verified for <*>,2
+2026-11-18 12:16:25.020,Order-Service,INFO,REQ-1126,Inventory lock acquired for order_id=8107,Inventory lock acquired for <*>,3
+2026-11-18 12:16:25.040,Database-Service,INFO,REQ-1126,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:16:25.060,K8s-Infra-Node,INFO,REQ-1126,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:16:27.980,API-Gateway,INFO,REQ-1127,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:28.000,Auth-Service,INFO,REQ-1127,JWT token verified for user_id=147,JWT token verified for <*>,2
+2026-11-18 12:16:28.020,Order-Service,INFO,REQ-1127,Order processed order_id=9333 for user_id=147,Order processed <*> for <*>,11
+2026-11-18 12:16:28.040,Database-Service,INFO,REQ-1127,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:16:28.060,K8s-Infra-Node,INFO,REQ-1127,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:16:30.980,API-Gateway,INFO,REQ-1128,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:31.000,Auth-Service,INFO,REQ-1128,JWT token verified for user_id=734,JWT token verified for <*>,2
+2026-11-18 12:16:31.020,Order-Service,INFO,REQ-1128,Order processed order_id=6853 for user_id=734,Order processed <*> for <*>,11
+2026-11-18 12:16:31.040,Database-Service,INFO,REQ-1128,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:16:31.060,K8s-Infra-Node,INFO,REQ-1128,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:16:33.980,API-Gateway,INFO,REQ-1129,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:16:34.000,Auth-Service,INFO,REQ-1129,JWT token verified for user_id=439,JWT token verified for <*>,2
+2026-11-18 12:16:34.020,Order-Service,INFO,REQ-1129,Inventory lock acquired for order_id=7250,Inventory lock acquired for <*>,3
+2026-11-18 12:16:34.040,Database-Service,INFO,REQ-1129,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:16:34.060,K8s-Infra-Node,INFO,REQ-1129,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:16:36.980,K8s-Infra-Node,ERROR,REQ-1130,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-02,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-02,23
+2026-11-18 12:16:37.030,Auth-Service,ERROR,REQ-1130,Authentication service unreachable: Connection refused for user_id=758,Authentication service unreachable: Connection refused for user_id=758,24
+2026-11-18 12:16:37.075,API-Gateway,ERROR,REQ-1130,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:16:39.980,K8s-Infra-Node,ERROR,REQ-1131,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-02,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-02,23
+2026-11-18 12:16:40.030,Auth-Service,ERROR,REQ-1131,Authentication service unreachable: Connection refused for user_id=814,Authentication service unreachable: Connection refused for <*>,24
+2026-11-18 12:16:40.075,API-Gateway,ERROR,REQ-1131,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:16:42.980,K8s-Infra-Node,ERROR,REQ-1132,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-03,OOMKilled: Container auth-pod crashed due to memory limit on <*>,23
+2026-11-18 12:16:43.030,Auth-Service,ERROR,REQ-1132,Authentication service unreachable: Connection refused for user_id=980,Authentication service unreachable: Connection refused for <*>,24
+2026-11-18 12:16:43.075,API-Gateway,ERROR,REQ-1132,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:16:45.980,K8s-Infra-Node,ERROR,REQ-1133,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-02,OOMKilled: Container auth-pod crashed due to memory limit on <*>,23
+2026-11-18 12:16:46.030,Auth-Service,ERROR,REQ-1133,Authentication service unreachable: Connection refused for user_id=523,Authentication service unreachable: Connection refused for <*>,24
+2026-11-18 12:16:46.075,API-Gateway,ERROR,REQ-1133,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:16:48.980,K8s-Infra-Node,ERROR,REQ-1134,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-02,OOMKilled: Container auth-pod crashed due to memory limit on <*>,23
+2026-11-18 12:16:49.030,Auth-Service,ERROR,REQ-1134,Authentication service unreachable: Connection refused for user_id=379,Authentication service unreachable: Connection refused for <*>,24
+2026-11-18 12:16:49.075,API-Gateway,ERROR,REQ-1134,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:16:51.980,K8s-Infra-Node,ERROR,REQ-1135,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-02,OOMKilled: Container auth-pod crashed due to memory limit on <*>,23
+2026-11-18 12:16:52.030,Auth-Service,ERROR,REQ-1135,Authentication service unreachable: Connection refused for user_id=453,Authentication service unreachable: Connection refused for <*>,24
+2026-11-18 12:16:52.075,API-Gateway,ERROR,REQ-1135,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:16:54.980,K8s-Infra-Node,ERROR,REQ-1136,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-01,OOMKilled: Container auth-pod crashed due to memory limit on <*>,23
+2026-11-18 12:16:55.030,Auth-Service,ERROR,REQ-1136,Authentication service unreachable: Connection refused for user_id=499,Authentication service unreachable: Connection refused for <*>,24
+2026-11-18 12:16:55.075,API-Gateway,ERROR,REQ-1136,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:16:57.980,K8s-Infra-Node,ERROR,REQ-1137,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-04,OOMKilled: Container auth-pod crashed due to memory limit on <*>,23
+2026-11-18 12:16:58.030,Auth-Service,ERROR,REQ-1137,Authentication service unreachable: Connection refused for user_id=780,Authentication service unreachable: Connection refused for <*>,24
+2026-11-18 12:16:58.075,API-Gateway,ERROR,REQ-1137,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:17:00.980,K8s-Infra-Node,ERROR,REQ-1138,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-01,OOMKilled: Container auth-pod crashed due to memory limit on <*>,23
+2026-11-18 12:17:01.030,Auth-Service,ERROR,REQ-1138,Authentication service unreachable: Connection refused for user_id=818,Authentication service unreachable: Connection refused for <*>,24
+2026-11-18 12:17:01.075,API-Gateway,ERROR,REQ-1138,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:17:03.980,K8s-Infra-Node,ERROR,REQ-1139,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-02,OOMKilled: Container auth-pod crashed due to memory limit on <*>,23
+2026-11-18 12:17:04.030,Auth-Service,ERROR,REQ-1139,Authentication service unreachable: Connection refused for user_id=251,Authentication service unreachable: Connection refused for <*>,24
+2026-11-18 12:17:04.075,API-Gateway,ERROR,REQ-1139,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:17:06.980,K8s-Infra-Node,ERROR,REQ-1140,OOMKilled: Container auth-pod crashed due to memory limit on worker-node-01,OOMKilled: Container auth-pod crashed due to memory limit on <*>,23
+2026-11-18 12:17:07.030,Auth-Service,ERROR,REQ-1140,Authentication service unreachable: Connection refused for user_id=599,Authentication service unreachable: Connection refused for <*>,24
+2026-11-18 12:17:07.075,API-Gateway,ERROR,REQ-1140,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,HTTP 502 Bad Gateway: Upstream Auth-Service unavailable,25
+2026-11-18 12:17:09.980,API-Gateway,INFO,REQ-1141,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:10.000,Auth-Service,INFO,REQ-1141,JWT token verified for user_id=734,JWT token verified for <*>,2
+2026-11-18 12:17:10.020,Order-Service,INFO,REQ-1141,Inventory lock acquired for order_id=6519,Inventory lock acquired for <*>,3
+2026-11-18 12:17:10.040,Database-Service,INFO,REQ-1141,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:10.060,K8s-Infra-Node,WARNING,REQ-1141,Disk I/O wait time elevated on node-01,Disk I/O wait time elevated on <*>,16
+2026-11-18 12:17:12.980,API-Gateway,INFO,REQ-1142,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:13.000,Auth-Service,INFO,REQ-1142,OAuth2 session refreshed for user_id=756,OAuth2 session refreshed for <*>,7
+2026-11-18 12:17:13.020,Order-Service,INFO,REQ-1142,Order processed order_id=7099 for user_id=756,Order processed <*> for <*>,11
+2026-11-18 12:17:13.040,Database-Service,INFO,REQ-1142,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:13.060,K8s-Infra-Node,INFO,REQ-1142,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:17:15.980,API-Gateway,INFO,REQ-1143,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:16.000,Auth-Service,INFO,REQ-1143,OAuth2 session refreshed for user_id=873,OAuth2 session refreshed for <*>,7
+2026-11-18 12:17:16.020,Order-Service,INFO,REQ-1143,Inventory lock acquired for order_id=6632,Inventory lock acquired for <*>,3
+2026-11-18 12:17:16.040,Database-Service,INFO,REQ-1143,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:16.060,K8s-Infra-Node,INFO,REQ-1143,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:17:18.980,API-Gateway,INFO,REQ-1144,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:19.000,Auth-Service,INFO,REQ-1144,OAuth2 session refreshed for user_id=371,OAuth2 session refreshed for <*>,7
+2026-11-18 12:17:19.020,Order-Service,INFO,REQ-1144,Inventory lock acquired for order_id=9730,Inventory lock acquired for <*>,3
+2026-11-18 12:17:19.040,Database-Service,INFO,REQ-1144,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:19.060,K8s-Infra-Node,INFO,REQ-1144,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:17:21.980,API-Gateway,INFO,REQ-1145,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:22.000,Auth-Service,INFO,REQ-1145,JWT token verified for user_id=762,JWT token verified for <*>,2
+2026-11-18 12:17:22.020,Order-Service,INFO,REQ-1145,Inventory lock acquired for order_id=5246,Inventory lock acquired for <*>,3
+2026-11-18 12:17:22.040,Database-Service,INFO,REQ-1145,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:22.060,K8s-Infra-Node,INFO,REQ-1145,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:17:24.980,API-Gateway,INFO,REQ-1146,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:25.000,Auth-Service,INFO,REQ-1146,OAuth2 session refreshed for user_id=581,OAuth2 session refreshed for <*>,7
+2026-11-18 12:17:25.020,Order-Service,INFO,REQ-1146,Inventory lock acquired for order_id=6498,Inventory lock acquired for <*>,3
+2026-11-18 12:17:25.040,Database-Service,INFO,REQ-1146,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:25.060,K8s-Infra-Node,INFO,REQ-1146,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:17:27.980,API-Gateway,INFO,REQ-1147,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:28.000,Auth-Service,WARNING,REQ-1147,Token verification latency spike (310ms) for user_id=702,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:17:28.020,Order-Service,INFO,REQ-1147,Order processed order_id=6987 for user_id=702,Order processed <*> for <*>,11
+2026-11-18 12:17:28.040,Database-Service,INFO,REQ-1147,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:17:28.060,K8s-Infra-Node,INFO,REQ-1147,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:17:30.980,API-Gateway,INFO,REQ-1148,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:31.000,Auth-Service,INFO,REQ-1148,JWT token verified for user_id=559,JWT token verified for <*>,2
+2026-11-18 12:17:31.020,Order-Service,INFO,REQ-1148,Order processed order_id=7941 for user_id=559,Order processed <*> for <*>,11
+2026-11-18 12:17:31.040,Database-Service,INFO,REQ-1148,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:17:31.060,K8s-Infra-Node,INFO,REQ-1148,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:17:33.980,API-Gateway,INFO,REQ-1149,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:34.000,Auth-Service,INFO,REQ-1149,OAuth2 session refreshed for user_id=904,OAuth2 session refreshed for <*>,7
+2026-11-18 12:17:34.020,Order-Service,INFO,REQ-1149,Inventory lock acquired for order_id=7129,Inventory lock acquired for <*>,3
+2026-11-18 12:17:34.040,Database-Service,INFO,REQ-1149,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:17:34.060,K8s-Infra-Node,WARNING,REQ-1149,High CPU utilization (88%) on worker-node-03,High CPU utilization (88%) on <*>,13
+2026-11-18 12:17:36.980,API-Gateway,INFO,REQ-1150,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:37.000,Auth-Service,INFO,REQ-1150,JWT token verified for user_id=940,JWT token verified for <*>,2
+2026-11-18 12:17:37.020,Order-Service,INFO,REQ-1150,Order processed order_id=8221 for user_id=940,Order processed <*> for <*>,11
+2026-11-18 12:17:37.040,Database-Service,INFO,REQ-1150,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:37.060,K8s-Infra-Node,INFO,REQ-1150,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:17:39.980,API-Gateway,INFO,REQ-1151,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:40.000,Auth-Service,INFO,REQ-1151,OAuth2 session refreshed for user_id=778,OAuth2 session refreshed for <*>,7
+2026-11-18 12:17:40.020,Order-Service,INFO,REQ-1151,Order processed order_id=6820 for user_id=778,Order processed <*> for <*>,11
+2026-11-18 12:17:40.040,Database-Service,INFO,REQ-1151,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:40.060,K8s-Infra-Node,INFO,REQ-1151,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:17:42.980,API-Gateway,INFO,REQ-1152,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:43.000,Auth-Service,INFO,REQ-1152,OAuth2 session refreshed for user_id=321,OAuth2 session refreshed for <*>,7
+2026-11-18 12:17:43.020,Order-Service,INFO,REQ-1152,Order processed order_id=9278 for user_id=321,Order processed <*> for <*>,11
+2026-11-18 12:17:43.040,Database-Service,INFO,REQ-1152,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:43.060,K8s-Infra-Node,INFO,REQ-1152,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:17:45.980,API-Gateway,INFO,REQ-1153,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:46.000,Auth-Service,INFO,REQ-1153,OAuth2 session refreshed for user_id=424,OAuth2 session refreshed for <*>,7
+2026-11-18 12:17:46.020,Order-Service,INFO,REQ-1153,Inventory lock acquired for order_id=7386,Inventory lock acquired for <*>,3
+2026-11-18 12:17:46.040,Database-Service,INFO,REQ-1153,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:17:46.060,K8s-Infra-Node,INFO,REQ-1153,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:17:48.980,API-Gateway,INFO,REQ-1154,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:49.000,Auth-Service,INFO,REQ-1154,JWT token verified for user_id=334,JWT token verified for <*>,2
+2026-11-18 12:17:49.020,Order-Service,INFO,REQ-1154,Order processed order_id=9360 for user_id=334,Order processed <*> for <*>,11
+2026-11-18 12:17:49.040,Database-Service,INFO,REQ-1154,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:17:49.060,K8s-Infra-Node,WARNING,REQ-1154,High CPU utilization (88%) on worker-node-01,High CPU utilization (88%) on <*>,13
+2026-11-18 12:17:51.980,API-Gateway,INFO,REQ-1155,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:52.000,Auth-Service,INFO,REQ-1155,JWT token verified for user_id=767,JWT token verified for <*>,2
+2026-11-18 12:17:52.020,Order-Service,INFO,REQ-1155,Order processed order_id=8500 for user_id=767,Order processed <*> for <*>,11
+2026-11-18 12:17:52.040,Database-Service,INFO,REQ-1155,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:52.060,K8s-Infra-Node,INFO,REQ-1155,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:17:54.980,API-Gateway,INFO,REQ-1156,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:17:55.000,Auth-Service,INFO,REQ-1156,OAuth2 session refreshed for user_id=845,OAuth2 session refreshed for <*>,7
+2026-11-18 12:17:55.020,Order-Service,INFO,REQ-1156,Inventory lock acquired for order_id=9984,Inventory lock acquired for <*>,3
+2026-11-18 12:17:55.040,Database-Service,INFO,REQ-1156,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:17:55.060,K8s-Infra-Node,INFO,REQ-1156,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:17:57.980,API-Gateway,WARNING,REQ-1157,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:17:58.000,Auth-Service,INFO,REQ-1157,OAuth2 session refreshed for user_id=695,OAuth2 session refreshed for <*>,7
+2026-11-18 12:17:58.020,Order-Service,INFO,REQ-1157,Inventory lock acquired for order_id=7406,Inventory lock acquired for <*>,3
+2026-11-18 12:17:58.040,Database-Service,INFO,REQ-1157,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:17:58.060,K8s-Infra-Node,WARNING,REQ-1157,Disk I/O wait time elevated on node-03,Disk I/O wait time elevated on <*>,16
+2026-11-18 12:18:00.980,API-Gateway,INFO,REQ-1158,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:01.000,Auth-Service,INFO,REQ-1158,JWT token verified for user_id=135,JWT token verified for <*>,2
+2026-11-18 12:18:01.020,Order-Service,INFO,REQ-1158,Order processed order_id=5339 for user_id=135,Order processed <*> for <*>,11
+2026-11-18 12:18:01.040,Database-Service,INFO,REQ-1158,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:18:01.060,K8s-Infra-Node,WARNING,REQ-1158,High CPU utilization (88%) on worker-node-04,High CPU utilization (88%) on <*>,13
+2026-11-18 12:18:03.980,API-Gateway,INFO,REQ-1159,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:04.000,Auth-Service,INFO,REQ-1159,OAuth2 session refreshed for user_id=697,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:04.020,Order-Service,INFO,REQ-1159,Inventory lock acquired for order_id=5506,Inventory lock acquired for <*>,3
+2026-11-18 12:18:04.040,Database-Service,INFO,REQ-1159,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:18:04.060,K8s-Infra-Node,INFO,REQ-1159,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:18:06.980,API-Gateway,INFO,REQ-1160,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:07.000,Auth-Service,INFO,REQ-1160,JWT token verified for user_id=661,JWT token verified for <*>,2
+2026-11-18 12:18:07.020,Order-Service,INFO,REQ-1160,Order processed order_id=6442 for user_id=661,Order processed <*> for <*>,11
+2026-11-18 12:18:07.040,Database-Service,INFO,REQ-1160,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:18:07.060,K8s-Infra-Node,INFO,REQ-1160,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:18:09.980,API-Gateway,INFO,REQ-1161,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:10.000,Auth-Service,INFO,REQ-1161,OAuth2 session refreshed for user_id=957,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:10.020,Order-Service,INFO,REQ-1161,Order processed order_id=5743 for user_id=957,Order processed <*> for <*>,11
+2026-11-18 12:18:10.040,Database-Service,INFO,REQ-1161,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:10.060,K8s-Infra-Node,INFO,REQ-1161,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:18:12.980,API-Gateway,INFO,REQ-1162,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:13.000,Auth-Service,INFO,REQ-1162,OAuth2 session refreshed for user_id=716,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:13.020,Order-Service,INFO,REQ-1162,Order processed order_id=7800 for user_id=716,Order processed <*> for <*>,11
+2026-11-18 12:18:13.040,Database-Service,INFO,REQ-1162,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:13.060,K8s-Infra-Node,INFO,REQ-1162,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:18:15.980,API-Gateway,INFO,REQ-1163,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:16.000,Auth-Service,INFO,REQ-1163,JWT token verified for user_id=658,JWT token verified for <*>,2
+2026-11-18 12:18:16.020,Order-Service,INFO,REQ-1163,Inventory lock acquired for order_id=6806,Inventory lock acquired for <*>,3
+2026-11-18 12:18:16.040,Database-Service,INFO,REQ-1163,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:16.060,K8s-Infra-Node,INFO,REQ-1163,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:18:18.980,API-Gateway,INFO,REQ-1164,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:19.000,Auth-Service,INFO,REQ-1164,JWT token verified for user_id=426,JWT token verified for <*>,2
+2026-11-18 12:18:19.020,Order-Service,INFO,REQ-1164,Order processed order_id=8879 for user_id=426,Order processed <*> for <*>,11
+2026-11-18 12:18:19.040,Database-Service,INFO,REQ-1164,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:18:19.060,K8s-Infra-Node,INFO,REQ-1164,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:18:21.980,API-Gateway,INFO,REQ-1165,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:22.000,Auth-Service,INFO,REQ-1165,JWT token verified for user_id=962,JWT token verified for <*>,2
+2026-11-18 12:18:22.020,Order-Service,INFO,REQ-1165,Order processed order_id=9614 for user_id=962,Order processed <*> for <*>,11
+2026-11-18 12:18:22.040,Database-Service,INFO,REQ-1165,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:22.060,K8s-Infra-Node,INFO,REQ-1165,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:18:24.980,API-Gateway,INFO,REQ-1166,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:25.000,Auth-Service,WARNING,REQ-1166,Token verification latency spike (310ms) for user_id=385,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:18:25.020,Order-Service,INFO,REQ-1166,Order processed order_id=9679 for user_id=385,Order processed <*> for <*>,11
+2026-11-18 12:18:25.040,Database-Service,INFO,REQ-1166,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:25.060,K8s-Infra-Node,INFO,REQ-1166,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:18:27.980,API-Gateway,INFO,REQ-1167,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:28.000,Auth-Service,INFO,REQ-1167,JWT token verified for user_id=197,JWT token verified for <*>,2
+2026-11-18 12:18:28.020,Order-Service,INFO,REQ-1167,Inventory lock acquired for order_id=7744,Inventory lock acquired for <*>,3
+2026-11-18 12:18:28.040,Database-Service,INFO,REQ-1167,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:18:28.060,K8s-Infra-Node,INFO,REQ-1167,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:18:30.980,API-Gateway,INFO,REQ-1168,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:31.000,Auth-Service,INFO,REQ-1168,OAuth2 session refreshed for user_id=582,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:31.020,Order-Service,INFO,REQ-1168,Inventory lock acquired for order_id=5858,Inventory lock acquired for <*>,3
+2026-11-18 12:18:31.040,Database-Service,INFO,REQ-1168,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:31.060,K8s-Infra-Node,WARNING,REQ-1168,High CPU utilization (88%) on worker-node-04,High CPU utilization (88%) on <*>,13
+2026-11-18 12:18:33.980,API-Gateway,INFO,REQ-1169,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:34.000,Auth-Service,INFO,REQ-1169,OAuth2 session refreshed for user_id=521,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:34.020,Order-Service,INFO,REQ-1169,Inventory lock acquired for order_id=7388,Inventory lock acquired for <*>,3
+2026-11-18 12:18:34.040,Database-Service,INFO,REQ-1169,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:18:34.060,K8s-Infra-Node,INFO,REQ-1169,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:18:36.980,API-Gateway,INFO,REQ-1170,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:37.000,Auth-Service,INFO,REQ-1170,OAuth2 session refreshed for user_id=249,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:37.020,Order-Service,INFO,REQ-1170,Inventory lock acquired for order_id=7851,Inventory lock acquired for <*>,3
+2026-11-18 12:18:37.040,Database-Service,INFO,REQ-1170,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:37.060,K8s-Infra-Node,INFO,REQ-1170,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:18:39.980,API-Gateway,INFO,REQ-1171,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:40.000,Auth-Service,INFO,REQ-1171,JWT token verified for user_id=173,JWT token verified for <*>,2
+2026-11-18 12:18:40.020,Order-Service,INFO,REQ-1171,Order processed order_id=5399 for user_id=173,Order processed <*> for <*>,11
+2026-11-18 12:18:40.040,Database-Service,INFO,REQ-1171,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:40.060,K8s-Infra-Node,INFO,REQ-1171,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:18:42.980,API-Gateway,INFO,REQ-1172,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:43.000,Auth-Service,INFO,REQ-1172,OAuth2 session refreshed for user_id=130,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:43.020,Order-Service,INFO,REQ-1172,Inventory lock acquired for order_id=9006,Inventory lock acquired for <*>,3
+2026-11-18 12:18:43.040,Database-Service,INFO,REQ-1172,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:43.060,K8s-Infra-Node,INFO,REQ-1172,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:18:45.980,API-Gateway,INFO,REQ-1173,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:46.000,Auth-Service,INFO,REQ-1173,OAuth2 session refreshed for user_id=310,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:46.020,Order-Service,INFO,REQ-1173,Inventory lock acquired for order_id=9536,Inventory lock acquired for <*>,3
+2026-11-18 12:18:46.040,Database-Service,INFO,REQ-1173,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:18:46.060,K8s-Infra-Node,INFO,REQ-1173,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:18:48.980,API-Gateway,INFO,REQ-1174,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:49.000,Auth-Service,INFO,REQ-1174,OAuth2 session refreshed for user_id=489,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:49.020,Order-Service,INFO,REQ-1174,Inventory lock acquired for order_id=7178,Inventory lock acquired for <*>,3
+2026-11-18 12:18:49.040,Database-Service,INFO,REQ-1174,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:18:49.060,K8s-Infra-Node,INFO,REQ-1174,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:18:51.980,API-Gateway,WARNING,REQ-1175,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:18:52.000,Auth-Service,WARNING,REQ-1175,Token verification latency spike (310ms) for user_id=116,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:18:52.020,Order-Service,INFO,REQ-1175,Order processed order_id=6205 for user_id=116,Order processed <*> for <*>,11
+2026-11-18 12:18:52.040,Database-Service,INFO,REQ-1175,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:52.060,K8s-Infra-Node,INFO,REQ-1175,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:18:54.980,API-Gateway,INFO,REQ-1176,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:55.000,Auth-Service,INFO,REQ-1176,OAuth2 session refreshed for user_id=564,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:55.020,Order-Service,INFO,REQ-1176,Order processed order_id=6599 for user_id=564,Order processed <*> for <*>,11
+2026-11-18 12:18:55.040,Database-Service,INFO,REQ-1176,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:18:55.060,K8s-Infra-Node,INFO,REQ-1176,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:18:57.980,API-Gateway,INFO,REQ-1177,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:18:58.000,Auth-Service,INFO,REQ-1177,OAuth2 session refreshed for user_id=115,OAuth2 session refreshed for <*>,7
+2026-11-18 12:18:58.020,Order-Service,WARNING,REQ-1177,Worker queue depth increasing (450 pending) for order_id=7789,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:18:58.040,Database-Service,INFO,REQ-1177,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:18:58.060,K8s-Infra-Node,INFO,REQ-1177,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:19:00.980,API-Gateway,INFO,REQ-1178,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:01.000,Auth-Service,INFO,REQ-1178,JWT token verified for user_id=883,JWT token verified for <*>,2
+2026-11-18 12:19:01.020,Order-Service,INFO,REQ-1178,Order processed order_id=8683 for user_id=883,Order processed <*> for <*>,11
+2026-11-18 12:19:01.040,Database-Service,INFO,REQ-1178,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:19:01.060,K8s-Infra-Node,WARNING,REQ-1178,Disk I/O wait time elevated on node-01,Disk I/O wait time elevated on <*>,16
+2026-11-18 12:19:03.980,API-Gateway,INFO,REQ-1179,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:04.000,Auth-Service,INFO,REQ-1179,JWT token verified for user_id=859,JWT token verified for <*>,2
+2026-11-18 12:19:04.020,Order-Service,INFO,REQ-1179,Inventory lock acquired for order_id=5816,Inventory lock acquired for <*>,3
+2026-11-18 12:19:04.040,Database-Service,INFO,REQ-1179,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:19:04.060,K8s-Infra-Node,INFO,REQ-1179,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:19:06.980,API-Gateway,INFO,REQ-1180,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:07.000,Auth-Service,INFO,REQ-1180,JWT token verified for user_id=548,JWT token verified for <*>,2
+2026-11-18 12:19:07.020,Order-Service,WARNING,REQ-1180,Retry triggered for order_id=9300,Retry triggered for <*>,17
+2026-11-18 12:19:07.040,Database-Service,INFO,REQ-1180,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:19:07.060,K8s-Infra-Node,INFO,REQ-1180,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:19:09.980,API-Gateway,INFO,REQ-1181,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:10.000,Auth-Service,INFO,REQ-1181,OAuth2 session refreshed for user_id=731,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:10.020,Order-Service,WARNING,REQ-1181,Worker queue depth increasing (450 pending) for order_id=7358,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:19:10.040,Database-Service,INFO,REQ-1181,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:19:10.060,K8s-Infra-Node,INFO,REQ-1181,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:19:12.980,API-Gateway,INFO,REQ-1182,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:13.000,Auth-Service,WARNING,REQ-1182,Token verification latency spike (310ms) for user_id=600,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:19:13.020,Order-Service,INFO,REQ-1182,Inventory lock acquired for order_id=9576,Inventory lock acquired for <*>,3
+2026-11-18 12:19:13.040,Database-Service,INFO,REQ-1182,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:19:13.060,K8s-Infra-Node,INFO,REQ-1182,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:19:15.980,API-Gateway,INFO,REQ-1183,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:16.000,Auth-Service,INFO,REQ-1183,OAuth2 session refreshed for user_id=759,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:16.020,Order-Service,INFO,REQ-1183,Inventory lock acquired for order_id=7675,Inventory lock acquired for <*>,3
+2026-11-18 12:19:16.040,Database-Service,INFO,REQ-1183,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:19:16.060,K8s-Infra-Node,INFO,REQ-1183,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:19:18.980,API-Gateway,WARNING,REQ-1184,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:19:19.000,Auth-Service,INFO,REQ-1184,OAuth2 session refreshed for user_id=201,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:19.020,Order-Service,INFO,REQ-1184,Order processed order_id=7106 for user_id=201,Order processed <*> for <*>,11
+2026-11-18 12:19:19.040,Database-Service,INFO,REQ-1184,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:19:19.060,K8s-Infra-Node,INFO,REQ-1184,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:19:21.980,API-Gateway,INFO,REQ-1185,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:22.000,Auth-Service,WARNING,REQ-1185,Redis cache miss for user_id=618,Redis cache miss for <*>,18
+2026-11-18 12:19:22.020,Order-Service,INFO,REQ-1185,Order processed order_id=8834 for user_id=618,Order processed <*> for <*>,11
+2026-11-18 12:19:22.040,Database-Service,INFO,REQ-1185,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:19:22.060,K8s-Infra-Node,INFO,REQ-1185,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:19:24.980,API-Gateway,INFO,REQ-1186,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:25.000,Auth-Service,INFO,REQ-1186,OAuth2 session refreshed for user_id=353,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:25.020,Order-Service,INFO,REQ-1186,Order processed order_id=7323 for user_id=353,Order processed <*> for <*>,11
+2026-11-18 12:19:25.040,Database-Service,INFO,REQ-1186,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:19:25.060,K8s-Infra-Node,INFO,REQ-1186,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:19:27.980,API-Gateway,INFO,REQ-1187,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:28.000,Auth-Service,INFO,REQ-1187,OAuth2 session refreshed for user_id=203,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:28.020,Order-Service,INFO,REQ-1187,Inventory lock acquired for order_id=8970,Inventory lock acquired for <*>,3
+2026-11-18 12:19:28.040,Database-Service,INFO,REQ-1187,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:19:28.060,K8s-Infra-Node,INFO,REQ-1187,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:19:30.980,API-Gateway,INFO,REQ-1188,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:31.000,Auth-Service,INFO,REQ-1188,JWT token verified for user_id=818,JWT token verified for <*>,2
+2026-11-18 12:19:31.020,Order-Service,INFO,REQ-1188,Order processed order_id=6808 for user_id=818,Order processed <*> for <*>,11
+2026-11-18 12:19:31.040,Database-Service,INFO,REQ-1188,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:19:31.060,K8s-Infra-Node,INFO,REQ-1188,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:19:33.980,API-Gateway,INFO,REQ-1189,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:34.000,Auth-Service,WARNING,REQ-1189,Redis cache miss for user_id=692,Redis cache miss for <*>,18
+2026-11-18 12:19:34.020,Order-Service,INFO,REQ-1189,Order processed order_id=8750 for user_id=692,Order processed <*> for <*>,11
+2026-11-18 12:19:34.040,Database-Service,INFO,REQ-1189,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:19:34.060,K8s-Infra-Node,INFO,REQ-1189,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:19:36.980,API-Gateway,INFO,REQ-1190,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:37.000,Auth-Service,INFO,REQ-1190,OAuth2 session refreshed for user_id=189,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:37.020,Order-Service,INFO,REQ-1190,Inventory lock acquired for order_id=7483,Inventory lock acquired for <*>,3
+2026-11-18 12:19:37.040,Database-Service,INFO,REQ-1190,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:19:37.060,K8s-Infra-Node,INFO,REQ-1190,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:19:39.980,API-Gateway,INFO,REQ-1191,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:40.000,Auth-Service,INFO,REQ-1191,OAuth2 session refreshed for user_id=203,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:40.020,Order-Service,INFO,REQ-1191,Inventory lock acquired for order_id=7088,Inventory lock acquired for <*>,3
+2026-11-18 12:19:40.040,Database-Service,WARNING,REQ-1191,Replication lag warning: 350ms,Replication lag warning: 350ms,12
+2026-11-18 12:19:40.060,K8s-Infra-Node,INFO,REQ-1191,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:19:42.980,API-Gateway,WARNING,REQ-1192,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:19:43.000,Auth-Service,INFO,REQ-1192,JWT token verified for user_id=393,JWT token verified for <*>,2
+2026-11-18 12:19:43.020,Order-Service,INFO,REQ-1192,Order processed order_id=9300 for user_id=393,Order processed <*> for <*>,11
+2026-11-18 12:19:43.040,Database-Service,INFO,REQ-1192,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:19:43.060,K8s-Infra-Node,INFO,REQ-1192,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:19:45.980,API-Gateway,INFO,REQ-1193,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:46.000,Auth-Service,INFO,REQ-1193,OAuth2 session refreshed for user_id=847,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:46.020,Order-Service,INFO,REQ-1193,Order processed order_id=9524 for user_id=847,Order processed <*> for <*>,11
+2026-11-18 12:19:46.040,Database-Service,INFO,REQ-1193,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:19:46.060,K8s-Infra-Node,INFO,REQ-1193,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:19:48.980,API-Gateway,INFO,REQ-1194,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:49.000,Auth-Service,INFO,REQ-1194,OAuth2 session refreshed for user_id=125,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:49.020,Order-Service,INFO,REQ-1194,Order processed order_id=9744 for user_id=125,Order processed <*> for <*>,11
+2026-11-18 12:19:49.040,Database-Service,INFO,REQ-1194,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:19:49.060,K8s-Infra-Node,INFO,REQ-1194,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:19:51.980,API-Gateway,INFO,REQ-1195,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:52.000,Auth-Service,INFO,REQ-1195,OAuth2 session refreshed for user_id=337,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:52.020,Order-Service,INFO,REQ-1195,Order processed order_id=8750 for user_id=337,Order processed <*> for <*>,11
+2026-11-18 12:19:52.040,Database-Service,INFO,REQ-1195,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:19:52.060,K8s-Infra-Node,INFO,REQ-1195,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:19:54.980,API-Gateway,INFO,REQ-1196,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:55.000,Auth-Service,INFO,REQ-1196,OAuth2 session refreshed for user_id=774,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:55.020,Order-Service,INFO,REQ-1196,Order processed order_id=5456 for user_id=774,Order processed <*> for <*>,11
+2026-11-18 12:19:55.040,Database-Service,WARNING,REQ-1196,Replication lag warning: 350ms,Replication lag warning: 350ms,12
+2026-11-18 12:19:55.060,K8s-Infra-Node,INFO,REQ-1196,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:19:57.980,API-Gateway,INFO,REQ-1197,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:19:58.000,Auth-Service,INFO,REQ-1197,OAuth2 session refreshed for user_id=596,OAuth2 session refreshed for <*>,7
+2026-11-18 12:19:58.020,Order-Service,INFO,REQ-1197,Inventory lock acquired for order_id=5543,Inventory lock acquired for <*>,3
+2026-11-18 12:19:58.040,Database-Service,INFO,REQ-1197,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:19:58.060,K8s-Infra-Node,INFO,REQ-1197,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:20:00.980,API-Gateway,WARNING,REQ-1198,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:20:01.000,Auth-Service,INFO,REQ-1198,OAuth2 session refreshed for user_id=781,OAuth2 session refreshed for <*>,7
+2026-11-18 12:20:01.020,Order-Service,INFO,REQ-1198,Order processed order_id=8900 for user_id=781,Order processed <*> for <*>,11
+2026-11-18 12:20:01.040,Database-Service,INFO,REQ-1198,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:20:01.060,K8s-Infra-Node,INFO,REQ-1198,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:20:03.980,API-Gateway,INFO,REQ-1199,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:20:04.000,Auth-Service,INFO,REQ-1199,JWT token verified for user_id=331,JWT token verified for <*>,2
+2026-11-18 12:20:04.020,Order-Service,WARNING,REQ-1199,Worker queue depth increasing (450 pending) for order_id=5814,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:20:04.040,Database-Service,INFO,REQ-1199,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:20:04.060,K8s-Infra-Node,INFO,REQ-1199,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:20:06.980,API-Gateway,INFO,REQ-1200,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:20:07.000,Auth-Service,WARNING,REQ-1200,Token verification latency spike (310ms) for user_id=326,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:20:07.020,Order-Service,INFO,REQ-1200,Order processed order_id=9148 for user_id=326,Order processed <*> for <*>,11
+2026-11-18 12:20:07.040,Database-Service,INFO,REQ-1200,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:20:07.060,K8s-Infra-Node,INFO,REQ-1200,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:20:09.980,API-Gateway,INFO,REQ-1201,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:20:10.000,Auth-Service,INFO,REQ-1201,JWT token verified for user_id=556,JWT token verified for <*>,2
+2026-11-18 12:20:10.020,Order-Service,INFO,REQ-1201,Order processed order_id=6755 for user_id=556,Order processed <*> for <*>,11
+2026-11-18 12:20:10.040,Database-Service,INFO,REQ-1201,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:20:10.060,K8s-Infra-Node,INFO,REQ-1201,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:20:12.980,API-Gateway,INFO,REQ-1202,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:20:13.000,Auth-Service,INFO,REQ-1202,JWT token verified for user_id=654,JWT token verified for <*>,2
+2026-11-18 12:20:13.020,Order-Service,INFO,REQ-1202,Inventory lock acquired for order_id=9166,Inventory lock acquired for <*>,3
+2026-11-18 12:20:13.040,Database-Service,INFO,REQ-1202,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:20:13.060,K8s-Infra-Node,INFO,REQ-1202,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:20:15.980,API-Gateway,INFO,REQ-1203,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:20:16.000,Auth-Service,INFO,REQ-1203,JWT token verified for user_id=154,JWT token verified for <*>,2
+2026-11-18 12:20:16.020,Order-Service,INFO,REQ-1203,Order processed order_id=5511 for user_id=154,Order processed <*> for <*>,11
+2026-11-18 12:20:16.040,Database-Service,INFO,REQ-1203,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:20:16.060,K8s-Infra-Node,INFO,REQ-1203,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:20:18.980,API-Gateway,INFO,REQ-1204,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:20:19.000,Auth-Service,INFO,REQ-1204,JWT token verified for user_id=272,JWT token verified for <*>,2
+2026-11-18 12:20:19.020,Order-Service,INFO,REQ-1204,Order processed order_id=7614 for user_id=272,Order processed <*> for <*>,11
+2026-11-18 12:20:19.040,Database-Service,INFO,REQ-1204,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:20:19.060,K8s-Infra-Node,INFO,REQ-1204,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:20:21.980,API-Gateway,INFO,REQ-1205,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:20:22.000,Auth-Service,INFO,REQ-1205,JWT token verified for user_id=348,JWT token verified for <*>,2
+2026-11-18 12:20:22.020,Order-Service,INFO,REQ-1205,Order processed order_id=6006 for user_id=348,Order processed <*> for <*>,11
+2026-11-18 12:20:22.040,Database-Service,INFO,REQ-1205,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:20:22.060,K8s-Infra-Node,INFO,REQ-1205,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:20:24.980,API-Gateway,INFO,REQ-1206,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:20:25.000,Auth-Service,WARNING,REQ-1206,Token verification latency spike (310ms) for user_id=509,Token verification latency spike (310ms) for <*>,15
+2026-11-18 12:20:25.020,Order-Service,WARNING,REQ-1206,Worker queue depth increasing (450 pending) for order_id=6954,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:20:25.040,Database-Service,WARNING,REQ-1206,Replication lag warning: 350ms,Replication lag warning: 350ms,12
+2026-11-18 12:20:25.060,K8s-Infra-Node,INFO,REQ-1206,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:20:27.980,API-Gateway,INFO,REQ-1207,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:20:28.000,Auth-Service,INFO,REQ-1207,OAuth2 session refreshed for user_id=504,OAuth2 session refreshed for <*>,7
+2026-11-18 12:20:28.020,Order-Service,INFO,REQ-1207,Inventory lock acquired for order_id=9232,Inventory lock acquired for <*>,3
+2026-11-18 12:20:28.040,Database-Service,INFO,REQ-1207,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:20:28.060,K8s-Infra-Node,INFO,REQ-1207,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:20:30.980,API-Gateway,WARNING,REQ-1208,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:20:31.000,Auth-Service,INFO,REQ-1208,OAuth2 session refreshed for user_id=256,OAuth2 session refreshed for <*>,7
+2026-11-18 12:20:31.020,Order-Service,INFO,REQ-1208,Order processed order_id=9283 for user_id=256,Order processed <*> for <*>,11
+2026-11-18 12:20:31.040,Database-Service,INFO,REQ-1208,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:20:31.060,K8s-Infra-Node,INFO,REQ-1208,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:20:33.980,API-Gateway,INFO,REQ-1209,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:20:34.000,Auth-Service,INFO,REQ-1209,JWT token verified for user_id=401,JWT token verified for <*>,2
+2026-11-18 12:20:34.020,Order-Service,INFO,REQ-1209,Order processed order_id=7169 for user_id=401,Order processed <*> for <*>,11
+2026-11-18 12:20:34.040,Database-Service,INFO,REQ-1209,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:20:34.060,K8s-Infra-Node,INFO,REQ-1209,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:20:36.980,Database-Service,ERROR,REQ-1210,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:20:37.025,Order-Service,ERROR,REQ-1210,Transaction aborted: Database write timeout for order_id=8514,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:20:37.090,API-Gateway,ERROR,REQ-1210,HTTP 504 Gateway Timeout returned for request REQ-1210,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:20:39.980,Database-Service,ERROR,REQ-1211,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:20:40.025,Order-Service,ERROR,REQ-1211,Transaction aborted: Database write timeout for order_id=5685,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:20:40.090,API-Gateway,ERROR,REQ-1211,HTTP 504 Gateway Timeout returned for request REQ-1211,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:20:42.980,Database-Service,ERROR,REQ-1212,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:20:43.025,Order-Service,ERROR,REQ-1212,Transaction aborted: Database write timeout for order_id=5061,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:20:43.090,API-Gateway,ERROR,REQ-1212,HTTP 504 Gateway Timeout returned for request REQ-1212,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:20:45.980,Database-Service,ERROR,REQ-1213,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:20:46.025,Order-Service,ERROR,REQ-1213,Transaction aborted: Database write timeout for order_id=5024,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:20:46.090,API-Gateway,ERROR,REQ-1213,HTTP 504 Gateway Timeout returned for request REQ-1213,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:20:48.980,Database-Service,ERROR,REQ-1214,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:20:49.025,Order-Service,ERROR,REQ-1214,Transaction aborted: Database write timeout for order_id=5529,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:20:49.090,API-Gateway,ERROR,REQ-1214,HTTP 504 Gateway Timeout returned for request REQ-1214,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:20:51.980,Database-Service,ERROR,REQ-1215,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:20:52.025,Order-Service,ERROR,REQ-1215,Transaction aborted: Database write timeout for order_id=6234,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:20:52.090,API-Gateway,ERROR,REQ-1215,HTTP 504 Gateway Timeout returned for request REQ-1215,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:20:54.980,Database-Service,ERROR,REQ-1216,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:20:55.025,Order-Service,ERROR,REQ-1216,Transaction aborted: Database write timeout for order_id=9452,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:20:55.090,API-Gateway,ERROR,REQ-1216,HTTP 504 Gateway Timeout returned for request REQ-1216,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:20:57.980,Database-Service,ERROR,REQ-1217,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:20:58.025,Order-Service,ERROR,REQ-1217,Transaction aborted: Database write timeout for order_id=9100,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:20:58.090,API-Gateway,ERROR,REQ-1217,HTTP 504 Gateway Timeout returned for request REQ-1217,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:21:00.980,Database-Service,ERROR,REQ-1218,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:21:01.025,Order-Service,ERROR,REQ-1218,Transaction aborted: Database write timeout for order_id=6311,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:21:01.090,API-Gateway,ERROR,REQ-1218,HTTP 504 Gateway Timeout returned for request REQ-1218,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:21:03.980,Database-Service,ERROR,REQ-1219,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:21:04.025,Order-Service,ERROR,REQ-1219,Transaction aborted: Database write timeout for order_id=8461,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:21:04.090,API-Gateway,ERROR,REQ-1219,HTTP 504 Gateway Timeout returned for request REQ-1219,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:21:06.980,Database-Service,ERROR,REQ-1220,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary,20
+2026-11-18 12:21:07.025,Order-Service,ERROR,REQ-1220,Transaction aborted: Database write timeout for order_id=8114,Transaction aborted: Database write timeout for <*>,21
+2026-11-18 12:21:07.090,API-Gateway,ERROR,REQ-1220,HTTP 504 Gateway Timeout returned for request REQ-1220,HTTP 504 Gateway Timeout returned for request <*>,22
+2026-11-18 12:21:09.980,API-Gateway,INFO,REQ-1221,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:10.000,Auth-Service,INFO,REQ-1221,JWT token verified for user_id=346,JWT token verified for <*>,2
+2026-11-18 12:21:10.020,Order-Service,INFO,REQ-1221,Inventory lock acquired for order_id=8315,Inventory lock acquired for <*>,3
+2026-11-18 12:21:10.040,Database-Service,INFO,REQ-1221,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:21:10.060,K8s-Infra-Node,WARNING,REQ-1221,High CPU utilization (88%) on worker-node-04,High CPU utilization (88%) on <*>,13
+2026-11-18 12:21:12.980,API-Gateway,INFO,REQ-1222,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:13.000,Auth-Service,INFO,REQ-1222,OAuth2 session refreshed for user_id=906,OAuth2 session refreshed for <*>,7
+2026-11-18 12:21:13.020,Order-Service,WARNING,REQ-1222,Worker queue depth increasing (450 pending) for order_id=8144,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:21:13.040,Database-Service,INFO,REQ-1222,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:21:13.060,K8s-Infra-Node,INFO,REQ-1222,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:21:15.980,API-Gateway,INFO,REQ-1223,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:16.000,Auth-Service,INFO,REQ-1223,OAuth2 session refreshed for user_id=406,OAuth2 session refreshed for <*>,7
+2026-11-18 12:21:16.020,Order-Service,INFO,REQ-1223,Order processed order_id=6539 for user_id=406,Order processed <*> for <*>,11
+2026-11-18 12:21:16.040,Database-Service,INFO,REQ-1223,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:21:16.060,K8s-Infra-Node,INFO,REQ-1223,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:21:18.980,API-Gateway,INFO,REQ-1224,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:19.000,Auth-Service,INFO,REQ-1224,JWT token verified for user_id=932,JWT token verified for <*>,2
+2026-11-18 12:21:19.020,Order-Service,INFO,REQ-1224,Inventory lock acquired for order_id=6067,Inventory lock acquired for <*>,3
+2026-11-18 12:21:19.040,Database-Service,INFO,REQ-1224,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:21:19.060,K8s-Infra-Node,INFO,REQ-1224,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:21:21.980,API-Gateway,INFO,REQ-1225,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:22.000,Auth-Service,WARNING,REQ-1225,Redis cache miss for user_id=869,Redis cache miss for <*>,18
+2026-11-18 12:21:22.020,Order-Service,INFO,REQ-1225,Order processed order_id=5626 for user_id=869,Order processed <*> for <*>,11
+2026-11-18 12:21:22.040,Database-Service,INFO,REQ-1225,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:21:22.060,K8s-Infra-Node,INFO,REQ-1225,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:21:24.980,API-Gateway,INFO,REQ-1226,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:25.000,Auth-Service,INFO,REQ-1226,JWT token verified for user_id=616,JWT token verified for <*>,2
+2026-11-18 12:21:25.020,Order-Service,INFO,REQ-1226,Inventory lock acquired for order_id=9187,Inventory lock acquired for <*>,3
+2026-11-18 12:21:25.040,Database-Service,INFO,REQ-1226,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:21:25.060,K8s-Infra-Node,INFO,REQ-1226,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:21:27.980,API-Gateway,INFO,REQ-1227,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:28.000,Auth-Service,INFO,REQ-1227,JWT token verified for user_id=447,JWT token verified for <*>,2
+2026-11-18 12:21:28.020,Order-Service,INFO,REQ-1227,Inventory lock acquired for order_id=5201,Inventory lock acquired for <*>,3
+2026-11-18 12:21:28.040,Database-Service,INFO,REQ-1227,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:21:28.060,K8s-Infra-Node,INFO,REQ-1227,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:21:30.980,API-Gateway,INFO,REQ-1228,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:31.000,Auth-Service,INFO,REQ-1228,OAuth2 session refreshed for user_id=610,OAuth2 session refreshed for <*>,7
+2026-11-18 12:21:31.020,Order-Service,INFO,REQ-1228,Inventory lock acquired for order_id=9277,Inventory lock acquired for <*>,3
+2026-11-18 12:21:31.040,Database-Service,INFO,REQ-1228,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:21:31.060,K8s-Infra-Node,INFO,REQ-1228,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:21:33.980,API-Gateway,INFO,REQ-1229,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:34.000,Auth-Service,WARNING,REQ-1229,Redis cache miss for user_id=177,Redis cache miss for <*>,18
+2026-11-18 12:21:34.020,Order-Service,WARNING,REQ-1229,Worker queue depth increasing (450 pending) for order_id=9030,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:21:34.040,Database-Service,INFO,REQ-1229,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:21:34.060,K8s-Infra-Node,WARNING,REQ-1229,Disk I/O wait time elevated on node-01,Disk I/O wait time elevated on <*>,16
+2026-11-18 12:21:36.980,API-Gateway,INFO,REQ-1230,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:37.000,Auth-Service,INFO,REQ-1230,JWT token verified for user_id=876,JWT token verified for <*>,2
+2026-11-18 12:21:37.020,Order-Service,INFO,REQ-1230,Order processed order_id=7717 for user_id=876,Order processed <*> for <*>,11
+2026-11-18 12:21:37.040,Database-Service,INFO,REQ-1230,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:21:37.060,K8s-Infra-Node,INFO,REQ-1230,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:21:39.980,API-Gateway,INFO,REQ-1231,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:40.000,Auth-Service,INFO,REQ-1231,OAuth2 session refreshed for user_id=608,OAuth2 session refreshed for <*>,7
+2026-11-18 12:21:40.020,Order-Service,INFO,REQ-1231,Inventory lock acquired for order_id=7427,Inventory lock acquired for <*>,3
+2026-11-18 12:21:40.040,Database-Service,INFO,REQ-1231,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:21:40.060,K8s-Infra-Node,INFO,REQ-1231,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:21:42.980,API-Gateway,INFO,REQ-1232,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:43.000,Auth-Service,INFO,REQ-1232,OAuth2 session refreshed for user_id=365,OAuth2 session refreshed for <*>,7
+2026-11-18 12:21:43.020,Order-Service,INFO,REQ-1232,Inventory lock acquired for order_id=9396,Inventory lock acquired for <*>,3
+2026-11-18 12:21:43.040,Database-Service,INFO,REQ-1232,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:21:43.060,K8s-Infra-Node,INFO,REQ-1232,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:21:45.980,API-Gateway,INFO,REQ-1233,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:46.000,Auth-Service,INFO,REQ-1233,OAuth2 session refreshed for user_id=319,OAuth2 session refreshed for <*>,7
+2026-11-18 12:21:46.020,Order-Service,INFO,REQ-1233,Order processed order_id=9155 for user_id=319,Order processed <*> for <*>,11
+2026-11-18 12:21:46.040,Database-Service,INFO,REQ-1233,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:21:46.060,K8s-Infra-Node,WARNING,REQ-1233,Disk I/O wait time elevated on node-01,Disk I/O wait time elevated on <*>,16
+2026-11-18 12:21:48.980,API-Gateway,INFO,REQ-1234,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:49.000,Auth-Service,INFO,REQ-1234,OAuth2 session refreshed for user_id=160,OAuth2 session refreshed for <*>,7
+2026-11-18 12:21:49.020,Order-Service,WARNING,REQ-1234,Worker queue depth increasing (450 pending) for order_id=7731,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:21:49.040,Database-Service,INFO,REQ-1234,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:21:49.060,K8s-Infra-Node,INFO,REQ-1234,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:21:51.980,API-Gateway,WARNING,REQ-1235,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:21:52.000,Auth-Service,INFO,REQ-1235,JWT token verified for user_id=244,JWT token verified for <*>,2
+2026-11-18 12:21:52.020,Order-Service,INFO,REQ-1235,Order processed order_id=6936 for user_id=244,Order processed <*> for <*>,11
+2026-11-18 12:21:52.040,Database-Service,WARNING,REQ-1235,Replication lag warning: 350ms,Replication lag warning: 350ms,12
+2026-11-18 12:21:52.060,K8s-Infra-Node,INFO,REQ-1235,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:21:54.980,API-Gateway,INFO,REQ-1236,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:21:55.000,Auth-Service,WARNING,REQ-1236,Redis cache miss for user_id=809,Redis cache miss for <*>,18
+2026-11-18 12:21:55.020,Order-Service,WARNING,REQ-1236,Retry triggered for order_id=5261,Retry triggered for <*>,17
+2026-11-18 12:21:55.040,Database-Service,WARNING,REQ-1236,Slow query detected (1420ms) on table orders_ledger,Slow query detected (1420ms) on table orders_ledger,19
+2026-11-18 12:21:55.060,K8s-Infra-Node,INFO,REQ-1236,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:21:57.980,API-Gateway,WARNING,REQ-1237,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:21:58.000,Auth-Service,INFO,REQ-1237,OAuth2 session refreshed for user_id=228,OAuth2 session refreshed for <*>,7
+2026-11-18 12:21:58.020,Order-Service,INFO,REQ-1237,Order processed order_id=9486 for user_id=228,Order processed <*> for <*>,11
+2026-11-18 12:21:58.040,Database-Service,INFO,REQ-1237,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:21:58.060,K8s-Infra-Node,INFO,REQ-1237,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:22:00.980,API-Gateway,INFO,REQ-1238,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:01.000,Auth-Service,INFO,REQ-1238,JWT token verified for user_id=948,JWT token verified for <*>,2
+2026-11-18 12:22:01.020,Order-Service,INFO,REQ-1238,Inventory lock acquired for order_id=6041,Inventory lock acquired for <*>,3
+2026-11-18 12:22:01.040,Database-Service,INFO,REQ-1238,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:22:01.060,K8s-Infra-Node,INFO,REQ-1238,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:22:03.980,API-Gateway,INFO,REQ-1239,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:04.000,Auth-Service,INFO,REQ-1239,JWT token verified for user_id=951,JWT token verified for <*>,2
+2026-11-18 12:22:04.020,Order-Service,INFO,REQ-1239,Inventory lock acquired for order_id=9472,Inventory lock acquired for <*>,3
+2026-11-18 12:22:04.040,Database-Service,INFO,REQ-1239,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:22:04.060,K8s-Infra-Node,WARNING,REQ-1239,High CPU utilization (88%) on worker-node-03,High CPU utilization (88%) on <*>,13
+2026-11-18 12:22:06.980,API-Gateway,INFO,REQ-1240,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:07.000,Auth-Service,INFO,REQ-1240,JWT token verified for user_id=728,JWT token verified for <*>,2
+2026-11-18 12:22:07.020,Order-Service,INFO,REQ-1240,Inventory lock acquired for order_id=8129,Inventory lock acquired for <*>,3
+2026-11-18 12:22:07.040,Database-Service,INFO,REQ-1240,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:22:07.060,K8s-Infra-Node,INFO,REQ-1240,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:22:09.980,API-Gateway,INFO,REQ-1241,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:10.000,Auth-Service,INFO,REQ-1241,JWT token verified for user_id=730,JWT token verified for <*>,2
+2026-11-18 12:22:10.020,Order-Service,INFO,REQ-1241,Order processed order_id=5197 for user_id=730,Order processed <*> for <*>,11
+2026-11-18 12:22:10.040,Database-Service,INFO,REQ-1241,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:22:10.060,K8s-Infra-Node,INFO,REQ-1241,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:22:12.980,API-Gateway,INFO,REQ-1242,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:13.000,Auth-Service,INFO,REQ-1242,JWT token verified for user_id=703,JWT token verified for <*>,2
+2026-11-18 12:22:13.020,Order-Service,INFO,REQ-1242,Order processed order_id=7147 for user_id=703,Order processed <*> for <*>,11
+2026-11-18 12:22:13.040,Database-Service,INFO,REQ-1242,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:22:13.060,K8s-Infra-Node,INFO,REQ-1242,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:22:15.980,API-Gateway,WARNING,REQ-1243,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:22:16.000,Auth-Service,INFO,REQ-1243,JWT token verified for user_id=847,JWT token verified for <*>,2
+2026-11-18 12:22:16.020,Order-Service,WARNING,REQ-1243,Retry triggered for order_id=5393,Retry triggered for <*>,17
+2026-11-18 12:22:16.040,Database-Service,INFO,REQ-1243,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:22:16.060,K8s-Infra-Node,INFO,REQ-1243,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:22:18.980,API-Gateway,INFO,REQ-1244,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:19.000,Auth-Service,INFO,REQ-1244,OAuth2 session refreshed for user_id=304,OAuth2 session refreshed for <*>,7
+2026-11-18 12:22:19.020,Order-Service,INFO,REQ-1244,Inventory lock acquired for order_id=6363,Inventory lock acquired for <*>,3
+2026-11-18 12:22:19.040,Database-Service,INFO,REQ-1244,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:22:19.060,K8s-Infra-Node,INFO,REQ-1244,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:22:21.980,API-Gateway,WARNING,REQ-1245,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:22:22.000,Auth-Service,INFO,REQ-1245,JWT token verified for user_id=763,JWT token verified for <*>,2
+2026-11-18 12:22:22.020,Order-Service,INFO,REQ-1245,Inventory lock acquired for order_id=6516,Inventory lock acquired for <*>,3
+2026-11-18 12:22:22.040,Database-Service,INFO,REQ-1245,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:22:22.060,K8s-Infra-Node,INFO,REQ-1245,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:22:24.980,API-Gateway,WARNING,REQ-1246,Upstream response latency high (890ms) on route /api/v1/orders,Upstream response latency high (890ms) on route /api/v1/orders,6
+2026-11-18 12:22:25.000,Auth-Service,INFO,REQ-1246,JWT token verified for user_id=602,JWT token verified for <*>,2
+2026-11-18 12:22:25.020,Order-Service,WARNING,REQ-1246,Retry triggered for order_id=6501,Retry triggered for <*>,17
+2026-11-18 12:22:25.040,Database-Service,INFO,REQ-1246,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:22:25.060,K8s-Infra-Node,INFO,REQ-1246,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:22:27.980,API-Gateway,WARNING,REQ-1247,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:22:28.000,Auth-Service,INFO,REQ-1247,JWT token verified for user_id=472,JWT token verified for <*>,2
+2026-11-18 12:22:28.020,Order-Service,INFO,REQ-1247,Order processed order_id=8176 for user_id=472,Order processed <*> for <*>,11
+2026-11-18 12:22:28.040,Database-Service,INFO,REQ-1247,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:22:28.060,K8s-Infra-Node,INFO,REQ-1247,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:22:30.980,API-Gateway,INFO,REQ-1248,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:31.000,Auth-Service,INFO,REQ-1248,OAuth2 session refreshed for user_id=261,OAuth2 session refreshed for <*>,7
+2026-11-18 12:22:31.020,Order-Service,INFO,REQ-1248,Inventory lock acquired for order_id=7593,Inventory lock acquired for <*>,3
+2026-11-18 12:22:31.040,Database-Service,INFO,REQ-1248,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:22:31.060,K8s-Infra-Node,INFO,REQ-1248,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:22:33.980,API-Gateway,INFO,REQ-1249,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:34.000,Auth-Service,INFO,REQ-1249,JWT token verified for user_id=452,JWT token verified for <*>,2
+2026-11-18 12:22:34.020,Order-Service,INFO,REQ-1249,Inventory lock acquired for order_id=5034,Inventory lock acquired for <*>,3
+2026-11-18 12:22:34.040,Database-Service,INFO,REQ-1249,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:22:34.060,K8s-Infra-Node,INFO,REQ-1249,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:22:36.980,API-Gateway,INFO,REQ-1250,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:37.000,Auth-Service,INFO,REQ-1250,OAuth2 session refreshed for user_id=184,OAuth2 session refreshed for <*>,7
+2026-11-18 12:22:37.020,Order-Service,INFO,REQ-1250,Order processed order_id=5789 for user_id=184,Order processed <*> for <*>,11
+2026-11-18 12:22:37.040,Database-Service,INFO,REQ-1250,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:22:37.060,K8s-Infra-Node,INFO,REQ-1250,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:22:39.980,API-Gateway,WARNING,REQ-1251,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:22:40.000,Auth-Service,INFO,REQ-1251,JWT token verified for user_id=528,JWT token verified for <*>,2
+2026-11-18 12:22:40.020,Order-Service,INFO,REQ-1251,Order processed order_id=6481 for user_id=528,Order processed <*> for <*>,11
+2026-11-18 12:22:40.040,Database-Service,INFO,REQ-1251,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:22:40.060,K8s-Infra-Node,INFO,REQ-1251,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:22:42.980,API-Gateway,INFO,REQ-1252,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:43.000,Auth-Service,INFO,REQ-1252,JWT token verified for user_id=505,JWT token verified for <*>,2
+2026-11-18 12:22:43.020,Order-Service,INFO,REQ-1252,Inventory lock acquired for order_id=6494,Inventory lock acquired for <*>,3
+2026-11-18 12:22:43.040,Database-Service,INFO,REQ-1252,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:22:43.060,K8s-Infra-Node,INFO,REQ-1252,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:22:45.980,API-Gateway,WARNING,REQ-1253,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:22:46.000,Auth-Service,INFO,REQ-1253,JWT token verified for user_id=470,JWT token verified for <*>,2
+2026-11-18 12:22:46.020,Order-Service,INFO,REQ-1253,Order processed order_id=7040 for user_id=470,Order processed <*> for <*>,11
+2026-11-18 12:22:46.040,Database-Service,INFO,REQ-1253,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:22:46.060,K8s-Infra-Node,WARNING,REQ-1253,High CPU utilization (88%) on worker-node-02,High CPU utilization (88%) on <*>,13
+2026-11-18 12:22:48.980,API-Gateway,INFO,REQ-1254,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:49.000,Auth-Service,INFO,REQ-1254,OAuth2 session refreshed for user_id=304,OAuth2 session refreshed for <*>,7
+2026-11-18 12:22:49.020,Order-Service,INFO,REQ-1254,Order processed order_id=6635 for user_id=304,Order processed <*> for <*>,11
+2026-11-18 12:22:49.040,Database-Service,INFO,REQ-1254,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:22:49.060,K8s-Infra-Node,INFO,REQ-1254,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:22:51.980,API-Gateway,INFO,REQ-1255,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:52.000,Auth-Service,INFO,REQ-1255,JWT token verified for user_id=874,JWT token verified for <*>,2
+2026-11-18 12:22:52.020,Order-Service,INFO,REQ-1255,Order processed order_id=6837 for user_id=874,Order processed <*> for <*>,11
+2026-11-18 12:22:52.040,Database-Service,INFO,REQ-1255,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:22:52.060,K8s-Infra-Node,INFO,REQ-1255,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:22:54.980,API-Gateway,INFO,REQ-1256,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:55.000,Auth-Service,INFO,REQ-1256,OAuth2 session refreshed for user_id=602,OAuth2 session refreshed for <*>,7
+2026-11-18 12:22:55.020,Order-Service,INFO,REQ-1256,Inventory lock acquired for order_id=6592,Inventory lock acquired for <*>,3
+2026-11-18 12:22:55.040,Database-Service,INFO,REQ-1256,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:22:55.060,K8s-Infra-Node,INFO,REQ-1256,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:22:57.980,API-Gateway,INFO,REQ-1257,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:22:58.000,Auth-Service,INFO,REQ-1257,JWT token verified for user_id=273,JWT token verified for <*>,2
+2026-11-18 12:22:58.020,Order-Service,INFO,REQ-1257,Order processed order_id=8847 for user_id=273,Order processed <*> for <*>,11
+2026-11-18 12:22:58.040,Database-Service,INFO,REQ-1257,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:22:58.060,K8s-Infra-Node,INFO,REQ-1257,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:23:00.980,API-Gateway,INFO,REQ-1258,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:01.000,Auth-Service,INFO,REQ-1258,OAuth2 session refreshed for user_id=167,OAuth2 session refreshed for <*>,7
+2026-11-18 12:23:01.020,Order-Service,INFO,REQ-1258,Order processed order_id=7524 for user_id=167,Order processed <*> for <*>,11
+2026-11-18 12:23:01.040,Database-Service,INFO,REQ-1258,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:01.060,K8s-Infra-Node,INFO,REQ-1258,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:23:03.980,API-Gateway,INFO,REQ-1259,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:04.000,Auth-Service,INFO,REQ-1259,OAuth2 session refreshed for user_id=798,OAuth2 session refreshed for <*>,7
+2026-11-18 12:23:04.020,Order-Service,INFO,REQ-1259,Order processed order_id=7826 for user_id=798,Order processed <*> for <*>,11
+2026-11-18 12:23:04.040,Database-Service,INFO,REQ-1259,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:04.060,K8s-Infra-Node,INFO,REQ-1259,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:23:06.980,API-Gateway,INFO,REQ-1260,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:07.000,Auth-Service,INFO,REQ-1260,OAuth2 session refreshed for user_id=850,OAuth2 session refreshed for <*>,7
+2026-11-18 12:23:07.020,Order-Service,WARNING,REQ-1260,Retry triggered for order_id=8820,Retry triggered for <*>,17
+2026-11-18 12:23:07.040,Database-Service,INFO,REQ-1260,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:23:07.060,K8s-Infra-Node,INFO,REQ-1260,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:23:09.980,API-Gateway,INFO,REQ-1261,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:10.000,Auth-Service,INFO,REQ-1261,JWT token verified for user_id=196,JWT token verified for <*>,2
+2026-11-18 12:23:10.020,Order-Service,INFO,REQ-1261,Inventory lock acquired for order_id=8706,Inventory lock acquired for <*>,3
+2026-11-18 12:23:10.040,Database-Service,INFO,REQ-1261,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:10.060,K8s-Infra-Node,INFO,REQ-1261,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:23:12.980,API-Gateway,INFO,REQ-1262,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:13.000,Auth-Service,INFO,REQ-1262,JWT token verified for user_id=439,JWT token verified for <*>,2
+2026-11-18 12:23:13.020,Order-Service,INFO,REQ-1262,Order processed order_id=8525 for user_id=439,Order processed <*> for <*>,11
+2026-11-18 12:23:13.040,Database-Service,INFO,REQ-1262,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:13.060,K8s-Infra-Node,WARNING,REQ-1262,High CPU utilization (88%) on worker-node-04,High CPU utilization (88%) on <*>,13
+2026-11-18 12:23:15.980,API-Gateway,INFO,REQ-1263,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:16.000,Auth-Service,INFO,REQ-1263,JWT token verified for user_id=360,JWT token verified for <*>,2
+2026-11-18 12:23:16.020,Order-Service,INFO,REQ-1263,Order processed order_id=5365 for user_id=360,Order processed <*> for <*>,11
+2026-11-18 12:23:16.040,Database-Service,INFO,REQ-1263,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:16.060,K8s-Infra-Node,INFO,REQ-1263,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:23:18.980,API-Gateway,INFO,REQ-1264,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:19.000,Auth-Service,INFO,REQ-1264,JWT token verified for user_id=429,JWT token verified for <*>,2
+2026-11-18 12:23:19.020,Order-Service,INFO,REQ-1264,Inventory lock acquired for order_id=7610,Inventory lock acquired for <*>,3
+2026-11-18 12:23:19.040,Database-Service,INFO,REQ-1264,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:23:19.060,K8s-Infra-Node,INFO,REQ-1264,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:23:21.980,API-Gateway,INFO,REQ-1265,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:22.000,Auth-Service,WARNING,REQ-1265,Redis cache miss for user_id=890,Redis cache miss for <*>,18
+2026-11-18 12:23:22.020,Order-Service,INFO,REQ-1265,Order processed order_id=8757 for user_id=890,Order processed <*> for <*>,11
+2026-11-18 12:23:22.040,Database-Service,INFO,REQ-1265,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:23:22.060,K8s-Infra-Node,INFO,REQ-1265,Pod healthcheck passed on worker-node-04,Pod healthcheck passed on <*>,5
+2026-11-18 12:23:24.980,API-Gateway,INFO,REQ-1266,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:25.000,Auth-Service,INFO,REQ-1266,OAuth2 session refreshed for user_id=978,OAuth2 session refreshed for <*>,7
+2026-11-18 12:23:25.020,Order-Service,INFO,REQ-1266,Inventory lock acquired for order_id=7840,Inventory lock acquired for <*>,3
+2026-11-18 12:23:25.040,Database-Service,INFO,REQ-1266,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:25.060,K8s-Infra-Node,INFO,REQ-1266,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:23:27.980,API-Gateway,INFO,REQ-1267,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:28.000,Auth-Service,INFO,REQ-1267,JWT token verified for user_id=958,JWT token verified for <*>,2
+2026-11-18 12:23:28.020,Order-Service,INFO,REQ-1267,Order processed order_id=5989 for user_id=958,Order processed <*> for <*>,11
+2026-11-18 12:23:28.040,Database-Service,INFO,REQ-1267,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:23:28.060,K8s-Infra-Node,INFO,REQ-1267,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:23:30.980,API-Gateway,INFO,REQ-1268,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:31.000,Auth-Service,INFO,REQ-1268,JWT token verified for user_id=651,JWT token verified for <*>,2
+2026-11-18 12:23:31.020,Order-Service,INFO,REQ-1268,Order processed order_id=8132 for user_id=651,Order processed <*> for <*>,11
+2026-11-18 12:23:31.040,Database-Service,INFO,REQ-1268,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:31.060,K8s-Infra-Node,INFO,REQ-1268,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:23:33.980,API-Gateway,INFO,REQ-1269,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:34.000,Auth-Service,INFO,REQ-1269,JWT token verified for user_id=612,JWT token verified for <*>,2
+2026-11-18 12:23:34.020,Order-Service,INFO,REQ-1269,Order processed order_id=5590 for user_id=612,Order processed <*> for <*>,11
+2026-11-18 12:23:34.040,Database-Service,INFO,REQ-1269,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:23:34.060,K8s-Infra-Node,INFO,REQ-1269,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:23:36.980,API-Gateway,INFO,REQ-1270,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:37.000,Auth-Service,INFO,REQ-1270,JWT token verified for user_id=784,JWT token verified for <*>,2
+2026-11-18 12:23:37.020,Order-Service,INFO,REQ-1270,Inventory lock acquired for order_id=9917,Inventory lock acquired for <*>,3
+2026-11-18 12:23:37.040,Database-Service,INFO,REQ-1270,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:23:37.060,K8s-Infra-Node,INFO,REQ-1270,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:23:39.980,API-Gateway,INFO,REQ-1271,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:40.000,Auth-Service,INFO,REQ-1271,OAuth2 session refreshed for user_id=694,OAuth2 session refreshed for <*>,7
+2026-11-18 12:23:40.020,Order-Service,INFO,REQ-1271,Order processed order_id=6873 for user_id=694,Order processed <*> for <*>,11
+2026-11-18 12:23:40.040,Database-Service,INFO,REQ-1271,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:23:40.060,K8s-Infra-Node,INFO,REQ-1271,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:23:42.980,API-Gateway,INFO,REQ-1272,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:43.000,Auth-Service,INFO,REQ-1272,JWT token verified for user_id=152,JWT token verified for <*>,2
+2026-11-18 12:23:43.020,Order-Service,INFO,REQ-1272,Inventory lock acquired for order_id=6762,Inventory lock acquired for <*>,3
+2026-11-18 12:23:43.040,Database-Service,INFO,REQ-1272,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:43.060,K8s-Infra-Node,INFO,REQ-1272,Pod healthcheck passed on worker-node-01,Pod healthcheck passed on <*>,5
+2026-11-18 12:23:45.980,API-Gateway,INFO,REQ-1273,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:46.000,Auth-Service,INFO,REQ-1273,JWT token verified for user_id=871,JWT token verified for <*>,2
+2026-11-18 12:23:46.020,Order-Service,INFO,REQ-1273,Inventory lock acquired for order_id=6059,Inventory lock acquired for <*>,3
+2026-11-18 12:23:46.040,Database-Service,INFO,REQ-1273,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:46.060,K8s-Infra-Node,INFO,REQ-1273,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:23:48.980,API-Gateway,INFO,REQ-1274,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:49.000,Auth-Service,INFO,REQ-1274,OAuth2 session refreshed for user_id=464,OAuth2 session refreshed for <*>,7
+2026-11-18 12:23:49.020,Order-Service,INFO,REQ-1274,Inventory lock acquired for order_id=6103,Inventory lock acquired for <*>,3
+2026-11-18 12:23:49.040,Database-Service,INFO,REQ-1274,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:49.060,K8s-Infra-Node,INFO,REQ-1274,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:23:51.980,API-Gateway,INFO,REQ-1275,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:52.000,Auth-Service,INFO,REQ-1275,JWT token verified for user_id=893,JWT token verified for <*>,2
+2026-11-18 12:23:52.020,Order-Service,INFO,REQ-1275,Order processed order_id=6685 for user_id=893,Order processed <*> for <*>,11
+2026-11-18 12:23:52.040,Database-Service,INFO,REQ-1275,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:23:52.060,K8s-Infra-Node,INFO,REQ-1275,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:23:54.980,API-Gateway,INFO,REQ-1276,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:55.000,Auth-Service,INFO,REQ-1276,JWT token verified for user_id=271,JWT token verified for <*>,2
+2026-11-18 12:23:55.020,Order-Service,INFO,REQ-1276,Order processed order_id=7393 for user_id=271,Order processed <*> for <*>,11
+2026-11-18 12:23:55.040,Database-Service,INFO,REQ-1276,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:23:55.060,K8s-Infra-Node,INFO,REQ-1276,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:23:57.980,API-Gateway,INFO,REQ-1277,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:23:58.000,Auth-Service,INFO,REQ-1277,JWT token verified for user_id=795,JWT token verified for <*>,2
+2026-11-18 12:23:58.020,Order-Service,INFO,REQ-1277,Order processed order_id=9040 for user_id=795,Order processed <*> for <*>,11
+2026-11-18 12:23:58.040,Database-Service,INFO,REQ-1277,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:23:58.060,K8s-Infra-Node,INFO,REQ-1277,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:24:00.980,API-Gateway,INFO,REQ-1278,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:01.000,Auth-Service,WARNING,REQ-1278,Redis cache miss for user_id=955,Redis cache miss for <*>,18
+2026-11-18 12:24:01.020,Order-Service,INFO,REQ-1278,Inventory lock acquired for order_id=7149,Inventory lock acquired for <*>,3
+2026-11-18 12:24:01.040,Database-Service,WARNING,REQ-1278,Slow query detected (1420ms) on table orders_ledger,Slow query detected (1420ms) on table orders_ledger,19
+2026-11-18 12:24:01.060,K8s-Infra-Node,INFO,REQ-1278,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:24:03.980,API-Gateway,INFO,REQ-1279,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:04.000,Auth-Service,INFO,REQ-1279,JWT token verified for user_id=550,JWT token verified for <*>,2
+2026-11-18 12:24:04.020,Order-Service,INFO,REQ-1279,Inventory lock acquired for order_id=9812,Inventory lock acquired for <*>,3
+2026-11-18 12:24:04.040,Database-Service,INFO,REQ-1279,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:24:04.060,K8s-Infra-Node,INFO,REQ-1279,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:24:06.980,API-Gateway,INFO,REQ-1280,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:07.000,Auth-Service,INFO,REQ-1280,OAuth2 session refreshed for user_id=151,OAuth2 session refreshed for <*>,7
+2026-11-18 12:24:07.020,Order-Service,INFO,REQ-1280,Order processed order_id=5077 for user_id=151,Order processed <*> for <*>,11
+2026-11-18 12:24:07.040,Database-Service,INFO,REQ-1280,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:24:07.060,K8s-Infra-Node,WARNING,REQ-1280,High CPU utilization (88%) on worker-node-01,High CPU utilization (88%) on <*>,13
+2026-11-18 12:24:09.980,API-Gateway,INFO,REQ-1281,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:10.000,Auth-Service,INFO,REQ-1281,OAuth2 session refreshed for user_id=163,OAuth2 session refreshed for <*>,7
+2026-11-18 12:24:10.020,Order-Service,INFO,REQ-1281,Order processed order_id=7940 for user_id=163,Order processed <*> for <*>,11
+2026-11-18 12:24:10.040,Database-Service,INFO,REQ-1281,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:24:10.060,K8s-Infra-Node,INFO,REQ-1281,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:24:12.980,API-Gateway,INFO,REQ-1282,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:13.000,Auth-Service,INFO,REQ-1282,JWT token verified for user_id=656,JWT token verified for <*>,2
+2026-11-18 12:24:13.020,Order-Service,INFO,REQ-1282,Inventory lock acquired for order_id=9388,Inventory lock acquired for <*>,3
+2026-11-18 12:24:13.040,Database-Service,INFO,REQ-1282,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:24:13.060,K8s-Infra-Node,INFO,REQ-1282,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:24:15.980,API-Gateway,INFO,REQ-1283,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:16.000,Auth-Service,INFO,REQ-1283,JWT token verified for user_id=730,JWT token verified for <*>,2
+2026-11-18 12:24:16.020,Order-Service,WARNING,REQ-1283,Worker queue depth increasing (450 pending) for order_id=6707,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:24:16.040,Database-Service,WARNING,REQ-1283,Slow query detected (1420ms) on table orders_ledger,Slow query detected (1420ms) on table orders_ledger,19
+2026-11-18 12:24:16.060,K8s-Infra-Node,INFO,REQ-1283,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:24:18.980,API-Gateway,INFO,REQ-1284,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:19.000,Auth-Service,INFO,REQ-1284,OAuth2 session refreshed for user_id=802,OAuth2 session refreshed for <*>,7
+2026-11-18 12:24:19.020,Order-Service,INFO,REQ-1284,Inventory lock acquired for order_id=7221,Inventory lock acquired for <*>,3
+2026-11-18 12:24:19.040,Database-Service,INFO,REQ-1284,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:24:19.060,K8s-Infra-Node,INFO,REQ-1284,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:24:21.980,API-Gateway,INFO,REQ-1285,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:22.000,Auth-Service,INFO,REQ-1285,JWT token verified for user_id=265,JWT token verified for <*>,2
+2026-11-18 12:24:22.020,Order-Service,WARNING,REQ-1285,Worker queue depth increasing (450 pending) for order_id=7591,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:24:22.040,Database-Service,INFO,REQ-1285,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:24:22.060,K8s-Infra-Node,WARNING,REQ-1285,High CPU utilization (88%) on worker-node-02,High CPU utilization (88%) on <*>,13
+2026-11-18 12:24:24.980,API-Gateway,INFO,REQ-1286,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:25.000,Auth-Service,INFO,REQ-1286,OAuth2 session refreshed for user_id=346,OAuth2 session refreshed for <*>,7
+2026-11-18 12:24:25.020,Order-Service,INFO,REQ-1286,Order processed order_id=8216 for user_id=346,Order processed <*> for <*>,11
+2026-11-18 12:24:25.040,Database-Service,INFO,REQ-1286,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:24:25.060,K8s-Infra-Node,INFO,REQ-1286,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:24:27.980,API-Gateway,WARNING,REQ-1287,Rate limiter threshold 80% reached,Rate limiter threshold 80% reached,10
+2026-11-18 12:24:28.000,Auth-Service,INFO,REQ-1287,OAuth2 session refreshed for user_id=658,OAuth2 session refreshed for <*>,7
+2026-11-18 12:24:28.020,Order-Service,INFO,REQ-1287,Order processed order_id=7323 for user_id=658,Order processed <*> for <*>,11
+2026-11-18 12:24:28.040,Database-Service,INFO,REQ-1287,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:24:28.060,K8s-Infra-Node,INFO,REQ-1287,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:24:30.980,API-Gateway,INFO,REQ-1288,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:31.000,Auth-Service,INFO,REQ-1288,JWT token verified for user_id=664,JWT token verified for <*>,2
+2026-11-18 12:24:31.020,Order-Service,INFO,REQ-1288,Order processed order_id=5121 for user_id=664,Order processed <*> for <*>,11
+2026-11-18 12:24:31.040,Database-Service,INFO,REQ-1288,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:24:31.060,K8s-Infra-Node,INFO,REQ-1288,Pod healthcheck passed on worker-node-03,Pod healthcheck passed on <*>,5
+2026-11-18 12:24:33.980,API-Gateway,INFO,REQ-1289,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:34.000,Auth-Service,INFO,REQ-1289,OAuth2 session refreshed for user_id=509,OAuth2 session refreshed for <*>,7
+2026-11-18 12:24:34.020,Order-Service,INFO,REQ-1289,Inventory lock acquired for order_id=7079,Inventory lock acquired for <*>,3
+2026-11-18 12:24:34.040,Database-Service,INFO,REQ-1289,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:24:34.060,K8s-Infra-Node,INFO,REQ-1289,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:24:36.980,API-Gateway,INFO,REQ-1290,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:37.000,Auth-Service,INFO,REQ-1290,OAuth2 session refreshed for user_id=875,OAuth2 session refreshed for <*>,7
+2026-11-18 12:24:37.020,Order-Service,INFO,REQ-1290,Order processed order_id=5410 for user_id=875,Order processed <*> for <*>,11
+2026-11-18 12:24:37.040,Database-Service,INFO,REQ-1290,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:24:37.060,K8s-Infra-Node,INFO,REQ-1290,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:24:39.980,API-Gateway,INFO,REQ-1291,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:40.000,Auth-Service,INFO,REQ-1291,OAuth2 session refreshed for user_id=386,OAuth2 session refreshed for <*>,7
+2026-11-18 12:24:40.020,Order-Service,WARNING,REQ-1291,Retry triggered for order_id=6820,Retry triggered for <*>,17
+2026-11-18 12:24:40.040,Database-Service,INFO,REQ-1291,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:24:40.060,K8s-Infra-Node,INFO,REQ-1291,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:24:42.980,API-Gateway,INFO,REQ-1292,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:43.000,Auth-Service,INFO,REQ-1292,JWT token verified for user_id=108,JWT token verified for <*>,2
+2026-11-18 12:24:43.020,Order-Service,INFO,REQ-1292,Inventory lock acquired for order_id=9315,Inventory lock acquired for <*>,3
+2026-11-18 12:24:43.040,Database-Service,INFO,REQ-1292,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:24:43.060,K8s-Infra-Node,INFO,REQ-1292,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:24:45.980,API-Gateway,INFO,REQ-1293,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:46.000,Auth-Service,INFO,REQ-1293,JWT token verified for user_id=698,JWT token verified for <*>,2
+2026-11-18 12:24:46.020,Order-Service,WARNING,REQ-1293,Worker queue depth increasing (450 pending) for order_id=5731,Worker queue depth increasing (450 pending) for <*>,14
+2026-11-18 12:24:46.040,Database-Service,INFO,REQ-1293,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:24:46.060,K8s-Infra-Node,INFO,REQ-1293,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:24:48.980,API-Gateway,INFO,REQ-1294,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:49.000,Auth-Service,INFO,REQ-1294,JWT token verified for user_id=376,JWT token verified for <*>,2
+2026-11-18 12:24:49.020,Order-Service,INFO,REQ-1294,Order processed order_id=7652 for user_id=376,Order processed <*> for <*>,11
+2026-11-18 12:24:49.040,Database-Service,INFO,REQ-1294,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:24:49.060,K8s-Infra-Node,INFO,REQ-1294,Pod healthcheck passed on worker-node-02,Pod healthcheck passed on <*>,5
+2026-11-18 12:24:51.980,API-Gateway,INFO,REQ-1295,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:52.000,Auth-Service,INFO,REQ-1295,JWT token verified for user_id=890,JWT token verified for <*>,2
+2026-11-18 12:24:52.020,Order-Service,INFO,REQ-1295,Inventory lock acquired for order_id=7252,Inventory lock acquired for <*>,3
+2026-11-18 12:24:52.040,Database-Service,INFO,REQ-1295,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:24:52.060,K8s-Infra-Node,WARNING,REQ-1295,High CPU utilization (88%) on worker-node-03,High CPU utilization (88%) on <*>,13
+2026-11-18 12:24:54.980,API-Gateway,INFO,REQ-1296,HTTP 200 GET /api/v1/status routed in 18ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:55.000,Auth-Service,INFO,REQ-1296,JWT token verified for user_id=984,JWT token verified for <*>,2
+2026-11-18 12:24:55.020,Order-Service,INFO,REQ-1296,Order processed order_id=9287 for user_id=984,Order processed <*> for <*>,11
+2026-11-18 12:24:55.040,Database-Service,INFO,REQ-1296,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:24:55.060,K8s-Infra-Node,INFO,REQ-1296,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:24:57.980,API-Gateway,INFO,REQ-1297,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:24:58.000,Auth-Service,INFO,REQ-1297,OAuth2 session refreshed for user_id=817,OAuth2 session refreshed for <*>,7
+2026-11-18 12:24:58.020,Order-Service,WARNING,REQ-1297,Retry triggered for order_id=7167,Retry triggered for <*>,17
+2026-11-18 12:24:58.040,Database-Service,INFO,REQ-1297,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:24:58.060,K8s-Infra-Node,INFO,REQ-1297,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:25:00.980,API-Gateway,INFO,REQ-1298,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:25:01.000,Auth-Service,INFO,REQ-1298,JWT token verified for user_id=350,JWT token verified for <*>,2
+2026-11-18 12:25:01.020,Order-Service,INFO,REQ-1298,Inventory lock acquired for order_id=6126,Inventory lock acquired for <*>,3
+2026-11-18 12:25:01.040,Database-Service,INFO,REQ-1298,PostgreSQL connection pool healthy: 24/100 active,PostgreSQL connection pool healthy: 24/100 active,9
+2026-11-18 12:25:01.060,K8s-Infra-Node,INFO,REQ-1298,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8
+2026-11-18 12:25:03.980,API-Gateway,INFO,REQ-1299,HTTP 201 POST /api/v1/orders routed in 42ms,HTTP <*> <*> <*> routed in <*>,1
+2026-11-18 12:25:04.000,Auth-Service,INFO,REQ-1299,OAuth2 session refreshed for user_id=294,OAuth2 session refreshed for <*>,7
+2026-11-18 12:25:04.020,Order-Service,INFO,REQ-1299,Order processed order_id=9713 for user_id=294,Order processed <*> for <*>,11
+2026-11-18 12:25:04.040,Database-Service,INFO,REQ-1299,Query SELECT orders executed in 11ms,Query SELECT orders executed in 11ms,4
+2026-11-18 12:25:04.060,K8s-Infra-Node,INFO,REQ-1299,Container memory usage nominal at 54%,Container memory usage nominal at 54%,8

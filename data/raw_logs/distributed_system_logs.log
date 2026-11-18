@@ -1,0 +1,1166 @@
+2026-11-18 00:00:00 | INFO | API-Gateway | REQ-1000 | Incoming POST /api/v1/orders routed successfully for REQ-1000
+2026-11-18 00:00:00 | INFO | Auth-Service | REQ-1000 | JWT token validated for user_session_222
+2026-11-18 00:00:00 | INFO | Order-Service | REQ-1000 | Order payload verified for order_id=5419
+2026-11-18 00:00:00 | INFO | Database-Service | REQ-1000 | COMMIT transaction completed in 19ms
+2026-11-18 00:00:00 | INFO | K8s-Infra-Node | REQ-1000 | Pod cpu_util=36% mem_util=48%
+2026-11-18 00:00:03 | INFO | API-Gateway | REQ-1001 | Incoming POST /api/v1/orders routed successfully for REQ-1001
+2026-11-18 00:00:03 | INFO | Auth-Service | REQ-1001 | JWT token validated for user_session_418
+2026-11-18 00:00:03 | INFO | Order-Service | REQ-1001 | Order payload verified for order_id=6119
+2026-11-18 00:00:03 | INFO | Database-Service | REQ-1001 | COMMIT transaction completed in 13ms
+2026-11-18 00:00:03 | INFO | K8s-Infra-Node | REQ-1001 | Pod cpu_util=52% mem_util=58%
+2026-11-18 00:00:06 | INFO | API-Gateway | REQ-1002 | Incoming POST /api/v1/orders routed successfully for REQ-1002
+2026-11-18 00:00:06 | INFO | Auth-Service | REQ-1002 | JWT token validated for user_session_940
+2026-11-18 00:00:06 | INFO | Order-Service | REQ-1002 | Order payload verified for order_id=7638
+2026-11-18 00:00:06 | INFO | Database-Service | REQ-1002 | COMMIT transaction completed in 16ms
+2026-11-18 00:00:06 | INFO | K8s-Infra-Node | REQ-1002 | Pod cpu_util=29% mem_util=56%
+2026-11-18 00:00:09 | ERROR | Database-Service | REQ-1003 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:00:09 | ERROR | Order-Service | REQ-1003 | Transaction aborted: Database write timeout for order_id=8766
+2026-11-18 00:00:09 | ERROR | API-Gateway | REQ-1003 | HTTP 504 Gateway Timeout returned for request REQ-1003
+2026-11-18 00:00:12 | INFO | API-Gateway | REQ-1004 | Incoming POST /api/v1/orders routed successfully for REQ-1004
+2026-11-18 00:00:12 | INFO | Auth-Service | REQ-1004 | JWT token validated for user_session_848
+2026-11-18 00:00:12 | INFO | Order-Service | REQ-1004 | Order payload verified for order_id=8452
+2026-11-18 00:00:12 | INFO | Database-Service | REQ-1004 | COMMIT transaction completed in 21ms
+2026-11-18 00:00:12 | INFO | K8s-Infra-Node | REQ-1004 | Pod cpu_util=45% mem_util=57%
+2026-11-18 00:00:15 | ERROR | Database-Service | REQ-1005 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:00:15 | ERROR | Order-Service | REQ-1005 | Transaction aborted: Database write timeout for order_id=6649
+2026-11-18 00:00:15 | ERROR | API-Gateway | REQ-1005 | HTTP 504 Gateway Timeout returned for request REQ-1005
+2026-11-18 00:00:18 | INFO | API-Gateway | REQ-1006 | Incoming POST /api/v1/orders routed successfully for REQ-1006
+2026-11-18 00:00:18 | INFO | Auth-Service | REQ-1006 | JWT token validated for user_session_611
+2026-11-18 00:00:18 | INFO | Order-Service | REQ-1006 | Order payload verified for order_id=5273
+2026-11-18 00:00:18 | INFO | Database-Service | REQ-1006 | COMMIT transaction completed in 18ms
+2026-11-18 00:00:18 | INFO | K8s-Infra-Node | REQ-1006 | Pod cpu_util=45% mem_util=50%
+2026-11-18 00:00:21 | INFO | API-Gateway | REQ-1007 | Incoming POST /api/v1/orders routed successfully for REQ-1007
+2026-11-18 00:00:21 | INFO | Auth-Service | REQ-1007 | JWT token validated for user_session_223
+2026-11-18 00:00:21 | INFO | Order-Service | REQ-1007 | Order payload verified for order_id=8256
+2026-11-18 00:00:21 | INFO | Database-Service | REQ-1007 | COMMIT transaction completed in 12ms
+2026-11-18 00:00:21 | INFO | K8s-Infra-Node | REQ-1007 | Pod cpu_util=53% mem_util=42%
+2026-11-18 00:00:24 | INFO | API-Gateway | REQ-1008 | Incoming POST /api/v1/orders routed successfully for REQ-1008
+2026-11-18 00:00:24 | INFO | Auth-Service | REQ-1008 | JWT token validated for user_session_627
+2026-11-18 00:00:24 | INFO | Order-Service | REQ-1008 | Order payload verified for order_id=6012
+2026-11-18 00:00:24 | INFO | Database-Service | REQ-1008 | COMMIT transaction completed in 19ms
+2026-11-18 00:00:24 | INFO | K8s-Infra-Node | REQ-1008 | Pod cpu_util=47% mem_util=63%
+2026-11-18 00:00:27 | ERROR | Database-Service | REQ-1009 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:00:27 | ERROR | Order-Service | REQ-1009 | Transaction aborted: Database write timeout for order_id=6284
+2026-11-18 00:00:27 | ERROR | API-Gateway | REQ-1009 | HTTP 504 Gateway Timeout returned for request REQ-1009
+2026-11-18 00:00:30 | INFO | API-Gateway | REQ-1010 | Incoming POST /api/v1/orders routed successfully for REQ-1010
+2026-11-18 00:00:30 | INFO | Auth-Service | REQ-1010 | JWT token validated for user_session_186
+2026-11-18 00:00:30 | INFO | Order-Service | REQ-1010 | Order payload verified for order_id=9596
+2026-11-18 00:00:30 | INFO | Database-Service | REQ-1010 | COMMIT transaction completed in 8ms
+2026-11-18 00:00:30 | INFO | K8s-Infra-Node | REQ-1010 | Pod cpu_util=49% mem_util=61%
+2026-11-18 00:00:33 | INFO | API-Gateway | REQ-1011 | Incoming POST /api/v1/orders routed successfully for REQ-1011
+2026-11-18 00:00:33 | INFO | Auth-Service | REQ-1011 | JWT token validated for user_session_756
+2026-11-18 00:00:33 | INFO | Order-Service | REQ-1011 | Order payload verified for order_id=8826
+2026-11-18 00:00:33 | INFO | Database-Service | REQ-1011 | COMMIT transaction completed in 16ms
+2026-11-18 00:00:33 | INFO | K8s-Infra-Node | REQ-1011 | Pod cpu_util=33% mem_util=59%
+2026-11-18 00:00:36 | INFO | API-Gateway | REQ-1012 | Incoming POST /api/v1/orders routed successfully for REQ-1012
+2026-11-18 00:00:36 | INFO | Auth-Service | REQ-1012 | JWT token validated for user_session_339
+2026-11-18 00:00:36 | INFO | Order-Service | REQ-1012 | Order payload verified for order_id=8812
+2026-11-18 00:00:36 | INFO | Database-Service | REQ-1012 | COMMIT transaction completed in 22ms
+2026-11-18 00:00:36 | INFO | K8s-Infra-Node | REQ-1012 | Pod cpu_util=39% mem_util=60%
+2026-11-18 00:00:39 | INFO | API-Gateway | REQ-1013 | Incoming POST /api/v1/orders routed successfully for REQ-1013
+2026-11-18 00:00:39 | INFO | Auth-Service | REQ-1013 | JWT token validated for user_session_653
+2026-11-18 00:00:39 | INFO | Order-Service | REQ-1013 | Order payload verified for order_id=5492
+2026-11-18 00:00:39 | INFO | Database-Service | REQ-1013 | COMMIT transaction completed in 9ms
+2026-11-18 00:00:39 | INFO | K8s-Infra-Node | REQ-1013 | Pod cpu_util=45% mem_util=62%
+2026-11-18 00:00:42 | INFO | API-Gateway | REQ-1014 | Incoming POST /api/v1/orders routed successfully for REQ-1014
+2026-11-18 00:00:42 | INFO | Auth-Service | REQ-1014 | JWT token validated for user_session_995
+2026-11-18 00:00:42 | INFO | Order-Service | REQ-1014 | Order payload verified for order_id=8187
+2026-11-18 00:00:42 | INFO | Database-Service | REQ-1014 | COMMIT transaction completed in 21ms
+2026-11-18 00:00:42 | INFO | K8s-Infra-Node | REQ-1014 | Pod cpu_util=48% mem_util=57%
+2026-11-18 00:00:45 | ERROR | K8s-Infra-Node | REQ-1015 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:00:45 | ERROR | Auth-Service | REQ-1015 | Connection refused by upstream auth-pod worker for REQ-1015
+2026-11-18 00:00:45 | ERROR | API-Gateway | REQ-1015 | HTTP 502 Bad Gateway returned for request REQ-1015
+2026-11-18 00:00:48 | INFO | API-Gateway | REQ-1016 | Incoming POST /api/v1/orders routed successfully for REQ-1016
+2026-11-18 00:00:48 | INFO | Auth-Service | REQ-1016 | JWT token validated for user_session_658
+2026-11-18 00:00:48 | INFO | Order-Service | REQ-1016 | Order payload verified for order_id=7674
+2026-11-18 00:00:48 | INFO | Database-Service | REQ-1016 | COMMIT transaction completed in 20ms
+2026-11-18 00:00:48 | INFO | K8s-Infra-Node | REQ-1016 | Pod cpu_util=52% mem_util=40%
+2026-11-18 00:00:51 | INFO | API-Gateway | REQ-1017 | Incoming POST /api/v1/orders routed successfully for REQ-1017
+2026-11-18 00:00:51 | INFO | Auth-Service | REQ-1017 | JWT token validated for user_session_954
+2026-11-18 00:00:51 | INFO | Order-Service | REQ-1017 | Order payload verified for order_id=8157
+2026-11-18 00:00:51 | INFO | Database-Service | REQ-1017 | COMMIT transaction completed in 22ms
+2026-11-18 00:00:51 | INFO | K8s-Infra-Node | REQ-1017 | Pod cpu_util=25% mem_util=49%
+2026-11-18 00:00:54 | ERROR | K8s-Infra-Node | REQ-1018 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:00:54 | ERROR | Auth-Service | REQ-1018 | Connection refused by upstream auth-pod worker for REQ-1018
+2026-11-18 00:00:54 | ERROR | API-Gateway | REQ-1018 | HTTP 502 Bad Gateway returned for request REQ-1018
+2026-11-18 00:00:57 | INFO | API-Gateway | REQ-1019 | Incoming POST /api/v1/orders routed successfully for REQ-1019
+2026-11-18 00:00:57 | INFO | Auth-Service | REQ-1019 | JWT token validated for user_session_536
+2026-11-18 00:00:57 | INFO | Order-Service | REQ-1019 | Order payload verified for order_id=6493
+2026-11-18 00:00:57 | INFO | Database-Service | REQ-1019 | COMMIT transaction completed in 16ms
+2026-11-18 00:00:57 | INFO | K8s-Infra-Node | REQ-1019 | Pod cpu_util=39% mem_util=54%
+2026-11-18 00:01:00 | INFO | API-Gateway | REQ-1020 | Incoming POST /api/v1/orders routed successfully for REQ-1020
+2026-11-18 00:01:00 | INFO | Auth-Service | REQ-1020 | JWT token validated for user_session_438
+2026-11-18 00:01:00 | INFO | Order-Service | REQ-1020 | Order payload verified for order_id=5527
+2026-11-18 00:01:00 | INFO | Database-Service | REQ-1020 | COMMIT transaction completed in 11ms
+2026-11-18 00:01:00 | INFO | K8s-Infra-Node | REQ-1020 | Pod cpu_util=36% mem_util=48%
+2026-11-18 00:01:03 | INFO | API-Gateway | REQ-1021 | Incoming POST /api/v1/orders routed successfully for REQ-1021
+2026-11-18 00:01:03 | INFO | Auth-Service | REQ-1021 | JWT token validated for user_session_733
+2026-11-18 00:01:03 | INFO | Order-Service | REQ-1021 | Order payload verified for order_id=9843
+2026-11-18 00:01:03 | INFO | Database-Service | REQ-1021 | COMMIT transaction completed in 17ms
+2026-11-18 00:01:03 | INFO | K8s-Infra-Node | REQ-1021 | Pod cpu_util=25% mem_util=46%
+2026-11-18 00:01:06 | ERROR | Database-Service | REQ-1022 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:01:06 | ERROR | Order-Service | REQ-1022 | Transaction aborted: Database write timeout for order_id=7098
+2026-11-18 00:01:06 | ERROR | API-Gateway | REQ-1022 | HTTP 504 Gateway Timeout returned for request REQ-1022
+2026-11-18 00:01:09 | INFO | API-Gateway | REQ-1023 | Incoming POST /api/v1/orders routed successfully for REQ-1023
+2026-11-18 00:01:09 | INFO | Auth-Service | REQ-1023 | JWT token validated for user_session_253
+2026-11-18 00:01:09 | INFO | Order-Service | REQ-1023 | Order payload verified for order_id=5592
+2026-11-18 00:01:09 | INFO | Database-Service | REQ-1023 | COMMIT transaction completed in 8ms
+2026-11-18 00:01:09 | INFO | K8s-Infra-Node | REQ-1023 | Pod cpu_util=33% mem_util=61%
+2026-11-18 00:01:12 | INFO | API-Gateway | REQ-1024 | Incoming POST /api/v1/orders routed successfully for REQ-1024
+2026-11-18 00:01:12 | INFO | Auth-Service | REQ-1024 | JWT token validated for user_session_353
+2026-11-18 00:01:12 | INFO | Order-Service | REQ-1024 | Order payload verified for order_id=8835
+2026-11-18 00:01:12 | INFO | Database-Service | REQ-1024 | COMMIT transaction completed in 17ms
+2026-11-18 00:01:12 | INFO | K8s-Infra-Node | REQ-1024 | Pod cpu_util=38% mem_util=45%
+2026-11-18 00:01:15 | ERROR | K8s-Infra-Node | REQ-1025 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:01:15 | ERROR | Auth-Service | REQ-1025 | Connection refused by upstream auth-pod worker for REQ-1025
+2026-11-18 00:01:15 | ERROR | API-Gateway | REQ-1025 | HTTP 502 Bad Gateway returned for request REQ-1025
+2026-11-18 00:01:18 | INFO | API-Gateway | REQ-1026 | Incoming POST /api/v1/orders routed successfully for REQ-1026
+2026-11-18 00:01:18 | INFO | Auth-Service | REQ-1026 | JWT token validated for user_session_108
+2026-11-18 00:01:18 | INFO | Order-Service | REQ-1026 | Order payload verified for order_id=9526
+2026-11-18 00:01:18 | INFO | Database-Service | REQ-1026 | COMMIT transaction completed in 13ms
+2026-11-18 00:01:18 | INFO | K8s-Infra-Node | REQ-1026 | Pod cpu_util=25% mem_util=48%
+2026-11-18 00:01:21 | INFO | API-Gateway | REQ-1027 | Incoming POST /api/v1/orders routed successfully for REQ-1027
+2026-11-18 00:01:21 | INFO | Auth-Service | REQ-1027 | JWT token validated for user_session_801
+2026-11-18 00:01:21 | INFO | Order-Service | REQ-1027 | Order payload verified for order_id=6962
+2026-11-18 00:01:21 | INFO | Database-Service | REQ-1027 | COMMIT transaction completed in 17ms
+2026-11-18 00:01:21 | INFO | K8s-Infra-Node | REQ-1027 | Pod cpu_util=26% mem_util=41%
+2026-11-18 00:01:24 | INFO | API-Gateway | REQ-1028 | Incoming POST /api/v1/orders routed successfully for REQ-1028
+2026-11-18 00:01:24 | INFO | Auth-Service | REQ-1028 | JWT token validated for user_session_646
+2026-11-18 00:01:24 | INFO | Order-Service | REQ-1028 | Order payload verified for order_id=6914
+2026-11-18 00:01:24 | INFO | Database-Service | REQ-1028 | COMMIT transaction completed in 11ms
+2026-11-18 00:01:24 | INFO | K8s-Infra-Node | REQ-1028 | Pod cpu_util=52% mem_util=44%
+2026-11-18 00:01:27 | INFO | API-Gateway | REQ-1029 | Incoming POST /api/v1/orders routed successfully for REQ-1029
+2026-11-18 00:01:27 | INFO | Auth-Service | REQ-1029 | JWT token validated for user_session_125
+2026-11-18 00:01:27 | INFO | Order-Service | REQ-1029 | Order payload verified for order_id=5663
+2026-11-18 00:01:27 | INFO | Database-Service | REQ-1029 | COMMIT transaction completed in 16ms
+2026-11-18 00:01:27 | INFO | K8s-Infra-Node | REQ-1029 | Pod cpu_util=55% mem_util=54%
+2026-11-18 00:01:30 | ERROR | Database-Service | REQ-1030 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:01:30 | ERROR | Order-Service | REQ-1030 | Transaction aborted: Database write timeout for order_id=6425
+2026-11-18 00:01:30 | ERROR | API-Gateway | REQ-1030 | HTTP 504 Gateway Timeout returned for request REQ-1030
+2026-11-18 00:01:33 | INFO | API-Gateway | REQ-1031 | Incoming POST /api/v1/orders routed successfully for REQ-1031
+2026-11-18 00:01:33 | INFO | Auth-Service | REQ-1031 | JWT token validated for user_session_953
+2026-11-18 00:01:33 | INFO | Order-Service | REQ-1031 | Order payload verified for order_id=8567
+2026-11-18 00:01:33 | INFO | Database-Service | REQ-1031 | COMMIT transaction completed in 8ms
+2026-11-18 00:01:33 | INFO | K8s-Infra-Node | REQ-1031 | Pod cpu_util=37% mem_util=43%
+2026-11-18 00:01:36 | INFO | API-Gateway | REQ-1032 | Incoming POST /api/v1/orders routed successfully for REQ-1032
+2026-11-18 00:01:36 | INFO | Auth-Service | REQ-1032 | JWT token validated for user_session_990
+2026-11-18 00:01:36 | INFO | Order-Service | REQ-1032 | Order payload verified for order_id=6197
+2026-11-18 00:01:36 | INFO | Database-Service | REQ-1032 | COMMIT transaction completed in 16ms
+2026-11-18 00:01:36 | INFO | K8s-Infra-Node | REQ-1032 | Pod cpu_util=28% mem_util=55%
+2026-11-18 00:01:39 | ERROR | K8s-Infra-Node | REQ-1033 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:01:39 | ERROR | Auth-Service | REQ-1033 | Connection refused by upstream auth-pod worker for REQ-1033
+2026-11-18 00:01:39 | ERROR | API-Gateway | REQ-1033 | HTTP 502 Bad Gateway returned for request REQ-1033
+2026-11-18 00:01:42 | INFO | API-Gateway | REQ-1034 | Incoming POST /api/v1/orders routed successfully for REQ-1034
+2026-11-18 00:01:42 | INFO | Auth-Service | REQ-1034 | JWT token validated for user_session_668
+2026-11-18 00:01:42 | INFO | Order-Service | REQ-1034 | Order payload verified for order_id=5858
+2026-11-18 00:01:42 | INFO | Database-Service | REQ-1034 | COMMIT transaction completed in 12ms
+2026-11-18 00:01:42 | INFO | K8s-Infra-Node | REQ-1034 | Pod cpu_util=40% mem_util=54%
+2026-11-18 00:01:45 | INFO | API-Gateway | REQ-1035 | Incoming POST /api/v1/orders routed successfully for REQ-1035
+2026-11-18 00:01:45 | INFO | Auth-Service | REQ-1035 | JWT token validated for user_session_492
+2026-11-18 00:01:45 | INFO | Order-Service | REQ-1035 | Order payload verified for order_id=9194
+2026-11-18 00:01:45 | INFO | Database-Service | REQ-1035 | COMMIT transaction completed in 8ms
+2026-11-18 00:01:45 | INFO | K8s-Infra-Node | REQ-1035 | Pod cpu_util=52% mem_util=48%
+2026-11-18 00:01:48 | INFO | API-Gateway | REQ-1036 | Incoming POST /api/v1/orders routed successfully for REQ-1036
+2026-11-18 00:01:48 | INFO | Auth-Service | REQ-1036 | JWT token validated for user_session_990
+2026-11-18 00:01:48 | INFO | Order-Service | REQ-1036 | Order payload verified for order_id=6699
+2026-11-18 00:01:48 | INFO | Database-Service | REQ-1036 | COMMIT transaction completed in 22ms
+2026-11-18 00:01:48 | INFO | K8s-Infra-Node | REQ-1036 | Pod cpu_util=44% mem_util=42%
+2026-11-18 00:01:51 | INFO | API-Gateway | REQ-1037 | Incoming POST /api/v1/orders routed successfully for REQ-1037
+2026-11-18 00:01:51 | INFO | Auth-Service | REQ-1037 | JWT token validated for user_session_835
+2026-11-18 00:01:51 | INFO | Order-Service | REQ-1037 | Order payload verified for order_id=8700
+2026-11-18 00:01:51 | INFO | Database-Service | REQ-1037 | COMMIT transaction completed in 18ms
+2026-11-18 00:01:51 | INFO | K8s-Infra-Node | REQ-1037 | Pod cpu_util=29% mem_util=47%
+2026-11-18 00:01:54 | INFO | API-Gateway | REQ-1038 | Incoming POST /api/v1/orders routed successfully for REQ-1038
+2026-11-18 00:01:54 | INFO | Auth-Service | REQ-1038 | JWT token validated for user_session_994
+2026-11-18 00:01:54 | INFO | Order-Service | REQ-1038 | Order payload verified for order_id=6009
+2026-11-18 00:01:54 | INFO | Database-Service | REQ-1038 | COMMIT transaction completed in 13ms
+2026-11-18 00:01:54 | INFO | K8s-Infra-Node | REQ-1038 | Pod cpu_util=28% mem_util=48%
+2026-11-18 00:01:57 | INFO | API-Gateway | REQ-1039 | Incoming POST /api/v1/orders routed successfully for REQ-1039
+2026-11-18 00:01:57 | INFO | Auth-Service | REQ-1039 | JWT token validated for user_session_210
+2026-11-18 00:01:57 | INFO | Order-Service | REQ-1039 | Order payload verified for order_id=8676
+2026-11-18 00:01:57 | INFO | Database-Service | REQ-1039 | COMMIT transaction completed in 18ms
+2026-11-18 00:01:57 | INFO | K8s-Infra-Node | REQ-1039 | Pod cpu_util=40% mem_util=50%
+2026-11-18 00:02:00 | INFO | API-Gateway | REQ-1040 | Incoming POST /api/v1/orders routed successfully for REQ-1040
+2026-11-18 00:02:00 | INFO | Auth-Service | REQ-1040 | JWT token validated for user_session_497
+2026-11-18 00:02:00 | INFO | Order-Service | REQ-1040 | Order payload verified for order_id=6358
+2026-11-18 00:02:00 | INFO | Database-Service | REQ-1040 | COMMIT transaction completed in 12ms
+2026-11-18 00:02:00 | INFO | K8s-Infra-Node | REQ-1040 | Pod cpu_util=28% mem_util=40%
+2026-11-18 00:02:03 | INFO | API-Gateway | REQ-1041 | Incoming POST /api/v1/orders routed successfully for REQ-1041
+2026-11-18 00:02:03 | INFO | Auth-Service | REQ-1041 | JWT token validated for user_session_812
+2026-11-18 00:02:03 | INFO | Order-Service | REQ-1041 | Order payload verified for order_id=5353
+2026-11-18 00:02:03 | INFO | Database-Service | REQ-1041 | COMMIT transaction completed in 9ms
+2026-11-18 00:02:03 | INFO | K8s-Infra-Node | REQ-1041 | Pod cpu_util=36% mem_util=53%
+2026-11-18 00:02:06 | INFO | API-Gateway | REQ-1042 | Incoming POST /api/v1/orders routed successfully for REQ-1042
+2026-11-18 00:02:06 | INFO | Auth-Service | REQ-1042 | JWT token validated for user_session_705
+2026-11-18 00:02:06 | INFO | Order-Service | REQ-1042 | Order payload verified for order_id=9259
+2026-11-18 00:02:06 | INFO | Database-Service | REQ-1042 | COMMIT transaction completed in 16ms
+2026-11-18 00:02:06 | INFO | K8s-Infra-Node | REQ-1042 | Pod cpu_util=40% mem_util=47%
+2026-11-18 00:02:09 | ERROR | Database-Service | REQ-1043 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:02:09 | ERROR | Order-Service | REQ-1043 | Transaction aborted: Database write timeout for order_id=6567
+2026-11-18 00:02:09 | ERROR | API-Gateway | REQ-1043 | HTTP 504 Gateway Timeout returned for request REQ-1043
+2026-11-18 00:02:12 | INFO | API-Gateway | REQ-1044 | Incoming POST /api/v1/orders routed successfully for REQ-1044
+2026-11-18 00:02:12 | INFO | Auth-Service | REQ-1044 | JWT token validated for user_session_469
+2026-11-18 00:02:12 | INFO | Order-Service | REQ-1044 | Order payload verified for order_id=7910
+2026-11-18 00:02:12 | INFO | Database-Service | REQ-1044 | COMMIT transaction completed in 18ms
+2026-11-18 00:02:12 | INFO | K8s-Infra-Node | REQ-1044 | Pod cpu_util=38% mem_util=57%
+2026-11-18 00:02:15 | INFO | API-Gateway | REQ-1045 | Incoming POST /api/v1/orders routed successfully for REQ-1045
+2026-11-18 00:02:15 | INFO | Auth-Service | REQ-1045 | JWT token validated for user_session_209
+2026-11-18 00:02:15 | INFO | Order-Service | REQ-1045 | Order payload verified for order_id=9025
+2026-11-18 00:02:15 | INFO | Database-Service | REQ-1045 | COMMIT transaction completed in 21ms
+2026-11-18 00:02:15 | INFO | K8s-Infra-Node | REQ-1045 | Pod cpu_util=34% mem_util=42%
+2026-11-18 00:02:18 | INFO | API-Gateway | REQ-1046 | Incoming POST /api/v1/orders routed successfully for REQ-1046
+2026-11-18 00:02:18 | INFO | Auth-Service | REQ-1046 | JWT token validated for user_session_694
+2026-11-18 00:02:18 | INFO | Order-Service | REQ-1046 | Order payload verified for order_id=6334
+2026-11-18 00:02:18 | INFO | Database-Service | REQ-1046 | COMMIT transaction completed in 16ms
+2026-11-18 00:02:18 | INFO | K8s-Infra-Node | REQ-1046 | Pod cpu_util=42% mem_util=55%
+2026-11-18 00:02:21 | INFO | API-Gateway | REQ-1047 | Incoming POST /api/v1/orders routed successfully for REQ-1047
+2026-11-18 00:02:21 | INFO | Auth-Service | REQ-1047 | JWT token validated for user_session_819
+2026-11-18 00:02:21 | INFO | Order-Service | REQ-1047 | Order payload verified for order_id=6147
+2026-11-18 00:02:21 | INFO | Database-Service | REQ-1047 | COMMIT transaction completed in 22ms
+2026-11-18 00:02:21 | INFO | K8s-Infra-Node | REQ-1047 | Pod cpu_util=38% mem_util=47%
+2026-11-18 00:02:24 | ERROR | Database-Service | REQ-1048 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:02:24 | ERROR | Order-Service | REQ-1048 | Transaction aborted: Database write timeout for order_id=5654
+2026-11-18 00:02:24 | ERROR | API-Gateway | REQ-1048 | HTTP 504 Gateway Timeout returned for request REQ-1048
+2026-11-18 00:02:27 | INFO | API-Gateway | REQ-1049 | Incoming POST /api/v1/orders routed successfully for REQ-1049
+2026-11-18 00:02:27 | INFO | Auth-Service | REQ-1049 | JWT token validated for user_session_203
+2026-11-18 00:02:27 | INFO | Order-Service | REQ-1049 | Order payload verified for order_id=6110
+2026-11-18 00:02:27 | INFO | Database-Service | REQ-1049 | COMMIT transaction completed in 20ms
+2026-11-18 00:02:27 | INFO | K8s-Infra-Node | REQ-1049 | Pod cpu_util=33% mem_util=50%
+2026-11-18 00:02:30 | INFO | API-Gateway | REQ-1050 | Incoming POST /api/v1/orders routed successfully for REQ-1050
+2026-11-18 00:02:30 | INFO | Auth-Service | REQ-1050 | JWT token validated for user_session_870
+2026-11-18 00:02:30 | INFO | Order-Service | REQ-1050 | Order payload verified for order_id=8647
+2026-11-18 00:02:30 | INFO | Database-Service | REQ-1050 | COMMIT transaction completed in 16ms
+2026-11-18 00:02:30 | INFO | K8s-Infra-Node | REQ-1050 | Pod cpu_util=28% mem_util=45%
+2026-11-18 00:02:33 | INFO | API-Gateway | REQ-1051 | Incoming POST /api/v1/orders routed successfully for REQ-1051
+2026-11-18 00:02:33 | INFO | Auth-Service | REQ-1051 | JWT token validated for user_session_433
+2026-11-18 00:02:33 | INFO | Order-Service | REQ-1051 | Order payload verified for order_id=7696
+2026-11-18 00:02:33 | INFO | Database-Service | REQ-1051 | COMMIT transaction completed in 19ms
+2026-11-18 00:02:33 | INFO | K8s-Infra-Node | REQ-1051 | Pod cpu_util=55% mem_util=61%
+2026-11-18 00:02:36 | ERROR | Database-Service | REQ-1052 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:02:36 | ERROR | Order-Service | REQ-1052 | Transaction aborted: Database write timeout for order_id=8581
+2026-11-18 00:02:36 | ERROR | API-Gateway | REQ-1052 | HTTP 504 Gateway Timeout returned for request REQ-1052
+2026-11-18 00:02:39 | INFO | API-Gateway | REQ-1053 | Incoming POST /api/v1/orders routed successfully for REQ-1053
+2026-11-18 00:02:39 | INFO | Auth-Service | REQ-1053 | JWT token validated for user_session_935
+2026-11-18 00:02:39 | INFO | Order-Service | REQ-1053 | Order payload verified for order_id=5520
+2026-11-18 00:02:39 | INFO | Database-Service | REQ-1053 | COMMIT transaction completed in 16ms
+2026-11-18 00:02:39 | INFO | K8s-Infra-Node | REQ-1053 | Pod cpu_util=47% mem_util=48%
+2026-11-18 00:02:42 | INFO | API-Gateway | REQ-1054 | Incoming POST /api/v1/orders routed successfully for REQ-1054
+2026-11-18 00:02:42 | INFO | Auth-Service | REQ-1054 | JWT token validated for user_session_980
+2026-11-18 00:02:42 | INFO | Order-Service | REQ-1054 | Order payload verified for order_id=8418
+2026-11-18 00:02:42 | INFO | Database-Service | REQ-1054 | COMMIT transaction completed in 19ms
+2026-11-18 00:02:42 | INFO | K8s-Infra-Node | REQ-1054 | Pod cpu_util=42% mem_util=55%
+2026-11-18 00:02:45 | INFO | API-Gateway | REQ-1055 | Incoming POST /api/v1/orders routed successfully for REQ-1055
+2026-11-18 00:02:45 | INFO | Auth-Service | REQ-1055 | JWT token validated for user_session_962
+2026-11-18 00:02:45 | INFO | Order-Service | REQ-1055 | Order payload verified for order_id=5451
+2026-11-18 00:02:45 | INFO | Database-Service | REQ-1055 | COMMIT transaction completed in 19ms
+2026-11-18 00:02:45 | INFO | K8s-Infra-Node | REQ-1055 | Pod cpu_util=48% mem_util=59%
+2026-11-18 00:02:48 | INFO | API-Gateway | REQ-1056 | Incoming POST /api/v1/orders routed successfully for REQ-1056
+2026-11-18 00:02:48 | INFO | Auth-Service | REQ-1056 | JWT token validated for user_session_481
+2026-11-18 00:02:48 | INFO | Order-Service | REQ-1056 | Order payload verified for order_id=5343
+2026-11-18 00:02:48 | INFO | Database-Service | REQ-1056 | COMMIT transaction completed in 18ms
+2026-11-18 00:02:48 | INFO | K8s-Infra-Node | REQ-1056 | Pod cpu_util=26% mem_util=58%
+2026-11-18 00:02:51 | ERROR | Database-Service | REQ-1057 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:02:51 | ERROR | Order-Service | REQ-1057 | Transaction aborted: Database write timeout for order_id=6997
+2026-11-18 00:02:51 | ERROR | API-Gateway | REQ-1057 | HTTP 504 Gateway Timeout returned for request REQ-1057
+2026-11-18 00:02:54 | INFO | API-Gateway | REQ-1058 | Incoming POST /api/v1/orders routed successfully for REQ-1058
+2026-11-18 00:02:54 | INFO | Auth-Service | REQ-1058 | JWT token validated for user_session_787
+2026-11-18 00:02:54 | INFO | Order-Service | REQ-1058 | Order payload verified for order_id=7431
+2026-11-18 00:02:54 | INFO | Database-Service | REQ-1058 | COMMIT transaction completed in 10ms
+2026-11-18 00:02:54 | INFO | K8s-Infra-Node | REQ-1058 | Pod cpu_util=55% mem_util=42%
+2026-11-18 00:02:57 | ERROR | Database-Service | REQ-1059 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:02:57 | ERROR | Order-Service | REQ-1059 | Transaction aborted: Database write timeout for order_id=6060
+2026-11-18 00:02:57 | ERROR | API-Gateway | REQ-1059 | HTTP 504 Gateway Timeout returned for request REQ-1059
+2026-11-18 00:03:00 | INFO | API-Gateway | REQ-1060 | Incoming POST /api/v1/orders routed successfully for REQ-1060
+2026-11-18 00:03:00 | INFO | Auth-Service | REQ-1060 | JWT token validated for user_session_311
+2026-11-18 00:03:00 | INFO | Order-Service | REQ-1060 | Order payload verified for order_id=9401
+2026-11-18 00:03:00 | INFO | Database-Service | REQ-1060 | COMMIT transaction completed in 17ms
+2026-11-18 00:03:00 | INFO | K8s-Infra-Node | REQ-1060 | Pod cpu_util=36% mem_util=40%
+2026-11-18 00:03:03 | ERROR | K8s-Infra-Node | REQ-1061 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:03:03 | ERROR | Auth-Service | REQ-1061 | Connection refused by upstream auth-pod worker for REQ-1061
+2026-11-18 00:03:03 | ERROR | API-Gateway | REQ-1061 | HTTP 502 Bad Gateway returned for request REQ-1061
+2026-11-18 00:03:06 | INFO | API-Gateway | REQ-1062 | Incoming POST /api/v1/orders routed successfully for REQ-1062
+2026-11-18 00:03:06 | INFO | Auth-Service | REQ-1062 | JWT token validated for user_session_814
+2026-11-18 00:03:06 | INFO | Order-Service | REQ-1062 | Order payload verified for order_id=7626
+2026-11-18 00:03:06 | INFO | Database-Service | REQ-1062 | COMMIT transaction completed in 11ms
+2026-11-18 00:03:06 | INFO | K8s-Infra-Node | REQ-1062 | Pod cpu_util=26% mem_util=60%
+2026-11-18 00:03:09 | INFO | API-Gateway | REQ-1063 | Incoming POST /api/v1/orders routed successfully for REQ-1063
+2026-11-18 00:03:09 | INFO | Auth-Service | REQ-1063 | JWT token validated for user_session_994
+2026-11-18 00:03:09 | INFO | Order-Service | REQ-1063 | Order payload verified for order_id=9365
+2026-11-18 00:03:09 | INFO | Database-Service | REQ-1063 | COMMIT transaction completed in 11ms
+2026-11-18 00:03:09 | INFO | K8s-Infra-Node | REQ-1063 | Pod cpu_util=31% mem_util=57%
+2026-11-18 00:03:12 | INFO | API-Gateway | REQ-1064 | Incoming POST /api/v1/orders routed successfully for REQ-1064
+2026-11-18 00:03:12 | INFO | Auth-Service | REQ-1064 | JWT token validated for user_session_805
+2026-11-18 00:03:12 | INFO | Order-Service | REQ-1064 | Order payload verified for order_id=9739
+2026-11-18 00:03:12 | INFO | Database-Service | REQ-1064 | COMMIT transaction completed in 8ms
+2026-11-18 00:03:12 | INFO | K8s-Infra-Node | REQ-1064 | Pod cpu_util=40% mem_util=45%
+2026-11-18 00:03:15 | INFO | API-Gateway | REQ-1065 | Incoming POST /api/v1/orders routed successfully for REQ-1065
+2026-11-18 00:03:15 | INFO | Auth-Service | REQ-1065 | JWT token validated for user_session_276
+2026-11-18 00:03:15 | INFO | Order-Service | REQ-1065 | Order payload verified for order_id=7990
+2026-11-18 00:03:15 | INFO | Database-Service | REQ-1065 | COMMIT transaction completed in 12ms
+2026-11-18 00:03:15 | INFO | K8s-Infra-Node | REQ-1065 | Pod cpu_util=45% mem_util=43%
+2026-11-18 00:03:18 | INFO | API-Gateway | REQ-1066 | Incoming POST /api/v1/orders routed successfully for REQ-1066
+2026-11-18 00:03:18 | INFO | Auth-Service | REQ-1066 | JWT token validated for user_session_415
+2026-11-18 00:03:18 | INFO | Order-Service | REQ-1066 | Order payload verified for order_id=9103
+2026-11-18 00:03:18 | INFO | Database-Service | REQ-1066 | COMMIT transaction completed in 22ms
+2026-11-18 00:03:18 | INFO | K8s-Infra-Node | REQ-1066 | Pod cpu_util=38% mem_util=56%
+2026-11-18 00:03:21 | INFO | API-Gateway | REQ-1067 | Incoming POST /api/v1/orders routed successfully for REQ-1067
+2026-11-18 00:03:21 | INFO | Auth-Service | REQ-1067 | JWT token validated for user_session_593
+2026-11-18 00:03:21 | INFO | Order-Service | REQ-1067 | Order payload verified for order_id=5290
+2026-11-18 00:03:21 | INFO | Database-Service | REQ-1067 | COMMIT transaction completed in 11ms
+2026-11-18 00:03:21 | INFO | K8s-Infra-Node | REQ-1067 | Pod cpu_util=49% mem_util=62%
+2026-11-18 00:03:24 | INFO | API-Gateway | REQ-1068 | Incoming POST /api/v1/orders routed successfully for REQ-1068
+2026-11-18 00:03:24 | INFO | Auth-Service | REQ-1068 | JWT token validated for user_session_707
+2026-11-18 00:03:24 | INFO | Order-Service | REQ-1068 | Order payload verified for order_id=9758
+2026-11-18 00:03:24 | INFO | Database-Service | REQ-1068 | COMMIT transaction completed in 9ms
+2026-11-18 00:03:24 | INFO | K8s-Infra-Node | REQ-1068 | Pod cpu_util=40% mem_util=48%
+2026-11-18 00:03:27 | INFO | API-Gateway | REQ-1069 | Incoming POST /api/v1/orders routed successfully for REQ-1069
+2026-11-18 00:03:27 | INFO | Auth-Service | REQ-1069 | JWT token validated for user_session_988
+2026-11-18 00:03:27 | INFO | Order-Service | REQ-1069 | Order payload verified for order_id=7701
+2026-11-18 00:03:27 | INFO | Database-Service | REQ-1069 | COMMIT transaction completed in 20ms
+2026-11-18 00:03:27 | INFO | K8s-Infra-Node | REQ-1069 | Pod cpu_util=54% mem_util=43%
+2026-11-18 00:03:30 | INFO | API-Gateway | REQ-1070 | Incoming POST /api/v1/orders routed successfully for REQ-1070
+2026-11-18 00:03:30 | INFO | Auth-Service | REQ-1070 | JWT token validated for user_session_385
+2026-11-18 00:03:30 | INFO | Order-Service | REQ-1070 | Order payload verified for order_id=6593
+2026-11-18 00:03:30 | INFO | Database-Service | REQ-1070 | COMMIT transaction completed in 15ms
+2026-11-18 00:03:30 | INFO | K8s-Infra-Node | REQ-1070 | Pod cpu_util=40% mem_util=56%
+2026-11-18 00:03:33 | INFO | API-Gateway | REQ-1071 | Incoming POST /api/v1/orders routed successfully for REQ-1071
+2026-11-18 00:03:33 | INFO | Auth-Service | REQ-1071 | JWT token validated for user_session_425
+2026-11-18 00:03:33 | INFO | Order-Service | REQ-1071 | Order payload verified for order_id=5339
+2026-11-18 00:03:33 | INFO | Database-Service | REQ-1071 | COMMIT transaction completed in 21ms
+2026-11-18 00:03:33 | INFO | K8s-Infra-Node | REQ-1071 | Pod cpu_util=54% mem_util=44%
+2026-11-18 00:03:36 | INFO | API-Gateway | REQ-1072 | Incoming POST /api/v1/orders routed successfully for REQ-1072
+2026-11-18 00:03:36 | INFO | Auth-Service | REQ-1072 | JWT token validated for user_session_407
+2026-11-18 00:03:36 | INFO | Order-Service | REQ-1072 | Order payload verified for order_id=5746
+2026-11-18 00:03:36 | INFO | Database-Service | REQ-1072 | COMMIT transaction completed in 19ms
+2026-11-18 00:03:36 | INFO | K8s-Infra-Node | REQ-1072 | Pod cpu_util=30% mem_util=63%
+2026-11-18 00:03:39 | ERROR | Database-Service | REQ-1073 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:03:39 | ERROR | Order-Service | REQ-1073 | Transaction aborted: Database write timeout for order_id=5695
+2026-11-18 00:03:39 | ERROR | API-Gateway | REQ-1073 | HTTP 504 Gateway Timeout returned for request REQ-1073
+2026-11-18 00:03:42 | ERROR | Database-Service | REQ-1074 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:03:42 | ERROR | Order-Service | REQ-1074 | Transaction aborted: Database write timeout for order_id=8301
+2026-11-18 00:03:42 | ERROR | API-Gateway | REQ-1074 | HTTP 504 Gateway Timeout returned for request REQ-1074
+2026-11-18 00:03:45 | ERROR | Database-Service | REQ-1075 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:03:45 | ERROR | Order-Service | REQ-1075 | Transaction aborted: Database write timeout for order_id=8719
+2026-11-18 00:03:45 | ERROR | API-Gateway | REQ-1075 | HTTP 504 Gateway Timeout returned for request REQ-1075
+2026-11-18 00:03:48 | INFO | API-Gateway | REQ-1076 | Incoming POST /api/v1/orders routed successfully for REQ-1076
+2026-11-18 00:03:48 | INFO | Auth-Service | REQ-1076 | JWT token validated for user_session_155
+2026-11-18 00:03:48 | INFO | Order-Service | REQ-1076 | Order payload verified for order_id=9548
+2026-11-18 00:03:48 | INFO | Database-Service | REQ-1076 | COMMIT transaction completed in 13ms
+2026-11-18 00:03:48 | INFO | K8s-Infra-Node | REQ-1076 | Pod cpu_util=26% mem_util=47%
+2026-11-18 00:03:51 | INFO | API-Gateway | REQ-1077 | Incoming POST /api/v1/orders routed successfully for REQ-1077
+2026-11-18 00:03:51 | INFO | Auth-Service | REQ-1077 | JWT token validated for user_session_103
+2026-11-18 00:03:51 | INFO | Order-Service | REQ-1077 | Order payload verified for order_id=5957
+2026-11-18 00:03:51 | INFO | Database-Service | REQ-1077 | COMMIT transaction completed in 12ms
+2026-11-18 00:03:51 | INFO | K8s-Infra-Node | REQ-1077 | Pod cpu_util=34% mem_util=48%
+2026-11-18 00:03:54 | INFO | API-Gateway | REQ-1078 | Incoming POST /api/v1/orders routed successfully for REQ-1078
+2026-11-18 00:03:54 | INFO | Auth-Service | REQ-1078 | JWT token validated for user_session_547
+2026-11-18 00:03:54 | INFO | Order-Service | REQ-1078 | Order payload verified for order_id=8206
+2026-11-18 00:03:54 | INFO | Database-Service | REQ-1078 | COMMIT transaction completed in 9ms
+2026-11-18 00:03:54 | INFO | K8s-Infra-Node | REQ-1078 | Pod cpu_util=55% mem_util=45%
+2026-11-18 00:03:57 | INFO | API-Gateway | REQ-1079 | Incoming POST /api/v1/orders routed successfully for REQ-1079
+2026-11-18 00:03:57 | INFO | Auth-Service | REQ-1079 | JWT token validated for user_session_961
+2026-11-18 00:03:57 | INFO | Order-Service | REQ-1079 | Order payload verified for order_id=9834
+2026-11-18 00:03:57 | INFO | Database-Service | REQ-1079 | COMMIT transaction completed in 10ms
+2026-11-18 00:03:57 | INFO | K8s-Infra-Node | REQ-1079 | Pod cpu_util=50% mem_util=44%
+2026-11-18 00:04:00 | ERROR | Database-Service | REQ-1080 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:04:00 | ERROR | Order-Service | REQ-1080 | Transaction aborted: Database write timeout for order_id=5644
+2026-11-18 00:04:00 | ERROR | API-Gateway | REQ-1080 | HTTP 504 Gateway Timeout returned for request REQ-1080
+2026-11-18 00:04:03 | INFO | API-Gateway | REQ-1081 | Incoming POST /api/v1/orders routed successfully for REQ-1081
+2026-11-18 00:04:03 | INFO | Auth-Service | REQ-1081 | JWT token validated for user_session_233
+2026-11-18 00:04:03 | INFO | Order-Service | REQ-1081 | Order payload verified for order_id=6581
+2026-11-18 00:04:03 | INFO | Database-Service | REQ-1081 | COMMIT transaction completed in 18ms
+2026-11-18 00:04:03 | INFO | K8s-Infra-Node | REQ-1081 | Pod cpu_util=33% mem_util=47%
+2026-11-18 00:04:06 | INFO | API-Gateway | REQ-1082 | Incoming POST /api/v1/orders routed successfully for REQ-1082
+2026-11-18 00:04:06 | INFO | Auth-Service | REQ-1082 | JWT token validated for user_session_165
+2026-11-18 00:04:06 | INFO | Order-Service | REQ-1082 | Order payload verified for order_id=7446
+2026-11-18 00:04:06 | INFO | Database-Service | REQ-1082 | COMMIT transaction completed in 21ms
+2026-11-18 00:04:06 | INFO | K8s-Infra-Node | REQ-1082 | Pod cpu_util=47% mem_util=41%
+2026-11-18 00:04:09 | INFO | API-Gateway | REQ-1083 | Incoming POST /api/v1/orders routed successfully for REQ-1083
+2026-11-18 00:04:09 | INFO | Auth-Service | REQ-1083 | JWT token validated for user_session_256
+2026-11-18 00:04:09 | INFO | Order-Service | REQ-1083 | Order payload verified for order_id=5339
+2026-11-18 00:04:09 | INFO | Database-Service | REQ-1083 | COMMIT transaction completed in 21ms
+2026-11-18 00:04:09 | INFO | K8s-Infra-Node | REQ-1083 | Pod cpu_util=27% mem_util=52%
+2026-11-18 00:04:12 | INFO | API-Gateway | REQ-1084 | Incoming POST /api/v1/orders routed successfully for REQ-1084
+2026-11-18 00:04:12 | INFO | Auth-Service | REQ-1084 | JWT token validated for user_session_660
+2026-11-18 00:04:12 | INFO | Order-Service | REQ-1084 | Order payload verified for order_id=6942
+2026-11-18 00:04:12 | INFO | Database-Service | REQ-1084 | COMMIT transaction completed in 21ms
+2026-11-18 00:04:12 | INFO | K8s-Infra-Node | REQ-1084 | Pod cpu_util=46% mem_util=61%
+2026-11-18 00:04:15 | ERROR | Database-Service | REQ-1085 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:04:15 | ERROR | Order-Service | REQ-1085 | Transaction aborted: Database write timeout for order_id=9909
+2026-11-18 00:04:15 | ERROR | API-Gateway | REQ-1085 | HTTP 504 Gateway Timeout returned for request REQ-1085
+2026-11-18 00:04:18 | INFO | API-Gateway | REQ-1086 | Incoming POST /api/v1/orders routed successfully for REQ-1086
+2026-11-18 00:04:18 | INFO | Auth-Service | REQ-1086 | JWT token validated for user_session_472
+2026-11-18 00:04:18 | INFO | Order-Service | REQ-1086 | Order payload verified for order_id=9298
+2026-11-18 00:04:18 | INFO | Database-Service | REQ-1086 | COMMIT transaction completed in 11ms
+2026-11-18 00:04:18 | INFO | K8s-Infra-Node | REQ-1086 | Pod cpu_util=25% mem_util=51%
+2026-11-18 00:04:21 | INFO | API-Gateway | REQ-1087 | Incoming POST /api/v1/orders routed successfully for REQ-1087
+2026-11-18 00:04:21 | INFO | Auth-Service | REQ-1087 | JWT token validated for user_session_245
+2026-11-18 00:04:21 | INFO | Order-Service | REQ-1087 | Order payload verified for order_id=7262
+2026-11-18 00:04:21 | INFO | Database-Service | REQ-1087 | COMMIT transaction completed in 17ms
+2026-11-18 00:04:21 | INFO | K8s-Infra-Node | REQ-1087 | Pod cpu_util=40% mem_util=59%
+2026-11-18 00:04:24 | INFO | API-Gateway | REQ-1088 | Incoming POST /api/v1/orders routed successfully for REQ-1088
+2026-11-18 00:04:24 | INFO | Auth-Service | REQ-1088 | JWT token validated for user_session_574
+2026-11-18 00:04:24 | INFO | Order-Service | REQ-1088 | Order payload verified for order_id=5775
+2026-11-18 00:04:24 | INFO | Database-Service | REQ-1088 | COMMIT transaction completed in 13ms
+2026-11-18 00:04:24 | INFO | K8s-Infra-Node | REQ-1088 | Pod cpu_util=53% mem_util=63%
+2026-11-18 00:04:27 | INFO | API-Gateway | REQ-1089 | Incoming POST /api/v1/orders routed successfully for REQ-1089
+2026-11-18 00:04:27 | INFO | Auth-Service | REQ-1089 | JWT token validated for user_session_602
+2026-11-18 00:04:27 | INFO | Order-Service | REQ-1089 | Order payload verified for order_id=6513
+2026-11-18 00:04:27 | INFO | Database-Service | REQ-1089 | COMMIT transaction completed in 8ms
+2026-11-18 00:04:27 | INFO | K8s-Infra-Node | REQ-1089 | Pod cpu_util=55% mem_util=40%
+2026-11-18 00:04:30 | INFO | API-Gateway | REQ-1090 | Incoming POST /api/v1/orders routed successfully for REQ-1090
+2026-11-18 00:04:30 | INFO | Auth-Service | REQ-1090 | JWT token validated for user_session_472
+2026-11-18 00:04:30 | INFO | Order-Service | REQ-1090 | Order payload verified for order_id=7315
+2026-11-18 00:04:30 | INFO | Database-Service | REQ-1090 | COMMIT transaction completed in 8ms
+2026-11-18 00:04:30 | INFO | K8s-Infra-Node | REQ-1090 | Pod cpu_util=31% mem_util=65%
+2026-11-18 00:04:33 | INFO | API-Gateway | REQ-1091 | Incoming POST /api/v1/orders routed successfully for REQ-1091
+2026-11-18 00:04:33 | INFO | Auth-Service | REQ-1091 | JWT token validated for user_session_324
+2026-11-18 00:04:33 | INFO | Order-Service | REQ-1091 | Order payload verified for order_id=8431
+2026-11-18 00:04:33 | INFO | Database-Service | REQ-1091 | COMMIT transaction completed in 8ms
+2026-11-18 00:04:33 | INFO | K8s-Infra-Node | REQ-1091 | Pod cpu_util=35% mem_util=45%
+2026-11-18 00:04:36 | INFO | API-Gateway | REQ-1092 | Incoming POST /api/v1/orders routed successfully for REQ-1092
+2026-11-18 00:04:36 | INFO | Auth-Service | REQ-1092 | JWT token validated for user_session_792
+2026-11-18 00:04:36 | INFO | Order-Service | REQ-1092 | Order payload verified for order_id=9681
+2026-11-18 00:04:36 | INFO | Database-Service | REQ-1092 | COMMIT transaction completed in 13ms
+2026-11-18 00:04:36 | INFO | K8s-Infra-Node | REQ-1092 | Pod cpu_util=32% mem_util=43%
+2026-11-18 00:04:39 | INFO | API-Gateway | REQ-1093 | Incoming POST /api/v1/orders routed successfully for REQ-1093
+2026-11-18 00:04:39 | INFO | Auth-Service | REQ-1093 | JWT token validated for user_session_368
+2026-11-18 00:04:39 | INFO | Order-Service | REQ-1093 | Order payload verified for order_id=6693
+2026-11-18 00:04:39 | INFO | Database-Service | REQ-1093 | COMMIT transaction completed in 19ms
+2026-11-18 00:04:39 | INFO | K8s-Infra-Node | REQ-1093 | Pod cpu_util=42% mem_util=55%
+2026-11-18 00:04:42 | INFO | API-Gateway | REQ-1094 | Incoming POST /api/v1/orders routed successfully for REQ-1094
+2026-11-18 00:04:42 | INFO | Auth-Service | REQ-1094 | JWT token validated for user_session_155
+2026-11-18 00:04:42 | INFO | Order-Service | REQ-1094 | Order payload verified for order_id=6104
+2026-11-18 00:04:42 | INFO | Database-Service | REQ-1094 | COMMIT transaction completed in 9ms
+2026-11-18 00:04:42 | INFO | K8s-Infra-Node | REQ-1094 | Pod cpu_util=37% mem_util=63%
+2026-11-18 00:04:45 | INFO | API-Gateway | REQ-1095 | Incoming POST /api/v1/orders routed successfully for REQ-1095
+2026-11-18 00:04:45 | INFO | Auth-Service | REQ-1095 | JWT token validated for user_session_564
+2026-11-18 00:04:45 | INFO | Order-Service | REQ-1095 | Order payload verified for order_id=9390
+2026-11-18 00:04:45 | INFO | Database-Service | REQ-1095 | COMMIT transaction completed in 21ms
+2026-11-18 00:04:45 | INFO | K8s-Infra-Node | REQ-1095 | Pod cpu_util=31% mem_util=46%
+2026-11-18 00:04:48 | ERROR | K8s-Infra-Node | REQ-1096 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:04:48 | ERROR | Auth-Service | REQ-1096 | Connection refused by upstream auth-pod worker for REQ-1096
+2026-11-18 00:04:48 | ERROR | API-Gateway | REQ-1096 | HTTP 502 Bad Gateway returned for request REQ-1096
+2026-11-18 00:04:51 | INFO | API-Gateway | REQ-1097 | Incoming POST /api/v1/orders routed successfully for REQ-1097
+2026-11-18 00:04:51 | INFO | Auth-Service | REQ-1097 | JWT token validated for user_session_971
+2026-11-18 00:04:51 | INFO | Order-Service | REQ-1097 | Order payload verified for order_id=5165
+2026-11-18 00:04:51 | INFO | Database-Service | REQ-1097 | COMMIT transaction completed in 15ms
+2026-11-18 00:04:51 | INFO | K8s-Infra-Node | REQ-1097 | Pod cpu_util=38% mem_util=58%
+2026-11-18 00:04:54 | INFO | API-Gateway | REQ-1098 | Incoming POST /api/v1/orders routed successfully for REQ-1098
+2026-11-18 00:04:54 | INFO | Auth-Service | REQ-1098 | JWT token validated for user_session_618
+2026-11-18 00:04:54 | INFO | Order-Service | REQ-1098 | Order payload verified for order_id=5742
+2026-11-18 00:04:54 | INFO | Database-Service | REQ-1098 | COMMIT transaction completed in 16ms
+2026-11-18 00:04:54 | INFO | K8s-Infra-Node | REQ-1098 | Pod cpu_util=45% mem_util=64%
+2026-11-18 00:04:57 | INFO | API-Gateway | REQ-1099 | Incoming POST /api/v1/orders routed successfully for REQ-1099
+2026-11-18 00:04:57 | INFO | Auth-Service | REQ-1099 | JWT token validated for user_session_882
+2026-11-18 00:04:57 | INFO | Order-Service | REQ-1099 | Order payload verified for order_id=7836
+2026-11-18 00:04:57 | INFO | Database-Service | REQ-1099 | COMMIT transaction completed in 21ms
+2026-11-18 00:04:57 | INFO | K8s-Infra-Node | REQ-1099 | Pod cpu_util=36% mem_util=46%
+2026-11-18 00:05:00 | INFO | API-Gateway | REQ-1100 | Incoming POST /api/v1/orders routed successfully for REQ-1100
+2026-11-18 00:05:00 | INFO | Auth-Service | REQ-1100 | JWT token validated for user_session_643
+2026-11-18 00:05:00 | INFO | Order-Service | REQ-1100 | Order payload verified for order_id=5349
+2026-11-18 00:05:00 | INFO | Database-Service | REQ-1100 | COMMIT transaction completed in 17ms
+2026-11-18 00:05:00 | INFO | K8s-Infra-Node | REQ-1100 | Pod cpu_util=55% mem_util=41%
+2026-11-18 00:05:03 | INFO | API-Gateway | REQ-1101 | Incoming POST /api/v1/orders routed successfully for REQ-1101
+2026-11-18 00:05:03 | INFO | Auth-Service | REQ-1101 | JWT token validated for user_session_108
+2026-11-18 00:05:03 | INFO | Order-Service | REQ-1101 | Order payload verified for order_id=9694
+2026-11-18 00:05:03 | INFO | Database-Service | REQ-1101 | COMMIT transaction completed in 15ms
+2026-11-18 00:05:03 | INFO | K8s-Infra-Node | REQ-1101 | Pod cpu_util=31% mem_util=50%
+2026-11-18 00:05:06 | ERROR | K8s-Infra-Node | REQ-1102 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:05:06 | ERROR | Auth-Service | REQ-1102 | Connection refused by upstream auth-pod worker for REQ-1102
+2026-11-18 00:05:06 | ERROR | API-Gateway | REQ-1102 | HTTP 502 Bad Gateway returned for request REQ-1102
+2026-11-18 00:05:09 | ERROR | Database-Service | REQ-1103 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:05:09 | ERROR | Order-Service | REQ-1103 | Transaction aborted: Database write timeout for order_id=9605
+2026-11-18 00:05:09 | ERROR | API-Gateway | REQ-1103 | HTTP 504 Gateway Timeout returned for request REQ-1103
+2026-11-18 00:05:12 | INFO | API-Gateway | REQ-1104 | Incoming POST /api/v1/orders routed successfully for REQ-1104
+2026-11-18 00:05:12 | INFO | Auth-Service | REQ-1104 | JWT token validated for user_session_219
+2026-11-18 00:05:12 | INFO | Order-Service | REQ-1104 | Order payload verified for order_id=6043
+2026-11-18 00:05:12 | INFO | Database-Service | REQ-1104 | COMMIT transaction completed in 18ms
+2026-11-18 00:05:12 | INFO | K8s-Infra-Node | REQ-1104 | Pod cpu_util=39% mem_util=42%
+2026-11-18 00:05:15 | INFO | API-Gateway | REQ-1105 | Incoming POST /api/v1/orders routed successfully for REQ-1105
+2026-11-18 00:05:15 | INFO | Auth-Service | REQ-1105 | JWT token validated for user_session_880
+2026-11-18 00:05:15 | INFO | Order-Service | REQ-1105 | Order payload verified for order_id=7262
+2026-11-18 00:05:15 | INFO | Database-Service | REQ-1105 | COMMIT transaction completed in 16ms
+2026-11-18 00:05:15 | INFO | K8s-Infra-Node | REQ-1105 | Pod cpu_util=42% mem_util=60%
+2026-11-18 00:05:18 | INFO | API-Gateway | REQ-1106 | Incoming POST /api/v1/orders routed successfully for REQ-1106
+2026-11-18 00:05:18 | INFO | Auth-Service | REQ-1106 | JWT token validated for user_session_558
+2026-11-18 00:05:18 | INFO | Order-Service | REQ-1106 | Order payload verified for order_id=7519
+2026-11-18 00:05:18 | INFO | Database-Service | REQ-1106 | COMMIT transaction completed in 11ms
+2026-11-18 00:05:18 | INFO | K8s-Infra-Node | REQ-1106 | Pod cpu_util=35% mem_util=40%
+2026-11-18 00:05:21 | INFO | API-Gateway | REQ-1107 | Incoming POST /api/v1/orders routed successfully for REQ-1107
+2026-11-18 00:05:21 | INFO | Auth-Service | REQ-1107 | JWT token validated for user_session_196
+2026-11-18 00:05:21 | INFO | Order-Service | REQ-1107 | Order payload verified for order_id=6052
+2026-11-18 00:05:21 | INFO | Database-Service | REQ-1107 | COMMIT transaction completed in 8ms
+2026-11-18 00:05:21 | INFO | K8s-Infra-Node | REQ-1107 | Pod cpu_util=30% mem_util=56%
+2026-11-18 00:05:24 | INFO | API-Gateway | REQ-1108 | Incoming POST /api/v1/orders routed successfully for REQ-1108
+2026-11-18 00:05:24 | INFO | Auth-Service | REQ-1108 | JWT token validated for user_session_821
+2026-11-18 00:05:24 | INFO | Order-Service | REQ-1108 | Order payload verified for order_id=5385
+2026-11-18 00:05:24 | INFO | Database-Service | REQ-1108 | COMMIT transaction completed in 17ms
+2026-11-18 00:05:24 | INFO | K8s-Infra-Node | REQ-1108 | Pod cpu_util=29% mem_util=59%
+2026-11-18 00:05:27 | ERROR | Database-Service | REQ-1109 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:05:27 | ERROR | Order-Service | REQ-1109 | Transaction aborted: Database write timeout for order_id=7223
+2026-11-18 00:05:27 | ERROR | API-Gateway | REQ-1109 | HTTP 504 Gateway Timeout returned for request REQ-1109
+2026-11-18 00:05:30 | INFO | API-Gateway | REQ-1110 | Incoming POST /api/v1/orders routed successfully for REQ-1110
+2026-11-18 00:05:30 | INFO | Auth-Service | REQ-1110 | JWT token validated for user_session_354
+2026-11-18 00:05:30 | INFO | Order-Service | REQ-1110 | Order payload verified for order_id=6493
+2026-11-18 00:05:30 | INFO | Database-Service | REQ-1110 | COMMIT transaction completed in 15ms
+2026-11-18 00:05:30 | INFO | K8s-Infra-Node | REQ-1110 | Pod cpu_util=49% mem_util=56%
+2026-11-18 00:05:33 | INFO | API-Gateway | REQ-1111 | Incoming POST /api/v1/orders routed successfully for REQ-1111
+2026-11-18 00:05:33 | INFO | Auth-Service | REQ-1111 | JWT token validated for user_session_196
+2026-11-18 00:05:33 | INFO | Order-Service | REQ-1111 | Order payload verified for order_id=8880
+2026-11-18 00:05:33 | INFO | Database-Service | REQ-1111 | COMMIT transaction completed in 8ms
+2026-11-18 00:05:33 | INFO | K8s-Infra-Node | REQ-1111 | Pod cpu_util=39% mem_util=53%
+2026-11-18 00:05:36 | INFO | API-Gateway | REQ-1112 | Incoming POST /api/v1/orders routed successfully for REQ-1112
+2026-11-18 00:05:36 | INFO | Auth-Service | REQ-1112 | JWT token validated for user_session_706
+2026-11-18 00:05:36 | INFO | Order-Service | REQ-1112 | Order payload verified for order_id=7735
+2026-11-18 00:05:36 | INFO | Database-Service | REQ-1112 | COMMIT transaction completed in 14ms
+2026-11-18 00:05:36 | INFO | K8s-Infra-Node | REQ-1112 | Pod cpu_util=33% mem_util=52%
+2026-11-18 00:05:39 | INFO | API-Gateway | REQ-1113 | Incoming POST /api/v1/orders routed successfully for REQ-1113
+2026-11-18 00:05:39 | INFO | Auth-Service | REQ-1113 | JWT token validated for user_session_231
+2026-11-18 00:05:39 | INFO | Order-Service | REQ-1113 | Order payload verified for order_id=7237
+2026-11-18 00:05:39 | INFO | Database-Service | REQ-1113 | COMMIT transaction completed in 22ms
+2026-11-18 00:05:39 | INFO | K8s-Infra-Node | REQ-1113 | Pod cpu_util=46% mem_util=54%
+2026-11-18 00:05:42 | INFO | API-Gateway | REQ-1114 | Incoming POST /api/v1/orders routed successfully for REQ-1114
+2026-11-18 00:05:42 | INFO | Auth-Service | REQ-1114 | JWT token validated for user_session_134
+2026-11-18 00:05:42 | INFO | Order-Service | REQ-1114 | Order payload verified for order_id=8199
+2026-11-18 00:05:42 | INFO | Database-Service | REQ-1114 | COMMIT transaction completed in 14ms
+2026-11-18 00:05:42 | INFO | K8s-Infra-Node | REQ-1114 | Pod cpu_util=50% mem_util=60%
+2026-11-18 00:05:45 | INFO | API-Gateway | REQ-1115 | Incoming POST /api/v1/orders routed successfully for REQ-1115
+2026-11-18 00:05:45 | INFO | Auth-Service | REQ-1115 | JWT token validated for user_session_890
+2026-11-18 00:05:45 | INFO | Order-Service | REQ-1115 | Order payload verified for order_id=8211
+2026-11-18 00:05:45 | INFO | Database-Service | REQ-1115 | COMMIT transaction completed in 12ms
+2026-11-18 00:05:45 | INFO | K8s-Infra-Node | REQ-1115 | Pod cpu_util=48% mem_util=47%
+2026-11-18 00:05:48 | INFO | API-Gateway | REQ-1116 | Incoming POST /api/v1/orders routed successfully for REQ-1116
+2026-11-18 00:05:48 | INFO | Auth-Service | REQ-1116 | JWT token validated for user_session_100
+2026-11-18 00:05:48 | INFO | Order-Service | REQ-1116 | Order payload verified for order_id=5023
+2026-11-18 00:05:48 | INFO | Database-Service | REQ-1116 | COMMIT transaction completed in 13ms
+2026-11-18 00:05:48 | INFO | K8s-Infra-Node | REQ-1116 | Pod cpu_util=51% mem_util=61%
+2026-11-18 00:05:51 | INFO | API-Gateway | REQ-1117 | Incoming POST /api/v1/orders routed successfully for REQ-1117
+2026-11-18 00:05:51 | INFO | Auth-Service | REQ-1117 | JWT token validated for user_session_793
+2026-11-18 00:05:51 | INFO | Order-Service | REQ-1117 | Order payload verified for order_id=7710
+2026-11-18 00:05:51 | INFO | Database-Service | REQ-1117 | COMMIT transaction completed in 14ms
+2026-11-18 00:05:51 | INFO | K8s-Infra-Node | REQ-1117 | Pod cpu_util=39% mem_util=40%
+2026-11-18 00:05:54 | INFO | API-Gateway | REQ-1118 | Incoming POST /api/v1/orders routed successfully for REQ-1118
+2026-11-18 00:05:54 | INFO | Auth-Service | REQ-1118 | JWT token validated for user_session_311
+2026-11-18 00:05:54 | INFO | Order-Service | REQ-1118 | Order payload verified for order_id=9381
+2026-11-18 00:05:54 | INFO | Database-Service | REQ-1118 | COMMIT transaction completed in 10ms
+2026-11-18 00:05:54 | INFO | K8s-Infra-Node | REQ-1118 | Pod cpu_util=37% mem_util=59%
+2026-11-18 00:05:57 | INFO | API-Gateway | REQ-1119 | Incoming POST /api/v1/orders routed successfully for REQ-1119
+2026-11-18 00:05:57 | INFO | Auth-Service | REQ-1119 | JWT token validated for user_session_631
+2026-11-18 00:05:57 | INFO | Order-Service | REQ-1119 | Order payload verified for order_id=7378
+2026-11-18 00:05:57 | INFO | Database-Service | REQ-1119 | COMMIT transaction completed in 22ms
+2026-11-18 00:05:57 | INFO | K8s-Infra-Node | REQ-1119 | Pod cpu_util=35% mem_util=43%
+2026-11-18 00:06:00 | INFO | API-Gateway | REQ-1120 | Incoming POST /api/v1/orders routed successfully for REQ-1120
+2026-11-18 00:06:00 | INFO | Auth-Service | REQ-1120 | JWT token validated for user_session_203
+2026-11-18 00:06:00 | INFO | Order-Service | REQ-1120 | Order payload verified for order_id=6724
+2026-11-18 00:06:00 | INFO | Database-Service | REQ-1120 | COMMIT transaction completed in 21ms
+2026-11-18 00:06:00 | INFO | K8s-Infra-Node | REQ-1120 | Pod cpu_util=40% mem_util=53%
+2026-11-18 00:06:03 | INFO | API-Gateway | REQ-1121 | Incoming POST /api/v1/orders routed successfully for REQ-1121
+2026-11-18 00:06:03 | INFO | Auth-Service | REQ-1121 | JWT token validated for user_session_221
+2026-11-18 00:06:03 | INFO | Order-Service | REQ-1121 | Order payload verified for order_id=5697
+2026-11-18 00:06:03 | INFO | Database-Service | REQ-1121 | COMMIT transaction completed in 9ms
+2026-11-18 00:06:03 | INFO | K8s-Infra-Node | REQ-1121 | Pod cpu_util=31% mem_util=61%
+2026-11-18 00:06:06 | INFO | API-Gateway | REQ-1122 | Incoming POST /api/v1/orders routed successfully for REQ-1122
+2026-11-18 00:06:06 | INFO | Auth-Service | REQ-1122 | JWT token validated for user_session_127
+2026-11-18 00:06:06 | INFO | Order-Service | REQ-1122 | Order payload verified for order_id=7761
+2026-11-18 00:06:06 | INFO | Database-Service | REQ-1122 | COMMIT transaction completed in 18ms
+2026-11-18 00:06:06 | INFO | K8s-Infra-Node | REQ-1122 | Pod cpu_util=49% mem_util=53%
+2026-11-18 00:06:09 | INFO | API-Gateway | REQ-1123 | Incoming POST /api/v1/orders routed successfully for REQ-1123
+2026-11-18 00:06:09 | INFO | Auth-Service | REQ-1123 | JWT token validated for user_session_646
+2026-11-18 00:06:09 | INFO | Order-Service | REQ-1123 | Order payload verified for order_id=9920
+2026-11-18 00:06:09 | INFO | Database-Service | REQ-1123 | COMMIT transaction completed in 11ms
+2026-11-18 00:06:09 | INFO | K8s-Infra-Node | REQ-1123 | Pod cpu_util=43% mem_util=59%
+2026-11-18 00:06:12 | INFO | API-Gateway | REQ-1124 | Incoming POST /api/v1/orders routed successfully for REQ-1124
+2026-11-18 00:06:12 | INFO | Auth-Service | REQ-1124 | JWT token validated for user_session_659
+2026-11-18 00:06:12 | INFO | Order-Service | REQ-1124 | Order payload verified for order_id=8623
+2026-11-18 00:06:12 | INFO | Database-Service | REQ-1124 | COMMIT transaction completed in 8ms
+2026-11-18 00:06:12 | INFO | K8s-Infra-Node | REQ-1124 | Pod cpu_util=34% mem_util=63%
+2026-11-18 00:06:15 | INFO | API-Gateway | REQ-1125 | Incoming POST /api/v1/orders routed successfully for REQ-1125
+2026-11-18 00:06:15 | INFO | Auth-Service | REQ-1125 | JWT token validated for user_session_841
+2026-11-18 00:06:15 | INFO | Order-Service | REQ-1125 | Order payload verified for order_id=7386
+2026-11-18 00:06:15 | INFO | Database-Service | REQ-1125 | COMMIT transaction completed in 20ms
+2026-11-18 00:06:15 | INFO | K8s-Infra-Node | REQ-1125 | Pod cpu_util=38% mem_util=49%
+2026-11-18 00:06:18 | INFO | API-Gateway | REQ-1126 | Incoming POST /api/v1/orders routed successfully for REQ-1126
+2026-11-18 00:06:18 | INFO | Auth-Service | REQ-1126 | JWT token validated for user_session_942
+2026-11-18 00:06:18 | INFO | Order-Service | REQ-1126 | Order payload verified for order_id=9210
+2026-11-18 00:06:18 | INFO | Database-Service | REQ-1126 | COMMIT transaction completed in 12ms
+2026-11-18 00:06:18 | INFO | K8s-Infra-Node | REQ-1126 | Pod cpu_util=52% mem_util=53%
+2026-11-18 00:06:21 | INFO | API-Gateway | REQ-1127 | Incoming POST /api/v1/orders routed successfully for REQ-1127
+2026-11-18 00:06:21 | INFO | Auth-Service | REQ-1127 | JWT token validated for user_session_653
+2026-11-18 00:06:21 | INFO | Order-Service | REQ-1127 | Order payload verified for order_id=8161
+2026-11-18 00:06:21 | INFO | Database-Service | REQ-1127 | COMMIT transaction completed in 15ms
+2026-11-18 00:06:21 | INFO | K8s-Infra-Node | REQ-1127 | Pod cpu_util=28% mem_util=64%
+2026-11-18 00:06:24 | INFO | API-Gateway | REQ-1128 | Incoming POST /api/v1/orders routed successfully for REQ-1128
+2026-11-18 00:06:24 | INFO | Auth-Service | REQ-1128 | JWT token validated for user_session_776
+2026-11-18 00:06:24 | INFO | Order-Service | REQ-1128 | Order payload verified for order_id=7910
+2026-11-18 00:06:24 | INFO | Database-Service | REQ-1128 | COMMIT transaction completed in 14ms
+2026-11-18 00:06:24 | INFO | K8s-Infra-Node | REQ-1128 | Pod cpu_util=32% mem_util=43%
+2026-11-18 00:06:27 | INFO | API-Gateway | REQ-1129 | Incoming POST /api/v1/orders routed successfully for REQ-1129
+2026-11-18 00:06:27 | INFO | Auth-Service | REQ-1129 | JWT token validated for user_session_906
+2026-11-18 00:06:27 | INFO | Order-Service | REQ-1129 | Order payload verified for order_id=9525
+2026-11-18 00:06:27 | INFO | Database-Service | REQ-1129 | COMMIT transaction completed in 19ms
+2026-11-18 00:06:27 | INFO | K8s-Infra-Node | REQ-1129 | Pod cpu_util=39% mem_util=43%
+2026-11-18 00:06:30 | INFO | API-Gateway | REQ-1130 | Incoming POST /api/v1/orders routed successfully for REQ-1130
+2026-11-18 00:06:30 | INFO | Auth-Service | REQ-1130 | JWT token validated for user_session_434
+2026-11-18 00:06:30 | INFO | Order-Service | REQ-1130 | Order payload verified for order_id=9995
+2026-11-18 00:06:30 | INFO | Database-Service | REQ-1130 | COMMIT transaction completed in 14ms
+2026-11-18 00:06:30 | INFO | K8s-Infra-Node | REQ-1130 | Pod cpu_util=48% mem_util=42%
+2026-11-18 00:06:33 | INFO | API-Gateway | REQ-1131 | Incoming POST /api/v1/orders routed successfully for REQ-1131
+2026-11-18 00:06:33 | INFO | Auth-Service | REQ-1131 | JWT token validated for user_session_518
+2026-11-18 00:06:33 | INFO | Order-Service | REQ-1131 | Order payload verified for order_id=5084
+2026-11-18 00:06:33 | INFO | Database-Service | REQ-1131 | COMMIT transaction completed in 18ms
+2026-11-18 00:06:33 | INFO | K8s-Infra-Node | REQ-1131 | Pod cpu_util=40% mem_util=49%
+2026-11-18 00:06:36 | INFO | API-Gateway | REQ-1132 | Incoming POST /api/v1/orders routed successfully for REQ-1132
+2026-11-18 00:06:36 | INFO | Auth-Service | REQ-1132 | JWT token validated for user_session_985
+2026-11-18 00:06:36 | INFO | Order-Service | REQ-1132 | Order payload verified for order_id=7108
+2026-11-18 00:06:36 | INFO | Database-Service | REQ-1132 | COMMIT transaction completed in 8ms
+2026-11-18 00:06:36 | INFO | K8s-Infra-Node | REQ-1132 | Pod cpu_util=46% mem_util=54%
+2026-11-18 00:06:39 | ERROR | Database-Service | REQ-1133 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:06:39 | ERROR | Order-Service | REQ-1133 | Transaction aborted: Database write timeout for order_id=5463
+2026-11-18 00:06:39 | ERROR | API-Gateway | REQ-1133 | HTTP 504 Gateway Timeout returned for request REQ-1133
+2026-11-18 00:06:42 | INFO | API-Gateway | REQ-1134 | Incoming POST /api/v1/orders routed successfully for REQ-1134
+2026-11-18 00:06:42 | INFO | Auth-Service | REQ-1134 | JWT token validated for user_session_443
+2026-11-18 00:06:42 | INFO | Order-Service | REQ-1134 | Order payload verified for order_id=6689
+2026-11-18 00:06:42 | INFO | Database-Service | REQ-1134 | COMMIT transaction completed in 19ms
+2026-11-18 00:06:42 | INFO | K8s-Infra-Node | REQ-1134 | Pod cpu_util=51% mem_util=57%
+2026-11-18 00:06:45 | INFO | API-Gateway | REQ-1135 | Incoming POST /api/v1/orders routed successfully for REQ-1135
+2026-11-18 00:06:45 | INFO | Auth-Service | REQ-1135 | JWT token validated for user_session_800
+2026-11-18 00:06:45 | INFO | Order-Service | REQ-1135 | Order payload verified for order_id=7097
+2026-11-18 00:06:45 | INFO | Database-Service | REQ-1135 | COMMIT transaction completed in 9ms
+2026-11-18 00:06:45 | INFO | K8s-Infra-Node | REQ-1135 | Pod cpu_util=54% mem_util=59%
+2026-11-18 00:06:48 | INFO | API-Gateway | REQ-1136 | Incoming POST /api/v1/orders routed successfully for REQ-1136
+2026-11-18 00:06:48 | INFO | Auth-Service | REQ-1136 | JWT token validated for user_session_576
+2026-11-18 00:06:48 | INFO | Order-Service | REQ-1136 | Order payload verified for order_id=6386
+2026-11-18 00:06:48 | INFO | Database-Service | REQ-1136 | COMMIT transaction completed in 8ms
+2026-11-18 00:06:48 | INFO | K8s-Infra-Node | REQ-1136 | Pod cpu_util=39% mem_util=52%
+2026-11-18 00:06:51 | INFO | API-Gateway | REQ-1137 | Incoming POST /api/v1/orders routed successfully for REQ-1137
+2026-11-18 00:06:51 | INFO | Auth-Service | REQ-1137 | JWT token validated for user_session_391
+2026-11-18 00:06:51 | INFO | Order-Service | REQ-1137 | Order payload verified for order_id=5860
+2026-11-18 00:06:51 | INFO | Database-Service | REQ-1137 | COMMIT transaction completed in 15ms
+2026-11-18 00:06:51 | INFO | K8s-Infra-Node | REQ-1137 | Pod cpu_util=55% mem_util=40%
+2026-11-18 00:06:54 | INFO | API-Gateway | REQ-1138 | Incoming POST /api/v1/orders routed successfully for REQ-1138
+2026-11-18 00:06:54 | INFO | Auth-Service | REQ-1138 | JWT token validated for user_session_256
+2026-11-18 00:06:54 | INFO | Order-Service | REQ-1138 | Order payload verified for order_id=5233
+2026-11-18 00:06:54 | INFO | Database-Service | REQ-1138 | COMMIT transaction completed in 15ms
+2026-11-18 00:06:54 | INFO | K8s-Infra-Node | REQ-1138 | Pod cpu_util=35% mem_util=41%
+2026-11-18 00:06:57 | ERROR | K8s-Infra-Node | REQ-1139 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:06:57 | ERROR | Auth-Service | REQ-1139 | Connection refused by upstream auth-pod worker for REQ-1139
+2026-11-18 00:06:57 | ERROR | API-Gateway | REQ-1139 | HTTP 502 Bad Gateway returned for request REQ-1139
+2026-11-18 00:07:00 | ERROR | Database-Service | REQ-1140 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:07:00 | ERROR | Order-Service | REQ-1140 | Transaction aborted: Database write timeout for order_id=7874
+2026-11-18 00:07:00 | ERROR | API-Gateway | REQ-1140 | HTTP 504 Gateway Timeout returned for request REQ-1140
+2026-11-18 00:07:03 | INFO | API-Gateway | REQ-1141 | Incoming POST /api/v1/orders routed successfully for REQ-1141
+2026-11-18 00:07:03 | INFO | Auth-Service | REQ-1141 | JWT token validated for user_session_248
+2026-11-18 00:07:03 | INFO | Order-Service | REQ-1141 | Order payload verified for order_id=9333
+2026-11-18 00:07:03 | INFO | Database-Service | REQ-1141 | COMMIT transaction completed in 8ms
+2026-11-18 00:07:03 | INFO | K8s-Infra-Node | REQ-1141 | Pod cpu_util=38% mem_util=49%
+2026-11-18 00:07:06 | INFO | API-Gateway | REQ-1142 | Incoming POST /api/v1/orders routed successfully for REQ-1142
+2026-11-18 00:07:06 | INFO | Auth-Service | REQ-1142 | JWT token validated for user_session_994
+2026-11-18 00:07:06 | INFO | Order-Service | REQ-1142 | Order payload verified for order_id=6590
+2026-11-18 00:07:06 | INFO | Database-Service | REQ-1142 | COMMIT transaction completed in 17ms
+2026-11-18 00:07:06 | INFO | K8s-Infra-Node | REQ-1142 | Pod cpu_util=38% mem_util=40%
+2026-11-18 00:07:09 | INFO | API-Gateway | REQ-1143 | Incoming POST /api/v1/orders routed successfully for REQ-1143
+2026-11-18 00:07:09 | INFO | Auth-Service | REQ-1143 | JWT token validated for user_session_174
+2026-11-18 00:07:09 | INFO | Order-Service | REQ-1143 | Order payload verified for order_id=5092
+2026-11-18 00:07:09 | INFO | Database-Service | REQ-1143 | COMMIT transaction completed in 13ms
+2026-11-18 00:07:09 | INFO | K8s-Infra-Node | REQ-1143 | Pod cpu_util=48% mem_util=65%
+2026-11-18 00:07:12 | INFO | API-Gateway | REQ-1144 | Incoming POST /api/v1/orders routed successfully for REQ-1144
+2026-11-18 00:07:12 | INFO | Auth-Service | REQ-1144 | JWT token validated for user_session_576
+2026-11-18 00:07:12 | INFO | Order-Service | REQ-1144 | Order payload verified for order_id=9563
+2026-11-18 00:07:12 | INFO | Database-Service | REQ-1144 | COMMIT transaction completed in 11ms
+2026-11-18 00:07:12 | INFO | K8s-Infra-Node | REQ-1144 | Pod cpu_util=25% mem_util=50%
+2026-11-18 00:07:15 | ERROR | Database-Service | REQ-1145 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:07:15 | ERROR | Order-Service | REQ-1145 | Transaction aborted: Database write timeout for order_id=5597
+2026-11-18 00:07:15 | ERROR | API-Gateway | REQ-1145 | HTTP 504 Gateway Timeout returned for request REQ-1145
+2026-11-18 00:07:18 | INFO | API-Gateway | REQ-1146 | Incoming POST /api/v1/orders routed successfully for REQ-1146
+2026-11-18 00:07:18 | INFO | Auth-Service | REQ-1146 | JWT token validated for user_session_588
+2026-11-18 00:07:18 | INFO | Order-Service | REQ-1146 | Order payload verified for order_id=6988
+2026-11-18 00:07:18 | INFO | Database-Service | REQ-1146 | COMMIT transaction completed in 10ms
+2026-11-18 00:07:18 | INFO | K8s-Infra-Node | REQ-1146 | Pod cpu_util=52% mem_util=52%
+2026-11-18 00:07:21 | ERROR | Database-Service | REQ-1147 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:07:21 | ERROR | Order-Service | REQ-1147 | Transaction aborted: Database write timeout for order_id=9695
+2026-11-18 00:07:21 | ERROR | API-Gateway | REQ-1147 | HTTP 504 Gateway Timeout returned for request REQ-1147
+2026-11-18 00:07:24 | INFO | API-Gateway | REQ-1148 | Incoming POST /api/v1/orders routed successfully for REQ-1148
+2026-11-18 00:07:24 | INFO | Auth-Service | REQ-1148 | JWT token validated for user_session_993
+2026-11-18 00:07:24 | INFO | Order-Service | REQ-1148 | Order payload verified for order_id=5901
+2026-11-18 00:07:24 | INFO | Database-Service | REQ-1148 | COMMIT transaction completed in 18ms
+2026-11-18 00:07:24 | INFO | K8s-Infra-Node | REQ-1148 | Pod cpu_util=27% mem_util=53%
+2026-11-18 00:07:27 | INFO | API-Gateway | REQ-1149 | Incoming POST /api/v1/orders routed successfully for REQ-1149
+2026-11-18 00:07:27 | INFO | Auth-Service | REQ-1149 | JWT token validated for user_session_729
+2026-11-18 00:07:27 | INFO | Order-Service | REQ-1149 | Order payload verified for order_id=5037
+2026-11-18 00:07:27 | INFO | Database-Service | REQ-1149 | COMMIT transaction completed in 21ms
+2026-11-18 00:07:27 | INFO | K8s-Infra-Node | REQ-1149 | Pod cpu_util=28% mem_util=45%
+2026-11-18 00:07:30 | INFO | API-Gateway | REQ-1150 | Incoming POST /api/v1/orders routed successfully for REQ-1150
+2026-11-18 00:07:30 | INFO | Auth-Service | REQ-1150 | JWT token validated for user_session_403
+2026-11-18 00:07:30 | INFO | Order-Service | REQ-1150 | Order payload verified for order_id=8646
+2026-11-18 00:07:30 | INFO | Database-Service | REQ-1150 | COMMIT transaction completed in 8ms
+2026-11-18 00:07:30 | INFO | K8s-Infra-Node | REQ-1150 | Pod cpu_util=42% mem_util=54%
+2026-11-18 00:07:33 | INFO | API-Gateway | REQ-1151 | Incoming POST /api/v1/orders routed successfully for REQ-1151
+2026-11-18 00:07:33 | INFO | Auth-Service | REQ-1151 | JWT token validated for user_session_230
+2026-11-18 00:07:33 | INFO | Order-Service | REQ-1151 | Order payload verified for order_id=5738
+2026-11-18 00:07:33 | INFO | Database-Service | REQ-1151 | COMMIT transaction completed in 17ms
+2026-11-18 00:07:33 | INFO | K8s-Infra-Node | REQ-1151 | Pod cpu_util=35% mem_util=42%
+2026-11-18 00:07:36 | INFO | API-Gateway | REQ-1152 | Incoming POST /api/v1/orders routed successfully for REQ-1152
+2026-11-18 00:07:36 | INFO | Auth-Service | REQ-1152 | JWT token validated for user_session_290
+2026-11-18 00:07:36 | INFO | Order-Service | REQ-1152 | Order payload verified for order_id=7694
+2026-11-18 00:07:36 | INFO | Database-Service | REQ-1152 | COMMIT transaction completed in 17ms
+2026-11-18 00:07:36 | INFO | K8s-Infra-Node | REQ-1152 | Pod cpu_util=48% mem_util=47%
+2026-11-18 00:07:39 | INFO | API-Gateway | REQ-1153 | Incoming POST /api/v1/orders routed successfully for REQ-1153
+2026-11-18 00:07:39 | INFO | Auth-Service | REQ-1153 | JWT token validated for user_session_730
+2026-11-18 00:07:39 | INFO | Order-Service | REQ-1153 | Order payload verified for order_id=6831
+2026-11-18 00:07:39 | INFO | Database-Service | REQ-1153 | COMMIT transaction completed in 11ms
+2026-11-18 00:07:39 | INFO | K8s-Infra-Node | REQ-1153 | Pod cpu_util=42% mem_util=55%
+2026-11-18 00:07:42 | INFO | API-Gateway | REQ-1154 | Incoming POST /api/v1/orders routed successfully for REQ-1154
+2026-11-18 00:07:42 | INFO | Auth-Service | REQ-1154 | JWT token validated for user_session_516
+2026-11-18 00:07:42 | INFO | Order-Service | REQ-1154 | Order payload verified for order_id=9179
+2026-11-18 00:07:42 | INFO | Database-Service | REQ-1154 | COMMIT transaction completed in 21ms
+2026-11-18 00:07:42 | INFO | K8s-Infra-Node | REQ-1154 | Pod cpu_util=30% mem_util=52%
+2026-11-18 00:07:45 | INFO | API-Gateway | REQ-1155 | Incoming POST /api/v1/orders routed successfully for REQ-1155
+2026-11-18 00:07:45 | INFO | Auth-Service | REQ-1155 | JWT token validated for user_session_282
+2026-11-18 00:07:45 | INFO | Order-Service | REQ-1155 | Order payload verified for order_id=8647
+2026-11-18 00:07:45 | INFO | Database-Service | REQ-1155 | COMMIT transaction completed in 18ms
+2026-11-18 00:07:45 | INFO | K8s-Infra-Node | REQ-1155 | Pod cpu_util=40% mem_util=53%
+2026-11-18 00:07:48 | INFO | API-Gateway | REQ-1156 | Incoming POST /api/v1/orders routed successfully for REQ-1156
+2026-11-18 00:07:48 | INFO | Auth-Service | REQ-1156 | JWT token validated for user_session_292
+2026-11-18 00:07:48 | INFO | Order-Service | REQ-1156 | Order payload verified for order_id=7472
+2026-11-18 00:07:48 | INFO | Database-Service | REQ-1156 | COMMIT transaction completed in 13ms
+2026-11-18 00:07:48 | INFO | K8s-Infra-Node | REQ-1156 | Pod cpu_util=30% mem_util=58%
+2026-11-18 00:07:51 | INFO | API-Gateway | REQ-1157 | Incoming POST /api/v1/orders routed successfully for REQ-1157
+2026-11-18 00:07:51 | INFO | Auth-Service | REQ-1157 | JWT token validated for user_session_157
+2026-11-18 00:07:51 | INFO | Order-Service | REQ-1157 | Order payload verified for order_id=9340
+2026-11-18 00:07:51 | INFO | Database-Service | REQ-1157 | COMMIT transaction completed in 17ms
+2026-11-18 00:07:51 | INFO | K8s-Infra-Node | REQ-1157 | Pod cpu_util=44% mem_util=42%
+2026-11-18 00:07:54 | INFO | API-Gateway | REQ-1158 | Incoming POST /api/v1/orders routed successfully for REQ-1158
+2026-11-18 00:07:54 | INFO | Auth-Service | REQ-1158 | JWT token validated for user_session_581
+2026-11-18 00:07:54 | INFO | Order-Service | REQ-1158 | Order payload verified for order_id=6043
+2026-11-18 00:07:54 | INFO | Database-Service | REQ-1158 | COMMIT transaction completed in 16ms
+2026-11-18 00:07:54 | INFO | K8s-Infra-Node | REQ-1158 | Pod cpu_util=47% mem_util=61%
+2026-11-18 00:07:57 | INFO | API-Gateway | REQ-1159 | Incoming POST /api/v1/orders routed successfully for REQ-1159
+2026-11-18 00:07:57 | INFO | Auth-Service | REQ-1159 | JWT token validated for user_session_800
+2026-11-18 00:07:57 | INFO | Order-Service | REQ-1159 | Order payload verified for order_id=9619
+2026-11-18 00:07:57 | INFO | Database-Service | REQ-1159 | COMMIT transaction completed in 12ms
+2026-11-18 00:07:57 | INFO | K8s-Infra-Node | REQ-1159 | Pod cpu_util=51% mem_util=48%
+2026-11-18 00:08:00 | INFO | API-Gateway | REQ-1160 | Incoming POST /api/v1/orders routed successfully for REQ-1160
+2026-11-18 00:08:00 | INFO | Auth-Service | REQ-1160 | JWT token validated for user_session_459
+2026-11-18 00:08:00 | INFO | Order-Service | REQ-1160 | Order payload verified for order_id=8343
+2026-11-18 00:08:00 | INFO | Database-Service | REQ-1160 | COMMIT transaction completed in 13ms
+2026-11-18 00:08:00 | INFO | K8s-Infra-Node | REQ-1160 | Pod cpu_util=46% mem_util=63%
+2026-11-18 00:08:03 | INFO | API-Gateway | REQ-1161 | Incoming POST /api/v1/orders routed successfully for REQ-1161
+2026-11-18 00:08:03 | INFO | Auth-Service | REQ-1161 | JWT token validated for user_session_350
+2026-11-18 00:08:03 | INFO | Order-Service | REQ-1161 | Order payload verified for order_id=9059
+2026-11-18 00:08:03 | INFO | Database-Service | REQ-1161 | COMMIT transaction completed in 10ms
+2026-11-18 00:08:03 | INFO | K8s-Infra-Node | REQ-1161 | Pod cpu_util=38% mem_util=46%
+2026-11-18 00:08:06 | ERROR | K8s-Infra-Node | REQ-1162 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:08:06 | ERROR | Auth-Service | REQ-1162 | Connection refused by upstream auth-pod worker for REQ-1162
+2026-11-18 00:08:06 | ERROR | API-Gateway | REQ-1162 | HTTP 502 Bad Gateway returned for request REQ-1162
+2026-11-18 00:08:09 | INFO | API-Gateway | REQ-1163 | Incoming POST /api/v1/orders routed successfully for REQ-1163
+2026-11-18 00:08:09 | INFO | Auth-Service | REQ-1163 | JWT token validated for user_session_683
+2026-11-18 00:08:09 | INFO | Order-Service | REQ-1163 | Order payload verified for order_id=6628
+2026-11-18 00:08:09 | INFO | Database-Service | REQ-1163 | COMMIT transaction completed in 19ms
+2026-11-18 00:08:09 | INFO | K8s-Infra-Node | REQ-1163 | Pod cpu_util=25% mem_util=41%
+2026-11-18 00:08:12 | INFO | API-Gateway | REQ-1164 | Incoming POST /api/v1/orders routed successfully for REQ-1164
+2026-11-18 00:08:12 | INFO | Auth-Service | REQ-1164 | JWT token validated for user_session_398
+2026-11-18 00:08:12 | INFO | Order-Service | REQ-1164 | Order payload verified for order_id=5952
+2026-11-18 00:08:12 | INFO | Database-Service | REQ-1164 | COMMIT transaction completed in 19ms
+2026-11-18 00:08:12 | INFO | K8s-Infra-Node | REQ-1164 | Pod cpu_util=35% mem_util=44%
+2026-11-18 00:08:15 | INFO | API-Gateway | REQ-1165 | Incoming POST /api/v1/orders routed successfully for REQ-1165
+2026-11-18 00:08:15 | INFO | Auth-Service | REQ-1165 | JWT token validated for user_session_489
+2026-11-18 00:08:15 | INFO | Order-Service | REQ-1165 | Order payload verified for order_id=8237
+2026-11-18 00:08:15 | INFO | Database-Service | REQ-1165 | COMMIT transaction completed in 13ms
+2026-11-18 00:08:15 | INFO | K8s-Infra-Node | REQ-1165 | Pod cpu_util=35% mem_util=53%
+2026-11-18 00:08:18 | ERROR | K8s-Infra-Node | REQ-1166 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:08:18 | ERROR | Auth-Service | REQ-1166 | Connection refused by upstream auth-pod worker for REQ-1166
+2026-11-18 00:08:18 | ERROR | API-Gateway | REQ-1166 | HTTP 502 Bad Gateway returned for request REQ-1166
+2026-11-18 00:08:21 | ERROR | Database-Service | REQ-1167 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:08:21 | ERROR | Order-Service | REQ-1167 | Transaction aborted: Database write timeout for order_id=9301
+2026-11-18 00:08:21 | ERROR | API-Gateway | REQ-1167 | HTTP 504 Gateway Timeout returned for request REQ-1167
+2026-11-18 00:08:24 | INFO | API-Gateway | REQ-1168 | Incoming POST /api/v1/orders routed successfully for REQ-1168
+2026-11-18 00:08:24 | INFO | Auth-Service | REQ-1168 | JWT token validated for user_session_775
+2026-11-18 00:08:24 | INFO | Order-Service | REQ-1168 | Order payload verified for order_id=6116
+2026-11-18 00:08:24 | INFO | Database-Service | REQ-1168 | COMMIT transaction completed in 19ms
+2026-11-18 00:08:24 | INFO | K8s-Infra-Node | REQ-1168 | Pod cpu_util=29% mem_util=49%
+2026-11-18 00:08:27 | INFO | API-Gateway | REQ-1169 | Incoming POST /api/v1/orders routed successfully for REQ-1169
+2026-11-18 00:08:27 | INFO | Auth-Service | REQ-1169 | JWT token validated for user_session_950
+2026-11-18 00:08:27 | INFO | Order-Service | REQ-1169 | Order payload verified for order_id=9678
+2026-11-18 00:08:27 | INFO | Database-Service | REQ-1169 | COMMIT transaction completed in 16ms
+2026-11-18 00:08:27 | INFO | K8s-Infra-Node | REQ-1169 | Pod cpu_util=32% mem_util=60%
+2026-11-18 00:08:30 | INFO | API-Gateway | REQ-1170 | Incoming POST /api/v1/orders routed successfully for REQ-1170
+2026-11-18 00:08:30 | INFO | Auth-Service | REQ-1170 | JWT token validated for user_session_106
+2026-11-18 00:08:30 | INFO | Order-Service | REQ-1170 | Order payload verified for order_id=7818
+2026-11-18 00:08:30 | INFO | Database-Service | REQ-1170 | COMMIT transaction completed in 19ms
+2026-11-18 00:08:30 | INFO | K8s-Infra-Node | REQ-1170 | Pod cpu_util=49% mem_util=60%
+2026-11-18 00:08:33 | INFO | API-Gateway | REQ-1171 | Incoming POST /api/v1/orders routed successfully for REQ-1171
+2026-11-18 00:08:33 | INFO | Auth-Service | REQ-1171 | JWT token validated for user_session_963
+2026-11-18 00:08:33 | INFO | Order-Service | REQ-1171 | Order payload verified for order_id=7984
+2026-11-18 00:08:33 | INFO | Database-Service | REQ-1171 | COMMIT transaction completed in 22ms
+2026-11-18 00:08:33 | INFO | K8s-Infra-Node | REQ-1171 | Pod cpu_util=46% mem_util=40%
+2026-11-18 00:08:36 | INFO | API-Gateway | REQ-1172 | Incoming POST /api/v1/orders routed successfully for REQ-1172
+2026-11-18 00:08:36 | INFO | Auth-Service | REQ-1172 | JWT token validated for user_session_696
+2026-11-18 00:08:36 | INFO | Order-Service | REQ-1172 | Order payload verified for order_id=6553
+2026-11-18 00:08:36 | INFO | Database-Service | REQ-1172 | COMMIT transaction completed in 16ms
+2026-11-18 00:08:36 | INFO | K8s-Infra-Node | REQ-1172 | Pod cpu_util=41% mem_util=62%
+2026-11-18 00:08:39 | INFO | API-Gateway | REQ-1173 | Incoming POST /api/v1/orders routed successfully for REQ-1173
+2026-11-18 00:08:39 | INFO | Auth-Service | REQ-1173 | JWT token validated for user_session_238
+2026-11-18 00:08:39 | INFO | Order-Service | REQ-1173 | Order payload verified for order_id=6654
+2026-11-18 00:08:39 | INFO | Database-Service | REQ-1173 | COMMIT transaction completed in 14ms
+2026-11-18 00:08:39 | INFO | K8s-Infra-Node | REQ-1173 | Pod cpu_util=43% mem_util=57%
+2026-11-18 00:08:42 | INFO | API-Gateway | REQ-1174 | Incoming POST /api/v1/orders routed successfully for REQ-1174
+2026-11-18 00:08:42 | INFO | Auth-Service | REQ-1174 | JWT token validated for user_session_995
+2026-11-18 00:08:42 | INFO | Order-Service | REQ-1174 | Order payload verified for order_id=5531
+2026-11-18 00:08:42 | INFO | Database-Service | REQ-1174 | COMMIT transaction completed in 19ms
+2026-11-18 00:08:42 | INFO | K8s-Infra-Node | REQ-1174 | Pod cpu_util=53% mem_util=44%
+2026-11-18 00:08:45 | INFO | API-Gateway | REQ-1175 | Incoming POST /api/v1/orders routed successfully for REQ-1175
+2026-11-18 00:08:45 | INFO | Auth-Service | REQ-1175 | JWT token validated for user_session_835
+2026-11-18 00:08:45 | INFO | Order-Service | REQ-1175 | Order payload verified for order_id=5508
+2026-11-18 00:08:45 | INFO | Database-Service | REQ-1175 | COMMIT transaction completed in 20ms
+2026-11-18 00:08:45 | INFO | K8s-Infra-Node | REQ-1175 | Pod cpu_util=28% mem_util=47%
+2026-11-18 00:08:48 | INFO | API-Gateway | REQ-1176 | Incoming POST /api/v1/orders routed successfully for REQ-1176
+2026-11-18 00:08:48 | INFO | Auth-Service | REQ-1176 | JWT token validated for user_session_403
+2026-11-18 00:08:48 | INFO | Order-Service | REQ-1176 | Order payload verified for order_id=7263
+2026-11-18 00:08:48 | INFO | Database-Service | REQ-1176 | COMMIT transaction completed in 19ms
+2026-11-18 00:08:48 | INFO | K8s-Infra-Node | REQ-1176 | Pod cpu_util=26% mem_util=55%
+2026-11-18 00:08:51 | INFO | API-Gateway | REQ-1177 | Incoming POST /api/v1/orders routed successfully for REQ-1177
+2026-11-18 00:08:51 | INFO | Auth-Service | REQ-1177 | JWT token validated for user_session_724
+2026-11-18 00:08:51 | INFO | Order-Service | REQ-1177 | Order payload verified for order_id=5319
+2026-11-18 00:08:51 | INFO | Database-Service | REQ-1177 | COMMIT transaction completed in 15ms
+2026-11-18 00:08:51 | INFO | K8s-Infra-Node | REQ-1177 | Pod cpu_util=40% mem_util=46%
+2026-11-18 00:08:54 | ERROR | K8s-Infra-Node | REQ-1178 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:08:54 | ERROR | Auth-Service | REQ-1178 | Connection refused by upstream auth-pod worker for REQ-1178
+2026-11-18 00:08:54 | ERROR | API-Gateway | REQ-1178 | HTTP 502 Bad Gateway returned for request REQ-1178
+2026-11-18 00:08:57 | INFO | API-Gateway | REQ-1179 | Incoming POST /api/v1/orders routed successfully for REQ-1179
+2026-11-18 00:08:57 | INFO | Auth-Service | REQ-1179 | JWT token validated for user_session_106
+2026-11-18 00:08:57 | INFO | Order-Service | REQ-1179 | Order payload verified for order_id=5832
+2026-11-18 00:08:57 | INFO | Database-Service | REQ-1179 | COMMIT transaction completed in 17ms
+2026-11-18 00:08:57 | INFO | K8s-Infra-Node | REQ-1179 | Pod cpu_util=40% mem_util=42%
+2026-11-18 00:09:00 | INFO | API-Gateway | REQ-1180 | Incoming POST /api/v1/orders routed successfully for REQ-1180
+2026-11-18 00:09:00 | INFO | Auth-Service | REQ-1180 | JWT token validated for user_session_232
+2026-11-18 00:09:00 | INFO | Order-Service | REQ-1180 | Order payload verified for order_id=9296
+2026-11-18 00:09:00 | INFO | Database-Service | REQ-1180 | COMMIT transaction completed in 18ms
+2026-11-18 00:09:00 | INFO | K8s-Infra-Node | REQ-1180 | Pod cpu_util=42% mem_util=60%
+2026-11-18 00:09:03 | INFO | API-Gateway | REQ-1181 | Incoming POST /api/v1/orders routed successfully for REQ-1181
+2026-11-18 00:09:03 | INFO | Auth-Service | REQ-1181 | JWT token validated for user_session_964
+2026-11-18 00:09:03 | INFO | Order-Service | REQ-1181 | Order payload verified for order_id=5148
+2026-11-18 00:09:03 | INFO | Database-Service | REQ-1181 | COMMIT transaction completed in 14ms
+2026-11-18 00:09:03 | INFO | K8s-Infra-Node | REQ-1181 | Pod cpu_util=45% mem_util=64%
+2026-11-18 00:09:06 | INFO | API-Gateway | REQ-1182 | Incoming POST /api/v1/orders routed successfully for REQ-1182
+2026-11-18 00:09:06 | INFO | Auth-Service | REQ-1182 | JWT token validated for user_session_724
+2026-11-18 00:09:06 | INFO | Order-Service | REQ-1182 | Order payload verified for order_id=5443
+2026-11-18 00:09:06 | INFO | Database-Service | REQ-1182 | COMMIT transaction completed in 16ms
+2026-11-18 00:09:06 | INFO | K8s-Infra-Node | REQ-1182 | Pod cpu_util=36% mem_util=65%
+2026-11-18 00:09:09 | INFO | API-Gateway | REQ-1183 | Incoming POST /api/v1/orders routed successfully for REQ-1183
+2026-11-18 00:09:09 | INFO | Auth-Service | REQ-1183 | JWT token validated for user_session_626
+2026-11-18 00:09:09 | INFO | Order-Service | REQ-1183 | Order payload verified for order_id=5686
+2026-11-18 00:09:09 | INFO | Database-Service | REQ-1183 | COMMIT transaction completed in 15ms
+2026-11-18 00:09:09 | INFO | K8s-Infra-Node | REQ-1183 | Pod cpu_util=30% mem_util=47%
+2026-11-18 00:09:12 | INFO | API-Gateway | REQ-1184 | Incoming POST /api/v1/orders routed successfully for REQ-1184
+2026-11-18 00:09:12 | INFO | Auth-Service | REQ-1184 | JWT token validated for user_session_491
+2026-11-18 00:09:12 | INFO | Order-Service | REQ-1184 | Order payload verified for order_id=5058
+2026-11-18 00:09:12 | INFO | Database-Service | REQ-1184 | COMMIT transaction completed in 10ms
+2026-11-18 00:09:12 | INFO | K8s-Infra-Node | REQ-1184 | Pod cpu_util=45% mem_util=60%
+2026-11-18 00:09:15 | INFO | API-Gateway | REQ-1185 | Incoming POST /api/v1/orders routed successfully for REQ-1185
+2026-11-18 00:09:15 | INFO | Auth-Service | REQ-1185 | JWT token validated for user_session_576
+2026-11-18 00:09:15 | INFO | Order-Service | REQ-1185 | Order payload verified for order_id=9901
+2026-11-18 00:09:15 | INFO | Database-Service | REQ-1185 | COMMIT transaction completed in 10ms
+2026-11-18 00:09:15 | INFO | K8s-Infra-Node | REQ-1185 | Pod cpu_util=27% mem_util=56%
+2026-11-18 00:09:18 | INFO | API-Gateway | REQ-1186 | Incoming POST /api/v1/orders routed successfully for REQ-1186
+2026-11-18 00:09:18 | INFO | Auth-Service | REQ-1186 | JWT token validated for user_session_355
+2026-11-18 00:09:18 | INFO | Order-Service | REQ-1186 | Order payload verified for order_id=9568
+2026-11-18 00:09:18 | INFO | Database-Service | REQ-1186 | COMMIT transaction completed in 11ms
+2026-11-18 00:09:18 | INFO | K8s-Infra-Node | REQ-1186 | Pod cpu_util=34% mem_util=43%
+2026-11-18 00:09:21 | INFO | API-Gateway | REQ-1187 | Incoming POST /api/v1/orders routed successfully for REQ-1187
+2026-11-18 00:09:21 | INFO | Auth-Service | REQ-1187 | JWT token validated for user_session_351
+2026-11-18 00:09:21 | INFO | Order-Service | REQ-1187 | Order payload verified for order_id=8334
+2026-11-18 00:09:21 | INFO | Database-Service | REQ-1187 | COMMIT transaction completed in 11ms
+2026-11-18 00:09:21 | INFO | K8s-Infra-Node | REQ-1187 | Pod cpu_util=32% mem_util=65%
+2026-11-18 00:09:24 | INFO | API-Gateway | REQ-1188 | Incoming POST /api/v1/orders routed successfully for REQ-1188
+2026-11-18 00:09:24 | INFO | Auth-Service | REQ-1188 | JWT token validated for user_session_268
+2026-11-18 00:09:24 | INFO | Order-Service | REQ-1188 | Order payload verified for order_id=5777
+2026-11-18 00:09:24 | INFO | Database-Service | REQ-1188 | COMMIT transaction completed in 21ms
+2026-11-18 00:09:24 | INFO | K8s-Infra-Node | REQ-1188 | Pod cpu_util=49% mem_util=43%
+2026-11-18 00:09:27 | INFO | API-Gateway | REQ-1189 | Incoming POST /api/v1/orders routed successfully for REQ-1189
+2026-11-18 00:09:27 | INFO | Auth-Service | REQ-1189 | JWT token validated for user_session_840
+2026-11-18 00:09:27 | INFO | Order-Service | REQ-1189 | Order payload verified for order_id=9856
+2026-11-18 00:09:27 | INFO | Database-Service | REQ-1189 | COMMIT transaction completed in 13ms
+2026-11-18 00:09:27 | INFO | K8s-Infra-Node | REQ-1189 | Pod cpu_util=35% mem_util=41%
+2026-11-18 00:09:30 | INFO | API-Gateway | REQ-1190 | Incoming POST /api/v1/orders routed successfully for REQ-1190
+2026-11-18 00:09:30 | INFO | Auth-Service | REQ-1190 | JWT token validated for user_session_381
+2026-11-18 00:09:30 | INFO | Order-Service | REQ-1190 | Order payload verified for order_id=7049
+2026-11-18 00:09:30 | INFO | Database-Service | REQ-1190 | COMMIT transaction completed in 11ms
+2026-11-18 00:09:30 | INFO | K8s-Infra-Node | REQ-1190 | Pod cpu_util=39% mem_util=64%
+2026-11-18 00:09:33 | INFO | API-Gateway | REQ-1191 | Incoming POST /api/v1/orders routed successfully for REQ-1191
+2026-11-18 00:09:33 | INFO | Auth-Service | REQ-1191 | JWT token validated for user_session_159
+2026-11-18 00:09:33 | INFO | Order-Service | REQ-1191 | Order payload verified for order_id=5316
+2026-11-18 00:09:33 | INFO | Database-Service | REQ-1191 | COMMIT transaction completed in 9ms
+2026-11-18 00:09:33 | INFO | K8s-Infra-Node | REQ-1191 | Pod cpu_util=48% mem_util=54%
+2026-11-18 00:09:36 | INFO | API-Gateway | REQ-1192 | Incoming POST /api/v1/orders routed successfully for REQ-1192
+2026-11-18 00:09:36 | INFO | Auth-Service | REQ-1192 | JWT token validated for user_session_597
+2026-11-18 00:09:36 | INFO | Order-Service | REQ-1192 | Order payload verified for order_id=9662
+2026-11-18 00:09:36 | INFO | Database-Service | REQ-1192 | COMMIT transaction completed in 18ms
+2026-11-18 00:09:36 | INFO | K8s-Infra-Node | REQ-1192 | Pod cpu_util=49% mem_util=54%
+2026-11-18 00:09:39 | INFO | API-Gateway | REQ-1193 | Incoming POST /api/v1/orders routed successfully for REQ-1193
+2026-11-18 00:09:39 | INFO | Auth-Service | REQ-1193 | JWT token validated for user_session_350
+2026-11-18 00:09:39 | INFO | Order-Service | REQ-1193 | Order payload verified for order_id=8717
+2026-11-18 00:09:39 | INFO | Database-Service | REQ-1193 | COMMIT transaction completed in 22ms
+2026-11-18 00:09:39 | INFO | K8s-Infra-Node | REQ-1193 | Pod cpu_util=52% mem_util=53%
+2026-11-18 00:09:42 | INFO | API-Gateway | REQ-1194 | Incoming POST /api/v1/orders routed successfully for REQ-1194
+2026-11-18 00:09:42 | INFO | Auth-Service | REQ-1194 | JWT token validated for user_session_691
+2026-11-18 00:09:42 | INFO | Order-Service | REQ-1194 | Order payload verified for order_id=9253
+2026-11-18 00:09:42 | INFO | Database-Service | REQ-1194 | COMMIT transaction completed in 11ms
+2026-11-18 00:09:42 | INFO | K8s-Infra-Node | REQ-1194 | Pod cpu_util=52% mem_util=55%
+2026-11-18 00:09:45 | ERROR | Database-Service | REQ-1195 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:09:45 | ERROR | Order-Service | REQ-1195 | Transaction aborted: Database write timeout for order_id=6327
+2026-11-18 00:09:45 | ERROR | API-Gateway | REQ-1195 | HTTP 504 Gateway Timeout returned for request REQ-1195
+2026-11-18 00:09:48 | ERROR | K8s-Infra-Node | REQ-1196 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:09:48 | ERROR | Auth-Service | REQ-1196 | Connection refused by upstream auth-pod worker for REQ-1196
+2026-11-18 00:09:48 | ERROR | API-Gateway | REQ-1196 | HTTP 502 Bad Gateway returned for request REQ-1196
+2026-11-18 00:09:51 | INFO | API-Gateway | REQ-1197 | Incoming POST /api/v1/orders routed successfully for REQ-1197
+2026-11-18 00:09:51 | INFO | Auth-Service | REQ-1197 | JWT token validated for user_session_119
+2026-11-18 00:09:51 | INFO | Order-Service | REQ-1197 | Order payload verified for order_id=6599
+2026-11-18 00:09:51 | INFO | Database-Service | REQ-1197 | COMMIT transaction completed in 17ms
+2026-11-18 00:09:51 | INFO | K8s-Infra-Node | REQ-1197 | Pod cpu_util=35% mem_util=53%
+2026-11-18 00:09:54 | INFO | API-Gateway | REQ-1198 | Incoming POST /api/v1/orders routed successfully for REQ-1198
+2026-11-18 00:09:54 | INFO | Auth-Service | REQ-1198 | JWT token validated for user_session_785
+2026-11-18 00:09:54 | INFO | Order-Service | REQ-1198 | Order payload verified for order_id=7385
+2026-11-18 00:09:54 | INFO | Database-Service | REQ-1198 | COMMIT transaction completed in 16ms
+2026-11-18 00:09:54 | INFO | K8s-Infra-Node | REQ-1198 | Pod cpu_util=49% mem_util=60%
+2026-11-18 00:09:57 | INFO | API-Gateway | REQ-1199 | Incoming POST /api/v1/orders routed successfully for REQ-1199
+2026-11-18 00:09:57 | INFO | Auth-Service | REQ-1199 | JWT token validated for user_session_197
+2026-11-18 00:09:57 | INFO | Order-Service | REQ-1199 | Order payload verified for order_id=5101
+2026-11-18 00:09:57 | INFO | Database-Service | REQ-1199 | COMMIT transaction completed in 22ms
+2026-11-18 00:09:57 | INFO | K8s-Infra-Node | REQ-1199 | Pod cpu_util=31% mem_util=51%
+2026-11-18 00:10:00 | ERROR | Database-Service | REQ-1200 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:10:00 | ERROR | Order-Service | REQ-1200 | Transaction aborted: Database write timeout for order_id=8989
+2026-11-18 00:10:00 | ERROR | API-Gateway | REQ-1200 | HTTP 504 Gateway Timeout returned for request REQ-1200
+2026-11-18 00:10:03 | INFO | API-Gateway | REQ-1201 | Incoming POST /api/v1/orders routed successfully for REQ-1201
+2026-11-18 00:10:03 | INFO | Auth-Service | REQ-1201 | JWT token validated for user_session_742
+2026-11-18 00:10:03 | INFO | Order-Service | REQ-1201 | Order payload verified for order_id=8676
+2026-11-18 00:10:03 | INFO | Database-Service | REQ-1201 | COMMIT transaction completed in 12ms
+2026-11-18 00:10:03 | INFO | K8s-Infra-Node | REQ-1201 | Pod cpu_util=47% mem_util=62%
+2026-11-18 00:10:06 | INFO | API-Gateway | REQ-1202 | Incoming POST /api/v1/orders routed successfully for REQ-1202
+2026-11-18 00:10:06 | INFO | Auth-Service | REQ-1202 | JWT token validated for user_session_771
+2026-11-18 00:10:06 | INFO | Order-Service | REQ-1202 | Order payload verified for order_id=8917
+2026-11-18 00:10:06 | INFO | Database-Service | REQ-1202 | COMMIT transaction completed in 19ms
+2026-11-18 00:10:06 | INFO | K8s-Infra-Node | REQ-1202 | Pod cpu_util=38% mem_util=43%
+2026-11-18 00:10:09 | ERROR | Database-Service | REQ-1203 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:10:09 | ERROR | Order-Service | REQ-1203 | Transaction aborted: Database write timeout for order_id=9437
+2026-11-18 00:10:09 | ERROR | API-Gateway | REQ-1203 | HTTP 504 Gateway Timeout returned for request REQ-1203
+2026-11-18 00:10:12 | INFO | API-Gateway | REQ-1204 | Incoming POST /api/v1/orders routed successfully for REQ-1204
+2026-11-18 00:10:12 | INFO | Auth-Service | REQ-1204 | JWT token validated for user_session_517
+2026-11-18 00:10:12 | INFO | Order-Service | REQ-1204 | Order payload verified for order_id=6789
+2026-11-18 00:10:12 | INFO | Database-Service | REQ-1204 | COMMIT transaction completed in 18ms
+2026-11-18 00:10:12 | INFO | K8s-Infra-Node | REQ-1204 | Pod cpu_util=52% mem_util=62%
+2026-11-18 00:10:15 | INFO | API-Gateway | REQ-1205 | Incoming POST /api/v1/orders routed successfully for REQ-1205
+2026-11-18 00:10:15 | INFO | Auth-Service | REQ-1205 | JWT token validated for user_session_562
+2026-11-18 00:10:15 | INFO | Order-Service | REQ-1205 | Order payload verified for order_id=9950
+2026-11-18 00:10:15 | INFO | Database-Service | REQ-1205 | COMMIT transaction completed in 12ms
+2026-11-18 00:10:15 | INFO | K8s-Infra-Node | REQ-1205 | Pod cpu_util=33% mem_util=43%
+2026-11-18 00:10:18 | INFO | API-Gateway | REQ-1206 | Incoming POST /api/v1/orders routed successfully for REQ-1206
+2026-11-18 00:10:18 | INFO | Auth-Service | REQ-1206 | JWT token validated for user_session_924
+2026-11-18 00:10:18 | INFO | Order-Service | REQ-1206 | Order payload verified for order_id=7420
+2026-11-18 00:10:18 | INFO | Database-Service | REQ-1206 | COMMIT transaction completed in 9ms
+2026-11-18 00:10:18 | INFO | K8s-Infra-Node | REQ-1206 | Pod cpu_util=42% mem_util=44%
+2026-11-18 00:10:21 | ERROR | K8s-Infra-Node | REQ-1207 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:10:21 | ERROR | Auth-Service | REQ-1207 | Connection refused by upstream auth-pod worker for REQ-1207
+2026-11-18 00:10:21 | ERROR | API-Gateway | REQ-1207 | HTTP 502 Bad Gateway returned for request REQ-1207
+2026-11-18 00:10:24 | INFO | API-Gateway | REQ-1208 | Incoming POST /api/v1/orders routed successfully for REQ-1208
+2026-11-18 00:10:24 | INFO | Auth-Service | REQ-1208 | JWT token validated for user_session_276
+2026-11-18 00:10:24 | INFO | Order-Service | REQ-1208 | Order payload verified for order_id=5489
+2026-11-18 00:10:24 | INFO | Database-Service | REQ-1208 | COMMIT transaction completed in 21ms
+2026-11-18 00:10:24 | INFO | K8s-Infra-Node | REQ-1208 | Pod cpu_util=52% mem_util=59%
+2026-11-18 00:10:27 | INFO | API-Gateway | REQ-1209 | Incoming POST /api/v1/orders routed successfully for REQ-1209
+2026-11-18 00:10:27 | INFO | Auth-Service | REQ-1209 | JWT token validated for user_session_645
+2026-11-18 00:10:27 | INFO | Order-Service | REQ-1209 | Order payload verified for order_id=9075
+2026-11-18 00:10:27 | INFO | Database-Service | REQ-1209 | COMMIT transaction completed in 10ms
+2026-11-18 00:10:27 | INFO | K8s-Infra-Node | REQ-1209 | Pod cpu_util=49% mem_util=54%
+2026-11-18 00:10:30 | ERROR | Database-Service | REQ-1210 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:10:30 | ERROR | Order-Service | REQ-1210 | Transaction aborted: Database write timeout for order_id=5506
+2026-11-18 00:10:30 | ERROR | API-Gateway | REQ-1210 | HTTP 504 Gateway Timeout returned for request REQ-1210
+2026-11-18 00:10:33 | INFO | API-Gateway | REQ-1211 | Incoming POST /api/v1/orders routed successfully for REQ-1211
+2026-11-18 00:10:33 | INFO | Auth-Service | REQ-1211 | JWT token validated for user_session_808
+2026-11-18 00:10:33 | INFO | Order-Service | REQ-1211 | Order payload verified for order_id=8264
+2026-11-18 00:10:33 | INFO | Database-Service | REQ-1211 | COMMIT transaction completed in 20ms
+2026-11-18 00:10:33 | INFO | K8s-Infra-Node | REQ-1211 | Pod cpu_util=45% mem_util=43%
+2026-11-18 00:10:36 | INFO | API-Gateway | REQ-1212 | Incoming POST /api/v1/orders routed successfully for REQ-1212
+2026-11-18 00:10:36 | INFO | Auth-Service | REQ-1212 | JWT token validated for user_session_224
+2026-11-18 00:10:36 | INFO | Order-Service | REQ-1212 | Order payload verified for order_id=8188
+2026-11-18 00:10:36 | INFO | Database-Service | REQ-1212 | COMMIT transaction completed in 10ms
+2026-11-18 00:10:36 | INFO | K8s-Infra-Node | REQ-1212 | Pod cpu_util=54% mem_util=46%
+2026-11-18 00:10:39 | INFO | API-Gateway | REQ-1213 | Incoming POST /api/v1/orders routed successfully for REQ-1213
+2026-11-18 00:10:39 | INFO | Auth-Service | REQ-1213 | JWT token validated for user_session_437
+2026-11-18 00:10:39 | INFO | Order-Service | REQ-1213 | Order payload verified for order_id=6364
+2026-11-18 00:10:39 | INFO | Database-Service | REQ-1213 | COMMIT transaction completed in 19ms
+2026-11-18 00:10:39 | INFO | K8s-Infra-Node | REQ-1213 | Pod cpu_util=45% mem_util=41%
+2026-11-18 00:10:42 | INFO | API-Gateway | REQ-1214 | Incoming POST /api/v1/orders routed successfully for REQ-1214
+2026-11-18 00:10:42 | INFO | Auth-Service | REQ-1214 | JWT token validated for user_session_623
+2026-11-18 00:10:42 | INFO | Order-Service | REQ-1214 | Order payload verified for order_id=7725
+2026-11-18 00:10:42 | INFO | Database-Service | REQ-1214 | COMMIT transaction completed in 8ms
+2026-11-18 00:10:42 | INFO | K8s-Infra-Node | REQ-1214 | Pod cpu_util=26% mem_util=52%
+2026-11-18 00:10:45 | INFO | API-Gateway | REQ-1215 | Incoming POST /api/v1/orders routed successfully for REQ-1215
+2026-11-18 00:10:45 | INFO | Auth-Service | REQ-1215 | JWT token validated for user_session_646
+2026-11-18 00:10:45 | INFO | Order-Service | REQ-1215 | Order payload verified for order_id=7927
+2026-11-18 00:10:45 | INFO | Database-Service | REQ-1215 | COMMIT transaction completed in 10ms
+2026-11-18 00:10:45 | INFO | K8s-Infra-Node | REQ-1215 | Pod cpu_util=35% mem_util=47%
+2026-11-18 00:10:48 | INFO | API-Gateway | REQ-1216 | Incoming POST /api/v1/orders routed successfully for REQ-1216
+2026-11-18 00:10:48 | INFO | Auth-Service | REQ-1216 | JWT token validated for user_session_469
+2026-11-18 00:10:48 | INFO | Order-Service | REQ-1216 | Order payload verified for order_id=8801
+2026-11-18 00:10:48 | INFO | Database-Service | REQ-1216 | COMMIT transaction completed in 22ms
+2026-11-18 00:10:48 | INFO | K8s-Infra-Node | REQ-1216 | Pod cpu_util=54% mem_util=45%
+2026-11-18 00:10:51 | INFO | API-Gateway | REQ-1217 | Incoming POST /api/v1/orders routed successfully for REQ-1217
+2026-11-18 00:10:51 | INFO | Auth-Service | REQ-1217 | JWT token validated for user_session_822
+2026-11-18 00:10:51 | INFO | Order-Service | REQ-1217 | Order payload verified for order_id=6928
+2026-11-18 00:10:51 | INFO | Database-Service | REQ-1217 | COMMIT transaction completed in 11ms
+2026-11-18 00:10:51 | INFO | K8s-Infra-Node | REQ-1217 | Pod cpu_util=37% mem_util=50%
+2026-11-18 00:10:54 | INFO | API-Gateway | REQ-1218 | Incoming POST /api/v1/orders routed successfully for REQ-1218
+2026-11-18 00:10:54 | INFO | Auth-Service | REQ-1218 | JWT token validated for user_session_564
+2026-11-18 00:10:54 | INFO | Order-Service | REQ-1218 | Order payload verified for order_id=8871
+2026-11-18 00:10:54 | INFO | Database-Service | REQ-1218 | COMMIT transaction completed in 10ms
+2026-11-18 00:10:54 | INFO | K8s-Infra-Node | REQ-1218 | Pod cpu_util=54% mem_util=48%
+2026-11-18 00:10:57 | INFO | API-Gateway | REQ-1219 | Incoming POST /api/v1/orders routed successfully for REQ-1219
+2026-11-18 00:10:57 | INFO | Auth-Service | REQ-1219 | JWT token validated for user_session_288
+2026-11-18 00:10:57 | INFO | Order-Service | REQ-1219 | Order payload verified for order_id=8504
+2026-11-18 00:10:57 | INFO | Database-Service | REQ-1219 | COMMIT transaction completed in 14ms
+2026-11-18 00:10:57 | INFO | K8s-Infra-Node | REQ-1219 | Pod cpu_util=53% mem_util=55%
+2026-11-18 00:11:00 | INFO | API-Gateway | REQ-1220 | Incoming POST /api/v1/orders routed successfully for REQ-1220
+2026-11-18 00:11:00 | INFO | Auth-Service | REQ-1220 | JWT token validated for user_session_402
+2026-11-18 00:11:00 | INFO | Order-Service | REQ-1220 | Order payload verified for order_id=8612
+2026-11-18 00:11:00 | INFO | Database-Service | REQ-1220 | COMMIT transaction completed in 14ms
+2026-11-18 00:11:00 | INFO | K8s-Infra-Node | REQ-1220 | Pod cpu_util=38% mem_util=58%
+2026-11-18 00:11:03 | INFO | API-Gateway | REQ-1221 | Incoming POST /api/v1/orders routed successfully for REQ-1221
+2026-11-18 00:11:03 | INFO | Auth-Service | REQ-1221 | JWT token validated for user_session_640
+2026-11-18 00:11:03 | INFO | Order-Service | REQ-1221 | Order payload verified for order_id=5435
+2026-11-18 00:11:03 | INFO | Database-Service | REQ-1221 | COMMIT transaction completed in 10ms
+2026-11-18 00:11:03 | INFO | K8s-Infra-Node | REQ-1221 | Pod cpu_util=35% mem_util=58%
+2026-11-18 00:11:06 | INFO | API-Gateway | REQ-1222 | Incoming POST /api/v1/orders routed successfully for REQ-1222
+2026-11-18 00:11:06 | INFO | Auth-Service | REQ-1222 | JWT token validated for user_session_153
+2026-11-18 00:11:06 | INFO | Order-Service | REQ-1222 | Order payload verified for order_id=8004
+2026-11-18 00:11:06 | INFO | Database-Service | REQ-1222 | COMMIT transaction completed in 12ms
+2026-11-18 00:11:06 | INFO | K8s-Infra-Node | REQ-1222 | Pod cpu_util=39% mem_util=43%
+2026-11-18 00:11:09 | INFO | API-Gateway | REQ-1223 | Incoming POST /api/v1/orders routed successfully for REQ-1223
+2026-11-18 00:11:09 | INFO | Auth-Service | REQ-1223 | JWT token validated for user_session_330
+2026-11-18 00:11:09 | INFO | Order-Service | REQ-1223 | Order payload verified for order_id=5091
+2026-11-18 00:11:09 | INFO | Database-Service | REQ-1223 | COMMIT transaction completed in 18ms
+2026-11-18 00:11:09 | INFO | K8s-Infra-Node | REQ-1223 | Pod cpu_util=36% mem_util=63%
+2026-11-18 00:11:12 | INFO | API-Gateway | REQ-1224 | Incoming POST /api/v1/orders routed successfully for REQ-1224
+2026-11-18 00:11:12 | INFO | Auth-Service | REQ-1224 | JWT token validated for user_session_267
+2026-11-18 00:11:12 | INFO | Order-Service | REQ-1224 | Order payload verified for order_id=7727
+2026-11-18 00:11:12 | INFO | Database-Service | REQ-1224 | COMMIT transaction completed in 21ms
+2026-11-18 00:11:12 | INFO | K8s-Infra-Node | REQ-1224 | Pod cpu_util=35% mem_util=52%
+2026-11-18 00:11:15 | ERROR | Database-Service | REQ-1225 | FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary
+2026-11-18 00:11:15 | ERROR | Order-Service | REQ-1225 | Transaction aborted: Database write timeout for order_id=6512
+2026-11-18 00:11:15 | ERROR | API-Gateway | REQ-1225 | HTTP 504 Gateway Timeout returned for request REQ-1225
+2026-11-18 00:11:18 | INFO | API-Gateway | REQ-1226 | Incoming POST /api/v1/orders routed successfully for REQ-1226
+2026-11-18 00:11:18 | INFO | Auth-Service | REQ-1226 | JWT token validated for user_session_849
+2026-11-18 00:11:18 | INFO | Order-Service | REQ-1226 | Order payload verified for order_id=9819
+2026-11-18 00:11:18 | INFO | Database-Service | REQ-1226 | COMMIT transaction completed in 9ms
+2026-11-18 00:11:18 | INFO | K8s-Infra-Node | REQ-1226 | Pod cpu_util=50% mem_util=51%
+2026-11-18 00:11:21 | INFO | API-Gateway | REQ-1227 | Incoming POST /api/v1/orders routed successfully for REQ-1227
+2026-11-18 00:11:21 | INFO | Auth-Service | REQ-1227 | JWT token validated for user_session_629
+2026-11-18 00:11:21 | INFO | Order-Service | REQ-1227 | Order payload verified for order_id=7759
+2026-11-18 00:11:21 | INFO | Database-Service | REQ-1227 | COMMIT transaction completed in 21ms
+2026-11-18 00:11:21 | INFO | K8s-Infra-Node | REQ-1227 | Pod cpu_util=39% mem_util=48%
+2026-11-18 00:11:24 | INFO | API-Gateway | REQ-1228 | Incoming POST /api/v1/orders routed successfully for REQ-1228
+2026-11-18 00:11:24 | INFO | Auth-Service | REQ-1228 | JWT token validated for user_session_603
+2026-11-18 00:11:24 | INFO | Order-Service | REQ-1228 | Order payload verified for order_id=7217
+2026-11-18 00:11:24 | INFO | Database-Service | REQ-1228 | COMMIT transaction completed in 21ms
+2026-11-18 00:11:24 | INFO | K8s-Infra-Node | REQ-1228 | Pod cpu_util=48% mem_util=48%
+2026-11-18 00:11:27 | INFO | API-Gateway | REQ-1229 | Incoming POST /api/v1/orders routed successfully for REQ-1229
+2026-11-18 00:11:27 | INFO | Auth-Service | REQ-1229 | JWT token validated for user_session_139
+2026-11-18 00:11:27 | INFO | Order-Service | REQ-1229 | Order payload verified for order_id=7583
+2026-11-18 00:11:27 | INFO | Database-Service | REQ-1229 | COMMIT transaction completed in 16ms
+2026-11-18 00:11:27 | INFO | K8s-Infra-Node | REQ-1229 | Pod cpu_util=36% mem_util=59%
+2026-11-18 00:11:30 | INFO | API-Gateway | REQ-1230 | Incoming POST /api/v1/orders routed successfully for REQ-1230
+2026-11-18 00:11:30 | INFO | Auth-Service | REQ-1230 | JWT token validated for user_session_235
+2026-11-18 00:11:30 | INFO | Order-Service | REQ-1230 | Order payload verified for order_id=6220
+2026-11-18 00:11:30 | INFO | Database-Service | REQ-1230 | COMMIT transaction completed in 13ms
+2026-11-18 00:11:30 | INFO | K8s-Infra-Node | REQ-1230 | Pod cpu_util=54% mem_util=53%
+2026-11-18 00:11:33 | ERROR | K8s-Infra-Node | REQ-1231 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:11:33 | ERROR | Auth-Service | REQ-1231 | Connection refused by upstream auth-pod worker for REQ-1231
+2026-11-18 00:11:33 | ERROR | API-Gateway | REQ-1231 | HTTP 502 Bad Gateway returned for request REQ-1231
+2026-11-18 00:11:36 | INFO | API-Gateway | REQ-1232 | Incoming POST /api/v1/orders routed successfully for REQ-1232
+2026-11-18 00:11:36 | INFO | Auth-Service | REQ-1232 | JWT token validated for user_session_863
+2026-11-18 00:11:36 | INFO | Order-Service | REQ-1232 | Order payload verified for order_id=9064
+2026-11-18 00:11:36 | INFO | Database-Service | REQ-1232 | COMMIT transaction completed in 12ms
+2026-11-18 00:11:36 | INFO | K8s-Infra-Node | REQ-1232 | Pod cpu_util=43% mem_util=40%
+2026-11-18 00:11:39 | INFO | API-Gateway | REQ-1233 | Incoming POST /api/v1/orders routed successfully for REQ-1233
+2026-11-18 00:11:39 | INFO | Auth-Service | REQ-1233 | JWT token validated for user_session_748
+2026-11-18 00:11:39 | INFO | Order-Service | REQ-1233 | Order payload verified for order_id=5583
+2026-11-18 00:11:39 | INFO | Database-Service | REQ-1233 | COMMIT transaction completed in 14ms
+2026-11-18 00:11:39 | INFO | K8s-Infra-Node | REQ-1233 | Pod cpu_util=48% mem_util=65%
+2026-11-18 00:11:42 | INFO | API-Gateway | REQ-1234 | Incoming POST /api/v1/orders routed successfully for REQ-1234
+2026-11-18 00:11:42 | INFO | Auth-Service | REQ-1234 | JWT token validated for user_session_802
+2026-11-18 00:11:42 | INFO | Order-Service | REQ-1234 | Order payload verified for order_id=7683
+2026-11-18 00:11:42 | INFO | Database-Service | REQ-1234 | COMMIT transaction completed in 20ms
+2026-11-18 00:11:42 | INFO | K8s-Infra-Node | REQ-1234 | Pod cpu_util=44% mem_util=43%
+2026-11-18 00:11:45 | INFO | API-Gateway | REQ-1235 | Incoming POST /api/v1/orders routed successfully for REQ-1235
+2026-11-18 00:11:45 | INFO | Auth-Service | REQ-1235 | JWT token validated for user_session_249
+2026-11-18 00:11:45 | INFO | Order-Service | REQ-1235 | Order payload verified for order_id=5126
+2026-11-18 00:11:45 | INFO | Database-Service | REQ-1235 | COMMIT transaction completed in 21ms
+2026-11-18 00:11:45 | INFO | K8s-Infra-Node | REQ-1235 | Pod cpu_util=42% mem_util=40%
+2026-11-18 00:11:48 | INFO | API-Gateway | REQ-1236 | Incoming POST /api/v1/orders routed successfully for REQ-1236
+2026-11-18 00:11:48 | INFO | Auth-Service | REQ-1236 | JWT token validated for user_session_212
+2026-11-18 00:11:48 | INFO | Order-Service | REQ-1236 | Order payload verified for order_id=5621
+2026-11-18 00:11:48 | INFO | Database-Service | REQ-1236 | COMMIT transaction completed in 8ms
+2026-11-18 00:11:48 | INFO | K8s-Infra-Node | REQ-1236 | Pod cpu_util=25% mem_util=40%
+2026-11-18 00:11:51 | INFO | API-Gateway | REQ-1237 | Incoming POST /api/v1/orders routed successfully for REQ-1237
+2026-11-18 00:11:51 | INFO | Auth-Service | REQ-1237 | JWT token validated for user_session_363
+2026-11-18 00:11:51 | INFO | Order-Service | REQ-1237 | Order payload verified for order_id=6061
+2026-11-18 00:11:51 | INFO | Database-Service | REQ-1237 | COMMIT transaction completed in 19ms
+2026-11-18 00:11:51 | INFO | K8s-Infra-Node | REQ-1237 | Pod cpu_util=53% mem_util=59%
+2026-11-18 00:11:54 | INFO | API-Gateway | REQ-1238 | Incoming POST /api/v1/orders routed successfully for REQ-1238
+2026-11-18 00:11:54 | INFO | Auth-Service | REQ-1238 | JWT token validated for user_session_987
+2026-11-18 00:11:54 | INFO | Order-Service | REQ-1238 | Order payload verified for order_id=9129
+2026-11-18 00:11:54 | INFO | Database-Service | REQ-1238 | COMMIT transaction completed in 20ms
+2026-11-18 00:11:54 | INFO | K8s-Infra-Node | REQ-1238 | Pod cpu_util=50% mem_util=45%
+2026-11-18 00:11:57 | INFO | API-Gateway | REQ-1239 | Incoming POST /api/v1/orders routed successfully for REQ-1239
+2026-11-18 00:11:57 | INFO | Auth-Service | REQ-1239 | JWT token validated for user_session_772
+2026-11-18 00:11:57 | INFO | Order-Service | REQ-1239 | Order payload verified for order_id=8464
+2026-11-18 00:11:57 | INFO | Database-Service | REQ-1239 | COMMIT transaction completed in 14ms
+2026-11-18 00:11:57 | INFO | K8s-Infra-Node | REQ-1239 | Pod cpu_util=26% mem_util=63%
+2026-11-18 00:12:00 | INFO | API-Gateway | REQ-1240 | Incoming POST /api/v1/orders routed successfully for REQ-1240
+2026-11-18 00:12:00 | INFO | Auth-Service | REQ-1240 | JWT token validated for user_session_689
+2026-11-18 00:12:00 | INFO | Order-Service | REQ-1240 | Order payload verified for order_id=8456
+2026-11-18 00:12:00 | INFO | Database-Service | REQ-1240 | COMMIT transaction completed in 14ms
+2026-11-18 00:12:00 | INFO | K8s-Infra-Node | REQ-1240 | Pod cpu_util=48% mem_util=43%
+2026-11-18 00:12:03 | INFO | API-Gateway | REQ-1241 | Incoming POST /api/v1/orders routed successfully for REQ-1241
+2026-11-18 00:12:03 | INFO | Auth-Service | REQ-1241 | JWT token validated for user_session_126
+2026-11-18 00:12:03 | INFO | Order-Service | REQ-1241 | Order payload verified for order_id=8857
+2026-11-18 00:12:03 | INFO | Database-Service | REQ-1241 | COMMIT transaction completed in 16ms
+2026-11-18 00:12:03 | INFO | K8s-Infra-Node | REQ-1241 | Pod cpu_util=42% mem_util=61%
+2026-11-18 00:12:06 | INFO | API-Gateway | REQ-1242 | Incoming POST /api/v1/orders routed successfully for REQ-1242
+2026-11-18 00:12:06 | INFO | Auth-Service | REQ-1242 | JWT token validated for user_session_642
+2026-11-18 00:12:06 | INFO | Order-Service | REQ-1242 | Order payload verified for order_id=5587
+2026-11-18 00:12:06 | INFO | Database-Service | REQ-1242 | COMMIT transaction completed in 13ms
+2026-11-18 00:12:06 | INFO | K8s-Infra-Node | REQ-1242 | Pod cpu_util=47% mem_util=56%
+2026-11-18 00:12:09 | INFO | API-Gateway | REQ-1243 | Incoming POST /api/v1/orders routed successfully for REQ-1243
+2026-11-18 00:12:09 | INFO | Auth-Service | REQ-1243 | JWT token validated for user_session_333
+2026-11-18 00:12:09 | INFO | Order-Service | REQ-1243 | Order payload verified for order_id=6948
+2026-11-18 00:12:09 | INFO | Database-Service | REQ-1243 | COMMIT transaction completed in 21ms
+2026-11-18 00:12:09 | INFO | K8s-Infra-Node | REQ-1243 | Pod cpu_util=54% mem_util=46%
+2026-11-18 00:12:12 | INFO | API-Gateway | REQ-1244 | Incoming POST /api/v1/orders routed successfully for REQ-1244
+2026-11-18 00:12:12 | INFO | Auth-Service | REQ-1244 | JWT token validated for user_session_625
+2026-11-18 00:12:12 | INFO | Order-Service | REQ-1244 | Order payload verified for order_id=7973
+2026-11-18 00:12:12 | INFO | Database-Service | REQ-1244 | COMMIT transaction completed in 10ms
+2026-11-18 00:12:12 | INFO | K8s-Infra-Node | REQ-1244 | Pod cpu_util=41% mem_util=62%
+2026-11-18 00:12:15 | INFO | API-Gateway | REQ-1245 | Incoming POST /api/v1/orders routed successfully for REQ-1245
+2026-11-18 00:12:15 | INFO | Auth-Service | REQ-1245 | JWT token validated for user_session_596
+2026-11-18 00:12:15 | INFO | Order-Service | REQ-1245 | Order payload verified for order_id=6107
+2026-11-18 00:12:15 | INFO | Database-Service | REQ-1245 | COMMIT transaction completed in 15ms
+2026-11-18 00:12:15 | INFO | K8s-Infra-Node | REQ-1245 | Pod cpu_util=37% mem_util=49%
+2026-11-18 00:12:18 | INFO | API-Gateway | REQ-1246 | Incoming POST /api/v1/orders routed successfully for REQ-1246
+2026-11-18 00:12:18 | INFO | Auth-Service | REQ-1246 | JWT token validated for user_session_313
+2026-11-18 00:12:18 | INFO | Order-Service | REQ-1246 | Order payload verified for order_id=8608
+2026-11-18 00:12:18 | INFO | Database-Service | REQ-1246 | COMMIT transaction completed in 15ms
+2026-11-18 00:12:18 | INFO | K8s-Infra-Node | REQ-1246 | Pod cpu_util=40% mem_util=63%
+2026-11-18 00:12:21 | ERROR | K8s-Infra-Node | REQ-1247 | OOMKilled: Container auth-pod crashed due to memory limit on worker-node
+2026-11-18 00:12:21 | ERROR | Auth-Service | REQ-1247 | Connection refused by upstream auth-pod worker for REQ-1247
+2026-11-18 00:12:21 | ERROR | API-Gateway | REQ-1247 | HTTP 502 Bad Gateway returned for request REQ-1247
+2026-11-18 00:12:24 | INFO | API-Gateway | REQ-1248 | Incoming POST /api/v1/orders routed successfully for REQ-1248
+2026-11-18 00:12:24 | INFO | Auth-Service | REQ-1248 | JWT token validated for user_session_377
+2026-11-18 00:12:24 | INFO | Order-Service | REQ-1248 | Order payload verified for order_id=7013
+2026-11-18 00:12:24 | INFO | Database-Service | REQ-1248 | COMMIT transaction completed in 19ms
+2026-11-18 00:12:24 | INFO | K8s-Infra-Node | REQ-1248 | Pod cpu_util=43% mem_util=55%
+2026-11-18 00:12:27 | INFO | API-Gateway | REQ-1249 | Incoming POST /api/v1/orders routed successfully for REQ-1249
+2026-11-18 00:12:27 | INFO | Auth-Service | REQ-1249 | JWT token validated for user_session_996
+2026-11-18 00:12:27 | INFO | Order-Service | REQ-1249 | Order payload verified for order_id=9229
+2026-11-18 00:12:27 | INFO | Database-Service | REQ-1249 | COMMIT transaction completed in 16ms
+2026-11-18 00:12:27 | INFO | K8s-Infra-Node | REQ-1249 | Pod cpu_util=50% mem_util=47%
