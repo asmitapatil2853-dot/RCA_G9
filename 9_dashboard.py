@@ -10,21 +10,21 @@ import plotly.graph_objects as go
 # ============================================================
 
 st.set_page_config(
-    page_title="Intelligent Distributed Log Analysis & Root-Cause Detection",
+    page_title="Open 360 LogRCA",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # ============================================================
-# 2. CLEAN LIGHT THEME
+# 2. WHITE DASHBOARD THEME
 # ============================================================
 
 st.markdown("""
 <style>
     .stApp {
-        background-color: #FFFFFF;
-        color: #1F2937;
+        background-color: #FFFFFF !important;
+        color: #1F2937 !important;
     }
 
     .block-container {
@@ -33,31 +33,41 @@ st.markdown("""
     }
 
     section[data-testid="stSidebar"] {
-        background-color: #F8FAFC;
+        background-color: #FFFFFF !important;
         border-right: 1px solid #E5E7EB;
+    }
+
+    h1, h2, h3, h4 {
+        color: #111827 !important;
     }
 
     [data-testid="stMetric"] {
         background-color: #FFFFFF;
         border: 1px solid #E5E7EB;
-        padding: 16px;
         border-radius: 12px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.04);
-    }
-
-    h1, h2, h3 {
-        color: #111827;
+        padding: 16px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.04);
     }
 
     [data-testid="stDataFrame"] {
         border: 1px solid #E5E7EB;
+        border-radius: 10px;
+    }
+
+    .section-caption {
+        color: #64748B;
+        font-size: 13px;
+    }
+
+    .stButton button {
         border-radius: 8px;
     }
 </style>
 """, unsafe_allow_html=True)
 
+
 # ============================================================
-# 3. DATA FILE PATHS AND SERVICE NAMES
+# 3. FILE PATHS AND SERVICES
 # ============================================================
 
 ANOMALY_PATH = "data/processed_logs/anomaly_results.csv"
@@ -71,8 +81,9 @@ ALL_SERVICES = [
     "K8s-Infra-Node"
 ]
 
+
 # ============================================================
-# 4. LOAD DASHBOARD DATA
+# 4. LOAD DATA
 # ============================================================
 
 @st.cache_data(ttl=10)
@@ -80,82 +91,67 @@ def load_dashboard_data():
 
     if os.path.exists(ANOMALY_PATH) and os.path.exists(RCA_PATH):
 
-        logs_df = pd.read_csv(ANOMALY_PATH)
-        rca_df = pd.read_csv(RCA_PATH)
+        logs = pd.read_csv(ANOMALY_PATH)
+        rca = pd.read_csv(RCA_PATH)
 
-        # Find root-cause service column
-        root_cause_column = next(
-            (
-                col for col in [
-                    "root_cause_service",
-                    "probable_root_cause",
-                    "root_cause",
-                    "service"
-                ]
-                if col in rca_df.columns
-            ),
+        # Identify RCA service column
+        service_col = next(
+            (c for c in [
+                "root_cause_service",
+                "probable_root_cause",
+                "root_cause",
+                "service"
+            ] if c in rca.columns),
             None
         )
 
-        if root_cause_column:
-            rca_df["rc_svc"] = rca_df[root_cause_column].astype(str).apply(
+        if service_col:
+            rca["rc_svc"] = rca[service_col].astype(str).apply(
                 lambda value: next(
-                    (service for service in ALL_SERVICES if service in value),
-                    "Database-Service"
+                    (s for s in ALL_SERVICES if s in value),
+                    value
                 )
             )
         else:
-            rca_df["rc_svc"] = "Database-Service"
+            rca["rc_svc"] = "Database-Service"
 
-        # Find root-cause message column
-        message_column = next(
-            (
-                col for col in [
-                    "root_cause_message",
-                    "root_cause_reason",
-                    "message",
-                    "summary"
-                ]
-                if col in rca_df.columns
-            ),
+        # Root cause explanation
+        message_col = next(
+            (c for c in [
+                "root_cause_message",
+                "root_cause_reason",
+                "message",
+                "summary"
+            ] if c in rca.columns),
             None
         )
 
-        if message_column:
-            rca_df["rc_msg"] = rca_df[message_column].fillna(
-                "Root cause details are not available."
-            )
-        else:
-            rca_df["rc_msg"] = (
-                "Cascading failure isolated at root service node."
-            )
+        rca["rc_msg"] = (
+            rca[message_col].fillna("Details unavailable.").astype(str)
+            if message_col else
+            "Root cause isolated at service node."
+        )
 
-        # Find remediation column
-        remediation_column = next(
-            (
-                col for col in [
-                    "remediation",
-                    "suggested_fix",
-                    "action"
-                ]
-                if col in rca_df.columns
-            ),
+        # Remediation
+        fix_col = next(
+            (c for c in [
+                "remediation",
+                "suggested_fix",
+                "action"
+            ] if c in rca.columns),
             None
         )
 
-        if remediation_column:
-            rca_df["rc_fix"] = rca_df[remediation_column].fillna(
-                "No remediation suggestion is available."
-            )
-        else:
-            rca_df["rc_fix"] = (
-                "Review the affected service and its dependencies."
-            )
+        rca["rc_fix"] = (
+            rca[fix_col].fillna("Review the affected service.").astype(str)
+            if fix_col else
+            "Review the affected service and its dependencies."
+        )
 
-        return logs_df, rca_df, "CSV files"
+        return logs, rca, "CSV Files"
 
     # ========================================================
-    # SAMPLE FALLBACK DATA
+    # FALLBACK SAMPLE DATA
     # ========================================================
 
     sample_logs = pd.DataFrame([
@@ -214,8 +210,8 @@ def load_dashboard_data():
             "level": "ERROR",
             "service": "Database-Service",
             "request_id": "REQ-1012",
-            "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary",
-            "event_template": "FATAL: PostgreSQL connection pool exhausted (<*>) on <*>",
+            "message": "PostgreSQL connection pool exhausted",
+            "event_template": "PostgreSQL connection pool exhausted",
             "anomaly_score": -0.21,
             "status": "Anomaly"
         },
@@ -224,8 +220,8 @@ def load_dashboard_data():
             "level": "ERROR",
             "service": "K8s-Infra-Node",
             "request_id": "REQ-1025",
-            "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node",
-            "event_template": "OOMKilled: Container <*> crashed due to memory limit on <*>",
+            "message": "OOMKilled: Container auth-pod crashed",
+            "event_template": "OOMKilled: Container <*> crashed",
             "anomaly_score": -0.19,
             "status": "Anomaly"
         }
@@ -235,49 +231,41 @@ def load_dashboard_data():
         {
             "request_id": "REQ-1012",
             "rc_svc": "Database-Service",
-            "rc_msg": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary",
-            "rc_fix": "Increase PostgreSQL max_connections and enable PgBouncer pooling."
+            "rc_msg": "PostgreSQL connection pool exhausted",
+            "rc_fix": "Increase PostgreSQL max_connections and enable PgBouncer."
         },
         {
             "request_id": "REQ-1025",
             "rc_svc": "K8s-Infra-Node",
-            "rc_msg": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node",
+            "rc_msg": "OOMKilled: Container auth-pod crashed",
             "rc_fix": "Review and increase Kubernetes pod memory limits."
         }
     ])
 
-    return sample_logs, sample_rca, "Sample fallback data"
+    return sample_logs, sample_rca, "Sample Fallback Data"
 
 
 logs_df, rca_df, data_source = load_dashboard_data()
 
+
 # ============================================================
-# 5. DATA VALIDATION AND PREPARATION
+# 5. DATA VALIDATION
 # ============================================================
 
 required_columns = ["service", "status"]
 
-missing_columns = [
+missing = [
     col for col in required_columns
     if col not in logs_df.columns
 ]
 
-if missing_columns:
-    st.error(
-        "Missing required columns in anomaly_results.csv: "
-        + ", ".join(missing_columns)
-    )
+if missing:
+    st.error(f"Missing columns: {missing}")
     st.stop()
 
-if "timestamp" in logs_df.columns:
-    logs_df["timestamp"] = pd.to_datetime(
-        logs_df["timestamp"],
-        errors="coerce"
-    )
-else:
-    logs_df["timestamp"] = pd.NaT
-
-default_columns = {
+# Default columns
+defaults = {
+    "timestamp": pd.NaT,
     "level": "UNKNOWN",
     "request_id": "Not available",
     "message": "",
@@ -285,15 +273,34 @@ default_columns = {
     "anomaly_score": 0.0
 }
 
-for column, default_value in default_columns.items():
-    if column not in logs_df.columns:
-        logs_df[column] = default_value
+for col, default in defaults.items():
+    if col not in logs_df.columns:
+        logs_df[col] = default
+
+logs_df["timestamp"] = pd.to_datetime(
+    logs_df["timestamp"],
+    errors="coerce"
+)
+
+logs_df["anomaly_score"] = pd.to_numeric(
+    logs_df["anomaly_score"],
+    errors="coerce"
+)
+
+logs_df["anomaly_score"] = logs_df["anomaly_score"].fillna(0)
+
+logs_df["status"] = (
+    logs_df["status"].astype(str).str.strip().str.title()
+)
 
 if "request_id" not in rca_df.columns:
-    rca_df["request_id"] = "Not available"
+    rca_df["request_id"] = [
+        f"Incident-{i+1}" for i in range(len(rca_df))
+    ]
+
 
 # ============================================================
-# 6. SIDEBAR: NAVIGATION AND FILTERS
+# 6. SIDEBAR NAVIGATION AND FILTERS
 # ============================================================
 
 with st.sidebar:
@@ -325,29 +332,24 @@ with st.sidebar:
         default=available_services
     )
 
-    severity_options = [
-        "All", "INFO", "WARNING", "ERROR", "CRITICAL"
-    ]
-
     selected_severity = st.selectbox(
         "Log Severity",
-        severity_options
+        ["All", "INFO", "WARNING", "ERROR", "CRITICAL"]
     )
-
-    status_options = ["All", "Normal", "Anomaly"]
 
     selected_status = st.selectbox(
         "Detection Status",
-        status_options
+        ["All", "Normal", "Anomaly"]
     )
 
     st.divider()
 
-    st.caption(f"Data source: {data_source}")
+    st.caption(f"Data Source: {data_source}")
 
-    if st.button("Refresh Dashboard Data", use_container_width=True):
+    if st.button("↻ Refresh Dashboard", use_container_width=True):
         st.cache_data.clear()
         st.rerun()
+
 
 # ============================================================
 # 7. APPLY FILTERS
@@ -355,12 +357,9 @@ with st.sidebar:
 
 filtered_logs = logs_df.copy()
 
-if selected_services:
-    filtered_logs = filtered_logs[
-        filtered_logs["service"].isin(selected_services)
-    ]
-else:
-    filtered_logs = filtered_logs.iloc[0:0]
+filtered_logs = filtered_logs[
+    filtered_logs["service"].isin(selected_services)
+]
 
 if selected_severity != "All":
     filtered_logs = filtered_logs[
@@ -370,18 +369,26 @@ if selected_severity != "All":
 
 if selected_status != "All":
     filtered_logs = filtered_logs[
-        filtered_logs["status"].astype(str).str.lower()
-        == selected_status.lower()
+        filtered_logs["status"] == selected_status
     ]
 
-total_logs = len(filtered_logs)
-
-anomaly_logs = filtered_logs[
-    filtered_logs["status"].astype(str).str.lower() == "anomaly"
+normal_df = filtered_logs[
+    filtered_logs["status"] == "Normal"
 ]
 
-anomaly_count = len(anomaly_logs)
-normal_count = total_logs - anomaly_count
+anomaly_df = filtered_logs[
+    filtered_logs["status"] == "Anomaly"
+]
+
+total_logs = len(filtered_logs)
+normal_count = len(normal_df)
+anomaly_count = len(anomaly_df)
+
+anomaly_percentage = (
+    anomaly_count / total_logs * 100
+    if total_logs > 0 else 0
+)
+
 
 # ============================================================
 # 8. DASHBOARD HEADER
@@ -392,77 +399,83 @@ st.title(
 )
 
 st.caption(
-    f"Open 360 LogRCA | {nav} | Data source: {data_source}"
+    f"Open 360 LogRCA  |  {nav}  |  Data Source: {data_source}"
 )
 
 st.divider()
 
+
 # ============================================================
-# 9. MODULE 1: EXECUTIVE HEALTH DASHBOARD
+# 9. EXECUTIVE HEALTH DASHBOARD
 # ============================================================
 
 if nav == "1. Executive Health Dashboard":
 
     st.subheader("System & Infrastructure Health")
 
+    # --------------------------------------------------------
     # KPI CARDS
+    # --------------------------------------------------------
 
-    kpi_1, kpi_2, kpi_3, kpi_4 = st.columns(4)
+    k1, k2, k3, k4 = st.columns(4)
 
-    kpi_1.metric(
+    k1.metric(
         "Active Microservices",
-        len(selected_services)
+        filtered_logs["service"].nunique()
     )
 
-    kpi_2.metric(
+    k2.metric(
         "Ingested Volume",
         f"{total_logs:,} Logs"
     )
 
-    kpi_3.metric(
+    k3.metric(
         "ML Anomalies (Isolation Forest)",
-        anomaly_count
+        anomaly_count,
+        delta=f"{anomaly_percentage:.1f}% of logs",
+        delta_color="inverse"
     )
 
-    kpi_4.metric(
+    k4.metric(
         "Correlated Incidents",
         len(rca_df)
     )
 
     st.divider()
 
-    # SERVICE HEALTH OVERVIEW
+    # ========================================================
+    # 10. SERVICE HEALTH OVERVIEW
+    # ========================================================
 
     st.subheader("Service Health Overview")
 
-    service_summary = (
-        filtered_logs.groupby("service")
-        .agg(
-            Total_Logs=("status", "size"),
-            Anomalies=(
-                "status",
-                lambda values: (
-                    values.astype(str).str.lower() == "anomaly"
-                ).sum()
+    if not filtered_logs.empty:
+
+        service_summary = (
+            filtered_logs.groupby("service")
+            .agg(
+                Total_Logs=("status", "size"),
+                Anomalies=(
+                    "status",
+                    lambda x: (x == "Anomaly").sum()
+                )
             )
+            .reset_index()
         )
-        .reset_index()
-    )
 
-    if not service_summary.empty:
-
-        service_summary["Anomaly_Rate_Percent"] = (
+        service_summary["Anomaly_Rate"] = (
             service_summary["Anomalies"]
-            / service_summary["Total_Logs"].replace(0, 1)
-            * 100
-        ).round(1)
+            / service_summary["Total_Logs"] * 100
+        ).round(2)
 
-        service_summary = service_summary.rename(columns={
-            "service": "Microservice",
-            "Total_Logs": "Total Logs",
-            "Anomalies": "Anomaly Count",
-            "Anomaly_Rate_Percent": "Anomaly Rate (%)"
-        })
+        service_summary = service_summary.rename(
+            columns={
+                "service": "Microservice",
+                "Total_Logs": "Total Logs",
+                "Anomalies": "Anomaly Count",
+                "Anomaly_Rate": "Anomaly Rate (%)"
+            }
+        )
 
         st.dataframe(
             service_summary,
@@ -471,10 +484,12 @@ if nav == "1. Executive Health Dashboard":
         )
 
     else:
-        st.info("No log records match the selected filters.")
+        st.info("No service records available.")
+
+    st.divider()
 
     # ========================================================
-    # 10. CHARTS: 40% DISTRIBUTION + 60% ANOMALY SCORING
+    # 11. CHARTS: 40% + 60%
     # ========================================================
 
     chart_left, chart_right = st.columns([2, 3])
@@ -491,22 +506,19 @@ if nav == "1. Executive Health Dashboard":
 
             status_counts = (
                 filtered_logs["status"]
-                .astype(str)
-                .str.title()
                 .value_counts()
-                .reset_index()
+                .rename_axis("Status")
+                .reset_index(name="Count")
             )
-
-            status_counts.columns = ["Status", "Count"]
 
             status_chart = px.pie(
                 status_counts,
                 names="Status",
                 values="Count",
-                hole=0.55,
+                hole=0.58,
                 color="Status",
                 color_discrete_map={
-                    "Normal": "#22C55E",
+                    "Normal": "#16A34A",
                     "Anomaly": "#EF4444"
                 },
                 template="plotly_white"
@@ -514,27 +526,40 @@ if nav == "1. Executive Health Dashboard":
 
             status_chart.update_traces(
                 textposition="inside",
-                textinfo="percent",
+                textinfo="percent+label",
+                marker=dict(
+                    line=dict(color="#FFFFFF", width=3)
+                ),
                 hovertemplate=(
                     "<b>%{label}</b><br>"
-                    "Logs: %{value}<br>"
+                    "Count: %{value}<br>"
                     "Percentage: %{percent}"
                     "<extra></extra>"
                 )
             )
 
             status_chart.update_layout(
-                paper_bgcolor="white",
-                plot_bgcolor="white",
-                font=dict(color="#1F2937"),
-                margin=dict(l=5, r=5, t=20, b=5),
-                showlegend=True,
-                legend_title_text=""
+                paper_bgcolor="#FFFFFF",
+                plot_bgcolor="#FFFFFF",
+                font=dict(
+                    color="#1F2937",
+                    size=12
+                ),
+                margin=dict(
+                    l=5, r=5, t=20, b=5
+                ),
+                legend_title_text="",
+                height=430
             )
 
             st.plotly_chart(
                 status_chart,
                 use_container_width=True
+            )
+
+            st.caption(
+                f"Normal: {normal_count} | "
+                f"Anomaly: {anomaly_count}"
             )
 
         else:
@@ -548,15 +573,9 @@ if nav == "1. Executive Health Dashboard":
 
         st.subheader("Isolation Forest Anomaly Scoring")
 
-        normal_df = filtered_logs[
-            filtered_logs["status"].astype(str).str.lower() == "normal"
-        ]
-
-        anomaly_df = filtered_logs[
-            filtered_logs["status"].astype(str).str.lower() == "anomaly"
-        ]
-
+        # ====================================================
         # GRAPH 1: NORMAL LOG SCORES
+        # ====================================================
 
         st.markdown("**1. Normal Log Scores**")
 
@@ -566,18 +585,28 @@ if nav == "1. Executive Health Dashboard":
                 normal_df,
                 x="timestamp",
                 y="anomaly_score",
+                color="service",
                 hover_data=[
                     "request_id",
-                    "service",
-                    "message"
+                    "message",
+                    "level"
                 ],
-                color_discrete_sequence=["#16A34A"],
+                color_discrete_sequence=[
+                    "#16A34A",
+                    "#0EA5E9",
+                    "#8B5CF6",
+                    "#F59E0B",
+                    "#06B6D4"
+                ],
                 template="plotly_white"
             )
 
             normal_chart.update_traces(
-                marker=dict(size=10, symbol="circle"),
-                name="Normal Logs"
+                marker=dict(
+                    size=10,
+                    symbol="circle",
+                    line=dict(width=1, color="#FFFFFF")
+                )
             )
 
             normal_chart.add_hline(
@@ -588,14 +617,16 @@ if nav == "1. Executive Health Dashboard":
             )
 
             normal_chart.update_layout(
-                paper_bgcolor="white",
-                plot_bgcolor="white",
+                paper_bgcolor="#FFFFFF",
+                plot_bgcolor="#FFFFFF",
                 font=dict(color="#1F2937"),
-                height=250,
+                height=260,
                 margin=dict(l=10, r=10, t=20, b=10),
-                showlegend=False,
+                legend_title_text="Service",
                 xaxis_title="Timestamp",
-                yaxis_title="Anomaly Score"
+                yaxis_title="Anomaly Score",
+                xaxis=dict(gridcolor="#E5E7EB"),
+                yaxis=dict(gridcolor="#E5E7EB")
             )
 
             st.plotly_chart(
@@ -606,7 +637,9 @@ if nav == "1. Executive Health Dashboard":
         else:
             st.info("No normal log records available.")
 
+        # ====================================================
         # GRAPH 2: ANOMALY LOG SCORES
+        # ====================================================
 
         st.markdown("**2. Anomaly Log Scores**")
 
@@ -616,18 +649,28 @@ if nav == "1. Executive Health Dashboard":
                 anomaly_df,
                 x="timestamp",
                 y="anomaly_score",
+                color="service",
                 hover_data=[
                     "request_id",
-                    "service",
-                    "message"
+                    "message",
+                    "level"
                 ],
-                color_discrete_sequence=["#EF4444"],
+                color_discrete_sequence=[
+                    "#EF4444",
+                    "#F97316",
+                    "#DC2626",
+                    "#B91C1C",
+                    "#FB7185"
+                ],
                 template="plotly_white"
             )
 
             anomaly_chart.update_traces(
-                marker=dict(size=11, symbol="diamond"),
-                name="Anomaly Logs"
+                marker=dict(
+                    size=11,
+                    symbol="diamond",
+                    line=dict(width=1, color="#FFFFFF")
+                )
             )
 
             anomaly_chart.add_hline(
@@ -638,14 +681,16 @@ if nav == "1. Executive Health Dashboard":
             )
 
             anomaly_chart.update_layout(
-                paper_bgcolor="white",
-                plot_bgcolor="white",
+                paper_bgcolor="#FFFFFF",
+                plot_bgcolor="#FFFFFF",
                 font=dict(color="#1F2937"),
-                height=250,
+                height=260,
                 margin=dict(l=10, r=10, t=20, b=10),
-                showlegend=False,
+                legend_title_text="Service",
                 xaxis_title="Timestamp",
-                yaxis_title="Anomaly Score"
+                yaxis_title="Anomaly Score",
+                xaxis=dict(gridcolor="#E5E7EB"),
+                yaxis=dict(gridcolor="#E5E7EB")
             )
 
             st.plotly_chart(
@@ -657,7 +702,7 @@ if nav == "1. Executive Health Dashboard":
             st.info("No anomaly log records available.")
 
     # ========================================================
-    # 11. LOG EXPLORER
+    # 12. INTERACTIVE LOG EXPLORER
     # ========================================================
 
     st.divider()
@@ -665,15 +710,15 @@ if nav == "1. Executive Health Dashboard":
     st.subheader("Log Explorer")
 
     search_text = st.text_input(
-        "Search by Request ID, Service, or Log Message",
-        placeholder="Example: REQ-1012 or connection pool"
+        "Search Logs",
+        placeholder="Search Request ID, Service or Log Message..."
     )
 
     display_logs = filtered_logs.copy()
 
     if search_text:
 
-        searchable_columns = [
+        search_columns = [
             "request_id",
             "service",
             "message",
@@ -685,7 +730,7 @@ if nav == "1. Executive Health Dashboard":
             index=display_logs.index
         )
 
-        for column in searchable_columns:
+        for column in search_columns:
 
             if column in display_logs.columns:
 
@@ -703,7 +748,7 @@ if nav == "1. Executive Health Dashboard":
         display_logs = display_logs[search_mask]
 
     display_columns = [
-        col for col in [
+        c for c in [
             "timestamp",
             "level",
             "service",
@@ -713,11 +758,11 @@ if nav == "1. Executive Health Dashboard":
             "anomaly_score",
             "message"
         ]
-        if col in display_logs.columns
+        if c in display_logs.columns
     ]
 
     st.caption(
-        f"Showing {len(display_logs)} matching log records"
+        f"Showing {len(display_logs)} matching records"
     )
 
     st.dataframe(
@@ -735,14 +780,15 @@ if nav == "1. Executive Health Dashboard":
         )
 
         st.download_button(
-            "Download Filtered Logs as CSV",
+            "Download Filtered Logs CSV",
             data=csv_data,
             file_name="filtered_log_records.csv",
             mime="text/csv"
         )
 
+
 # ============================================================
-# 12. MODULE 2: ROOT CAUSE ANALYSIS GRAPH
+# 13. ROOT CAUSE ANALYSIS GRAPH
 # ============================================================
 
 elif nav == "2. Root Cause Analysis Graph":
@@ -752,16 +798,18 @@ elif nav == "2. Root Cause Analysis Graph":
     )
 
     st.caption(
-        "Explore service dependencies and inspect detected RCA incidents."
+        "Explore service dependencies and inspect detected incidents."
     )
 
     graph_column, inspector_column = st.columns([1.8, 1])
 
-    # ========================================================
-    # SERVICE DEPENDENCY GRAPH
-    # ========================================================
+    # --------------------------------------------------------
+    # SERVICE TOPOLOGY GRAPH
+    # --------------------------------------------------------
 
     with graph_column:
+
+        st.markdown("**Distributed Service Dependency Graph**")
 
         node_positions = {
             "API-Gateway": (0.0, 0.5),
@@ -771,7 +819,7 @@ elif nav == "2. Root Cause Analysis Graph":
             "Database-Service": (1.0, 0.15)
         }
 
-        service_dependencies = [
+        dependencies = [
             ("API-Gateway", "Auth-Service"),
             ("API-Gateway", "Order-Service"),
             ("Auth-Service", "K8s-Infra-Node"),
@@ -780,31 +828,27 @@ elif nav == "2. Root Cause Analysis Graph":
 
         graph = go.Figure()
 
-        # DRAW CONNECTION LINES
+        # Dependency connections
 
-        for source_service, target_service in service_dependencies:
+        for source, target in dependencies:
 
-            source_x, source_y = node_positions[source_service]
-            target_x, target_y = node_positions[target_service]
+            x1, y1 = node_positions[source]
+            x2, y2 = node_positions[target]
 
             graph.add_trace(
                 go.Scatter(
-                    x=[source_x, target_x],
-                    y=[source_y, target_y],
+                    x=[x1, x2],
+                    y=[y1, y2],
                     mode="lines",
                     line=dict(
                         color="#94A3B8",
-                        width=2
+                        width=3
                     ),
                     hoverinfo="text",
-                    text=[
-                        f"{source_service} → {target_service}"
-                    ],
+                    text=[f"{source} → {target}"],
                     showlegend=False
                 )
             )
-
-        # IDENTIFY ANOMALY SERVICES
 
         node_names = list(node_positions.keys())
 
@@ -820,16 +864,12 @@ elif nav == "2. Root Cause Analysis Graph":
 
         node_colors = []
 
-        for service_name in node_names:
+        for service in node_names:
 
             service_anomalies = filtered_logs[
-                (filtered_logs["service"] == service_name)
+                (filtered_logs["service"] == service)
                 &
-                (
-                    filtered_logs["status"]
-                    .astype(str)
-                    .str.lower() == "anomaly"
-                )
+                (filtered_logs["status"] == "Anomaly")
             ]
 
             node_colors.append(
@@ -838,7 +878,7 @@ elif nav == "2. Root Cause Analysis Graph":
                 else "#16A34A"
             )
 
-        # DRAW SERVICE NODES
+        # Service nodes
 
         graph.add_trace(
             go.Scatter(
@@ -852,23 +892,28 @@ elif nav == "2. Root Cause Analysis Graph":
                     size=30,
                     color=node_colors,
                     line=dict(
-                        color="white",
-                        width=1.5
+                        color="#FFFFFF",
+                        width=2
                     )
                 ),
-                hovertemplate="<b>%{customdata}</b><extra></extra>",
+                hovertemplate=(
+                    "<b>%{customdata}</b>"
+                    "<extra></extra>"
+                ),
                 showlegend=False
             )
         )
 
         graph.update_layout(
             template="plotly_white",
-            paper_bgcolor="white",
-            plot_bgcolor="white",
+            paper_bgcolor="#FFFFFF",
+            plot_bgcolor="#FFFFFF",
             font=dict(color="#1F2937"),
-            height=430,
+            height=450,
             showlegend=False,
-            margin=dict(l=20, r=20, t=50, b=20),
+            margin=dict(
+                l=20, r=20, t=50, b=20
+            ),
             xaxis=dict(
                 visible=False,
                 range=[-0.2, 1.2]
@@ -885,22 +930,24 @@ elif nav == "2. Root Cause Analysis Graph":
         )
 
         st.caption(
-            "Graph Legend: Green = No anomaly found | "
+            "Green = No anomaly detected | "
             "Red = Anomaly detected"
         )
 
-    # ========================================================
+        st.caption(
+            "Note: Service connections represent the configured topology."
+        )
+
+    # --------------------------------------------------------
     # ENTITY INSPECTOR
-    # ========================================================
+    # --------------------------------------------------------
 
     with inspector_column:
 
         st.subheader("Entity Inspector")
 
         root_cause_options = (
-            sorted(
-                rca_df["rc_svc"].dropna().unique().tolist()
-            )
+            sorted(rca_df["rc_svc"].dropna().unique().tolist())
             if not rca_df.empty
             else ALL_SERVICES
         )
@@ -910,7 +957,7 @@ elif nav == "2. Root Cause Analysis Graph":
 
         selected_root_cause = st.selectbox(
             "Inspect Root-Cause Node",
-            options=root_cause_options
+            root_cause_options
         )
 
         selected_incidents = rca_df[
@@ -924,15 +971,9 @@ elif nav == "2. Root Cause Analysis Graph":
 
         if not selected_incidents.empty:
 
-            request_options = (
-                selected_incidents["request_id"]
-                .astype(str)
-                .tolist()
-            )
-
             selected_request = st.selectbox(
                 "Select Incident / Request ID",
-                request_options
+                selected_incidents["request_id"].astype(str).tolist()
             )
 
             incident = selected_incidents[
@@ -959,7 +1000,7 @@ elif nav == "2. Root Cause Analysis Graph":
             )
 
     # ========================================================
-    # RCA INCIDENT REPORTS
+    # 14. RCA INCIDENT REPORTS
     # ========================================================
 
     st.divider()
@@ -980,7 +1021,7 @@ elif nav == "2. Root Cause Analysis Graph":
         )
 
         st.download_button(
-            "Download RCA Reports as CSV",
+            "Download RCA Reports CSV",
             data=rca_csv,
             file_name="rca_reports.csv",
             mime="text/csv"
@@ -988,6 +1029,4 @@ elif nav == "2. Root Cause Analysis Graph":
 
     else:
 
-        st.info(
-            "No root-cause incident reports are available."
-        )
+        st.info("No RCA incident reports available.")
