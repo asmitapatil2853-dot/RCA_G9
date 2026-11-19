@@ -1,63 +1,125 @@
+                    "<extra></extra>"
+                ),
+                showlegend=False
+            )
+        )
 
-# ============================================================
-# SERVICE-WISE VERTICAL BAR GRAPH
-# ============================================================
+        graph.update_layout(
+            template="plotly_white",
+            height=430,
+            showlegend=False,
+            margin=dict(l=20, r=20, t=50, b=20),
+            xaxis=dict(
+                visible=False,
+                range=[-0.2, 1.2]
+            ),
+            yaxis=dict(
+                visible=False,
+                range=[-0.05, 1.1]
+            )
+        )
 
-st.subheader("Service-wise Log Analysis")
+        st.plotly_chart(
+            graph,
+            use_container_width=True
+        )
 
-if not filtered_logs.empty:
+        st.caption(
+            "Normal = No anomaly found | Anomaly = Anomaly detected"
+        )
 
-    # Count Normal and Anomaly logs for each service
-    service_chart_data = (
-        filtered_logs
-        .groupby(["service", "status"])
-        .size()
-        .reset_index(name="Log Count")
-    )
+        st.caption(
+            "Connections represent the configured service topology."
+        )
 
-    # Vertical grouped bar chart
-    service_chart = px.bar(
-        service_chart_data,
-        x="service",
-        y="Log Count",
-        color="status",
-        barmode="group",
-        color_discrete_map={
-            "Normal": "#6366F1",
-            "Anomaly": "#EF4444"
-        },
-        text="Log Count",
-        template="plotly_dark",
-        labels={
-            "service": "Microservices",
-            "Log Count": "Number of Logs",
-            "status": "Log Status"
-        },
-        title="Normal vs Anomaly Logs by Microservice"
-    )
+    # --------------------------------------------------------
+    # ENTITY INSPECTOR
+    # --------------------------------------------------------
 
-    service_chart.update_traces(
-        textposition="outside"
-    )
+    with inspector_column:
 
-    service_chart.update_layout(
-        height=500,
-        xaxis_title="Microservices",
-        yaxis_title="Number of Logs",
-        xaxis_tickangle=-20,
-        bargap=0.25,
-        legend_title="Log Status",
-        margin=dict(l=40, r=30, t=70, b=80)
-    )
+        st.subheader("Entity Inspector")
 
-    service_chart.update_yaxes(
-        rangemode="tozero"
-    )
+        root_cause_options = (
+            sorted(rca_df["rc_svc"].dropna().unique().tolist())
+            if not rca_df.empty
+            else ALL_SERVICES
+        )
 
-    st.plotly_chart(
-        service_chart,
-        use_container_width=True
-    )
+        if not root_cause_options:
+            root_cause_options = ALL_SERVICES
 
-else:
-    st.info("No service data available.")
+        selected_root_cause = st.selectbox(
+            "Inspect Root-Cause Node",
+            root_cause_options
+        )
+
+        selected_incidents = rca_df[
+            rca_df["rc_svc"] == selected_root_cause
+        ].copy()
+
+        st.metric(
+            "Isolated Root-Cause Incidents",
+            len(selected_incidents)
+        )
+
+        if not selected_incidents.empty:
+
+            selected_request = st.selectbox(
+                "Select Incident / Request ID",
+                selected_incidents["request_id"].astype(str).tolist()
+            )
+
+            incident = selected_incidents[
+                selected_incidents["request_id"].astype(str)
+                == selected_request
+            ].iloc[0]
+
+            st.markdown("**Root Cause Signature**")
+
+            st.write(
+                str(incident["rc_msg"])
+            )
+
+            st.markdown("**Suggested Remediation Action**")
+
+            st.write(
+                str(incident["rc_fix"])
+            )
+
+        else:
+
+            st.success(
+                "No RCA incidents found for this service."
+            )
+
+    # ========================================================
+    # RCA INCIDENT REPORTS
+    # ========================================================
+
+    st.divider()
+
+    st.subheader("Correlated Root-Cause Incident Reports")
+
+    if not rca_df.empty:
+
+        st.dataframe(
+            rca_df,
+            use_container_width=True,
+            hide_index=True
+        )
+
+        rca_csv = (
+            rca_df.to_csv(index=False)
+            .encode("utf-8")
+        )
+
+        st.download_button(
+            "Download RCA Reports CSV",
+            data=rca_csv,
+            file_name="rca_reports.csv",
+            mime="text/csv"
+        )
+
+    else:
+        st.info("No RCA incident reports available.")
