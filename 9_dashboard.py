@@ -10,7 +10,8 @@ import plotly.express as px
 # ============================================================
 
 st.set_page_config(
-    page_title="Open 360 LogRCA",
+    page_title="Intelligent Distributed Log Analysis & Root-Cause Detection
+",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
