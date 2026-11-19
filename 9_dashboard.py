@@ -10,8 +10,7 @@ import plotly.express as px
 # ============================================================
 
 st.set_page_config(
-    page_title="Intelligent Distributed Log Analysis & Root-Cause Detection
-",
+    page_title="Log Analysis & Root-Cause Detection",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -350,7 +349,7 @@ else:
 
 with st.sidebar:
 
-    st.title("🛡️ Open 360 LogRCA")
+    st.title("Intelligent Distributed Log Analysis & Root-Cause Detection")
 
     st.caption("Distributed Observability & RCA")
 
