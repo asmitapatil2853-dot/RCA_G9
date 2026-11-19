@@ -43,20 +43,26 @@ def load_dashboard_data():
         logs_df = pd.read_csv(ANOMALY_PATH)
         rca_df = pd.read_csv(RCA_PATH)
 
-        root_column = next(
-            (c for c in [
-                "root_cause_service",
-                "probable_root_cause",
-                "root_cause",
-                "service"
-            ] if c in rca_df.columns),
+        root_cause_column = next(
+            (
+                column for column in [
+                    "root_cause_service",
+                    "probable_root_cause",
+                    "root_cause",
+                    "service"
+                ]
+                if column in rca_df.columns
+            ),
             None
         )
 
-        if root_column:
-            rca_df["rc_svc"] = rca_df[root_column].astype(str).apply(
+        if root_cause_column:
+            rca_df["rc_svc"] = rca_df[root_cause_column].astype(str).apply(
                 lambda value: next(
-                    (s for s in ALL_SERVICES if s in value),
+                    (
+                        service for service in ALL_SERVICES
+                        if service in value
+                    ),
                     "Database-Service"
                 )
             )
@@ -64,43 +70,49 @@ def load_dashboard_data():
             rca_df["rc_svc"] = "Database-Service"
 
         message_column = next(
-            (c for c in [
-                "root_cause_message",
-                "root_cause_reason",
-                "message",
-                "summary"
-            ] if c in rca_df.columns),
+            (
+                column for column in [
+                    "root_cause_message",
+                    "root_cause_reason",
+                    "message",
+                    "summary"
+                ]
+                if column in rca_df.columns
+            ),
             None
         )
 
         rca_df["rc_msg"] = (
             rca_df[message_column].fillna(
                 "Root cause details are not available."
-            ) if message_column else
-            "Cascading failure isolated at root service node."
+            )
+            if message_column
+            else "Cascading failure isolated at root service node."
         )
 
-        fix_column = next(
-            (c for c in [
-                "remediation",
-                "suggested_fix",
-                "action"
-            ] if c in rca_df.columns),
+        remediation_column = next(
+            (
+                column for column in [
+                    "remediation",
+                    "suggested_fix",
+                    "action"
+                ]
+                if column in rca_df.columns
+            ),
             None
         )
 
         rca_df["rc_fix"] = (
-            rca_df[fix_column].fillna(
+            rca_df[remediation_column].fillna(
                 "No remediation suggestion is available."
-            ) if fix_column else
-            "Review the affected service and its dependencies."
+            )
+            if remediation_column
+            else "Review the affected service and its dependencies."
         )
 
-        return logs_df, rca_df, "CSV Files"
+        return logs_df, rca_df, "CSV files"
 
-    # ========================================================
-    # SAMPLE FALLBACK DATA
-    # ========================================================
+    # Sample fallback data
 
     sample_logs = pd.DataFrame([
         {
@@ -117,7 +129,7 @@ def load_dashboard_data():
             "timestamp": "2026-11-18 10:01:02",
             "level": "INFO",
             "service": "Auth-Service",
-            "request_id": "REQ-1002",
+            "request_id": "REQ-1001",
             "message": "JWT token validated",
             "event_template": "JWT token validated",
             "anomaly_score": 0.14,
@@ -127,7 +139,7 @@ def load_dashboard_data():
             "timestamp": "2026-11-18 10:01:03",
             "level": "INFO",
             "service": "Order-Service",
-            "request_id": "REQ-1003",
+            "request_id": "REQ-1001",
             "message": "Order payload verified",
             "event_template": "Order payload verified",
             "anomaly_score": 0.14,
@@ -137,7 +149,7 @@ def load_dashboard_data():
             "timestamp": "2026-11-18 10:01:05",
             "level": "INFO",
             "service": "Database-Service",
-            "request_id": "REQ-1004",
+            "request_id": "REQ-1001",
             "message": "COMMIT transaction completed in 12ms",
             "event_template": "COMMIT transaction completed in <*>ms",
             "anomaly_score": 0.14,
@@ -147,7 +159,7 @@ def load_dashboard_data():
             "timestamp": "2026-11-18 10:01:10",
             "level": "INFO",
             "service": "K8s-Infra-Node",
-            "request_id": "REQ-1005",
+            "request_id": "REQ-1001",
             "message": "Pod cpu_util=34% mem_util=48%",
             "event_template": "Pod cpu_util=<*>% mem_util=<*>%",
             "anomaly_score": 0.16,
@@ -158,8 +170,8 @@ def load_dashboard_data():
             "level": "ERROR",
             "service": "Database-Service",
             "request_id": "REQ-1012",
-            "message": "FATAL: PostgreSQL connection pool exhausted",
-            "event_template": "PostgreSQL connection pool exhausted",
+            "message": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary",
+            "event_template": "FATAL: PostgreSQL connection pool exhausted (<*>) on <*>",
             "anomaly_score": -0.21,
             "status": "Anomaly"
         },
@@ -168,8 +180,8 @@ def load_dashboard_data():
             "level": "ERROR",
             "service": "K8s-Infra-Node",
             "request_id": "REQ-1025",
-            "message": "OOMKilled: Container auth-pod crashed",
-            "event_template": "OOMKilled: Container <*> crashed",
+            "message": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node",
+            "event_template": "OOMKilled: Container <*> crashed due to memory limit on <*>",
             "anomaly_score": -0.19,
             "status": "Anomaly"
         }
@@ -179,18 +191,18 @@ def load_dashboard_data():
         {
             "request_id": "REQ-1012",
             "rc_svc": "Database-Service",
-            "rc_msg": "PostgreSQL connection pool exhausted",
+            "rc_msg": "FATAL: PostgreSQL connection pool exhausted (100/100) on db-primary",
             "rc_fix": "Increase PostgreSQL max_connections and enable PgBouncer pooling."
         },
         {
             "request_id": "REQ-1025",
             "rc_svc": "K8s-Infra-Node",
-            "rc_msg": "OOMKilled: Container auth-pod crashed",
+            "rc_msg": "OOMKilled: Container auth-pod crashed due to memory limit on worker-node",
             "rc_fix": "Review and increase Kubernetes pod memory limits."
         }
     ])
 
-    return sample_logs, sample_rca, "Sample Fallback Data"
+    return sample_logs, sample_rca, "Sample fallback data"
 
 
 logs_df, rca_df, data_source = load_dashboard_data()
@@ -202,31 +214,34 @@ logs_df, rca_df, data_source = load_dashboard_data()
 required_columns = ["service", "status"]
 
 missing_columns = [
-    c for c in required_columns
-    if c not in logs_df.columns
+    column for column in required_columns
+    if column not in logs_df.columns
 ]
 
 if missing_columns:
-    st.error(f"Missing columns: {missing_columns}")
+    st.error(
+        f"Missing required columns: {', '.join(missing_columns)}"
+    )
     st.stop()
 
-defaults = {
-    "timestamp": pd.NaT,
+if "timestamp" in logs_df.columns:
+    logs_df["timestamp"] = pd.to_datetime(
+        logs_df["timestamp"],
+        errors="coerce"
+    )
+else:
+    logs_df["timestamp"] = pd.NaT
+
+for column, default_value in {
     "level": "UNKNOWN",
     "request_id": "Not available",
     "message": "",
     "event_template": "",
     "anomaly_score": 0.0
-}
+}.items():
 
-for column, default in defaults.items():
     if column not in logs_df.columns:
-        logs_df[column] = default
-
-logs_df["timestamp"] = pd.to_datetime(
-    logs_df["timestamp"],
-    errors="coerce"
-)
+        logs_df[column] = default_value
 
 logs_df["anomaly_score"] = pd.to_numeric(
     logs_df["anomaly_score"],
@@ -271,7 +286,7 @@ with st.sidebar:
 
     selected_services = st.multiselect(
         "Host / Service Filter",
-        available_services,
+        options=available_services,
         default=available_services
     )
 
@@ -287,7 +302,7 @@ with st.sidebar:
 
     st.divider()
 
-    st.caption(f"Data Source: {data_source}")
+    st.caption(f"Data source: {data_source}")
 
     if st.button("Refresh Dashboard", use_container_width=True):
         st.cache_data.clear()
@@ -319,11 +334,11 @@ if selected_status != "All":
 
 normal_df = filtered_logs[
     filtered_logs["status"] == "Normal"
-].copy()
+]
 
 anomaly_df = filtered_logs[
     filtered_logs["status"] == "Anomaly"
-].copy()
+]
 
 total_logs = len(filtered_logs)
 normal_count = len(normal_df)
@@ -343,7 +358,7 @@ st.title(
 )
 
 st.caption(
-    f"Open 360 LogRCA | {nav} | Data Source: {data_source}"
+    f"Open 360 LogRCA | {nav} | Data source: {data_source}"
 )
 
 st.divider()
@@ -356,39 +371,37 @@ if nav == "1. Executive Health Dashboard":
 
     st.subheader("System & Infrastructure Health")
 
-    # --------------------------------------------------------
     # KPI CARDS
-    # --------------------------------------------------------
 
-    k1, k2, k3, k4 = st.columns(4)
+    kpi_1, kpi_2, kpi_3, kpi_4 = st.columns(4)
 
-    k1.metric(
+    kpi_1.metric(
         "Active Microservices",
         filtered_logs["service"].nunique()
     )
 
-    k2.metric(
+    kpi_2.metric(
         "Ingested Volume",
         f"{total_logs:,} Logs"
     )
 
-    k3.metric(
+    kpi_3.metric(
         "ML Anomalies (Isolation Forest)",
         anomaly_count,
         delta=f"{anomaly_percentage:.1f}% of logs",
         delta_color="inverse"
     )
 
-    k4.metric(
+    kpi_4.metric(
         "Correlated Incidents",
         len(rca_df)
     )
 
     st.divider()
 
-    # --------------------------------------------------------
+    # ========================================================
     # SERVICE HEALTH OVERVIEW
-    # --------------------------------------------------------
+    # ========================================================
 
     st.subheader("Service Health Overview")
 
@@ -398,7 +411,7 @@ if nav == "1. Executive Health Dashboard":
             Total_Logs=("status", "size"),
             Anomalies=(
                 "status",
-                lambda x: (x == "Anomaly").sum()
+                lambda values: (values == "Anomaly").sum()
             )
         )
         .reset_index()
@@ -406,148 +419,194 @@ if nav == "1. Executive Health Dashboard":
 
     if not service_summary.empty:
 
-        service_summary["Anomaly_Rate"] = (
+        service_summary["Anomaly_Rate_Percent"] = (
             service_summary["Anomalies"]
-            / service_summary["Total_Logs"].replace(0, 1)
-            * 100
-        ).round(2)
+            / service_summary["Total_Logs"].replace(0, 1) * 100
+        ).round(1)
 
-        service_summary = service_summary.rename(
-            columns={
+        st.dataframe(
+            service_summary.rename(columns={
                 "service": "Microservice",
                 "Total_Logs": "Total Logs",
                 "Anomalies": "Anomaly Count",
-                "Anomaly_Rate": "Anomaly Rate (%)"
-            }
-        )
-
-        st.dataframe(
-            service_summary,
+                "Anomaly_Rate_Percent": "Anomaly Rate (%)"
+            }),
             use_container_width=True,
             hide_index=True
         )
 
     else:
-        st.info("No service records available.")
+        st.info("No log records match the selected filters.")
 
     st.divider()
 
     # ========================================================
-    # SERVICE-WISE VERTICAL BAR GRAPH
+    # CHART LAYOUT: 40% LOG DISTRIBUTION + 60% ML SCORING
     # ========================================================
 
-    st.subheader("Service-wise Log Analysis")
-
-    if not filtered_logs.empty:
-
-        available_in_data = (
-            filtered_logs["service"]
-            .dropna()
-            .astype(str)
-            .unique()
-            .tolist()
-        )
-
-        service_order = [
-            service for service in ALL_SERVICES
-            if service in available_in_data
-        ]
-
-        service_order += sorted(
-            service for service in available_in_data
-            if service not in service_order
-        )
-
-        # Count Normal and Anomaly logs separately.
-
-        service_counts = (
-            filtered_logs
-            .groupby(["service", "status"])
-            .size()
-            .unstack(fill_value=0)
-            .reindex(
-                index=service_order,
-                columns=["Normal", "Anomaly"],
-                fill_value=0
-            )
-            .reset_index()
-            .melt(
-                id_vars="service",
-                value_vars=["Normal", "Anomaly"],
-                var_name="Log Status",
-                value_name="Log Count"
-            )
-        )
-
-        # Create vertical grouped bar graph.
-
-        service_chart = px.bar(
-            service_counts,
-            x="service",
-            y="Log Count",
-            color="Log Status",
-            barmode="group",
-            text="Log Count",
-            color_discrete_map={
-                "Normal": "#6366F1",
-                "Anomaly": "#EF4444"
-            },
-            category_orders={
-                "service": service_order,
-                "Log Status": ["Normal", "Anomaly"]
-            },
-            labels={
-                "service": "Microservice",
-                "Log Count": "Number of Logs"
-            },
-            title="Normal vs Anomaly Logs by Microservice",
-            template="plotly_dark"
-        )
-
-        service_chart.update_traces(
-            textposition="outside",
-            cliponaxis=False,
-            hovertemplate=(
-                "<b>Service:</b> %{x}<br>"
-                "<b>Status:</b> %{fullData.name}<br>"
-                "<b>Log Count:</b> %{y}"
-                "<extra></extra>"
-            )
-        )
-
-        service_chart.update_layout(
-            height=500,
-            xaxis_title="Microservices",
-            yaxis_title="Number of Logs",
-            xaxis_tickangle=-20,
-            bargap=0.25,
-            bargroupgap=0.10,
-            legend_title_text="Log Status",
-            margin=dict(l=40, r=30, t=70, b=90)
-        )
-
-        service_chart.update_yaxes(
-            rangemode="tozero"
-        )
-
-        st.plotly_chart(
-            service_chart,
-            use_container_width=True
-        )
-
-        st.caption(
-            "Each microservice has two vertical bars: Normal Logs and "
-            "Anomaly Logs. The graph updates automatically when sidebar "
-            "filters are changed."
-        )
-
-    else:
-        st.info(
-            "No service log data is available for the selected filters."
-        )
+    chart_left, chart_right = st.columns([2, 3])
 
     # ========================================================
-    # LOG EXPLORER
+    # LEFT: LOG STATUS DISTRIBUTION
+    # ========================================================
+
+    with chart_left:
+
+        st.subheader("Log Status Distribution")
+
+        if not filtered_logs.empty:
+
+            status_counts = (
+                filtered_logs["status"]
+                .value_counts()
+                .rename_axis("Status")
+                .reset_index(name="Count")
+            )
+
+            status_chart = px.pie(
+                status_counts,
+                names="Status",
+                values="Count",
+                hole=0.55,
+                template="plotly_white"
+            )
+
+            status_chart.update_traces(
+                textposition="inside",
+                textinfo="percent+label",
+                hovertemplate=(
+                    "<b>%{label}</b><br>"
+                    "Count: %{value}<br>"
+                    "Percentage: %{percent}"
+                    "<extra></extra>"
+                )
+            )
+
+            status_chart.update_layout(
+                height=430,
+                margin=dict(l=10, r=10, t=25, b=10),
+                legend_title_text=""
+            )
+
+            st.plotly_chart(
+                status_chart,
+                use_container_width=True
+            )
+
+            st.caption(
+                f"Normal Logs: {normal_count} | "
+                f"Anomaly Logs: {anomaly_count}"
+            )
+
+        else:
+            st.info("No status data available.")
+
+    # ========================================================
+    # RIGHT: ISOLATION FOREST ANOMALY SCORING
+    # ========================================================
+
+    with chart_right:
+
+        st.subheader("Isolation Forest Anomaly Scoring")
+
+        # ----------------------------------------------------
+        # GRAPH 1: NORMAL LOGS BAR GRAPH
+        # ----------------------------------------------------
+
+        st.markdown("**1. Normal Log Scores**")
+
+        if not normal_df.empty:
+
+            normal_plot_df = normal_df.copy()
+
+            normal_plot_df["Log_ID"] = (
+                normal_plot_df["request_id"].astype(str)
+            )
+
+            normal_chart = px.bar(
+                normal_plot_df,
+                x="Log_ID",
+                y="anomaly_score",
+                color="service",
+                hover_data=[
+                    "timestamp",
+                    "request_id",
+                    "service",
+                    "message"
+                ],
+                template="plotly_white"
+            )
+
+            normal_chart.update_layout(
+                height=260,
+                margin=dict(l=10, r=10, t=20, b=10),
+                xaxis_title="Log / Request ID",
+                yaxis_title="Anomaly Score",
+                legend_title_text="Service"
+            )
+
+            normal_chart.update_xaxes(
+                tickangle=-45
+            )
+
+            st.plotly_chart(
+                normal_chart,
+                use_container_width=True
+            )
+
+        else:
+            st.info("No normal log records available.")
+
+        # ----------------------------------------------------
+        # GRAPH 2: ANOMALY LOGS BAR GRAPH
+        # ----------------------------------------------------
+
+        st.markdown("**2. Anomaly Log Scores**")
+
+        if not anomaly_df.empty:
+
+            anomaly_plot_df = anomaly_df.copy()
+
+            anomaly_plot_df["Log_ID"] = (
+                anomaly_plot_df["request_id"].astype(str)
+            )
+
+            anomaly_chart = px.bar(
+                anomaly_plot_df,
+                x="Log_ID",
+                y="anomaly_score",
+                color="service",
+                hover_data=[
+                    "timestamp",
+                    "request_id",
+                    "service",
+                    "message"
+                ],
+                template="plotly_white"
+            )
+
+            anomaly_chart.update_layout(
+                height=260,
+                margin=dict(l=10, r=10, t=20, b=10),
+                xaxis_title="Log / Request ID",
+                yaxis_title="Anomaly Score",
+                legend_title_text="Service"
+            )
+
+            anomaly_chart.update_xaxes(
+                tickangle=-45
+            )
+
+            st.plotly_chart(
+                anomaly_chart,
+                use_container_width=True
+            )
+
+        else:
+            st.info("No anomaly log records available.")
+
+    # ========================================================
+    # INTERACTIVE LOG EXPLORER
     # ========================================================
 
     st.divider()
@@ -555,15 +614,15 @@ if nav == "1. Executive Health Dashboard":
     st.subheader("Log Explorer")
 
     search_text = st.text_input(
-        "Search Logs",
-        placeholder="Search Request ID, Service or Log Message..."
+        "Search by Request ID, Service or Log Message",
+        placeholder="Example: REQ-1012 or connection pool"
     )
 
     display_logs = filtered_logs.copy()
 
     if search_text:
 
-        search_columns = [
+        searchable_columns = [
             "request_id",
             "service",
             "message",
@@ -575,7 +634,7 @@ if nav == "1. Executive Health Dashboard":
             index=display_logs.index
         )
 
-        for column in search_columns:
+        for column in searchable_columns:
 
             if column in display_logs.columns:
 
@@ -593,7 +652,7 @@ if nav == "1. Executive Health Dashboard":
         display_logs = display_logs[search_mask]
 
     display_columns = [
-        c for c in [
+        column for column in [
             "timestamp",
             "level",
             "service",
@@ -603,11 +662,11 @@ if nav == "1. Executive Health Dashboard":
             "anomaly_score",
             "message"
         ]
-        if c in display_logs.columns
+        if column in display_logs.columns
     ]
 
     st.caption(
-        f"Showing {len(display_logs)} matching records"
+        f"Showing {len(display_logs)} matching log records"
     )
 
     st.dataframe(
@@ -643,13 +702,13 @@ elif nav == "2. Root Cause Analysis Graph":
     )
 
     st.caption(
-        "Explore service dependencies and inspect detected incidents."
+        "Explore service dependencies and inspect detected RCA incidents."
     )
 
     graph_column, inspector_column = st.columns([1.8, 1])
 
     # --------------------------------------------------------
-    # SERVICE TOPOLOGY GRAPH
+    # DISTRIBUTED SERVICE TOPOLOGY
     # --------------------------------------------------------
 
     with graph_column:
